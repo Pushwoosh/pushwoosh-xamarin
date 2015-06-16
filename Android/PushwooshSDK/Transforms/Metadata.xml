@@ -1,0 +1,20 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <remove-node path="/api/package[@name='com.arellomobile.android.push']/class[@name='GeoLocationService.PostLocationTask']" />
+  <remove-node path="/api/package[@name='com.arellomobile.android.push']/class[@name='PushBeaconService']" />
+
+  <attr path="/api/package[@name='com.arellomobile.android.push']" name="managedName">ArelloMobile.Push</attr>
+  <attr path="/api/package[@name='com.arellomobile.android.push.data']" name="managedName">ArelloMobile.Push.Data</attr>
+  <attr path="/api/package[@name='com.arellomobile.android.push.exception']" name="managedName">ArelloMobile.Push.Exception</attr>
+  <attr path="/api/package[@name='com.arellomobile.android.push.preference']" name="managedName">ArelloMobile.Push.Preference</attr>
+  <attr path="/api/package[@name='com.arellomobile.android.push.utils']" name="managedName">ArelloMobile.Push.Utils</attr>
+  <attr path="/api/package[@name='com.arellomobile.android.push']/class[@name='PushManager']/getInstance[@name='PushManager' and count(parameter)=1 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String'] and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.arellomobile.android.push']/class[@name='PushManager']/method[@name='onStartup' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[@name='p0']" name="name">context</attr>
+</metadata>

@@ -1,1 +1,1 @@
-# pushwoosh-xamarin
+# Pushwoosh Xamarin module and sample

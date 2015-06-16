@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.pushwoosh.test.xamarin.app">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!--library-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- GCM connects to Google Services. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!--
+     Creates a custom permission so only this app can receive its messages.
+
+     NOTE: the permission *must* be called PACKAGE.permission.C2D_MESSAGE,
+           where PACKAGE is the application's package name.
+    -->
+    <permission
+            android:name="com.pushwoosh.test.xamarin.app.permission.C2D_MESSAGE"
+            android:protectionLevel="signature"/>
+    <uses-permission
+            android:name="com.pushwoosh.test.xamarin.app.permission.C2D_MESSAGE"/>
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission
+            android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+    <!-- GCM requires Android SDK version 2.2 (API level 8) or above. -->
+    <!-- The targetSdkVersion is optional, but it's always a good practice
+         to target higher versions. -->
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
+
+	<application android:label="Tasky" android:debuggable="true" android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.Light">
+
+	    <meta-data
+            android:name="PW_APPID"
+            android:value="583A3-D5063" />
+        <meta-data
+            android:name="PW_PROJECT_ID"
+            android:value="A55344347410" />
+
+        <activity android:name="com.arellomobile.android.push.PushWebview"/>
+
+        <activity android:name="com.arellomobile.android.push.MessageActivity"/>
+
+        <activity android:name="com.arellomobile.android.push.PushHandlerActivity"/>
+	
+	    <receiver
+                android:name="com.google.android.gcm.GCMBroadcastReceiver"
+                android:permission="com.google.android.c2dm.permission.SEND"
+                >
+            <intent-filter>
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.pushwoosh.test.xamarin.app"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.arellomobile.android.push.PushGCMIntentService"/>
+
+	</application>
+</manifest>

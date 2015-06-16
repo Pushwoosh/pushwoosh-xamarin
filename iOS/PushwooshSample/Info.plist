@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>Pushwoosh_APPID</key>
+	<string>736A4-2F7B8</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
+	<key>MinimumOSVersion</key>
+	<string>5.1.1</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pushwoosh.testing</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This demo uses location services for Pushwoosh Geozones and Beacons</string>
+	<key>CFBundleDisplayName</key>
+	<string>PushwooshSample</string>
+</dict>
+</plist>
