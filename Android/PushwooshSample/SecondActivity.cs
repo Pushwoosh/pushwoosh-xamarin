@@ -1,11 +1,11 @@
 using System;
 using Android.App;
-using Android.Support.V4.App;
 using Android.Content;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Support.V4.App;
 using Org.Json;
 using ArelloMobile.Push;
 using ArelloMobile.Push.Utils;

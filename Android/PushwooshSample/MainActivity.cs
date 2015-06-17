@@ -1,35 +1,39 @@
 using System;
 using Android.App;
-using Android.Support.V4.App;
 using Android.Content;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Support.V4.App;
+using Android.Util;
 using Org.Json;
 using ArelloMobile.Push;
 using ArelloMobile.Push.Utils;
 
 namespace PushwooshSample
 {
-
-	class LocalMessageBroadcastReceiver : BasePushMessageReceiver
+	[BroadcastReceiver]
+	[IntentFilter (new[]{ "com.pushwoosh.test.xamarin.app.com.arellomobile.android.push.REGISTER_BROAD_CAST_ACTION" })]
+	public class PushRegisterReceiver : RegisterBroadcastReceiver
 	{
-		public MainActivity activity {get; set;}
-
-		protected override void OnMessageReceive (Intent intent)
-		{
-			activity.doOnMessageReceive (intent.GetStringExtra (BasePushMessageReceiver.JsonDataKey));
-		}
-	}
-
-	class LocalRegisterBroadcastReceiver : RegisterBroadcastReceiver
-	{
-		public MainActivity activity {get; set;}
+		public static MainActivity activity {get; set;}
 
 		protected override void OnRegisterActionReceive (Context p0, Intent intent)
 		{
 			activity.checkMessage (intent);
+		}
+	}
+
+	[BroadcastReceiver]
+	[IntentFilter (new[]{ "com.pushwoosh.test.xamarin.app.action.PUSH_MESSAGE_RECEIVE" })]
+	public class PushMessageReceiver : BasePushMessageReceiver
+	{
+		public static MainActivity activity {get; set;}
+
+		protected override void OnMessageReceive (Intent intent)
+		{
+			activity.doOnMessageReceive (intent.GetStringExtra (BasePushMessageReceiver.JsonDataKey));
 		}
 	}
 
@@ -40,20 +44,12 @@ namespace PushwooshSample
 		TextView mTagsStatus;
 		TextView mGeneralStatus;
 
-		LocalMessageBroadcastReceiver mMessageReceiver;
-		LocalRegisterBroadcastReceiver mRegisterReceiver;
-
-		bool mBroadcastPush = true;
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			mMessageReceiver = new LocalMessageBroadcastReceiver ();
-			mMessageReceiver.activity = this;
-
-			mRegisterReceiver = new LocalRegisterBroadcastReceiver ();
-			mRegisterReceiver.activity = this;
+			PushRegisterReceiver.activity = this;
+			PushMessageReceiver.activity = this;
 
 			ArelloMobile.Push.PushManager manager = ArelloMobile.Push.PushManager.GetInstance (this);
 			manager.OnStartup (this);
@@ -165,6 +161,7 @@ namespace PushwooshSample
 				}
 			}
 			catch (JSONException e) {
+				e.PrintStackTrace ();
 			}
 		}
 
@@ -199,39 +196,6 @@ namespace PushwooshSample
 
 			Intent = mainAppIntent;
 		}
-
-		protected override void OnResume ()
-		{
-			base.OnResume ();
-
-			registerReceivers ();
-		}
-
-		protected override void OnPause ()
-		{
-			base.OnPause ();
-
-			unregisterReceivers ();
-		}
-
-		public void registerReceivers()
-		{
-			IntentFilter intentFilter = new IntentFilter(PackageName + ".action.PUSH_MESSAGE_RECEIVE");
-
-			if (mBroadcastPush)
-			{
-				RegisterReceiver(mMessageReceiver, intentFilter);
-			}
-
-			RegisterReceiver(mRegisterReceiver, new IntentFilter(PackageName + "." + PushManager.RegisterBroadCastAction));
-		}
-
-		public void unregisterReceivers()
-		{
-			UnregisterReceiver(mMessageReceiver);
-			UnregisterReceiver(mRegisterReceiver);
-		}
-
 	}
 }
 
