@@ -39,7 +39,7 @@
          to target higher versions. -->
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18"/>
 
-	<application android:label="Tasky" android:debuggable="true" android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.Light">
+	<application android:label="Pushwoosh Sample" android:debuggable="true" android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.Light">
 
 	    <meta-data
             android:name="PW_APPID"

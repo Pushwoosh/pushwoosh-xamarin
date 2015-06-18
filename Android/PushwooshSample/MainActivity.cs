@@ -13,27 +13,23 @@ using ArelloMobile.Push.Utils;
 
 namespace PushwooshSample
 {
-	[BroadcastReceiver]
-	[IntentFilter (new[]{ "com.pushwoosh.test.xamarin.app.com.arellomobile.android.push.REGISTER_BROAD_CAST_ACTION" })]
-	public class PushRegisterReceiver : RegisterBroadcastReceiver
+	class LocalMessageBroadcastReceiver : BasePushMessageReceiver
 	{
-		public static MainActivity activity {get; set;}
-
-		protected override void OnRegisterActionReceive (Context p0, Intent intent)
-		{
-			activity.checkMessage (intent);
-		}
-	}
-
-	[BroadcastReceiver]
-	[IntentFilter (new[]{ "com.pushwoosh.test.xamarin.app.action.PUSH_MESSAGE_RECEIVE" })]
-	public class PushMessageReceiver : BasePushMessageReceiver
-	{
-		public static MainActivity activity {get; set;}
+		public MainActivity activity {get; set;}
 
 		protected override void OnMessageReceive (Intent intent)
 		{
 			activity.doOnMessageReceive (intent.GetStringExtra (BasePushMessageReceiver.JsonDataKey));
+		}
+	}
+
+	class LocalRegisterBroadcastReceiver : RegisterBroadcastReceiver
+	{
+		public MainActivity activity {get; set;}
+
+		protected override void OnRegisterActionReceive (Context p0, Intent intent)
+		{
+			activity.checkMessage (intent);
 		}
 	}
 
@@ -44,12 +40,22 @@ namespace PushwooshSample
 		TextView mTagsStatus;
 		TextView mGeneralStatus;
 
+		LocalMessageBroadcastReceiver mMessageReceiver;
+		LocalRegisterBroadcastReceiver mRegisterReceiver;
+
+		bool mBroadcastPush = true;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
 
-			PushRegisterReceiver.activity = this;
-			PushMessageReceiver.activity = this;
+			mMessageReceiver = new LocalMessageBroadcastReceiver ();
+			mMessageReceiver.activity = this;
+
+			mRegisterReceiver = new LocalRegisterBroadcastReceiver ();
+			mRegisterReceiver.activity = this;
+
+			registerReceivers ();
 
 			ArelloMobile.Push.PushManager manager = ArelloMobile.Push.PushManager.GetInstance (this);
 			manager.OnStartup (this);
@@ -106,25 +112,25 @@ namespace PushwooshSample
 			reg = reg.Replace ("%s", registrationId);
 			mGeneralStatus.Text = reg;
 
-//			mGeneralStatus.SetText(GetString(Resource.String.registered, registrationId));
+			//			mGeneralStatus.SetText(GetString(Resource.String.registered, registrationId));
 		}
 
 		public void doOnRegisteredError(String errorId)
 		{
 			mGeneralStatus.SetText(Resource.String.registered_error);
-//			mGeneralStatus.SetText(GetString(Resource.String.registered_error, errorId));
+			//			mGeneralStatus.SetText(GetString(Resource.String.registered_error, errorId));
 		}
 
 		public void doOnUnregistered(String registrationId)
 		{
 			mGeneralStatus.SetText(Resource.String.unregistered);
-//			mGeneralStatus.SetText(GetString(Resource.String.unregistered, registrationId));
+			//			mGeneralStatus.SetText(GetString(Resource.String.unregistered, registrationId));
 		}
 
 		public void doOnUnregisteredError(String errorId)
 		{
 			mGeneralStatus.SetText(Resource.String.unregistered_error);
-//			mGeneralStatus.SetText(GetString(Resource.String.unregistered_error, errorId));
+			//			mGeneralStatus.SetText(GetString(Resource.String.unregistered_error, errorId));
 		}
 
 		public void doOnMessageReceive(String message)
@@ -133,7 +139,7 @@ namespace PushwooshSample
 			me = me.Replace("%s", message);
 			mGeneralStatus.Text = me;
 
-//			mGeneralStatus.SetText(GetString(Resource.String.on_message, message));
+			//			mGeneralStatus.SetText(GetString(Resource.String.on_message, message));
 
 			// Parse custom JSON data string.
 			// You can set background color with custom JSON data in the following format: { "r" : "10", "g" : "200", "b" : "100" }
@@ -196,7 +202,38 @@ namespace PushwooshSample
 
 			Intent = mainAppIntent;
 		}
+
+		protected override void OnResume ()
+		{
+			base.OnResume ();
+
+			registerReceivers ();
+		}
+
+		protected override void OnPause ()
+		{
+			base.OnPause ();
+
+			unregisterReceivers ();
+		}
+
+		public void registerReceivers()
+		{
+			IntentFilter intentFilter = new IntentFilter(PackageName + ".action.PUSH_MESSAGE_RECEIVE");
+
+			if (mBroadcastPush)
+			{
+				RegisterReceiver(mMessageReceiver, intentFilter);
+			}
+
+			RegisterReceiver(mRegisterReceiver, new IntentFilter(PackageName + "." + PushManager.RegisterBroadCastAction));
+		}
+
+		public void unregisterReceivers()
+		{
+			UnregisterReceiver(mMessageReceiver);
+			UnregisterReceiver(mRegisterReceiver);
+		}
+
 	}
 }
-
-
