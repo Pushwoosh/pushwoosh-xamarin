@@ -7,14 +7,18 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 
-  <remove-node path="/api/package[@name='com.arellomobile.android.push']/class[@name='GeoLocationService.PostLocationTask']" />
-  <remove-node path="/api/package[@name='com.arellomobile.android.push']/class[@name='PushBeaconService']" />
+  <remove-node path="/api/package[@name='com.pushwoosh']/class[@name='GeoLocationService.PostLocationTask']" />
+  <remove-node path="/api/package[@name='com.pushwoosh.beacon']/class[@name='PushBeaconService']" />
 
-  <attr path="/api/package[@name='com.arellomobile.android.push']" name="managedName">ArelloMobile.Push</attr>
-  <attr path="/api/package[@name='com.arellomobile.android.push.data']" name="managedName">ArelloMobile.Push.Data</attr>
-  <attr path="/api/package[@name='com.arellomobile.android.push.exception']" name="managedName">ArelloMobile.Push.Exception</attr>
-  <attr path="/api/package[@name='com.arellomobile.android.push.preference']" name="managedName">ArelloMobile.Push.Preference</attr>
-  <attr path="/api/package[@name='com.arellomobile.android.push.utils']" name="managedName">ArelloMobile.Push.Utils</attr>
-  <attr path="/api/package[@name='com.arellomobile.android.push']/class[@name='PushManager']/getInstance[@name='PushManager' and count(parameter)=1 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String'] and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">context</attr>
-  <attr path="/api/package[@name='com.arellomobile.android.push']/class[@name='PushManager']/method[@name='onStartup' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.pushwoosh']" name="managedName">Pushwoosh</attr>
+  <attr path="/api/package[@name='com.pushwoosh']/class[@name='PushManager']/getInstance[@name='PushManager' and count(parameter)=1 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String'] and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.pushwoosh']/class[@name='PushManager']/method[@name='onStartup' and count(parameter)=1 and parameter[1][@type='android.content.Context']]/parameter[@name='p0']" name="name">context</attr>
+  <attr path="/api/package[@name='com.pushwoosh.inapp']/class[@name='InAppDTO']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.pushwoosh.location']/class[@name='PushZoneLocation']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.pushwoosh.location']/class[@name='WorkerTask']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.pushwoosh.thirdparty.shortcutbadger']/class[@name='ShortcutBadger']/method[@name='getSupportLaunchers']" name="visibility">public</attr>
+
+  <!-- GCM library bindings -->
+  <remove-node path="/api/package[@name='com.google.android.gms.gcm']/class[@name='OneoffTask']" />
+  <remove-node path="/api/package[@name='com.google.android.gms.gcm']/class[@name='PeriodicTask']" />
 </metadata>

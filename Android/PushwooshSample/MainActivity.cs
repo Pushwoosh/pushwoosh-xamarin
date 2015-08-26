@@ -8,8 +8,7 @@ using Android.OS;
 using Android.Support.V4.App;
 using Android.Util;
 using Org.Json;
-using ArelloMobile.Push;
-using ArelloMobile.Push.Utils;
+using Pushwoosh;
 
 namespace PushwooshSample
 {
@@ -23,7 +22,7 @@ namespace PushwooshSample
 		}
 	}
 
-	class LocalRegisterBroadcastReceiver : RegisterBroadcastReceiver
+	class LocalRegisterBroadcastReceiver : BaseRegistrationReceiver
 	{
 		public MainActivity activity {get; set;}
 
@@ -57,7 +56,7 @@ namespace PushwooshSample
 
 			registerReceivers ();
 
-			ArelloMobile.Push.PushManager manager = ArelloMobile.Push.PushManager.GetInstance (this);
+			PushManager manager = PushManager.GetInstance (this);
 			manager.OnStartup (this);
 
 			//Register for push!

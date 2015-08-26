@@ -3,10 +3,10 @@
   <name>Android Support Library v4</name>
   <publisher>Xamarin Inc.</publisher>
   <publisher-url>http://xamarin.com</publisher-url>
-  <version>21.0.3.0</version>
+  <version>22.2.0.0</version>
   <summary>Provide backward-compatible versions of Android framework APIs.</summary>
   <packages>
-    <package id="Xamarin.Android.Support.v4" version="21.0.3.0" framework="android" />
+    <package id="Xamarin.Android.Support.v4" version="22.2.0.0" framework="android" />
   </packages>
   <samples>
     <sample id="AndroidSupportSample">

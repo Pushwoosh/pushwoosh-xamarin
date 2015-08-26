@@ -7,8 +7,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Support.V4.App;
 using Org.Json;
-using ArelloMobile.Push;
-using ArelloMobile.Push.Utils;
+using Pushwoosh;
 
 
 namespace PushwooshSample

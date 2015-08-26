@@ -1,4 +1,4 @@
-v4 Support Library Rev 20.0.0
+v4 Support Library
 =============================
 
 This library is designed to be used with Android 1.6 (API level 4) and higher. It includes the largest set of APIs compared to the other libraries, including support for application components, user interface features, accessibility, data handling, network connectivity, and programming utilities. Here are a few of the key classes included in the v4 library:

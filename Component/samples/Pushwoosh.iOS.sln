@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.iOS", "Pushwoosh.iOS\Pushwoosh.iOS.csproj", "{2E5E60BB-C842-406D-A46D-BB8453E2D16B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Release|iPhone.Build.0 = Release|iPhone
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{2E5E60BB-C842-406D-A46D-BB8453E2D16B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Pushwoosh.iOS\Pushwoosh.iOS.csproj
+	EndGlobalSection
+EndGlobal
