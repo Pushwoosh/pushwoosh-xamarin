@@ -9,6 +9,7 @@
 
   <remove-node path="/api/package[@name='com.pushwoosh']/class[@name='GeoLocationService.PostLocationTask']" />
   <remove-node path="/api/package[@name='com.pushwoosh.beacon']/class[@name='PushBeaconService']" />
+  <remove-node path="/api/package[@name='com.pushwoosh.notification']/class[@name='Action']" />
 
   <attr path="/api/package[@name='com.pushwoosh']" name="managedName">Pushwoosh</attr>
   <attr path="/api/package[@name='com.pushwoosh']/class[@name='PushManager']/getInstance[@name='PushManager' and count(parameter)=1 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.lang.String'] and parameter[1][@type='java.lang.String']]/parameter[@name='p0']" name="name">context</attr>
