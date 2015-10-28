@@ -59,8 +59,11 @@ namespace PushwooshSample
 			PushManager manager = PushManager.GetInstance (this);
 			manager.OnStartup (this);
 
-			//Register for push!
+			// Register for push!
 			manager.RegisterForPushNotifications();
+
+			// Reset application icon badge number
+			manager.BadgeNumber = 0;
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.main);
