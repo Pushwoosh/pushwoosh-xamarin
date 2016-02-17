@@ -53,6 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\Pushwoosh.jar" />
+    <EmbeddedJar Include="Jars\play-services-base-8.4.0.jar" />
+    <EmbeddedJar Include="Jars\play-services-basement-8.4.0.jar" />
+    <EmbeddedJar Include="Jars\play-services-gcm-8.4.0.jar" />
+    <EmbeddedJar Include="Jars\play-services-location-8.4.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
