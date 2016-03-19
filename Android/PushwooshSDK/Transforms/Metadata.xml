@@ -390,6 +390,7 @@
   <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='LocationSettingsStates']" />
   <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='LocationSettingsStatusCodes']" />
   <remove-node path="/api/package[@name='com.google.android.gms.location']/class[@name='LocationStatusCodes']" />
+  <remove-node path="/api/package[@name='com.google.android.gms.location']/interface[@name='LocationListener']" />
   <remove-node path="/api/package[@name='com.google.android.gms.location.places']/class[@name='AutocompleteFilter']" />
   <remove-node path="/api/package[@name='com.google.android.gms.location.places']/class[@name='AutocompleteFilter.Builder']" />
   <remove-node path="/api/package[@name='com.google.android.gms.location.places']/class[@name='AutocompletePredictionBuffer']" />
