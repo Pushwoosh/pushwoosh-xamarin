@@ -115,11 +115,11 @@
   <ItemGroup>
     <InterfaceDefinition Include="PushwooshSampleViewController.xib" />
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Pushwoosh\Pushwoosh.csproj">
+    <ProjectReference Include="..\Pushwoosh\PushwooshSDK.iOS.csproj">
       <Project>{44A022F7-B823-4378-B609-5DEE80AD38B3}</Project>
-      <Name>Pushwoosh</Name>
+      <Name>PushwooshSDK.iOS</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

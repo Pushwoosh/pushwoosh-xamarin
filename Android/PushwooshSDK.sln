@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushwooshSDK", "PushwooshSDK\PushwooshSDK.csproj", "{0549FEEA-F489-40C9-8288-863FE9FA6EE7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushwooshSample", "PushwooshSample\PushwooshSample.csproj", "{F3281EFD-113E-47E9-B06C-352B545A7780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushwooshSDK.Android", "PushwooshSDK\PushwooshSDK.Android.csproj", "{0549FEEA-F489-40C9-8288-863FE9FA6EE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

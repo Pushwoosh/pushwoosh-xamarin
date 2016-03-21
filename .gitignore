@@ -5,3 +5,8 @@ Android/PushwooshSDK/bin
 Android/Components
 Android/packages
 PushwooshSDK.userprefs
+*.userprefs
+iOS/Pushwoosh/bin
+iOS/Pushwoosh/obj
+iOS/PushwooshSample/bin
+iOS/PushwooshSample/obj
