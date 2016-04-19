@@ -123,6 +123,9 @@ namespace Pushwoosh
 
 		[Export ("stopLocationTracking")]
 		void StopLocationTracking ();
+		
+		[Export ("startBeaconTracking")]
+		void StartBeaconTracking ();
 
 		[Export ("tags")]
 		NSDictionary Tags { set; }
