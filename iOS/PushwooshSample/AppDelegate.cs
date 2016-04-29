@@ -39,7 +39,8 @@ namespace PushwooshSample
 					pushmanager.HandlePushReceived (options);
 				}
 			}
-			 
+
+			pushmanager.SendAppOpen ();
 			pushmanager.RegisterForPushNotifications ();
 
 			pushmanager.StartLocationTracking ();

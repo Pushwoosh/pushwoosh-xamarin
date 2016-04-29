@@ -123,5 +123,7 @@
 		    </intent-filter>
 		</receiver>
 
+		<activity android:name="com.pushwoosh.inapp.WebActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+		<service android:name="com.pushwoosh.inapp.InAppRetrieverService" />
 	</application>
 </manifest>
