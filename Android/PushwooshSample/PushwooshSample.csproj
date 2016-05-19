@@ -95,9 +95,9 @@
     </XamarinComponentReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PushwooshSDK\PushwooshSDK.Android.csproj">
+    <ProjectReference Include="..\PushwooshSDK\PushwooshSDK.Droid.csproj">
       <Project>{0549FEEA-F489-40C9-8288-863FE9FA6EE7}</Project>
-      <Name>PushwooshSDK.Android</Name>
+      <Name>PushwooshSDK.Droid</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
