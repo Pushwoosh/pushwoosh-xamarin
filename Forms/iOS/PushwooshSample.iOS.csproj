@@ -92,7 +92,7 @@
       <Project>{15F4FF7A-CCCB-4D9E-9178-765E51FD74A3}</Project>
       <Name>PushwooshSample</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\iOS\Pushwoosh\PushwooshSDK.iOS.csproj">
+    <ProjectReference Include="..\..\iOS\Pushwoosh\PushwooshSDK.iOS.csproj">
       <Project>{44A022F7-B823-4378-B609-5DEE80AD38B3}</Project>
       <Name>PushwooshSDK.iOS</Name>
     </ProjectReference>

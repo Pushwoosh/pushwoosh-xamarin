@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>PushwooshSample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pushwoosh.testing</string>
+	<string>com.pushwoosh.demoapp</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
