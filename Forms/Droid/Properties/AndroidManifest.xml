@@ -1,43 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.pushwoosh.testing">
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-	<uses-permission android:name="android.permission.INTERNET" />
-	<uses-permission android:name="android.permission.VIBRATE" />
-	<!--library-->
-	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-	<!-- GCM connects to Google Services. -->
-	<uses-permission android:name="android.permission.INTERNET" />
-	<!-- GCM requires a Google account. -->
-	<uses-permission android:name="android.permission.GET_ACCOUNTS" />
-	<!-- Keeps the processor from sleeping when a message is received. -->
-	<uses-permission android:name="android.permission.WAKE_LOCK" />
-	<!--
-     Creates a custom permission so only this app can receive its messages.
+<manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.pushwoosh.testing">
+	<!-- Location tracking -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
-     NOTE: the permission *must* be called PACKAGE.permission.C2D_MESSAGE,
-           where PACKAGE is the application's package name.
-    -->
-	<permission android:name="com.pushwoosh.testing.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-	<uses-permission android:name="com.pushwoosh.testing.permission.C2D_MESSAGE" />
-	<!-- This app has permission to register and receive data message. -->
-	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-	<!---<Badges> -->
-	<!--for Samsung-->
-	<uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-	<uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
-	<!--for htc-->
-	<uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-	<uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
-	<!--for sony-->
-	<uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-	<!--for apex-->
-	<uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
-	<!--for solid-->
-	<uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
-	<!-- </Badges> -->
+	<!-- Boot permission for rescheduling local notifications and location tracking -->
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+	<!-- GCM Part -->
+	<permission android:name="com.pushwoosh.testing.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+	<uses-permission android:name="com.pushwoosh.testing.permission.C2D_MESSAGE"/>
+
+	<!-- Amazon Part -->
+	<permission android:name="com.pushwoosh.testing.permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature" />
+	<uses-permission android:name="com.pushwoosh.testing.permission.RECEIVE_ADM_MESSAGE" />
+	
 	<!-- GCM requires Android SDK version 2.2 (API level 8) or above. -->
 	<!-- The targetSdkVersion is optional, but it's always a good practice
          to target higher versions. -->
@@ -47,9 +24,24 @@
 		<meta-data android:name="PW_APPID" android:value="4FC89B6D14A655.46488481" />
 		<meta-data android:name="PW_PROJECT_ID" android:value="A60756016005" />
 
-		<receiver android:name="com.google.android.gms.gcm.GcmReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
+		<!-- GCM Part -->
+		<receiver
+			android:name="com.google.android.gms.gcm.GcmReceiver"
+			android:exported="true"
+			android:permission="com.google.android.c2dm.permission.SEND" >
 			<intent-filter>
 				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<category android:name="com.pushwoosh.testing" />
+			</intent-filter>
+		</receiver>
+
+		<!-- Amazon part -->
+		<receiver
+			android:name="com.pushwoosh.MessageAlertReceiver"
+			android:permission="com.amazon.device.messaging.permission.SEND">
+			<intent-filter>
+				<action android:name="com.amazon.device.messaging.intent.REGISTRATION" />
+				<action android:name="com.amazon.device.messaging.intent.RECEIVE" />
 				<category android:name="com.pushwoosh.testing" />
 			</intent-filter>
 		</receiver>
