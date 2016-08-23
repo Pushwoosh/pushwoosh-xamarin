@@ -45,6 +45,10 @@ namespace PushwooshSample
 
 			pushmanager.StartLocationTracking ();
 
+			pushmanager.SetUserId(new NSString("%userId%"));
+
+			pushmanager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
+
 			Console.WriteLine("HWID: " + pushmanager.GetHWID);
 
 			return true;

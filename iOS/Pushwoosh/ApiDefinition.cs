@@ -177,7 +177,12 @@ namespace Pushwoosh
 
 		[Static, Export ("clearNotificationCenter")]
 		void ClearNotificationCenter ();
+
+		[Export("setUserId:")]
+		void SetUserId(NSString userId);
+
+		[Export("postEvent:withAttributes:")]
+		void PostEvent(NSString eventId, NSDictionary attributes);
 	}
-	
 }
 
