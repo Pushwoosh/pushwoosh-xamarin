@@ -9,6 +9,8 @@ using Android.Support.V4.App;
 using Android.Util;
 using Org.Json;
 using Pushwoosh;
+using Com.Pushwoosh.Inapp;
+using System.Collections.Generic;
 
 namespace PushwooshSample
 {
@@ -64,6 +66,12 @@ namespace PushwooshSample
 
 			// Reset application icon badge number
 			manager.BadgeNumber = 0;
+
+			manager.SetUserId(this, "%userId%");
+
+			IDictionary<string, Java.Lang.Object> attributes = new Dictionary<string, Java.Lang.Object>();
+			attributes.Add("attribute", new Java.Lang.String("value"));
+			InAppFacade.PostEvent(this, "applicationOpened", attributes);
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.main);
