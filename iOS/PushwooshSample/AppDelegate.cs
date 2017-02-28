@@ -49,6 +49,10 @@ namespace PushwooshSample
 
 			pushmanager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
 
+			PWInAppManager inappManager = PWInAppManager.SharedManager;
+			inappManager.AddJavaScriptInterface(new JavaScriptInterface(), new NSString("jsInterface"));
+			inappManager.PostEvent(new NSString("1"), new NSDictionary());
+
 			Console.WriteLine("HWID: " + pushmanager.GetHWID);
 
 			return true;

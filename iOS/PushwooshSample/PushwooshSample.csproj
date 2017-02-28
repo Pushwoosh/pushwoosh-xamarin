@@ -111,6 +111,7 @@
     <Compile Include="PushwooshSampleViewController.designer.cs">
       <DependentUpon>PushwooshSampleViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="JavaScriptInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="PushwooshSampleViewController.xib" />

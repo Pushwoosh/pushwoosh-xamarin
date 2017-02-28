@@ -181,5 +181,32 @@ namespace Pushwoosh
 		[Export("postEvent:withAttributes:")]
 		void PostEvent(NSString eventId, NSDictionary attributes);
 	}
+
+	[BaseType(typeof(NSObject))]
+	public partial interface PWJavaScriptCallback {
+		[Export("execute")]
+		NSString Execute();
+
+		[Export("executeWithParam:")]
+		NSString ExecuteWithParam(NSString param);
+
+		[Export("executeWithParams:")]
+		NSString ExecuteWithParams(NSArray args);
+	}
+
+	[BaseType(typeof(NSObject))]
+	public partial interface PWInAppManager {
+		[Static, Export("sharedManager")]
+		PWInAppManager SharedManager { get; }
+
+		[Export("setUserId:")]
+		void SetUserId(NSString userId);
+
+		[Export("postEvent:withAttributes:")]
+		void PostEvent(NSString eventId, NSDictionary attributes);
+
+		[Export("addJavascriptInterface:withName:")]
+		void AddJavaScriptInterface(NSObject obj, NSString name);
+	}
 }
 

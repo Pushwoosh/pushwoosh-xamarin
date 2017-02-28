@@ -47,11 +47,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="PushNotificationManager.a" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="PushNotificationManager.linkwith.cs">
-      <DependentUpon>PushNotificationManager.a</DependentUpon>
-    </Compile>
+    <NativeReference Include="Pushwoosh.a">
+      <Kind>Static</Kind>
+      <SmartLink>False</SmartLink>
+      <LinkerFlags>-lz -lstdc++</LinkerFlags>
+      <ForceLoad>True</ForceLoad>
+      <Frameworks>CoreGraphics CoreFoundation Security StoreKit</Frameworks>
+    </NativeReference>
   </ItemGroup>
 </Project>
