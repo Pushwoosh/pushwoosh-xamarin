@@ -15,3 +15,7 @@ Samples/Forms/PushwooshSample/bin
 Samples/Droid/PushwooshSample/bin
 Samples/Droid/packages
 Samples/Droid/Components
+Samples/Forms/Droid/obj
+Samples/Forms/iOS/obj
+Samples/Forms/iOS/bin
+Samples/Forms/Droid/bin
