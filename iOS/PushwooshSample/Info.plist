@@ -17,12 +17,14 @@
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>MinimumOSVersion</key>
-	<string>5.1.1</string>
+	<string>8.0</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.pushwoosh.demoapp</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>This demo uses location services for Pushwoosh Geozones and Beacons</string>
 	<key>CFBundleDisplayName</key>
+	<string>PushwooshSample</string>
+	<key>CFBundleName</key>
 	<string>PushwooshSample</string>
 </dict>
 </plist>

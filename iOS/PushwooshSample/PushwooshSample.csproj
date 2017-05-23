@@ -53,7 +53,6 @@
     <IpaPackageName>
     </IpaPackageName>
     <MtouchProfiling>true</MtouchProfiling>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -116,11 +115,11 @@
   <ItemGroup>
     <InterfaceDefinition Include="PushwooshSampleViewController.xib" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Pushwoosh\PushwooshSDK.iOS.csproj">
+    <ProjectReference Include="..\Com.Pushwoosh.Xamarin.iOS\Com.Pushwoosh.Xamarin.iOS.csproj">
       <Project>{44A022F7-B823-4378-B609-5DEE80AD38B3}</Project>
-      <Name>PushwooshSDK.iOS</Name>
+      <Name>Com.Pushwoosh.Xamarin.iOS</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
