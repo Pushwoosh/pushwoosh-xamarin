@@ -20,3 +20,5 @@ Forms/PushwooshSample/obj
 iOS/packages
 iOS/Com.Pushwoosh.Xamarin.iOS/bin
 iOS/Com.Pushwoosh.Xamarin.iOS/obj
+Android/Com.Pushwoosh.Xamarin.Droid/obj
+Android/Com.Pushwoosh.Xamarin.Droid/bin
