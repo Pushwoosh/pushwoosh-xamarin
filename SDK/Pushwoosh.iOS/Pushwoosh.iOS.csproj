@@ -9,20 +9,22 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Pushwoosh</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Com.Pushwoosh.Xamarin.iOS</AssemblyName>
+    <AssemblyName>Pushwoosh.Xamarin.iOS</AssemblyName>
     <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>Com.Pushwoosh.Xamarin.iOS</PackageId>
+    <PackageId>Pushwoosh.Xamarin.iOS</PackageId>
     <PackageVersion>5.2.0</PackageVersion>
     <Authors>Pushwoosh</Authors>
     <PackageLicenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</PackageLicenseUrl>
     <Owners>Pushwoosh</Owners>
     <PackageProjectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</PackageProjectUrl>
-    <Title>Pushwoosh Xamarin SDK</Title>
-    <Description>Pushwoosh Xamarin SDK</Description>
+    <Title>Pushwoosh Xamarin iOS SDK</Title>
+    <Description>Pushwoosh SDK for Xamarin iOS</Description>
     <SynchReleaseVersion>false</SynchReleaseVersion>
     <ReleaseVersion>5.2.0</ReleaseVersion>
+    <PackageIconUrl>https://github.com/Pushwoosh/pushwoosh-xamarin/tree/master/SDK/Res/logo.png</PackageIconUrl>
+    <PackageTags>xamarin, pushwoosh, push</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,7 +38,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>full</DebugType>
+    <DebugType></DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>

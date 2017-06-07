@@ -11,22 +11,24 @@
     <RootNamespace>Pushwoosh</RootNamespace>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AssemblyName>Com.Pushwoosh.Xamarin.Droid</AssemblyName>
+    <AssemblyName>Pushwoosh.Xamarin.Droid</AssemblyName>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>Com.Pushwoosh.Xamarin.Droid</PackageId>
+    <PackageId>Pushwoosh.Xamarin.Droid</PackageId>
     <PackageVersion>4.12.2</PackageVersion>
     <Authors>Pushwoosh</Authors>
     <PackageLicenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</PackageLicenseUrl>
     <Owners>Pushwoosh</Owners>
     <PackageProjectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</PackageProjectUrl>
-    <Title>Pushwoosh Xamarin SDK</Title>
-    <Description>Pushwoosh Xamarin SDK for Android</Description>
+    <Title>Pushwoosh Xamarin Android SDK</Title>
+    <Description>Pushwoosh SDK for Xamarin Android</Description>
     <ReleaseVersion>4.12.2</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
+    <PackageIconUrl>https://github.com/Pushwoosh/pushwoosh-xamarin/tree/master/SDK/Res/logo.png</PackageIconUrl>
+    <PackageTags>xamarin, pushwoosh, push</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
