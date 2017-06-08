@@ -27,7 +27,7 @@
     <Description>Pushwoosh SDK for Xamarin Android</Description>
     <ReleaseVersion>4.12.2</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
-    <PackageIconUrl>https://github.com/Pushwoosh/pushwoosh-xamarin/tree/master/SDK/Res/logo.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/SDK/Res/logo.png</PackageIconUrl>
     <PackageTags>xamarin, pushwoosh, push</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
