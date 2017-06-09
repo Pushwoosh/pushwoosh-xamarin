@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Pushwoosh.Xamarin.iOS</id>
+        <version>5.2.0</version>
+        <title>Pushwoosh Xamarin iOS SDK</title>
+        <authors>Pushwoosh</authors>
+        <owners>Pushwoosh</owners>
+        <licenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/SDK/Res/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Pushwoosh SDK for Xamarin iOS</description>
+        <tags>xamarin, pushwoosh, push</tags>
+    </metadata>
+    <files>
+        <file src="bin/Release/Pushwoosh.Xamarin.iOS.dll" target="lib/Xamarin.iOS10" />
+    </files>
+</package>
