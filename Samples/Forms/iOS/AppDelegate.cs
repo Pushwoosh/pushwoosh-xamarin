@@ -5,6 +5,7 @@ using Pushwoosh;
 
 using Foundation;
 using UIKit;
+using UserNotifications;
 
 namespace PushwooshSample.iOS
 {
@@ -19,6 +20,7 @@ namespace PushwooshSample.iOS
 
 			PushNotificationManager pushmanager = PushNotificationManager.PushManager;
 			pushmanager.Delegate = this;
+			UNUserNotificationCenter.Current.Delegate = pushmanager.notificationCenterDelegate;
 
 			if (options != null) {
 				if (options.ContainsKey (UIApplication.LaunchOptionsRemoteNotificationKey)) { 

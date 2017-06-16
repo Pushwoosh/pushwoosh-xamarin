@@ -4,6 +4,7 @@ using ObjCRuntime;
 using Foundation;
 using UIKit;
 using CoreLocation;
+using UserNotifications;
 
 namespace Pushwoosh
 {
@@ -81,6 +82,9 @@ namespace Pushwoosh
 
 		[Export ("delegate", ArgumentSemantic.Assign)]
 		NSObject Delegate { get; set; }
+
+		[Export("notificationCenterDelegate", ArgumentSemantic.Retain)]
+		UNUserNotificationCenterDelegate notificationCenterDelegate { get; }
 
 		[Export ("richPushWindow", ArgumentSemantic.Retain)]
 		UIWindow RichPushWindow { get; set; }
