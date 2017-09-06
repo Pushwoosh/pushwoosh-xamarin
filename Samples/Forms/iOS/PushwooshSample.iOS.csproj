@@ -94,6 +94,11 @@
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\logo%402x.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\logo%402x copy.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\logo152.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\logo76.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\logo167.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />

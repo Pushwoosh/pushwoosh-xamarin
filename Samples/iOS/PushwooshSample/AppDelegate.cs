@@ -12,11 +12,13 @@ namespace PushwooshSample
 	// User Interface of the application, as well as listening (and optionally responding) to 
 	// application events from iOS.
 	[Register ("AppDelegate")]
-	public partial class AppDelegate : UIApplicationDelegate
+    public partial class AppDelegate : UIApplicationDelegate
 	{
 		// class-level declarations
 		UIWindow window;
 		PushwooshSampleViewController viewController;
+        public PushDelegate _pushDelegate;
+
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this 
 		// method you should instantiate the window, load the UI into it and then make the window
@@ -33,8 +35,13 @@ namespace PushwooshSample
 			window.MakeKeyAndVisible ();
 
 			PushNotificationManager pushmanager = PushNotificationManager.PushManager;
-			pushmanager.Delegate = this;
-			UNUserNotificationCenter.Current.Delegate = pushmanager.notificationCenterDelegate;
+            _pushDelegate = new PushDelegate();
+            pushmanager.Delegate = _pushDelegate;
+
+			if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
+			{
+                UNUserNotificationCenter.Current.Delegate = pushmanager.NotificationCenterDelegate;
+			}
 
 			if (options != null) {
 				if (options.ContainsKey (UIApplication.LaunchOptionsRemoteNotificationKey)) { 
@@ -51,11 +58,11 @@ namespace PushwooshSample
 
 			pushmanager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
 
-			PWInAppManager inappManager = PWInAppManager.SharedManager;
-			inappManager.AddJavaScriptInterface(new JavaScriptInterface(), new NSString("jsInterface"));
+            PWInAppManager inappManager = PWInAppManager.SharedManager;
+            inappManager.AddJavascriptInterface(new JavaScriptInterface(), new NSString("jsInterface"));
 			inappManager.PostEvent(new NSString("1"), new NSDictionary());
 
-			Console.WriteLine("HWID: " + pushmanager.GetHWID);
+            Console.WriteLine("HWID: " + pushmanager.HWID);
 
 			return true;
 		}
@@ -67,13 +74,48 @@ namespace PushwooshSample
 
 		public override void FailedToRegisterForRemoteNotifications (UIApplication application , NSError error)
 		{
-			Console.WriteLine ("Error: " + error);
 			PushNotificationManager.PushManager.HandlePushRegistrationFailure (error);
 		}
 
 		public override void ReceivedRemoteNotification (UIApplication application, NSDictionary userInfo)		
 		{
 			PushNotificationManager.PushManager.HandlePushReceived (userInfo);
+		}
+	}
+
+	public class PushDelegate : PushNotificationDelegate
+	{
+		public override void OnPushAccepted(PushNotificationManager pushManager, NSDictionary pushNotification)
+		{
+			Console.WriteLine("Push accepted: " + pushNotification);
+		}
+
+		public override void OnDidRegisterForRemoteNotificationsWithDeviceToken(NSString token)
+		{
+			Console.WriteLine("Registered for push notifications: " + token);
+		}
+
+		public override void OnDidFailToRegisterForRemoteNotificationsWithError(NSError error)
+		{
+			Console.WriteLine("Error: " + error);
+		}
+	}
+
+	public class JavaScriptInterface : PWJavaScriptInterface
+	{
+		public override void OnWebViewStartLoad(UIWebView webView)
+		{
+			Console.WriteLine("onWebViewStartLoad");
+		}
+
+		public override void OnWebViewFinishLoad(UIWebView webView)
+		{
+			Console.WriteLine("onWebViewFinishLoad");
+		}
+
+		public override void OnWebViewStartClose(UIWebView webView)
+		{
+			Console.WriteLine("onWebViewStartClose");
 		}
 	}
 

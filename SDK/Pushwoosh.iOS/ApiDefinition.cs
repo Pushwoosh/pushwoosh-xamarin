@@ -1,216 +1,294 @@
 using System;
-using System.Drawing;
-using ObjCRuntime;
-using Foundation;
-using UIKit;
 using CoreLocation;
+using Foundation;
+using ObjCRuntime;
+using UIKit;
 using UserNotifications;
 
 namespace Pushwoosh
 {
-	public delegate void LocationHandler (CLLocation location);
-	public delegate void PushwooshGetTagsHandler (NSDictionary tags);
-	public delegate void PushwooshErrorHandler (NSError error);
 
-	[Model, BaseType (typeof (NSObject))]
-	public partial interface HtmlWebViewControllerDelegate {
+	// typedef void (^PushwooshGetTagsHandler)(NSDictionary *);
+	public delegate void PushwooshGetTagsHandler(NSDictionary tags);
 
-		[Export ("htmlWebViewControllerDidClose:")]
-		void HtmlWebViewControllerDidClose (PWHtmlWebViewController viewController);
-	}
+	// typedef void (^PushwooshErrorHandler)(NSError *);
+	public delegate void PushwooshErrorHandler(NSError error);
 
-	[BaseType (typeof (UIViewController))]
-	public partial interface PWHtmlWebViewController  {
-
-		[Export ("initWithURLString:")]
-		IntPtr Constructor (NSString url);
-
-		[Export ("delegate", ArgumentSemantic.Assign)]
-		HtmlWebViewControllerDelegate Delegate { get; set; }
-
-		[Export ("webview", ArgumentSemantic.Retain)]
-		UIWebView Webview { get; set; }
-
-		[Export ("activityIndicator", ArgumentSemantic.Retain)]
-		UIActivityIndicatorView ActivityIndicator { get; set; }
-
-		[Export ("supportedOrientations")]
-		PWSupportedOrientations SupportedOrientations { get; set; }
-	}
-	
+	// @protocol PushNotificationDelegate
 	[Model]
-	public partial interface PushNotificationDelegate {
+    [BaseType(typeof(NSObject))]
+    public interface PushNotificationDelegate
+	{
+		// @optional -(void)onDidRegisterForRemoteNotificationsWithDeviceToken:(NSString *)token;
+		[Export("onDidRegisterForRemoteNotificationsWithDeviceToken:")]
+		void OnDidRegisterForRemoteNotificationsWithDeviceToken(NSString token);
 
-		[Export ("onDidRegisterForRemoteNotificationsWithDeviceToken:")]
-		void  DidRegisterForRemoteNotificationsWithDeviceToken (NSString token);
+		// @optional -(void)onDidFailToRegisterForRemoteNotificationsWithError:(NSError *)error;
+		[Export("onDidFailToRegisterForRemoteNotificationsWithError:")]
+		void OnDidFailToRegisterForRemoteNotificationsWithError(NSError error);
 
-		[Export ("onDidFailToRegisterForRemoteNotificationsWithError:")]
-		void  DidFailToRegisterForRemoteNotificationsWithError (NSError error);
+		// @optional -(void)onPushReceived:(PushNotificationManager *)pushManager withNotification:(NSDictionary *)pushNotification onStart:(BOOL)onStart;
+		[Export("onPushReceived:withNotification:onStart:")]
+		void OnPushReceived(PushNotificationManager pushManager, NSDictionary pushNotification, bool onStart);
 
-		[Export ("onPushReceived:withNotification:onStart:")]
-		void PushReceivedWithNotificationOnStart (PushNotificationManager pushManager, NSDictionary pushNotification, bool onStart);
+		// @optional -(void)onPushAccepted:(PushNotificationManager *)pushManager withNotification:(NSDictionary *)pushNotification __attribute__((deprecated("")));
+		[Export("onPushAccepted:withNotification:")]
+		void OnPushAccepted(PushNotificationManager pushManager, NSDictionary pushNotification);
 
-		[Export ("onPushAccepted:withNotification:")]
-		void PushAcceptedWithNotification (PushNotificationManager pushManager, NSDictionary pushNotification);
+		// @optional -(void)onPushAccepted:(PushNotificationManager *)pushManager withNotification:(NSDictionary *)pushNotification onStart:(BOOL)onStart;
+		[Export("onPushAccepted:withNotification:onStart:")]
+		void OnPushAccepted(PushNotificationManager pushManager, NSDictionary pushNotification, bool onStart);
 
-		[Export ("onPushAccepted:withNotification:onStart:")]
-		void PushAcceptedWithNotificationOnStart (PushNotificationManager pushManager, NSDictionary pushNotification, bool onStart);
+		// @optional -(void)onTagsReceived:(NSDictionary *)tags;
+		[Export("onTagsReceived:")]
+		void OnTagsReceived(NSDictionary tags);
 
-		[Export ("onTagsReceived:")]
-		void  TagsReceived (NSDictionary tags);
+		// @optional -(void)onTagsFailedToReceive:(NSError *)error;
+		[Export("onTagsFailedToReceive:")]
+		void OnTagsFailedToReceive(NSError error);
 
-		[Export ("onTagsFailedToReceive:")]
-		void  TagsFailedToReceive (NSError error);
+		// @optional -(void)onInAppClosed:(NSString *)code;
+		[Export("onInAppClosed:")]
+		void OnInAppClosed(NSString code);
+
+		// @optional -(void)onInAppDisplayed:(NSString *)code;
+		[Export("onInAppDisplayed:")]
+		void OnInAppDisplayed(NSString code);
 	}
 
-
-	[BaseType (typeof (NSObject))]
-	public partial interface PWTags {
-
-		[Static, Export ("incrementalTagWithInteger:")]
-		NSDictionary IncrementalTagWithInteger (nint delta);
+	// @interface PWTags : NSObject
+	[BaseType(typeof(NSObject))]
+	public interface PWTags
+	{
+		// +(NSDictionary *)incrementalTagWithInteger:(NSInteger)delta;
+		[Static]
+		[Export("incrementalTagWithInteger:")]
+		NSDictionary IncrementalTagWithInteger(nint delta);
 	}
 
-	[BaseType (typeof (NSObject))]
-	public partial interface PushNotificationManager {
+	// @interface PushNotificationManager : NSObject
+	[BaseType(typeof(NSObject))]
+	public interface PushNotificationManager
+	{
+		// @property (readonly, copy, nonatomic) NSString * appCode;
+		[Export("appCode")]
+		NSString AppCode { get; }
 
-		[Export ("appCode", ArgumentSemantic.Copy)]
-		NSString AppCode { get; set; }
+		// @property (readonly, copy, nonatomic) NSString * appName;
+		[Export("appName")]
+		NSString AppName { get; }
 
-		[Export ("appName", ArgumentSemantic.Copy)]
-		NSString AppName { get; set; }
+		// @property (nonatomic, weak) NSObject<PushNotificationDelegate> * delegate;
+		[NullAllowed, Export("delegate", ArgumentSemantic.Weak)]
+		PushNotificationDelegate Delegate { get; set; }
 
-		[Export ("delegate", ArgumentSemantic.Assign)]
-		NSObject Delegate { get; set; }
-
-		[Export("notificationCenterDelegate", ArgumentSemantic.Retain)]
-		UNUserNotificationCenterDelegate notificationCenterDelegate { get; }
-
-		[Export ("richPushWindow", ArgumentSemantic.Retain)]
-		UIWindow RichPushWindow { get; set; }
-
-		[Export ("pushNotifications", ArgumentSemantic.Retain)]
-		NSDictionary PushNotifications { get; set; }
-
-		[Export ("supportedOrientations")]
-		PWSupportedOrientations SupportedOrientations { get; set; }
-
-		[Export ("showPushnotificationAlert")]
+		// @property (assign, nonatomic) BOOL showPushnotificationAlert;
+		[Export("showPushnotificationAlert")]
 		bool ShowPushnotificationAlert { get; set; }
 
-		[Static, Export ("initializeWithAppCode:appName:")]
-		void InitializeWithAppCodeAndName (NSString appCode, NSString appName);
+		// @property (readonly, copy, nonatomic) NSDictionary * launchNotification;
+		[Export("launchNotification", ArgumentSemantic.Copy)]
+		NSDictionary LaunchNotification { get; }
 
-		[Static, Export ("pushManager")]
+		// @property (readonly, nonatomic, strong) id<UNUserNotificationCenterDelegate> notificationCenterDelegate;
+		[NullAllowed, Export("notificationCenterDelegate", ArgumentSemantic.Strong)]
+		UNUserNotificationCenterDelegate NotificationCenterDelegate { get; }
+
+		// +(void)initializeWithAppCode:(NSString *)appCode appName:(NSString *)appName;
+		[Static]
+		[Export("initializeWithAppCode:appName:")]
+		void InitializeWithAppCode(NSString appCode, NSString appName);
+
+		// +(PushNotificationManager *)pushManager;
+		[Static]
+		[Export("pushManager")]
 		PushNotificationManager PushManager { get; }
 
-		[Static, Export ("getAPSProductionStatus")]
-		bool GetAPSProductionStatus { get; }
+		// -(void)registerForPushNotifications;
+		[Export("registerForPushNotifications")]
+		void RegisterForPushNotifications();
 
-		[Export ("initWithApplicationCode:appName:")]
-		IntPtr Constructor (NSString appCode, NSString appName);
+		// -(void)unregisterForPushNotifications;
+		[Export("unregisterForPushNotifications")]
+		void UnregisterForPushNotifications();
 
-		[Export ("initWithApplicationCode:navController:appName:")]
-		IntPtr Constructor (NSString appCode, UIViewController navController, NSString appName);
+		// -(instancetype)initWithApplicationCode:(NSString *)appCode appName:(NSString *)appName;
+		[Export("initWithApplicationCode:appName:")]
+		IntPtr Constructor(NSString appCode, NSString appName);
 
-		[Export ("showWebView")]
-		void ShowWebView ();
+		// -(id)initWithApplicationCode:(NSString *)appCode navController:(UIViewController *)navController appName:(NSString *)appName __attribute__((deprecated("")));
+		[Export("initWithApplicationCode:navController:appName:")]
+		IntPtr Constructor(NSString appCode, UIViewController navController, NSString appName);
 
-		[Export ("registerForPushNotifications")]
-		void RegisterForPushNotifications ();
+		// -(void)sendLocation:(CLLocation *)location;
+		[Export("sendLocation:")]
+		void SendLocation(CLLocation location);
 
-		[Export ("unregisterForPushNotifications")]
-		void UnregisterForPushNotifications ();
+		// -(void)startLocationTracking;
+		[Export("startLocationTracking")]
+		void StartLocationTracking();
 
-		[Export ("startLocationTracking")]
-		void StartLocationTracking ();
+		// -(void)stopLocationTracking;
+		[Export("stopLocationTracking")]
+		void StopLocationTracking();
 
-		[Export ("stopLocationTracking")]
-		void StopLocationTracking ();
+		// -(void)setTags:(NSDictionary *)tags;
+		[Export("setTags:")]
+		void SetTags(NSDictionary tags);
 
-		[Export ("tags")]
-		NSDictionary Tags { set; }
+		// -(void)setTags:(NSDictionary *)tags withCompletion:(void (^)(NSError *))completion;
+		[Export("setTags:withCompletion:")]
+		void SetTags(NSDictionary tags, Action<NSError> completion);
 
-		[Export ("loadTags")]
-		void LoadTags ();
+		// -(void)loadTags;
+		[Export("loadTags")]
+		void LoadTags();
 
-		[Export ("loadTags:error:")]
-		void LoadTags (PushwooshGetTagsHandler successHandler, PushwooshErrorHandler errorHandler);
+		// -(void)loadTags:(PushwooshGetTagsHandler)successHandler error:(PushwooshErrorHandler)errorHandler;
+		[Export("loadTags:error:")]
+		void LoadTags(PushwooshGetTagsHandler successHandler, PushwooshErrorHandler errorHandler);
 
-		[Export ("sendAppOpen")]
-		void SendAppOpen ();
+		// -(void)sendAppOpen;
+		[Export("sendAppOpen")]
+		void SendAppOpen();
 
-		[Export ("sendBadges:")]
-		void SendBadges (nint badge);
+		// -(void)sendBadges:(NSInteger)badge;
+		[Export("sendBadges:")]
+		void SendBadges(nint badge);
 
-		[Export ("sendLocation:")]
-		void SendLocation (CLLocation location);
+		// -(void)sendSKPaymentTransactions:(NSArray *)transactions;
+		[Export("sendSKPaymentTransactions:")]
+        void SendSKPaymentTransactions(NSArray transactions);
 
-		[Export ("recordGoal:")]
-		void RecordGoal (NSString goal);
+		// -(void)sendPurchase:(NSString *)productIdentifier withPrice:(NSDecimalNumber *)price currencyCode:(NSString *)currencyCode andDate:(NSDate *)date;
+		[Export("sendPurchase:withPrice:currencyCode:andDate:")]
+		void SendPurchase(NSString productIdentifier, NSDecimalNumber price, NSString currencyCode, NSDate date);
 
-		[Export ("recordGoal:withCount:")]
-		void RecordGoal (NSString goal, NSNumber count);
+		// -(NSString *)getPushToken;
+		[Export("getPushToken")]
+        NSString PushToken { get; }
 
-		[Export ("getPushToken")]
-		string GetPushToken { get; }
+		// -(NSString *)getHWID;
+		[Export("getHWID")]
+        NSString HWID { get; }
 
-		[Export ("getHWID")]
-		string GetHWID { get; }
+		// -(void)handlePushRegistration:(NSData *)devToken;
+		[Export("handlePushRegistration:")]
+		void HandlePushRegistration(NSData devToken);
 
-		[Export ("handlePushRegistration:")]
-		void HandlePushRegistration (NSData devToken);
+		// -(void)handlePushRegistrationString:(NSString *)deviceID;
+		[Export("handlePushRegistrationString:")]
+		void HandlePushRegistrationString(NSString deviceID);
 
-		[Export ("handlePushRegistrationString:")]
-		void HandlePushRegistrationString (NSString deviceID);
+		// -(void)handlePushRegistrationFailure:(NSError *)error;
+		[Export("handlePushRegistrationFailure:")]
+		void HandlePushRegistrationFailure(NSError error);
 
-		[Export ("handlePushRegistrationFailure:")]
-		void HandlePushRegistrationFailure (NSError error);
+		// -(BOOL)handlePushReceived:(NSDictionary *)userInfo;
+		[Export("handlePushReceived:")]
+		bool HandlePushReceived(NSDictionary userInfo);
 
-		[Export ("handlePushReceived:")]
-		bool HandlePushReceived (NSDictionary userInfo);
+		// -(NSDictionary *)getApnPayload:(NSDictionary *)pushNotification;
+		[Export("getApnPayload:")]
+		NSDictionary GetApnPayload(NSDictionary pushNotification);
 
-		[Export ("getApnPayload:")]
-		NSDictionary GetApnPayload (NSDictionary pushNotification);
+		// -(NSString *)getCustomPushData:(NSDictionary *)pushNotification;
+		[Export("getCustomPushData:")]
+		NSString GetCustomPushData(NSDictionary pushNotification);
 
-		[Export ("getCustomPushData:")]
-		string GetCustomPushData (NSDictionary pushNotification);
+		// -(NSDictionary *)getCustomPushDataAsNSDict:(NSDictionary *)pushNotification;
+		[Export("getCustomPushDataAsNSDict:")]
+		NSDictionary GetCustomPushDataAsNSDict(NSDictionary pushNotification);
 
-		[Static, Export ("clearNotificationCenter")]
-		void ClearNotificationCenter ();
+		// +(NSMutableDictionary *)getRemoteNotificationStatus;
+		[Static]
+		[Export("getRemoteNotificationStatus")]
+        NSMutableDictionary RemoteNotificationStatus { get; }
 
+		// +(void)clearNotificationCenter;
+		[Static]
+		[Export("clearNotificationCenter")]
+		void ClearNotificationCenter();
+
+		// -(void)setUserId:(NSString *)userId __attribute__((deprecated("")));
 		[Export("setUserId:")]
 		void SetUserId(NSString userId);
 
+		// -(void)mergeUserId:(NSString *)oldUserId to:(NSString *)newUserId doMerge:(BOOL)doMerge completion:(void (^)(NSError *))completion __attribute__((deprecated("")));
+		[Export("mergeUserId:to:doMerge:completion:")]
+		void MergeUserId(NSString oldUserId, NSString newUserId, bool doMerge, Action<NSError> completion);
+
+		// -(void)postEvent:(NSString *)event withAttributes:(NSDictionary *)attributes completion:(void (^)(NSError *))completion __attribute__((deprecated("")));
+		[Export("postEvent:withAttributes:completion:")]
+		void PostEvent(NSString @event, NSDictionary attributes, Action<NSError> completion);
+
+		// -(void)postEvent:(NSString *)event withAttributes:(NSDictionary *)attributes __attribute__((deprecated("")));
 		[Export("postEvent:withAttributes:")]
-		void PostEvent(NSString eventId, NSDictionary attributes);
+		void PostEvent(NSString @event, NSDictionary attributes);
 	}
 
+	// @protocol PWJavaScriptInterface
+	[Model]
 	[BaseType(typeof(NSObject))]
-	public partial interface PWJavaScriptCallback {
+	public interface PWJavaScriptInterface
+	{
+		// @optional -(void)onWebViewStartLoad:(id)webView;
+		[Export("onWebViewStartLoad:")]
+        void OnWebViewStartLoad(UIWebView webView);
+
+		// @optional -(void)onWebViewFinishLoad:(id)webView;
+		[Export("onWebViewFinishLoad:")]
+		void OnWebViewFinishLoad(UIWebView webView);
+
+		// @optional -(void)onWebViewStartClose:(id)webView;
+		[Export("onWebViewStartClose:")]
+		void OnWebViewStartClose(UIWebView webView);
+	}
+
+	// @interface PWJavaScriptCallback : NSObject
+	[BaseType(typeof(NSObject))]
+	public interface PWJavaScriptCallback
+	{
+		// -(NSString *)execute;
 		[Export("execute")]
 		NSString Execute();
 
+		// -(NSString *)executeWithParam:(NSString *)param;
 		[Export("executeWithParam:")]
 		NSString ExecuteWithParam(NSString param);
 
+		// -(NSString *)executeWithParams:(NSArray *)params;
 		[Export("executeWithParams:")]
-		NSString ExecuteWithParams(NSArray args);
+        NSString ExecuteWithParams(NSArray @params);
 	}
 
+	// @interface PWInAppManager : NSObject
 	[BaseType(typeof(NSObject))]
-	public partial interface PWInAppManager {
-		[Static, Export("sharedManager")]
-		PWInAppManager SharedManager { get; }
+	public interface PWInAppManager
+	{
+		// +(instancetype)sharedManager;
+		[Static]
+        [Export("sharedManager")]
+        PWInAppManager SharedManager { get; }
 
+		// -(void)setUserId:(NSString *)userId;
 		[Export("setUserId:")]
 		void SetUserId(NSString userId);
 
-		[Export("postEvent:withAttributes:")]
-		void PostEvent(NSString eventId, NSDictionary attributes);
+		// -(void)mergeUserId:(NSString *)oldUserId to:(NSString *)newUserId doMerge:(BOOL)doMerge completion:(void (^)(NSError *))completion;
+		[Export("mergeUserId:to:doMerge:completion:")]
+		void MergeUserId(NSString oldUserId, NSString newUserId, bool doMerge, Action<NSError> completion);
 
+		// -(void)postEvent:(NSString *)event withAttributes:(NSDictionary *)attributes completion:(void (^)(NSError *))completion;
+		[Export("postEvent:withAttributes:completion:")]
+		void PostEvent(NSString @event, NSDictionary attributes, Action<NSError> completion);
+
+		// -(void)postEvent:(NSString *)event withAttributes:(NSDictionary *)attributes;
+		[Export("postEvent:withAttributes:")]
+		void PostEvent(NSString @event, NSDictionary attributes);
+
+		// -(void)addJavascriptInterface:(NSObject<PWJavaScriptInterface> *)interface withName:(NSString *)name;
 		[Export("addJavascriptInterface:withName:")]
-		void AddJavaScriptInterface(NSObject obj, NSString name);
+		void AddJavascriptInterface(PWJavaScriptInterface @interface, NSString name);
 	}
 }
-

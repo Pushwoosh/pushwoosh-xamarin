@@ -12,6 +12,8 @@ namespace PushwooshSample.iOS
 	[Register ("AppDelegate")]
 	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
 	{
+        PushDelegate _pushDelegate;
+
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init ();
@@ -19,8 +21,13 @@ namespace PushwooshSample.iOS
 			LoadApplication (new App ());
 
 			PushNotificationManager pushmanager = PushNotificationManager.PushManager;
-			pushmanager.Delegate = this;
-			UNUserNotificationCenter.Current.Delegate = pushmanager.notificationCenterDelegate;
+            _pushDelegate = new PushDelegate();
+            pushmanager.Delegate = _pushDelegate;
+
+			if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
+			{
+                UNUserNotificationCenter.Current.Delegate = pushmanager.NotificationCenterDelegate;
+			}
 
 			if (options != null) {
 				if (options.ContainsKey (UIApplication.LaunchOptionsRemoteNotificationKey)) { 
@@ -33,7 +40,15 @@ namespace PushwooshSample.iOS
 
 			pushmanager.StartLocationTracking ();
 
-			Console.WriteLine("HWID: " + pushmanager.GetHWID);
+			pushmanager.SetUserId(new NSString("%userId%"));
+
+			pushmanager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
+
+			PWInAppManager inappManager = PWInAppManager.SharedManager;
+			inappManager.AddJavascriptInterface(new JavaScriptInterface(), new NSString("jsInterface"));
+			inappManager.PostEvent(new NSString("1"), new NSDictionary());
+
+            Console.WriteLine("HWID: " + pushmanager.HWID);
 
 			return base.FinishedLaunching (app, options);
 		}
@@ -49,9 +64,45 @@ namespace PushwooshSample.iOS
 			PushNotificationManager.PushManager.HandlePushRegistrationFailure (error);
 		}
 
-		public override void ReceivedRemoteNotification (UIApplication application, NSDictionary userInfo)		
+        public override void ReceivedRemoteNotification(UIApplication application, NSDictionary userInfo)
+        {
+            PushNotificationManager.PushManager.HandlePushReceived(userInfo);
+        }
+
+		public class PushDelegate : PushNotificationDelegate
 		{
-			PushNotificationManager.PushManager.HandlePushReceived (userInfo);
+			public override void OnPushAccepted(PushNotificationManager pushManager, NSDictionary pushNotification)
+			{
+				Console.WriteLine("Push accepted: " + pushNotification);
+			}
+
+			public override void OnDidRegisterForRemoteNotificationsWithDeviceToken(NSString token)
+			{
+				Console.WriteLine("Registered for push notifications: " + token);
+			}
+
+			public override void OnDidFailToRegisterForRemoteNotificationsWithError(NSError error)
+			{
+				Console.WriteLine("Error: " + error);
+			}
+		}
+
+		public class JavaScriptInterface : PWJavaScriptInterface
+		{
+			public override void OnWebViewStartLoad(UIWebView webView)
+			{
+				Console.WriteLine("onWebViewStartLoad");
+			}
+
+			public override void OnWebViewFinishLoad(UIWebView webView)
+			{
+				Console.WriteLine("onWebViewFinishLoad");
+			}
+
+			public override void OnWebViewStartClose(UIWebView webView)
+			{
+				Console.WriteLine("onWebViewStartClose");
+			}
 		}
 	}
 }

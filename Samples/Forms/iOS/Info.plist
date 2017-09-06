@@ -13,7 +13,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>7.0</string>
+	<string>8.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -41,6 +41,8 @@
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
 	<key>Pushwoosh_APPID</key>
-	<string>4FC89B6D14A655.46488481</string>
+	<string>EFC4B-895C5</string>
+	<key>CFBundleName</key>
+	<string>PushwooshSample</string>
 </dict>
 </plist>

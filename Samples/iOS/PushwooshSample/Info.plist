@@ -9,10 +9,11 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>Pushwoosh_APPID</key>
-	<string>4FC89B6D14A655.46488481</string>
+	<string>EFC4B-895C5</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
+		<integer>2</integer>
 	</array>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleBlackOpaque</string>
@@ -26,5 +27,9 @@
 	<string>PushwooshSample</string>
 	<key>CFBundleName</key>
 	<string>PushwooshSample</string>
+	<key>XSAppIconAssets</key>
+	<string>Images.xcassets/AppIcons.appiconset</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
 </dict>
 </plist>
