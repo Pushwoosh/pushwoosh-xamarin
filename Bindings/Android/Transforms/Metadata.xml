@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <attr path="/api/package[@name='com.pushwoosh']" name="managedName">Pushwoosh</attr>
+    <attr path="/api/package[@name='com.pushwoosh.tags']" name="managedName">Pushwoosh.Tags</attr>
+    <attr path="/api/package[@name='com.pushwoosh.notification.handlers.message.user']" name="managedName">Pushwoosh.Notification.Handlers.Message.User</attr>
+	<attr path="/api/package[@name='com.pushwoosh.notification.handlers.message.system']" name="managedName">Pushwoosh.Notification.Handlers.Message.System</attr>
+	<attr path="/api/package[@name='com.pushwoosh.notification.event']" name="managedName">Pushwoosh.Notification.Event</attr>
+    <attr path="/api/package[@name='com.pushwoosh.notification']" name="managedName">Pushwoosh.Notification</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.utils']" name="managedName">Pushwoosh.Internal.Utils</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.specific']" name="managedName">Pushwoosh.Internal.Specific</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.registrar']" name="managedName">Pushwoosh.Internal.Registrar</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.preference']" name="managedName">Pushwoosh.Internal.Preference</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.platform.utils']" name="managedName">Pushwoosh.Internal.Platform.Utils</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.platform.prefs']" name="managedName">Pushwoosh.Internal.Platform.Prefs</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.platform']" name="managedName">Pushwoosh.Internal.Platform</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.network']" name="managedName">Pushwoosh.Internal.Network</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.event']" name="managedName">Pushwoosh.Internal.Event</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.chain']" name="managedName">Pushwoosh.Internal.Chain</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal']" name="managedName">Pushwoosh.Internal</attr>
+	<attr path="/api/package[@name='com.pushwoosh.inapp']" name="managedName">Pushwoosh.InApp</attr>
+	<attr path="/api/package[@name='com.pushwoosh.function']" name="managedName">Pushwoosh.Function</attr>
+	<attr path="/api/package[@name='com.pushwoosh.exception']" name="managedName">Pushwoosh.Exception</attr>
+
+    <attr path="/api/package[@name='com.pushwoosh.gcm']" name="managedName">Pushwoosh.GCM</attr>
+
+    <attr path="/api/package[@name='com.pushwoosh.location']" name="managedName">Pushwoosh.Location</attr>
+	<attr path="/api/package[@name='com.pushwoosh.location.geofencer']" name="managedName">Pushwoosh.Location.Geofencer</attr>
+	<attr path="/api/package[@name='com.pushwoosh.location.internal.utils']" name="managedName">Pushwoosh.Location.Internal.Utils</attr>
+	<attr path="/api/package[@name='com.pushwoosh.location.network']" name="managedName">Pushwoosh.Location.Network</attr>
+	<attr path="/api/package[@name='com.pushwoosh.location.network.exception']" name="managedName">Pushwoosh.Location.Network.Exception</attr>
+
+	<attr path="/api/package[@name='com.pushwoosh.badge']" name="managedName">Pushwoosh.Badge</attr>
+	
+	<attr path="/api/package[@name='com.pushwoosh.inapp.event']" name="managedName">Pushwoosh.InApp.Event</attr>
+	<attr path="/api/package[@name='com.pushwoosh.inapp.view']" name="managedName">Pushwoosh.InApp.View</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.checker']" name="managedName">Pushwoosh.Internal.Checker</attr>
+	<attr path="/api/package[@name='com.pushwoosh.internal.platform.prefs.migration']" name="managedName">Pushwoosh.Internal.Platform.Prefs.Migration</attr>
+    <remove-node path="/api/package[@name='com.pushwoosh.thirdpart.com.ironz.binaryprefs.dump']" />
+	
+	<attr path="/api/package[@name='com.pushwoosh']/class[@name='Pushwoosh']" name="managedName">PushNotificationsManager</attr>
+</metadata>

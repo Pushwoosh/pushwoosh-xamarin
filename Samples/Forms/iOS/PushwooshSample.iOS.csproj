@@ -19,7 +19,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
-    <MtouchArch>i386</MtouchArch>
+    <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
     <CodesignKey>iPhone Developer</CodesignKey>
@@ -87,9 +87,9 @@
       <Project>{15F4FF7A-CCCB-4D9E-9178-765E51FD74A3}</Project>
       <Name>PushwooshSample</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\SDK\Pushwoosh.iOS\Pushwoosh.iOS.csproj">
-      <Project>{44A022F7-B823-4378-B609-5DEE80AD38B3}</Project>
-      <Name>Pushwoosh.iOS</Name>
+    <ProjectReference Include="..\..\..\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj">
+      <Project>{AABBF567-B2BF-4553-A574-117CD11E00E3}</Project>
+      <Name>Pushwoosh.iOS.Bindings</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

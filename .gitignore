@@ -1,11 +1,11 @@
 *.userprefs
 Samples/Droid/PushwooshSample/obj
-SDK/Pushwoosh.Droid/obj
-SDK/Pushwoosh.iOS/bin
-SDK/Pushwoosh.iOS/obj
-SDK/Pushwoosh.iOS/packages
-SDK/Pushwoosh.Droid/bin
-SDK/Pushwoosh.Droid/packages
+Bindings/Android/obj
+Bindings/iOS/bin
+Bindings/iOS/obj
+Bindings/iOS/packages
+Bindings/Android/bin
+Bindings/Android/packages
 Samples/iOS/PushwooshSample/obj
 Samples/iOS/PushwooshSample/bin
 Samples/iOS/packages

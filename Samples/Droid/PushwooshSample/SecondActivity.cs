@@ -15,13 +15,14 @@ namespace PushwooshSample
 	[Activity]
 	public class SecondActivity : FragmentActivity
 	{
+        public const string PUSH_MESSAGE_KEY = "PUSH_MESSAGE_KEY";
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
 
 			SetContentView (Resource.Layout.second);
 
-			FindViewById<TextView> (Resource.Id.text_push).Text = Intent.GetStringExtra (PushManager.PushReceiveEvent);
+            FindViewById<TextView> (Resource.Id.text_push).Text = Intent.GetStringExtra (PUSH_MESSAGE_KEY);
 		}
 	}
 }

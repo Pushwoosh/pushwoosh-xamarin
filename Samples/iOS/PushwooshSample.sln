@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushwooshSample", "PushwooshSample\PushwooshSample.csproj", "{0A858D00-D5BA-4671-BDB1-404A803112E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.iOS", "..\..\SDK\Pushwoosh.iOS\Pushwoosh.iOS.csproj", "{44A022F7-B823-4378-B609-5DEE80AD38B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.iOS.Bindings", "..\..\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj", "{AABBF567-B2BF-4553-A574-117CD11E00E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +27,18 @@ Global
 		{0A858D00-D5BA-4671-BDB1-404A803112E4}.Release|iPhone.Build.0 = Release|iPhone
 		{0A858D00-D5BA-4671-BDB1-404A803112E4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{0A858D00-D5BA-4671-BDB1-404A803112E4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Release|iPhone.Build.0 = Release|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.AppStore|iPhone.ActiveCfg = Release|Any CPU
-		{44A022F7-B823-4378-B609-5DEE80AD38B3}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Release|iPhone.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E3}.AppStore|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = PushwooshSample\PushwooshSample.csproj

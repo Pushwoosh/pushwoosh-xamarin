@@ -25,7 +25,7 @@
     <MtouchDebug>true</MtouchDebug>
     <MtouchI18n>
     </MtouchI18n>
-    <MtouchArch>i386</MtouchArch>
+    <MtouchArch>x86_64</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -117,18 +117,18 @@
     <InterfaceDefinition Include="LaunchScreen.xib" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\SDK\Pushwoosh.iOS\Pushwoosh.iOS.csproj">
-      <Project>{44A022F7-B823-4378-B609-5DEE80AD38B3}</Project>
-      <Name>Pushwoosh.iOS</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\Contents.json" />
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo152.png" />
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo167.png" />
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo76.png" />
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo%402x copy.png" />
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj">
+      <Project>{AABBF567-B2BF-4553-A574-117CD11E00E3}</Project>
+      <Name>Pushwoosh.iOS.Bindings</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
