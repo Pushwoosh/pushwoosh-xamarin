@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Xamarin.Droid</id>
-        <version>5.4.1</version>
+        <version>5.5.2</version>
         <title>Pushwoosh Xamarin Android SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
