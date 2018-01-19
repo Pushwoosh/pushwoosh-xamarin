@@ -2,7 +2,7 @@
 <manifest xmlns:amazon="http://schemas.amazon.com/apk/res/android" xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.pushwoosh.test">
 	<uses-sdk android:minSdkVersion="10" />
 	<application android:label="Pushwoosh Sample" android:debuggable="true" android:icon="@drawable/ic_launcher" android:theme="@android:style/Theme.Light">
-		<meta-data android:name="com.pushwoosh.appid" android:value="60CBF-53954" />
+		<meta-data android:name="com.pushwoosh.appid" android:value="YOUR_PUSHWOOSH_APP_CODE" />
 		<meta-data android:name="com.pushwoosh.senderid" android:value="@string/fcm_sender_id" />
 	</application>
 </manifest>

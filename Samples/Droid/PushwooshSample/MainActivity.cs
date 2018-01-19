@@ -38,7 +38,7 @@ namespace PushwooshSample
 			// Reset application icon badge number
             PushwooshBadge.BadgeNumber = 0;
 
-            PushwooshInApp.Instance.SetUserId("%userId%");
+            PushwooshInApp.Instance.UserId = "%userId%";
 
             PushwooshInApp.Instance.PostEvent("applicationOpened", new TagsBundle.Builder().PutString("attribute", "value").Build());
 

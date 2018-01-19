@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using Android.App;
 using Android.Content;
@@ -7,27 +7,26 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Util;
-using Pushwoosh;
-using Pushwoosh.Badge;
 
+[assembly:MetaData("com.pushwoosh.appid", Value = "YOUR_PUSHWOOSH_APP_CODE")]
+[assembly:MetaData("com.pushwoosh.senderid", Value = "@string/fcm_sender_id")]
 namespace PushwooshSample.Droid
 {
-	
-	[Activity (Label = "PushwooshSample.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
-	{
-		protected override void OnCreate (Bundle bundle)
-		{
-			base.OnCreate (bundle);
+    [Activity(Label = "PushwooshSample.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    {
+        protected override void OnCreate(Bundle bundle)
+        {
+            Pushwoosh.Droid.PushManager.Init();
 
-			global::Xamarin.Forms.Forms.Init (this, bundle);
+            TabLayoutResource = Resource.Layout.Tabbar;
+            ToolbarResource = Resource.Layout.Toolbar;
 
-			LoadApplication (new App ());
+            base.OnCreate(bundle);
 
-            PushNotificationsManager.Instance.RegisterForPushNotifications();
-            PushwooshBadge.BadgeNumber = 0;
-		}
-	}
+            global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            LoadApplication(new App());
+        }
+    }
 }
-

@@ -4,8 +4,10 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>PushwooshSample</string>
+	<key>CFBundleName</key>
+	<string>PushwooshSample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pushwoosh.demoapp</string>
+	<string>com.pushwoosh.PushwooshSample</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -39,10 +41,8 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>XSAppIconAssets</key>
-	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>Pushwoosh_APPID</key>
-	<string>EFC4B-895C5</string>
-	<key>CFBundleName</key>
-	<string>PushwooshSample</string>
+	<string>5927F-D517A</string>
 </dict>
 </plist>

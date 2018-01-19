@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="fcm_sender_id">522869448264</string>
+    <string name="fcm_sender_id">YOUR_SENDER_ID</string>
     
     <string name="app_name">Pushwoosh Sample</string>
 
