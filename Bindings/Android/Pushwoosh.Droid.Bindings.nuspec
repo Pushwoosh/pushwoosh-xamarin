@@ -8,7 +8,7 @@
         <owners>Pushwoosh</owners>
         <licenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</licenseUrl>
         <projectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/SDK/Res/logo.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Pushwoosh SDK for Xamarin Android</description>
         <tags>xamarin, pushwoosh, push</tags>
@@ -21,6 +21,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="bin/Release/Pushwoosh.Droid.Bindings.dll" target="lib/MonoAndroid" />
+        <file src="bin/Release/Pushwoosh.Droid.Bindings.dll" target="lib/MonoAndroid8.0" />
     </files>
 </package>

@@ -8,7 +8,7 @@
         <owners>Pushwoosh</owners>
         <licenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</licenseUrl>
         <projectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/SDK/Res/logo.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Pushwoosh SDK for Xamarin</description>
         <tags>xamarin, pushwoosh, push</tags>
@@ -16,14 +16,16 @@
             <group targetFramework="MonoAndroid8.0">
 <dependency id="Pushwoosh.Xamarin.Droid" version="5.5.3" />
             </group>
-            <group targetFramework="Xamarin.iOS">
+            <group targetFramework="Xamarin.iOS10">
 <dependency id="Pushwoosh.Xamarin.iOS" version="5.5.3" />
             </group>
         </dependencies>
     </metadata>
     <files>
         <file src="Pushwoosh/bin/Release/Pushwoosh.dll" target="lib/Profile111" />
-        <file src="Pushwoosh.Droid/bin/Release/Pushwoosh.Droid.dll" target="lib/monoandroid" />
+        <file src="Pushwoosh/bin/Release/Pushwoosh.dll" target="lib/MonoAndroid8.0" />
+        <file src="Pushwoosh/bin/Release/Pushwoosh.dll" target="lib/Xamarin.iOS10" />
+        <file src="Pushwoosh.Droid/bin/Release/Pushwoosh.Droid.dll" target="lib/MonoAndroid8.0" />
 	<file src="Pushwoosh.iOS/bin/Release/Pushwoosh.iOS.dll" target="lib/Xamarin.iOS10" />
     </files>
 </package>
