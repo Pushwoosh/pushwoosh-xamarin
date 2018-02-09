@@ -10,8 +10,6 @@ using Android.Support.V4.Content;
 [assembly: Permission(Name = "${applicationId}.permission.C2D_MESSAGE", ProtectionLevel = Android.Content.PM.Protection.Signature)]
 [assembly: UsesPermission("com.google.android.c2dm.permission.RECEIVE")]
 
-[assembly: UsesPermission("android.permission.ACCESS_COARSE_LOCATION")]
-[assembly: UsesPermission("android.permission.ACCESS_FINE_LOCATION")]
 [assembly: UsesPermission("android.permission.RECEIVE_BOOT_COMPLETED")]
 [assembly: MetaData("com.pushwoosh.plugin.location", Value = "com.pushwoosh.location.LocationPlugin")]
 
