@@ -111,6 +111,10 @@ namespace Pushwoosh
         [Export("unregisterForPushNotifications")]
         void UnregisterForPushNotifications();
 
+        // -(void)unregisterForPushNotificationsWithCompletion:(void (^)(NSError *))completion;
+        [Export ("unregisterForPushNotificationsWithCompletion:")]
+        void UnregisterForPushNotificationsWithCompletion (Action<NSError> completion);
+
         // -(instancetype)initWithApplicationCode:(NSString *)appCode appName:(NSString *)appName;
         [Export("initWithApplicationCode:appName:")]
         IntPtr Constructor(NSString appCode, NSString appName);
