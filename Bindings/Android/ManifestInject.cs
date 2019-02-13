@@ -77,10 +77,6 @@ namespace Pushwoosh
     partial class GcmRegistrationService { }
 
     [Preserve]
-    [ContentProvider(new[] { "${applicationId}.pushwooshinitprovider" }, Name = "com.pushwoosh.PushwooshInitProvider", Enabled = true, Exported = false, InitOrder = 50)]
-    partial class PushwooshInitProvider { }
-
-    [Preserve]
     [Service(Name = "com.pushwoosh.PushwooshService", Exported = false, Permission = "android.permission.BIND_JOB_SERVICE")]
     partial class PushwooshService {}
 

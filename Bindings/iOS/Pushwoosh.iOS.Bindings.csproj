@@ -44,6 +44,9 @@
       <Kind>Static</Kind>
       <SmartLink>False</SmartLink>
     </NativeReference>
+    <NativeReference Include="PushwooshGeozones.a">
+      <Kind>Static</Kind>
+    </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
