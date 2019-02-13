@@ -34,7 +34,7 @@
 	<attr path="/api/package[@name='com.pushwoosh.inapp.event']" name="managedName">Pushwoosh.InApp.Event</attr>
     <attr path="/api/package[@name='com.pushwoosh.inapp.view']" name="managedName">Pushwoosh.InApp.View</attr>
     <attr path="/api/package[@name='com.pushwoosh.inapp.view.inline']" name="managedName">Pushwoosh.InApp.View.Inline</attr>
-   <attr path="/api/package[@name='com.pushwoosh.inapp.view.inline']/class[@name='InlineInAppView']" name="extends">android.view.View</attr>       
+    <attr path="/api/package[@name='com.pushwoosh.inapp.view.inline']/class[@name='InlineInAppView']" name="extends">android.view.View</attr>       
 	<attr path="/api/package[@name='com.pushwoosh.internal.checker']" name="managedName">Pushwoosh.Internal.Checker</attr>
 	<attr path="/api/package[@name='com.pushwoosh.internal.platform.prefs.migration']" name="managedName">Pushwoosh.Internal.Platform.Prefs.Migration</attr>
     <remove-node path="/api/package[@name='com.pushwoosh.thirdpart.com.ironz.binaryprefs.dump']" />
