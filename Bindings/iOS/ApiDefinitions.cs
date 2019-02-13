@@ -123,18 +123,6 @@ namespace Pushwoosh
         [Export("initWithApplicationCode:navController:appName:")]
         IntPtr Constructor(NSString appCode, UIViewController navController, NSString appName);
 
-        // -(void)sendLocation:(CLLocation *)location;
-        [Export("sendLocation:")]
-        void SendLocation(CLLocation location);
-
-        // -(void)startLocationTracking;
-        [Export("startLocationTracking")]
-        void StartLocationTracking();
-
-        // -(void)stopLocationTracking;
-        [Export("stopLocationTracking")]
-        void StopLocationTracking();
-
         // -(void)setTags:(NSDictionary *)tags;
         [Export("setTags:")]
         void SetTags(NSDictionary tags);
@@ -307,7 +295,6 @@ namespace Pushwoosh
 
     // @protocol PWGeozonesDelegate <NSObject>
     [Model]
-    [Protocol]
     [BaseType(typeof(NSObject))]
     interface PWGeozonesDelegate
     {
