@@ -89,17 +89,16 @@ namespace Pushwoosh
     partial class NotificationOpenReceiver {}
 }
 
-namespace Pushwoosh.GCM
-{
     [Preserve]
-    [BroadcastReceiver(Name = "com.google.android.gms.gcm.GcmReceiver", Exported = true, Permission = "com.google.android.c2dm.permission.SEND")]
-    [IntentFilter(new[] { "com.google.android.c2dm.intent.RECEIVE", "com.google.android.c2dm.intent.REGISTRATION" }, Categories = new[] { "${applicationId}" })]
-    [Register("com/pushwoosh/gcm/FakeGcmReceiver", DoNotGenerateAcw = true)]
-    public class GcmReceiver : Android.Gms.Gcm.GcmReceiver { } //Fake receiver just to add right receiver to manifset
+    [Service(Name = "com.pushwoosh.FcmRegistrationService", Exported = false)]
+    [IntentFilter(new[] { "com.google.firebase.INSTANCE_ID_EVENT" })]
+    partial class FcmRegistrationService {}
 
     [Preserve]
-    [ContentProvider(new[] { "${applicationId}.gcmpushwooshinitprovider" }, Name = "com.pushwoosh.gcm.GcmInitProvider", Enabled = true, Exported = false, InitOrder = 53)]
-    partial class GcmInitProvider { }
+    [Service(Name = "com.pushwoosh.PushFcmIntentService", Exported = false)]
+    [IntentFilter(new[] { "com.google.firebase.MESSAGING_EVENT" })]
+    partial class PushFcmIntentService { }
+
 }
 
 namespace Pushwoosh.Internal.Utils
