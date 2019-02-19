@@ -32,9 +32,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>qwewereryrtyrt</string>
-	<key>NSLocationUsageDescription</key>
-	<string>dfdfd</string>
+	<string>Need for PushwooshGeolocation</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
