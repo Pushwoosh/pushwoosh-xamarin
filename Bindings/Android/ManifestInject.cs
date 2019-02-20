@@ -87,7 +87,7 @@ namespace Pushwoosh
     [Preserve]
     [BroadcastReceiver(Name = "com.pushwoosh.NotificationOpenReceiver", Enabled = true, Exported = false)]
     partial class NotificationOpenReceiver {}
-}
+
 
     [Preserve]
     [Service(Name = "com.pushwoosh.FcmRegistrationService", Exported = false)]
