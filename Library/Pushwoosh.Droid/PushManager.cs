@@ -192,14 +192,5 @@ namespace Pushwoosh.Droid
                 InitFinished(null, null);
         }
 
-        public override void StartLocationTracking()
-        {
-            Location.PushwooshLocation.StartLocationTracking();
-        }
-
-        public override void StopLocationTracking()
-        {
-            Location.PushwooshLocation.StopLocationTracking();
-        }
     }
 }

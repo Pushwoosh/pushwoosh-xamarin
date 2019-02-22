@@ -1,5 +1,4 @@
 using System;
-using CoreLocation;
 using Foundation;
 using ObjCRuntime;
 using UIKit;
@@ -122,18 +121,6 @@ namespace Pushwoosh
         // -(id)initWithApplicationCode:(NSString *)appCode navController:(UIViewController *)navController appName:(NSString *)appName __attribute__((deprecated("")));
         [Export("initWithApplicationCode:navController:appName:")]
         IntPtr Constructor(NSString appCode, UIViewController navController, NSString appName);
-
-        // -(void)sendLocation:(CLLocation *)location;
-        [Export("sendLocation:")]
-        void SendLocation(CLLocation location);
-
-        // -(void)startLocationTracking;
-        [Export("startLocationTracking")]
-        void StartLocationTracking();
-
-        // -(void)stopLocationTracking;
-        [Export("stopLocationTracking")]
-        void StopLocationTracking();
 
         // -(void)setTags:(NSDictionary *)tags;
         [Export("setTags:")]

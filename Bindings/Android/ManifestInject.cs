@@ -11,7 +11,6 @@ using Android.Support.V4.Content;
 [assembly: UsesPermission("com.google.android.c2dm.permission.RECEIVE")]
 
 [assembly: UsesPermission("android.permission.RECEIVE_BOOT_COMPLETED")]
-[assembly: MetaData("com.pushwoosh.plugin.location", Value = "com.pushwoosh.location.LocationPlugin")]
 
 //BADGES
 [assembly: MetaData("com.pushwoosh.plugin.badge", Value = "com.pushwoosh.badge.BadgePlugin")]
@@ -118,30 +117,4 @@ namespace Pushwoosh.Notification
     [Preserve]
     [BroadcastReceiver(Name = "com.pushwoosh.notification.LocalNotificationReceiver")]
     partial class LocalNotificationReceiver { }
-}
-
-namespace Pushwoosh.Location.Network
-{
-    [Preserve]
-    [Service(Name = "com.pushwoosh.location.network.GeoLocationServiceApi16")]
-    partial class GeoLocationServiceApi16 {}
-
-    [Preserve]
-    [Service(Name = "com.pushwoosh.location.network.GeoLocationServiceApi21", Exported = true, Permission = "android.permission.BIND_JOB_SERVICE")]
-    partial class GeoLocationServiceApi21 { }
-}
-
-namespace Pushwoosh.Location.Internal.Utils
-{
-    [Preserve]
-    [Activity(Name = "com.pushwoosh.location.internal.utils.ResolutionActivity", Theme = "@android:style/Theme.Translucent.NoTitleBar")]
-    partial class ResolutionActivity { }
-}
-
-namespace Pushwoosh.Location.Geofencer
-{
-    [Preserve]
-    [BroadcastReceiver(Name = "com.pushwoosh.location.geofencer.GeofenceReceiver")]
-    [IntentFilter(new[] { "${applicationId}.action.GEOFENCE" } )]
-    partial class GeofenceReceiver { }
 }

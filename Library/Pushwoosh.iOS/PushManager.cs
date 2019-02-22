@@ -267,14 +267,5 @@ namespace Pushwoosh.iOS
             global::Pushwoosh.PushManager.Instance = new PushManager();
         }
 
-        public override void StartLocationTracking()
-        {
-            nativeManager.StartLocationTracking();
-        }
-
-        public override void StopLocationTracking()
-        {
-            nativeManager.StopLocationTracking();
-        }
     }
 }

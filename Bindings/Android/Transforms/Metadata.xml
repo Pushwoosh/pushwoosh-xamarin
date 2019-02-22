@@ -23,12 +23,6 @@
 
     <attr path="/api/package[@name='com.pushwoosh.gcm']" name="managedName">Pushwoosh.GCM</attr>
 
-    <attr path="/api/package[@name='com.pushwoosh.location']" name="managedName">Pushwoosh.Location</attr>
-	<attr path="/api/package[@name='com.pushwoosh.location.geofencer']" name="managedName">Pushwoosh.Location.Geofencer</attr>
-	<attr path="/api/package[@name='com.pushwoosh.location.internal.utils']" name="managedName">Pushwoosh.Location.Internal.Utils</attr>
-	<attr path="/api/package[@name='com.pushwoosh.location.network']" name="managedName">Pushwoosh.Location.Network</attr>
-	<attr path="/api/package[@name='com.pushwoosh.location.network.exception']" name="managedName">Pushwoosh.Location.Network.Exception</attr>
-
 	<attr path="/api/package[@name='com.pushwoosh.badge']" name="managedName">Pushwoosh.Badge</attr>
 	
 	<attr path="/api/package[@name='com.pushwoosh.inapp.event']" name="managedName">Pushwoosh.InApp.Event</attr>

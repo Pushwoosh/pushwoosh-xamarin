@@ -58,9 +58,6 @@ namespace Pushwoosh
 		/// <param name="currency">currency of the price (ex: "USD")</param>
         public abstract void SendPurchaseData(string identifier, decimal price, string currency);
 
-        public abstract void StartLocationTracking();
-        public abstract void StopLocationTracking();
-
 		/// <summary>
 		/// Register for push notifications
 		/// </summary>
