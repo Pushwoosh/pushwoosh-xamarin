@@ -32,7 +32,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This demo uses location services for Pushwoosh Geozones and Beacons</string>
+	<string>This demo uses location services for Pushwoosh Geozones</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
