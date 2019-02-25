@@ -22,13 +22,19 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.pushwoosh.demoapp</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This demo uses location services for Pushwoosh Geozones and Beacons</string>
+	<string>This demo uses location services for Pushwoosh Geozones</string>
 	<key>CFBundleDisplayName</key>
 	<string>PushwooshSample</string>
 	<key>CFBundleName</key>
 	<string>PushwooshSample</string>
 	<key>XSAppIconAssets</key>
 	<string>Images.xcassets/AppIcons.appiconset</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This demo uses location services for Pushwoosh Geozones</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 </dict>

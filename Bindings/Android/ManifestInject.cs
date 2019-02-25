@@ -4,11 +4,7 @@ using Android.App;
 using Android.Content;
 using Android.Support.V4.Content;
 
-[assembly: UsesPermission("android.permission.ACCESS_NETWORK_STATE")]
-[assembly: UsesPermission("android.permission.INTERNET")]
-[assembly: UsesPermission("android.permission.WAKE_LOCK")]
 [assembly: Permission(Name = "${applicationId}.permission.C2D_MESSAGE", ProtectionLevel = Android.Content.PM.Protection.Signature)]
-[assembly: UsesPermission("com.google.android.c2dm.permission.RECEIVE")]
 
 [assembly: UsesPermission("android.permission.RECEIVE_BOOT_COMPLETED")]
 [assembly: MetaData("com.pushwoosh.plugin.location", Value = "com.pushwoosh.location.LocationPlugin")]
@@ -41,31 +37,8 @@ using Android.Support.V4.Content;
 [assembly: UsesPermission("me.everything.badger.permission.BADGE_COUNT_READ")]
 [assembly: UsesPermission("me.everything.badger.permission.BADGE_COUNT_WRITE")]
 
-namespace Pushwoosh.InApp
-{
-    [Preserve]
-    [Service(Name = "com.pushwoosh.inapp.InAppRetrieverService", Permission = "android.permission.BIND_JOB_SERVICE")]
-    partial class InAppRetrieverService { }
-}
-
-namespace Pushwoosh.InApp.View
-{
-    [Preserve]
-    [Activity(Name = "com.pushwoosh.inapp.view.RichMediaWebActivity", Theme = "@android:style/Theme.Translucent.NoTitleBar")]
-    partial class RichMediaWebActivity { }
-
-    [Preserve]
-    [Activity(Name = "com.pushwoosh.inapp.view.RemoteUrlActivity", Theme = "@android:style/Theme.Translucent.NoTitleBar")]
-    partial class RemoteUrlActivity { }
-}
-
 namespace Pushwoosh
 {
-    [Preserve]
-    [BroadcastReceiver(Name = "com.pushwoosh.BootReceiver", Enabled = true, Permission = "android.permission.RECEIVE_BOOT_COMPLETED")]
-    [IntentFilter(new[] { "android.intent.action.BOOT_COMPLETED" }, Categories = new[] { "android.intent.category.DEFAULT" })]
-    partial class BootReceiver { }
-
     [Preserve]
     [Service(Name = "com.pushwoosh.PushGcmIntentService", Exported = false)]
     [IntentFilter(new[] { "com.google.android.c2dm.intent.RECEIVE" }, Priority = -50)]
@@ -75,18 +48,6 @@ namespace Pushwoosh
     [Service(Name = "com.pushwoosh.GcmRegistrationService", Exported = false)]
     [IntentFilter(new[] { "com.google.android.gms.iid.InstanceID" }, Priority = -50)]
     partial class GcmRegistrationService { }
-
-    [Preserve]
-    [ContentProvider(new[] { "${applicationId}.pushwooshinitprovider" }, Name = "com.pushwoosh.PushwooshInitProvider", Enabled = true, Exported = false, InitOrder = 50)]
-    partial class PushwooshInitProvider { }
-
-    [Preserve]
-    [Service(Name = "com.pushwoosh.PushwooshService", Exported = false, Permission = "android.permission.BIND_JOB_SERVICE")]
-    partial class PushwooshService {}
-
-    [Preserve]
-    [BroadcastReceiver(Name = "com.pushwoosh.NotificationOpenReceiver", Enabled = true, Exported = false)]
-    partial class NotificationOpenReceiver {}
 }
 
 namespace Pushwoosh.GCM
@@ -100,24 +61,6 @@ namespace Pushwoosh.GCM
     [Preserve]
     [ContentProvider(new[] { "${applicationId}.gcmpushwooshinitprovider" }, Name = "com.pushwoosh.gcm.GcmInitProvider", Enabled = true, Exported = false, InitOrder = 53)]
     partial class GcmInitProvider { }
-}
-
-namespace Pushwoosh.Internal.Utils
-{
-    [Preserve]
-    [Activity(Name = "com.pushwoosh.internal.utils.PermissionActivity", Theme = "@android:style/Theme.Translucent.NoTitleBar")]
-    partial class PermissionActivity { }
-
-    [Preserve]
-    [Service(Name = "com.pushwoosh.internal.utils.LockScreenService", Permission = "android.permission.BIND_JOB_SERVICE", Enabled = true, Exported = false)]
-    partial class LockScreenService { }
-}
-
-namespace Pushwoosh.Notification
-{
-    [Preserve]
-    [BroadcastReceiver(Name = "com.pushwoosh.notification.LocalNotificationReceiver")]
-    partial class LocalNotificationReceiver { }
 }
 
 namespace Pushwoosh.Location.Network

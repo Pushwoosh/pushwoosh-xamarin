@@ -123,18 +123,6 @@ namespace Pushwoosh
         [Export("initWithApplicationCode:navController:appName:")]
         IntPtr Constructor(NSString appCode, UIViewController navController, NSString appName);
 
-        // -(void)sendLocation:(CLLocation *)location;
-        [Export("sendLocation:")]
-        void SendLocation(CLLocation location);
-
-        // -(void)startLocationTracking;
-        [Export("startLocationTracking")]
-        void StartLocationTracking();
-
-        // -(void)stopLocationTracking;
-        [Export("stopLocationTracking")]
-        void StopLocationTracking();
-
         // -(void)setTags:(NSDictionary *)tags;
         [Export("setTags:")]
         void SetTags(NSDictionary tags);
@@ -294,4 +282,68 @@ namespace Pushwoosh
         [Export("addJavascriptInterface:withName:")]
         void AddJavascriptInterface(PWJavaScriptInterface @interface, NSString name);
     }
+
+    // @interface PWInlineInAppView : UIView
+    [BaseType(typeof(UIView))]
+    public interface PWInlineInAppView
+    {
+        // @property (nonatomic) NSString * identifier;
+        [Export("identifier")]
+        string Identifier { get; set; }
+    }
+
+
+    // @protocol PWGeozonesDelegate <NSObject>
+    [Model]
+    [BaseType(typeof(NSObject))]
+    interface PWGeozonesDelegate
+    {
+        // @optional -(void)didStartLocationTrackingWithManager:(PWGeozonesManager *)geozonesManager;
+        [Export("didStartLocationTrackingWithManager:")]
+        void DidStartLocationTrackingWithManager(PWGeozonesManager geozonesManager);
+
+        // @optional -(void)geozonesManager:(PWGeozonesManager *)geozonesManager startingLocationTrackingDidFail:(NSError *)error;
+        [Export("geozonesManager:startingLocationTrackingDidFail:")]
+        void GeozonesManager(PWGeozonesManager geozonesManager, NSError error);
+
+        // @optional -(void)geozonesManager:(PWGeozonesManager *)geozonesManager didSendLocation:(CLLocation *)location;
+        [Export("geozonesManager:didSendLocation:")]
+        void GeozonesManager(PWGeozonesManager geozonesManager, CLLocation location);
+    }
+
+    // @interface PWGeozonesManager : NSObject
+    [BaseType(typeof(NSObject))]
+    interface PWGeozonesManager
+    {
+        // @property (readonly, nonatomic) BOOL enabled;
+        [Export("enabled")]
+        bool Enabled { get; }
+
+        [Wrap("WeakDelegate")]
+        PWGeozonesDelegate Delegate { get; set; }
+
+        // @property (nonatomic, weak) id<PWGeozonesDelegate> delegate;
+        [NullAllowed, Export("delegate", ArgumentSemantic.Weak)]
+        NSObject WeakDelegate { get; set; }
+
+        // +(instancetype)sharedManager;
+        [Static]
+        [Export("sharedManager")]
+        PWGeozonesManager Instance { get; }
+
+        // -(void)startLocationTracking;
+        [Export("startLocationTracking")]
+        void StartLocationTracking();
+
+        // -(void)stopLocationTracking;
+        [Export("stopLocationTracking")]
+        void StopLocationTracking();
+
+        // -(void)sendLocation:(CLLocation *)location;
+        [Export("sendLocation:")]
+        void SendLocation(CLLocation location);
+    }
 }
+
+
+
