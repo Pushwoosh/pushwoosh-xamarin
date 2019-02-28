@@ -52,7 +52,7 @@ namespace PushwooshSample
 			pushmanager.SendAppOpen ();
 			pushmanager.RegisterForPushNotifications ();
 
-			pushmanager.StartLocationTracking ();
+			
 
 			pushmanager.SetUserId(new NSString("%userId%"));
 

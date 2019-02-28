@@ -281,4 +281,17 @@ namespace Pushwoosh
         [Export("addJavascriptInterface:withName:")]
         void AddJavascriptInterface(PWJavaScriptInterface @interface, NSString name);
     }
+
+    // @interface PWInlineInAppView : UIView
+    [BaseType(typeof(UIView))]
+    public interface PWInlineInAppView
+    {
+        // @property (nonatomic) NSString * identifier;
+        [Export("identifier")]
+        string Identifier { get; set; }
+    }
+
 }
+
+
+

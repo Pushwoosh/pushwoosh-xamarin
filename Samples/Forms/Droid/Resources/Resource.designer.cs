@@ -4222,11 +4222,11 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 0x7f070011
 			public const int common_signin_button_text_long = 2131165201;
 			
+			// aapt resource value: 0x7f070050
+			public const int fcm_sender_id = 2131165264;
+			
 			// aapt resource value: 0x7f070000
 			public const int gcm_fallback_notification_channel_label = 2131165184;
-			
-			// aapt resource value: 0x7f070050
-			public const int gcm_sender_id = 2131165264;
 			
 			// aapt resource value: 0x7f070012
 			public const int mr_button_content_description = 2131165202;
