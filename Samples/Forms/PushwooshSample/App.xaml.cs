@@ -1,5 +1,7 @@
 ﻿using Xamarin.Forms;
+using Pushwoosh.Geozones;
 using Pushwoosh;
+using System;
 
 namespace PushwooshSample
 {
@@ -15,7 +17,11 @@ namespace PushwooshSample
         protected override void OnStart()
         {
             PushManager.Instance.Register();
+
             PushManager.Instance.InAppManager.PostEventAsync("test", null);
+
+            GeozonesManager.Instance.StartLocationTracking();
+
             PushManager.Instance.PushAccepted += (object sender, PushNotificationEventArgs e) => {
                 MainPage.DisplayAlert("Push Accepted", e.Notification.Payload, "OK");
             };

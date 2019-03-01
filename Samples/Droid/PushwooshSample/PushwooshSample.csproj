@@ -89,6 +89,9 @@
     <Reference Include="Xamarin.Android.Arch.Lifecycle.Runtime">
       <HintPath>..\..\..\packages\Xamarin.Android.Arch.Lifecycle.Runtime.1.1.1.1\lib\monoandroid80\Xamarin.Android.Arch.Lifecycle.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.GooglePlayServices.Location">
+      <HintPath>..\..\..\packages\Xamarin.GooglePlayServices.Location.60.1142.1\lib\MonoAndroid80\Xamarin.GooglePlayServices.Location.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -135,9 +138,13 @@
     <AndroidAsset Include="Assets\api_key.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Bindings\Android\Pushwoosh.Droid.Bindings.csproj">
+    <ProjectReference Include="..\..\..\Core\Bindings\Android\Pushwoosh.Droid.Bindings.csproj">
       <Project>{5EB8DF8E-6D09-4A91-8CF8-B17B1346A873}</Project>
       <Name>Pushwoosh.Droid.Bindings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geozones\Bindings\Android\Pushwoosh.Geozones.Droid.Bindings.csproj">
+      <Project>{5EB8DF8E-6D09-4A91-8CF8-B17B1346A874}</Project>
+      <Name>Pushwoosh.Geozones.Droid.Bindings</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="..\..\..\packages\Xamarin.Android.Support.Annotations.28.0.0.1\build\monoandroid80\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\..\..\packages\Xamarin.Android.Support.Annotations.28.0.0.1\build\monoandroid80\Xamarin.Android.Support.Annotations.targets')" />
@@ -156,4 +163,5 @@
   <Import Project="..\..\..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets" Condition="Exists('..\..\..\packages\Xamarin.GooglePlayServices.Base.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Base.targets')" />
   <Import Project="..\..\..\packages\Xamarin.GooglePlayServices.Iid.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Iid.targets" Condition="Exists('..\..\..\packages\Xamarin.GooglePlayServices.Iid.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Iid.targets')" />
   <Import Project="..\..\..\packages\Xamarin.GooglePlayServices.Gcm.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Gcm.targets" Condition="Exists('..\..\..\packages\Xamarin.GooglePlayServices.Gcm.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Gcm.targets')" />
+  <Import Project="..\..\..\packages\Xamarin.GooglePlayServices.Location.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Location.targets" Condition="Exists('..\..\..\packages\Xamarin.GooglePlayServices.Location.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Location.targets')" />
 </Project>

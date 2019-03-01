@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Pushwoosh.Geozones</id>
+        <version>1.0.0</version>
+        <title>Pushwoosh Geozones Xamarin SDK</title>
+        <authors>Pushwoosh</authors>
+        <owners>Pushwoosh</owners>
+        <licenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Pushwoosh Geozones SDK for Xamarin</description>
+        <tags>xamarin, pushwoosh, push, location, geozones</tags>
+	    <dependencies>
+            <group targetFramework="MonoAndroid8.0">
+                <dependency id="Pushwoosh.Geozones.Xamarin.Droid" version="1.0.0" />
+            </group>
+            <group targetFramework="Xamarin.iOS10">
+                <dependency id="Pushwoosh.Geozones.Xamarin.iOS" version="1.0.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Pushwoosh.Geozones/bin/Release/Pushwoosh.Geozones.dll" target="lib/Profile111" />
+        <file src="Pushwoosh.Geozones/bin/Release/Pushwoosh.Geozones.dll" target="lib/MonoAndroid8.0" />
+        <file src="Pushwoosh.Geozones/bin/Release/Pushwoosh.Geozones.dll" target="lib/Xamarin.iOS10" />
+        <file src="Pushwoosh.Geozones.Droid/bin/Release/Pushwoosh.Geozones.Droid.dll" target="lib/MonoAndroid8.0" />
+	    <file src="Pushwoosh.Geozones.iOS/bin/Release/Pushwoosh.Geozones.iOS.dll" target="lib/Xamarin.iOS10" />
+    </files>
+</package>

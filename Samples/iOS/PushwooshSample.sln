@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushwooshSample", "PushwooshSample\PushwooshSample.csproj", "{0A858D00-D5BA-4671-BDB1-404A803112E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.iOS.Bindings", "..\..\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj", "{AABBF567-B2BF-4553-A574-117CD11E00E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.iOS.Bindings", "..\..\Core\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj", "{AABBF567-B2BF-4553-A574-117CD11E00E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.Geozones.iOS.Bindings", "..\..\Geozones\Bindings\iOS\Pushwoosh.Geozones.iOS.Bindings.csproj", "{AABBF567-B2BF-4553-A574-117CD11E00E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,18 @@ Global
 		{AABBF567-B2BF-4553-A574-117CD11E00E3}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
 		{AABBF567-B2BF-4553-A574-117CD11E00E3}.AppStore|iPhone.ActiveCfg = Release|Any CPU
 		{AABBF567-B2BF-4553-A574-117CD11E00E3}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Release|iPhone.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{AABBF567-B2BF-4553-A574-117CD11E00E4}.AppStore|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = PushwooshSample\PushwooshSample.csproj

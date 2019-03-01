@@ -4,6 +4,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 using Pushwoosh;
+using Pushwoosh.Geozones.iOS.Bindings;
 using UserNotifications;
 
 namespace PushwooshSample
@@ -16,7 +17,7 @@ namespace PushwooshSample
 	{
 		// class-level declarations
 		UIWindow window;
-		PushwooshSampleViewController viewController;
+		public PushwooshSampleViewController viewController;
         public PushDelegate _pushDelegate;
 
 		//
@@ -50,21 +51,22 @@ namespace PushwooshSample
 			}
 
 			pushmanager.SendAppOpen ();
-			pushmanager.RegisterForPushNotifications ();
+            pushmanager.RegisterForPushNotifications();
 
-			
+            //Start tracking Geozones
+            PWGeozonesManager.SharedManager.StartLocationTracking();
 
-			pushmanager.SetUserId(new NSString("%userId%"));
+            pushmanager.SetUserId(new NSString("%userId%"));
 
-			pushmanager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
+            pushmanager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
 
             PWInAppManager inappManager = PWInAppManager.SharedManager;
             inappManager.AddJavascriptInterface(new JavaScriptInterface(), new NSString("jsInterface"));
-			inappManager.PostEvent(new NSString("1"), new NSDictionary());
+            inappManager.PostEvent(new NSString("1"), new NSDictionary());
 
             Console.WriteLine("HWID: " + pushmanager.HWID);
 
-			return true;
+            return true;
 		}
 
 		public override void RegisteredForRemoteNotifications (UIApplication application, NSData deviceToken)
@@ -90,9 +92,18 @@ namespace PushwooshSample
 			Console.WriteLine("Push accepted: " + pushNotification);
 		}
 
-		public override void OnDidRegisterForRemoteNotificationsWithDeviceToken(NSString token)
+        public override void OnPushReceived(PushNotificationManager pushManager, NSDictionary pushNotification, bool onStart)
+        {
+            Console.WriteLine("Push received: " + pushNotification);
+
+            var okAlertController = UIAlertController.Create("Push received", pushNotification.Description, UIAlertControllerStyle.Alert);
+            okAlertController.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
+           ((AppDelegate)UIApplication.SharedApplication.Delegate).viewController.PresentViewController(okAlertController, true, null);
+        }
+
+        public override void OnDidRegisterForRemoteNotificationsWithDeviceToken(NSString token)
 		{
-			Console.WriteLine("Registered for push notifications: " + token);
+            Console.WriteLine("Registered for push notifications: " + token);
 		}
 
 		public override void OnDidFailToRegisterForRemoteNotificationsWithError(NSError error)

@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Pushwoosh.Geozones.iOS;
 using Pushwoosh.iOS;
 
 namespace PushwooshSample.iOS
@@ -15,7 +16,10 @@ namespace PushwooshSample.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
             PushManager.Init();
+
+            GeozonesManager.Init();
 
             return base.FinishedLaunching(app, options);
         }
@@ -34,5 +38,6 @@ namespace PushwooshSample.iOS
         {
             PushManager.Instance.ReceivedRemoteNotification(userInfo);
         }
+
     }
 }

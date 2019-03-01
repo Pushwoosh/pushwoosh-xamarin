@@ -10,3 +10,10 @@ Pushwoosh.iOS.sln
 Pushwoosh.sln
 packages
 Pushwoosh.*.nupkg
+Geozones/Bindings/iOS/.vs
+Samples/Droid/.vs
+Samples/iOS/.vs
+Samples/Forms/.vs
+Geozones/Library/Pushwoosh.Geozones.Droid/.vs
+Geozones/Library/Pushwoosh.Geozones.iOS/.vs
+Geozones/Library/Pushwoosh.Geozones/.vs

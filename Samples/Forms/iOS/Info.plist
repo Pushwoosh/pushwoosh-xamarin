@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>PushwooshSample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pushwoosh.PushwooshSample</string>
+	<string>com.pushwoosh.demoapp</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -42,7 +42,11 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>sdfsdf</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>sdfsfd</string>
 	<key>Pushwoosh_APPID</key>
-	<string>5927F-D517A</string>
+	<string>DC533-F5DA4</string>
 </dict>
 </plist>

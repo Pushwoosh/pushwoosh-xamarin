@@ -126,20 +126,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PushwooshSample\PushwooshSample.csproj">
-      <Project>{FDA3F333-ABBA-43D4-A384-0C774638DDC6}</Project>
-      <Name>PushwooshSample</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Library\Pushwoosh.Droid\Pushwoosh.Droid.csproj">
-      <Project>{A67FD681-66AB-46F0-B109-592F4F12F1B5}</Project>
-      <Name>Pushwoosh.Droid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Library\Pushwoosh\Pushwoosh.csproj">
-      <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135870}</Project>
-      <Name>Pushwoosh</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -159,6 +145,28 @@
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
     <AndroidResource Include="Resources\values\strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Library\Pushwoosh.Droid\Pushwoosh.Droid.csproj">
+      <Project>{A67FD681-66AB-46F0-B109-592F4F12F1B5}</Project>
+      <Name>Pushwoosh.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geozones\Library\Pushwoosh.Geozones.Droid\Pushwoosh.Geozones.Droid.csproj">
+      <Project>{A67FD681-66AB-46F0-B109-592F4F12F1B6}</Project>
+      <Name>Pushwoosh.Geozones.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PushwooshSample\PushwooshSample.csproj">
+      <Project>{FDA3F333-ABBA-43D4-A384-0C774638DDC6}</Project>
+      <Name>PushwooshSample</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Core\Library\Pushwoosh\Pushwoosh.csproj">
+      <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135870}</Project>
+      <Name>Pushwoosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geozones\Library\Pushwoosh.Geozones\Pushwoosh.Geozones.csproj">
+      <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135871}</Project>
+      <Name>Pushwoosh.Geozones</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\..\..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

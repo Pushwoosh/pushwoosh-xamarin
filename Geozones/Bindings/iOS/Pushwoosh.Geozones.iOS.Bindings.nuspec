@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Pushwoosh.Geozones.Xamarin.iOS</id>
+        <version>1.0.0</version>
+        <title>Pushwoosh Geozones Xamarin iOS SDK</title>
+        <authors>Pushwoosh</authors>
+        <owners>Pushwoosh</owners>
+        <licenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Pushwoosh Geozones SDK for Xamarin iOS</description>
+        <tags>xamarin, pushwoosh, push, location, geozones</tags>
+        <dependencies>
+            <group targetFramework="Xamarin.iOS10">
+                <dependency id="Pushwoosh.Xamarin.iOS" version="<set proper version>" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin/Release/Pushwoosh.Geozones.iOS.Bindings.dll" target="lib/Xamarin.iOS10" />
+    </files>
+</package>

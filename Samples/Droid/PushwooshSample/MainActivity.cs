@@ -13,6 +13,7 @@ using Pushwoosh.InApp;
 using Pushwoosh.Badge;
 using Pushwoosh.Tags;
 using System.Collections.Generic;
+using Pushwoosh.Location;
 
 namespace PushwooshSample
 {
@@ -35,15 +36,18 @@ namespace PushwooshSample
                     }
                 } });
 
-			// Reset application icon badge number
+            // Reset application icon badge number
             PushwooshBadge.BadgeNumber = 0;
 
             PushwooshInApp.Instance.UserId = "%userId%";
 
             PushwooshInApp.Instance.PostEvent("applicationOpened", new TagsBundle.Builder().PutString("attribute", "value").Build());
 
-			// Set our view from the "main" layout resource
-			SetContentView (Resource.Layout.main);
+            // Start tracking geozones
+            PushwooshLocation.StartLocationTracking();
+
+            // Set our view from the "main" layout resource
+            SetContentView (Resource.Layout.main);
 
 			mGeneralStatus = FindViewById<TextView>(Resource.Id.general_status);
 			mTagsStatus = FindViewById<TextView>(Resource.Id.status);
@@ -55,7 +59,7 @@ namespace PushwooshSample
 			string reg = GetString (Resource.String.registered);
 			reg = reg.Replace ("%s", registrationId);
 			mGeneralStatus.Text = reg;
-		}
+        }
 
 		public void doOnRegisteredError(string errorText)
 		{

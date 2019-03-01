@@ -76,6 +76,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>Universal Development</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -100,13 +101,21 @@
       <Project>{FDA3F333-ABBA-43D4-A384-0C774638DDC6}</Project>
       <Name>PushwooshSample</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Library\Pushwoosh.iOS\Pushwoosh.iOS.csproj">
-      <Project>{90F0D854-AF87-40F2-A1E5-3E3EF9CC430B}</Project>
-      <Name>Pushwoosh.iOS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Library\Pushwoosh\Pushwoosh.csproj">
+    <ProjectReference Include="..\..\..\Core\Library\Pushwoosh\Pushwoosh.csproj">
       <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135870}</Project>
       <Name>Pushwoosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geozones\Library\Pushwoosh.Geozones\Pushwoosh.Geozones.csproj">
+      <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135871}</Project>
+      <Name>Pushwoosh.Geozones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geozones\Library\Pushwoosh.Geozones.iOS\Pushwoosh.Geozones.iOS.csproj">
+      <Project>{90F0D854-AF87-40F2-A1E5-3E3EF9CC430C}</Project>
+      <Name>Pushwoosh.Geozones.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Core\Library\Pushwoosh.iOS\Pushwoosh.iOS.csproj">
+      <Project>{90F0D854-AF87-40F2-A1E5-3E3EF9CC430B}</Project>
+      <Name>Pushwoosh.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

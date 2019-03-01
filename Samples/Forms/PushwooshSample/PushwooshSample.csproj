@@ -55,9 +55,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Library\Pushwoosh\Pushwoosh.csproj">
+    <ProjectReference Include="..\..\..\Core\Library\Pushwoosh\Pushwoosh.csproj">
       <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135870}</Project>
       <Name>Pushwoosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geozones\Library\Pushwoosh.Geozones\Pushwoosh.Geozones.csproj">
+      <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135871}</Project>
+      <Name>Pushwoosh.Geozones</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

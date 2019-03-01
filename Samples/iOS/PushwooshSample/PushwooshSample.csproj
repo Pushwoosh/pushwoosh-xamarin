@@ -125,9 +125,13 @@
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj">
+    <ProjectReference Include="..\..\..\Core\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj">
       <Project>{AABBF567-B2BF-4553-A574-117CD11E00E3}</Project>
       <Name>Pushwoosh.iOS.Bindings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Geozones\Bindings\iOS\Pushwoosh.Geozones.iOS.Bindings.csproj">
+      <Project>{AABBF567-B2BF-4553-A574-117CD11E00E4}</Project>
+      <Name>Pushwoosh.Geozones.iOS.Bindings</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
