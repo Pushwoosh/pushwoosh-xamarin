@@ -14,7 +14,7 @@
         <tags>xamarin, pushwoosh, push, location, geozones</tags>
         <dependencies>
             <group targetFramework="Xamarin.iOS10">
-                <dependency id="Pushwoosh.Xamarin.iOS" version="<set proper version>" />
+                <dependency id="Pushwoosh.Xamarin.iOS" version="5.10.0" />
             </group>
         </dependencies>
     </metadata>
