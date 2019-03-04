@@ -9,7 +9,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>Pushwoosh_APPID</key>
-	<string>DC533-F5DA4</string>
+	<string>YOUR_PUSHWOOSH_APP_CODE</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>

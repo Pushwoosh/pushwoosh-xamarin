@@ -43,10 +43,10 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>sdfsdf</string>
+	<string>This demo uses location services for Pushwoosh Geozones</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>sdfsfd</string>
+	<string>This demo uses location services for Pushwoosh Geozones</string>
 	<key>Pushwoosh_APPID</key>
-	<string>DC533-F5DA4</string>
+	<string>YOUR_PUSHWOOSH_APP_CODE</string>
 </dict>
 </plist>
