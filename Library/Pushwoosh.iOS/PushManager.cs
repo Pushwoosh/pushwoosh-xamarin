@@ -269,12 +269,12 @@ namespace Pushwoosh.iOS
 
         public override void StartLocationTracking()
         {
-            nativeManager.StartLocationTracking();
+            PWGeozonesManager.Instance.StartLocationTracking();
         }
 
         public override void StopLocationTracking()
         {
-            nativeManager.StopLocationTracking();
+            PWGeozonesManager.Instance.StopLocationTracking();
         }
     }
 }
