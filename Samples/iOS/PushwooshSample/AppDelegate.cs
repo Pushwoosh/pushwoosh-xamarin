@@ -52,7 +52,7 @@ namespace PushwooshSample
 			pushmanager.SendAppOpen ();
 			pushmanager.RegisterForPushNotifications ();
 
-			pushmanager.StartLocationTracking ();
+			
 
 			pushmanager.SetUserId(new NSString("%userId%"));
 
@@ -63,8 +63,8 @@ namespace PushwooshSample
 			inappManager.PostEvent(new NSString("1"), new NSDictionary());
 
             Console.WriteLine("HWID: " + pushmanager.HWID);
-
-			return true;
+            PWGeozonesManager.Instance.StartLocationTracking();
+            return true;
 		}
 
 		public override void RegisteredForRemoteNotifications (UIApplication application, NSData deviceToken)
