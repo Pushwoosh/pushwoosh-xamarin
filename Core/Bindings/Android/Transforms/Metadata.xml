@@ -21,8 +21,6 @@
 	<attr path="/api/package[@name='com.pushwoosh.function']" name="managedName">Pushwoosh.Function</attr>
 	<attr path="/api/package[@name='com.pushwoosh.exception']" name="managedName">Pushwoosh.Exception</attr>
 
-    <attr path="/api/package[@name='com.pushwoosh.gcm']" name="managedName">Pushwoosh.GCM</attr>
-
 	<attr path="/api/package[@name='com.pushwoosh.badge']" name="managedName">Pushwoosh.Badge</attr>
 	
 	<attr path="/api/package[@name='com.pushwoosh.inapp.event']" name="managedName">Pushwoosh.InApp.Event</attr>

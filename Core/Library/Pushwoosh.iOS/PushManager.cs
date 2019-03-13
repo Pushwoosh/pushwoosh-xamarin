@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 using Pushwoosh;
 using Foundation;
@@ -266,6 +266,5 @@ namespace Pushwoosh.iOS
         {
             global::Pushwoosh.PushManager.Instance = new PushManager();
         }
-
     }
 }
