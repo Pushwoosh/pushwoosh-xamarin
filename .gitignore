@@ -11,3 +11,4 @@ Pushwoosh.sln
 packages
 Pushwoosh.*.nupkg
 .vs
+google-services.json
