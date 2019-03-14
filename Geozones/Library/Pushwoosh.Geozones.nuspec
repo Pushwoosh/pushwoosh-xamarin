@@ -14,15 +14,15 @@
         <tags>xamarin, pushwoosh, push, location, geozones</tags>
 	    <dependencies>
             <group targetFramework="MonoAndroid8.0">
-                <dependency id="Pushwoosh.Geozones.Xamarin.Droid" version="1.0.0" />
+<dependency id="Pushwoosh.Geozones.Xamarin.Droid" version="5.13.2" />
             </group>
             <group targetFramework="Xamarin.iOS10">
-                <dependency id="Pushwoosh.Geozones.Xamarin.iOS" version="1.0.0" />
+<dependency id="Pushwoosh.Geozones.Xamarin.iOS" version="5.13.0" />
             </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="Pushwoosh.Geozones/bin/Release/Pushwoosh.Geozones.dll" target="lib/Profile111" />
+        <file src="Pushwoosh.Geozones/bin/Release/Pushwoosh.Geozones.dll" target="lib/netstandard1.5" />
         <file src="Pushwoosh.Geozones/bin/Release/Pushwoosh.Geozones.dll" target="lib/MonoAndroid8.0" />
         <file src="Pushwoosh.Geozones/bin/Release/Pushwoosh.Geozones.dll" target="lib/Xamarin.iOS10" />
         <file src="Pushwoosh.Geozones.Droid/bin/Release/Pushwoosh.Geozones.Droid.dll" target="lib/MonoAndroid8.0" />

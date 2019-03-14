@@ -14,15 +14,15 @@
         <tags>xamarin, pushwoosh, push</tags>
 	<dependencies>
             <group targetFramework="MonoAndroid8.0">
-<dependency id="Pushwoosh.Xamarin.Droid" version="5.10.0" />
+<dependency id="Pushwoosh.Xamarin.Droid" version="5.13.2" />
             </group>
             <group targetFramework="Xamarin.iOS10">
-<dependency id="Pushwoosh.Xamarin.iOS" version="5.10.0" />
+<dependency id="Pushwoosh.Xamarin.iOS" version="5.13.0" />
             </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="Pushwoosh/bin/Release/Pushwoosh.dll" target="lib/Profile111" />
+        <file src="Pushwoosh/bin/Release/Pushwoosh.dll" target="lib/netstandard1.5" />
         <file src="Pushwoosh/bin/Release/Pushwoosh.dll" target="lib/MonoAndroid8.0" />
         <file src="Pushwoosh/bin/Release/Pushwoosh.dll" target="lib/Xamarin.iOS10" />
         <file src="Pushwoosh.Droid/bin/Release/Pushwoosh.Droid.dll" target="lib/MonoAndroid8.0" />

@@ -81,13 +81,13 @@
     <Compile Include="InAppManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Bindings\Android\Pushwoosh.Droid.Bindings.csproj">
-      <Project>{5EB8DF8E-6D09-4A91-8CF8-B17B1346A873}</Project>
-      <Name>Pushwoosh.Droid.Bindings</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Pushwoosh\Pushwoosh.csproj">
       <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135870}</Project>
       <Name>Pushwoosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Bindings\Android\Pushwoosh.Droid.Bindings.csproj">
+      <Project>{5EB8DF8E-6D09-4A91-8CF8-B17B1346A873}</Project>
+      <Name>Pushwoosh.Droid.Bindings</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

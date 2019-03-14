@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Geozones.Xamarin.Droid</id>
-        <version>1.0.0</version>
+<version>5.13.2</version>
         <title>Pushwoosh Geozones Xamarin Android SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
