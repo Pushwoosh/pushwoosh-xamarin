@@ -12,3 +12,4 @@ packages
 Pushwoosh.*.nupkg
 .vs
 google-services.json
+project.lock.json
