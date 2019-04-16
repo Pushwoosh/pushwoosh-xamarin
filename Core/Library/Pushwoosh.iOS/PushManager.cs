@@ -181,6 +181,18 @@ namespace Pushwoosh.iOS
             }
         }
 
+        public override string Language
+        {
+            get
+            {
+                return nativeManager.Language;
+            }
+            set
+            {
+                nativeManager.Language = (NSString)value;
+            }
+        }
+
         public new PushNotificationSettings NotificationSettings
         {
             get

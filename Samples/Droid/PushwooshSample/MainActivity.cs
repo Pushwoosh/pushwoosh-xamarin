@@ -36,6 +36,8 @@ namespace PushwooshSample
                     }
                 } });
 
+            //PushNotificationsManager.Instance.Language = "fr";
+
             // Reset application icon badge number
             PushwooshBadge.BadgeNumber = 0;
 

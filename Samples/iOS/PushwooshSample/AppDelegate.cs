@@ -39,7 +39,9 @@ namespace PushwooshSample
             _pushDelegate = new PushDelegate();
             pushmanager.Delegate = _pushDelegate;
 
-			if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
+            //pushmanager.Language = (NSString)"es";
+
+            if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
 			{
                 UNUserNotificationCenter.Current.Delegate = pushmanager.NotificationCenterDelegate;
 			}

@@ -84,6 +84,10 @@ namespace Pushwoosh
         [Export("showPushnotificationAlert")]
         bool ShowPushnotificationAlert { get; set; }
 
+        // @property (nonatomic) NSString *language;
+        [NullAllowed, Export("language")]
+        NSString Language { get; set; }
+
         // @property (readonly, copy, nonatomic) NSDictionary * launchNotification;
         [Export("launchNotification", ArgumentSemantic.Copy)]
         NSDictionary LaunchNotification { get; }
