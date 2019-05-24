@@ -52,6 +52,8 @@ namespace PushwooshSample
 			mGeneralStatus = FindViewById<TextView>(Resource.Id.general_status);
 			mTagsStatus = FindViewById<TextView>(Resource.Id.status);
 
+            PushNotificationsManager.Instance.SendTags(new TagsBundle.Builder().PutString("key", "value").Build(), null);
+
 		}
 
 		public void doOnRegistered(String registrationId)
