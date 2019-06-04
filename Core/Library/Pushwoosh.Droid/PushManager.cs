@@ -72,6 +72,18 @@ namespace Pushwoosh.Droid
             }
         }
 
+        public override string Language
+        {
+            get
+            {
+                return nativeManager.Language;
+            }
+            set
+            {
+                nativeManager.Language = value;
+            }
+        }
+
         public override string AppCode => nativeManager.AppId;
 
         public override string HardwareId => nativeManager.Hwid;

@@ -29,10 +29,17 @@ namespace Pushwoosh
         /// </summary>
         public abstract bool ShowPushNotificationAlerts { get; set; }
 
-		/// <summary>
-		/// Pushwoosh application code
-		/// </summary>
-		public abstract string AppCode { get; }
+        /// <summary>
+        /// Set custom application language. Must be a lowercase two-letter code according to ISO-639-1 standard ("en", "de", "fr", etc.).
+        /// Device language used by default.
+        /// Set to nil if you want to use device language again.
+        /// </summary>
+        public abstract string Language { get; set; }
+
+        /// <summary>
+        /// Pushwoosh application code
+        /// </summary>
+        public abstract string AppCode { get; }
 		/// <summary>
 		/// Unique device identifier that used in all API calls with Pushwoosh.
 		/// </summary>
