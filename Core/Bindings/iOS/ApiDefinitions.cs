@@ -94,7 +94,7 @@ namespace Pushwoosh
 
         // @property (readonly, nonatomic, strong) id<UNUserNotificationCenterDelegate> notificationCenterDelegate;
         [NullAllowed, Export("notificationCenterDelegate", ArgumentSemantic.Strong)]
-        UNUserNotificationCenterDelegate NotificationCenterDelegate { get; }
+        IUNUserNotificationCenterDelegate NotificationCenterDelegate { get; }
 
         // +(void)initializeWithAppCode:(NSString *)appCode appName:(NSString *)appName;
         [Static]
