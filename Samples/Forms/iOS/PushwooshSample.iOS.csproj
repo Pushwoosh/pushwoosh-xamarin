@@ -117,13 +117,33 @@
       <Project>{90F0D854-AF87-40F2-A1E5-3E3EF9CC430B}</Project>
       <Name>Pushwoosh.iOS</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Inbox\Library\Pushwoosh.Inbox\Pushwoosh.Inbox.csproj">
+      <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135872}</Project>
+      <Name>Pushwoosh.Inbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Inbox\Library\Pushwoosh.Inbox.iOS\Pushwoosh.Inbox.iOS.csproj">
+      <Project>{90F0D854-AF87-40F2-A1E5-3E3EF9CC433C}</Project>
+      <Name>Pushwoosh.Inbox.iOS</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\inbox_error.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\inbox_error.imageset\ic_error.png" />
+    <ImageAsset Include="Assets.xcassets\inbox_empty.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\inbox_empty.imageset\ic_empty.png" />
+    <ImageAsset Include="Assets.xcassets\inbox_message.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\inbox_unread.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\inbox_message.imageset\ic_inbox.png" />
+    <ImageAsset Include="Assets.xcassets\inbox_unread.imageset\ic_unread.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Assets.xcassets\inbox_error.imageset\" />
+    <Folder Include="Assets.xcassets\inbox_empty.imageset\" />
+    <Folder Include="Assets.xcassets\inbox_message.imageset\" />
+    <Folder Include="Assets.xcassets\inbox_unread.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />

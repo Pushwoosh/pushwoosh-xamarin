@@ -1,0 +1,1 @@
+﻿[assembly: ObjCRuntime.LinkWith("libPushwooshInboxUI.a", LinkerFlags = "-lz -lstdc++")]

@@ -6,6 +6,7 @@ using Foundation;
 using UIKit;
 using Pushwoosh.Geozones.iOS;
 using Pushwoosh.iOS;
+using Pushwoosh.Inbox.iOS;
 
 namespace PushwooshSample.iOS
 {
@@ -20,6 +21,8 @@ namespace PushwooshSample.iOS
             PushManager.Init();
 
             GeozonesManager.Init();
+
+            InboxManager.Init();
 
             return base.FinishedLaunching(app, options);
         }

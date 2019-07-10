@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Pushwoosh.Geozones;
 using Pushwoosh;
-using System;
+using Pushwoosh.Forms.Inbox;
 
 namespace PushwooshSample
 {
@@ -28,6 +28,33 @@ namespace PushwooshSample
             PushManager.Instance.PushReceived += (object sender, PushNotificationEventArgs e) => {
                 MainPage.DisplayAlert("Push Received", e.Notification.Payload, "OK");
             };
+            PushwooshInboxStyle inboxStyle = new PushwooshInboxStyle
+            {
+                AccentColor = Color.Violet,
+                BackgroundColor = Color.White,
+                BarAccentColor = Color.Blue,
+                BarBackgroundColor = Color.WhiteSmoke,
+                BarTextColor = Color.DarkGray,
+                DateColor = Color.Violet,
+                DefaultTextColor = Color.DarkBlue,
+                DescriptionColor = Color.DarkBlue,
+                SelectionColor = Color.Crimson,
+                SeparatorColor = Color.Crimson,
+                TitleColor = Color.DarkKhaki,
+
+                DefaultImageName = "inbox_message",
+                ListEmptyImageName = "inbox_empty",
+                ListErrorImageName = "inbox_error",
+                UnreadImageName = "inbox_unread",
+
+                BarTitle = "My custom title",
+                ListEmptyMessage = "There are no inbox messages yet",
+                ListErrorMessage = "Some error happened",
+
+                DateFormat = "dd.MM.yyyy"
+            };
+
+            InboxManager.Instance.PresentInboxUI(inboxStyle);
         }
 
         protected override void OnSleep()

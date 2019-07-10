@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.Droid.Bindings", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.Geozones.Droid.Bindings", "..\..\Geozones\Bindings\Android\Pushwoosh.Geozones.Droid.Bindings.csproj", "{5EB8DF8E-6D09-4A91-8CF8-B17B1346A874}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.Inbox.Droid.Bindings", "..\..\Inbox\Bindings\Android\Pushwoosh.Inbox.Droid.Bindings.csproj", "{DDF3317D-8612-4AD5-A24D-194D6A7DE647}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{5EB8DF8E-6D09-4A91-8CF8-B17B1346A874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB8DF8E-6D09-4A91-8CF8-B17B1346A874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB8DF8E-6D09-4A91-8CF8-B17B1346A874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF3317D-8612-4AD5-A24D-194D6A7DE647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF3317D-8612-4AD5-A24D-194D6A7DE647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF3317D-8612-4AD5-A24D-194D6A7DE647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF3317D-8612-4AD5-A24D-194D6A7DE647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = PushwooshSample\PushwooshSample.csproj
