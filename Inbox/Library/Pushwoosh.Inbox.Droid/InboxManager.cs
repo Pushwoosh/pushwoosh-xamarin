@@ -10,23 +10,23 @@ using Pushwoosh.Inbox.UI.Activity;
 
 namespace Pushwoosh.Inbox.Droid
 {
-    public class InboxManager : Forms.Inbox.InboxManager
+    public class InboxManager : Inbox.InboxManager
     {
-        public static new InboxManager Instance => Forms.Inbox.InboxManager.Instance as InboxManager;
+        public static new InboxManager Instance => Inbox.InboxManager.Instance as InboxManager;
 
         public static void Init()
         {
-            Forms.Inbox.InboxManager.Instance = new InboxManager();
+            Inbox.InboxManager.Instance = new InboxManager();
         }
 
-        public override void PresentInboxUI(Forms.Inbox.PushwooshInboxStyle style)
+        public override void PresentInboxUI(Inbox.PushwooshInboxStyle style)
         {
             SetStyle(style);
             Intent intent = new Intent(Application.Context, typeof(InboxActivity));
             Application.Context.StartActivity(intent);
         }
 
-        private void SetStyle(Forms.Inbox.PushwooshInboxStyle style)
+        private void SetStyle(Inbox.PushwooshInboxStyle style)
         {
             Pushwoosh.Inbox.UI.PushwooshInboxStyle nativeStyle = Pushwoosh.Inbox.UI.PushwooshInboxStyle.Instance;
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Pushwoosh.Forms.Inbox
+namespace Pushwoosh.Inbox
 {
     public abstract class InboxManager
     {

@@ -1,19 +1,19 @@
 ﻿using System;
 using Foundation;
-using Pushwoosh.Forms.Inbox;
+using Pushwoosh.Inbox;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 namespace Pushwoosh.Inbox.iOS
 {
-    public class InboxManager : Forms.Inbox.InboxManager
+    public class InboxManager : Inbox.InboxManager
     {
-        public static new InboxManager Instance => Forms.Inbox.InboxManager.Instance as InboxManager;
+        public static new InboxManager Instance => Inbox.InboxManager.Instance as InboxManager;
 
         public static void Init()
         {
-            Forms.Inbox.InboxManager.Instance = new InboxManager();
+            Inbox.InboxManager.Instance = new InboxManager();
         }
 
         public override void PresentInboxUI(PushwooshInboxStyle style) 

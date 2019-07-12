@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Pushwoosh.Forms.Inbox
+namespace Pushwoosh.Inbox
 {
     public class PushwooshInboxStyle
     {

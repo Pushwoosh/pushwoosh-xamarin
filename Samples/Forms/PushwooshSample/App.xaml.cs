@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Pushwoosh.Geozones;
 using Pushwoosh;
-using Pushwoosh.Forms.Inbox;
+using Pushwoosh.Inbox;
 
 namespace PushwooshSample
 {
