@@ -10,10 +10,6 @@
     <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter']/class[@name='BaseRecyclerAdapter']/method[@name='onCreateViewHolder']" name="return">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
     <remove-node path="/api/package[@name='com.pushwoosh.inbox.ui.model.customizing.formatter']/interface[@name='InboxDateFormatter']" />
     <remove-node path="/api/package[@name='com.pushwoosh.inbox.ui.model.customizing.formatter']/interface[@name='Formatter']" />
-    <attr path="/api/package[@name='com.pushwoosh.inbox.ui']/class[@name='PushwooshInboxStyle']/method[@name='setDateFormatter']" name="managedType">Pushwoosh.Inbox.IInboxDateFormatter</attr>
-    <attr path="/api/package[@name='com.pushwoosh.inbox.ui']/class[@name='PushwooshInboxStyle']/method[@name='setDateFormatter']" name="type">Pushwoosh.Inbox.IInboxDateFormatter</attr>
-    <attr path="/api/package[@name='com.pushwoosh.inbox.ui']/class[@name='PushwooshInboxStyle']/method[@name='getDateFormatter']" name="managedReturn">Pushwoosh.Inbox.IInboxDateFormatter</attr>
-    <attr path="/api/package[@name='com.pushwoosh.inbox.ui']/class[@name='PushwooshInboxStyle']/method[@name='getDateFormatter']" name="return">Pushwoosh.Inbox.IInboxDateFormatter</attr>
     
     <attr path="/api/package[@name='com.pushwoosh.inbox.ui']" name="managedName">Pushwoosh.Inbox.UI</attr>
     <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.activity']" name="managedName">Pushwoosh.Inbox.UI.Activity</attr>
