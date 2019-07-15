@@ -295,7 +295,132 @@ namespace Pushwoosh
         string Identifier { get; set; }
     }
 
+    // @protocol PWInboxMessageProtocol <NSObject>
+    [Protocol, Model]
+    [BaseType(typeof(NSObject))]
+    interface PWInboxMessageProtocol : INativeObject
+    {
+        // @required @property (readonly, nonatomic) NSString * code;
+        [Abstract]
+        [Export("code")]
+        string Code { get; }
+
+        // @required @property (readonly, nonatomic) NSString * title;
+        [Abstract]
+        [Export("title")]
+        string Title { get; }
+
+        // @required @property (readonly, nonatomic) NSString * imageUrl;
+        [Abstract]
+        [Export("imageUrl")]
+        string ImageUrl { get; }
+
+        // @required @property (readonly, nonatomic) NSString * message;
+        [Abstract]
+        [Export("message")]
+        string Message { get; }
+
+        // @required @property (readonly, nonatomic) NSDate * sendDate;
+        [Abstract]
+        [Export("sendDate")]
+        NSDate SendDate { get; }
+
+        // @required @property (readonly, nonatomic) PWInboxMessageType type;
+        [Abstract]
+        [Export("type")]
+        PWInboxMessageType Type { get; }
+
+        // @required @property (readonly, nonatomic) BOOL isRead;
+        [Abstract]
+        [Export("isRead")]
+        bool IsRead { get; }
+
+        // @required @property (readonly, nonatomic) BOOL isActionPerformed;
+        [Abstract]
+        [Export("isActionPerformed")]
+        bool IsActionPerformed { get; }
+
+        // @required @property (readonly, nonatomic) NSString * attachmentUrl;
+        [Abstract]
+        [Export("attachmentUrl")]
+        string AttachmentUrl { get; }
+
+        // @required @property (readonly, nonatomic) NSDictionary * actionParams;
+        [Abstract]
+        [Export("actionParams")]
+        NSDictionary ActionParams { get; }
+    }
+
+    // @interface PWInbox : NSObject
+    [BaseType(typeof(NSObject))]
+    [DisableDefaultCtor]
+    interface PWInbox : INativeObject
+    {
+        // extern NSString *const PWInboxMessagesDidUpdateNotification;
+        [Field("PWInboxMessagesDidUpdateNotification", "__Internal")]
+        NSString PWInboxMessagesDidUpdateNotification { get; }
+
+        // extern NSString *const PWInboxMessagesDidReceiveInPushNotification;
+        [Field("PWInboxMessagesDidReceiveInPushNotification", "__Internal")]
+        NSString PWInboxMessagesDidReceiveInPushNotification { get; }
+
+        // +(void)messagesWithNoActionPerformedCountWithCompletion:(void (^)(NSInteger, NSError *))completion;
+        [Static]
+        [Export("messagesWithNoActionPerformedCountWithCompletion:")]
+        void MessagesWithNoActionPerformedCountWithCompletion(Action<nint, NSError> completion);
+
+        // +(void)unreadMessagesCountWithCompletion:(void (^)(NSInteger, NSError *))completion;
+        [Static]
+        [Export("unreadMessagesCountWithCompletion:")]
+        void UnreadMessagesCountWithCompletion(Action<nint, NSError> completion);
+
+        // +(void)messagesCountWithCompletion:(void (^)(NSInteger, NSError *))completion;
+        [Static]
+        [Export("messagesCountWithCompletion:")]
+        void MessagesCountWithCompletion(Action<nint, NSError> completion);
+
+        // +(void)loadMessagesWithCompletion:(void (^)(NSArray<NSObject<PWInboxMessageProtocol> *> *, NSError *))completion;
+        [Static]
+        [Export("loadMessagesWithCompletion:")]
+        void LoadMessagesWithCompletion(Action<NSArray<PWInboxMessageProtocol>, NSError> completion);
+
+        // +(void)performActionForMessageWithCode:(NSString *)code;
+        [Static]
+        [Export("performActionForMessageWithCode:")]
+        void PerformActionForMessageWithCode(string code);
+
+        // +(void)deleteMessagesWithCodes:(NSArray<NSString *> *)codes;
+        [Static]
+        [Export("deleteMessagesWithCodes:")]
+        void DeleteMessagesWithCodes(string[] codes);
+
+        // +(void)readMessagesWithCodes:(NSArray<NSString *> *)codes;
+        [Static]
+        [Export("readMessagesWithCodes:")]
+        void ReadMessagesWithCodes(string[] codes);
+
+        // +(id<NSObject>)addObserverForDidReceiveInPushNotificationCompletion:(void (^)(NSArray<NSObject<PWInboxMessageProtocol> *> *))completion;
+        [Static]
+        [Export("addObserverForDidReceiveInPushNotificationCompletion:")]
+        NSObject AddObserverForDidReceiveInPushNotificationCompletion(Action<NSArray<PWInboxMessageProtocol>> completion);
+
+        // +(id<NSObject>)addObserverForUpdateInboxMessagesCompletion:(void (^)(NSArray<NSObject<PWInboxMessageProtocol> *> *, NSArray<NSObject<PWInboxMessageProtocol> *> *, NSArray<NSObject<PWInboxMessageProtocol> *> *))completion;
+        [Static]
+        [Export("addObserverForUpdateInboxMessagesCompletion:")]
+        NSObject AddObserverForUpdateInboxMessagesCompletion(Action<NSArray<PWInboxMessageProtocol>, NSArray<PWInboxMessageProtocol>, NSArray<PWInboxMessageProtocol>> completion);
+
+        // +(void)removeObserver:(id<NSObject>)observer;
+        [Static]
+        [Export("removeObserver:")]
+        void RemoveObserver(NSObject observer);
+    }
+
+    [Native]
+    public enum PWInboxMessageType : long
+    {
+        Plain = 0,
+        Richmedia = 1,
+        Url = 2,
+        Deeplink = 3
+    }
 }
-
-
-

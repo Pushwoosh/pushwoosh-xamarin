@@ -1,6 +1,7 @@
 using System;
 using CoreGraphics;
 using Foundation;
+using Pushwoosh;
 using Pushwoosh.Inbox;
 using UIKit;
 
@@ -56,6 +57,7 @@ namespace PushwooshSample
         {
             PWIInboxViewController inboxViewController = PWIInboxUI.CreateInboxControllerWithStyle(style);
             inboxViewController.NavigationItem.LeftBarButtonItem = new UIBarButtonItem("Close", UIBarButtonItemStyle.Plain, OnCloseInboxClick);
+            inboxViewController.OnMessageClickBlock = delegate { Console.WriteLine("Message clicked"); };
             UIViewController rootViewController = FindRootViewController();
             UINavigationController navigationController = new UINavigationController(inboxViewController);
             rootViewController.PresentViewController(navigationController, true, null);

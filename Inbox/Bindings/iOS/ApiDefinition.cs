@@ -6,6 +6,15 @@ using UIKit;
 
 namespace Pushwoosh.Inbox
 {
+    [Native]
+    public enum PWInboxMessageType : long
+    {
+        Plain = 0,
+        Richmedia = 1,
+        Url = 2,
+        Deeplink = 3
+    }
+
     // typedef NSString * (^PWIDateFormatterBlock)(NSDate *, NSObject *);
     delegate string PWIDateFormatterBlock(NSDate arg0, NSObject arg1);
 
@@ -132,8 +141,8 @@ namespace Pushwoosh.Inbox
     interface PWIInboxViewController
     {
         // @property (nonatomic) void (^onMessageClickBlock)(id<PWInboxMessageProtocol>);
-        //[Export ("onMessageClickBlock", ArgumentSemantic.Assign)]
-        //Action<PWInboxMessageProtocol> OnMessageClickBlock { get; set; }
+        [Export ("onMessageClickBlock", ArgumentSemantic.Assign)]
+        Action<IPWInboxMessageProtocol> OnMessageClickBlock { get; set; }
 
         // -(void)reloadData;
         [Export("reloadData")]
@@ -150,4 +159,3 @@ namespace Pushwoosh.Inbox
         PWIInboxViewController CreateInboxControllerWithStyle(PWIInboxStyle style);
     }
 }
-
