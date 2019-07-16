@@ -100,6 +100,10 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Resources\" />
+    <Folder Include="Images.xcassets\Default.imageset\" />
+    <Folder Include="Images.xcassets\Unread.imageset\" />
+    <Folder Include="Images.xcassets\Empty.imageset\" />
+    <Folder Include="Images.xcassets\Error.imageset\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -123,6 +127,14 @@
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo76.png" />
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo%402x copy.png" />
     <ImageAsset Include="Images.xcassets\AppIcons.appiconset\logo%402x.png" />
+    <ImageAsset Include="Images.xcassets\Default.imageset\Contents.json" />
+    <ImageAsset Include="Images.xcassets\Default.imageset\ic_inbox.png" />
+    <ImageAsset Include="Images.xcassets\Unread.imageset\Contents.json" />
+    <ImageAsset Include="Images.xcassets\Unread.imageset\ic_unread.png" />
+    <ImageAsset Include="Images.xcassets\Empty.imageset\Contents.json" />
+    <ImageAsset Include="Images.xcassets\Empty.imageset\ic_empty.png" />
+    <ImageAsset Include="Images.xcassets\Error.imageset\Contents.json" />
+    <ImageAsset Include="Images.xcassets\Error.imageset\ic_error.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj">
@@ -132,6 +144,10 @@
     <ProjectReference Include="..\..\..\Geozones\Bindings\iOS\Pushwoosh.Geozones.iOS.Bindings.csproj">
       <Project>{AABBF567-B2BF-4553-A574-117CD11E00E4}</Project>
       <Name>Pushwoosh.Geozones.iOS.Bindings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Inbox\Bindings\iOS\Pushwoosh.Inbox.iOS.Bindings.csproj">
+      <Project>{9A7CFE2D-97EE-417C-B189-8477FF3DF251}</Project>
+      <Name>Pushwoosh.Inbox.iOS.Bindings</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

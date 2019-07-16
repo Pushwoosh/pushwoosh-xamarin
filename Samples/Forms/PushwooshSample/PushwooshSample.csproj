@@ -15,5 +15,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Library\Pushwoosh\Pushwoosh.csproj" />
     <ProjectReference Include="..\..\..\Geozones\Library\Pushwoosh.Geozones\Pushwoosh.Geozones.csproj" />
+    <ProjectReference Include="..\..\..\Inbox\Library\Pushwoosh.Inbox\Pushwoosh.Inbox.csproj" />
   </ItemGroup>
 </Project>

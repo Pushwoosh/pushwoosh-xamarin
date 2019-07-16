@@ -19,6 +19,7 @@ namespace PushwooshSample.Droid
         {
             Pushwoosh.Droid.PushManager.Init();
             Pushwoosh.Geozones.Droid.GeozonesManager.Init();
+            Pushwoosh.Inbox.Droid.InboxManager.Init();
 
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;

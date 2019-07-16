@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.iOS.Bindings", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.Geozones.iOS.Bindings", "..\..\Geozones\Bindings\iOS\Pushwoosh.Geozones.iOS.Bindings.csproj", "{AABBF567-B2BF-4553-A574-117CD11E00E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pushwoosh.Inbox.iOS.Bindings", "..\..\Inbox\Bindings\iOS\Pushwoosh.Inbox.iOS.Bindings.csproj", "{9A7CFE2D-97EE-417C-B189-8477FF3DF251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -53,6 +55,18 @@ Global
 		{AABBF567-B2BF-4553-A574-117CD11E00E4}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
 		{AABBF567-B2BF-4553-A574-117CD11E00E4}.AppStore|iPhone.ActiveCfg = Release|Any CPU
 		{AABBF567-B2BF-4553-A574-117CD11E00E4}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Release|iPhone.Build.0 = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{9A7CFE2D-97EE-417C-B189-8477FF3DF251}.AppStore|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = PushwooshSample\PushwooshSample.csproj
