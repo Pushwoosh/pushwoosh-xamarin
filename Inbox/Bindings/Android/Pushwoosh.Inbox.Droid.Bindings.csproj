@@ -127,10 +127,10 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\pushwoosh-inbox_v5.16.0.jar" />
+<EmbeddedJar Include="Jars\pushwoosh-inbox_v5.17.2.jar" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\pushwoosh-inbox-ui_v5.16.0.aar" />
+<LibraryProjectZip Include="Jars\pushwoosh-inbox-ui_v5.17.2.aar" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
