@@ -3,8 +3,6 @@ bin
 obj
 Pushwoosh.Droid.Bindings.sln
 Pushwoosh.iOS.Bindings.sln
-Pushwoosh.Xamarin.Droid.*.nupkg
-Pushwoosh.Xamarin.iOS.*.nupkg
 Pushwoosh.Droid.sln
 Pushwoosh.iOS.sln
 Pushwoosh.sln
