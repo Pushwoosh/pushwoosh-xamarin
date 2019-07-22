@@ -10,7 +10,7 @@
         <projectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Pushwoosh Geozones SDK for Xamarin iOS</description>
+        <description>Pushwoosh Inbox SDK for Xamarin iOS</description>
         <tags>xamarin, pushwoosh, push, inbox</tags>
         <dependencies>
             <group targetFramework="Xamarin.iOS10">
