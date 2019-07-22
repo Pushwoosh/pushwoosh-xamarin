@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Xamarin.Droid</id>
-<version>5.15.0</version>
+<version>5.17.2</version>
         <title>Pushwoosh Xamarin Android SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
@@ -15,8 +15,8 @@
         <dependencies>
             <group targetFramework="MonoAndroid8.0">
                 <dependency id="Xamarin.Android.Support.v4" version="26.0.2" />
-                <dependency id="Xamarin.GooglePlayServices.Base" version="11.4.2" />
-                <dependency id="Xamarin.Firebase.Messaging" version="11.4.2" />
+                <dependency id="Xamarin.GooglePlayServices.Base" version="60.1142.1" />
+                <dependency id="Xamarin.Firebase.Messaging" version="60.1142.1" />
             </group>
         </dependencies>
     </metadata>
