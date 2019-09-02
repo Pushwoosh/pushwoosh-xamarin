@@ -23,6 +23,7 @@ namespace Pushwoosh.Inbox.Droid
         {
             SetStyle(style);
             Intent intent = new Intent(Application.Context, typeof(InboxActivity));
+            intent.AddFlags(ActivityFlags.NewTask);
             Application.Context.StartActivity(intent);
         }
 
