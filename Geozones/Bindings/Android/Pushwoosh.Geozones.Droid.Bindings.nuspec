@@ -15,7 +15,7 @@
         <dependencies>
             <group targetFramework="MonoAndroid8.0">
                 <dependency id="Xamarin.GooglePlayServices.Location" version="42.1021.1" />
-<dependency id="Pushwoosh.Xamarin.Droid" version="5.19.0" />
+<dependency id="Pushwoosh.Xamarin.Droid" version="5.19.3" />
             </group>
         </dependencies>
     </metadata>
