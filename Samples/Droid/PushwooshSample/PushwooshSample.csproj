@@ -236,12 +236,6 @@
         <Reference Include="System.Resources.Reader">
           <HintPath>..\..\..\packages\System.Resources.Reader.4.0.0\lib\netstandard1.0\System.Resources.Reader.dll</HintPath>
         </Reference>
-        <Reference Include="Microsoft.Build.Framework">
-          <HintPath>..\..\..\packages\Microsoft.Build.Framework.15.6.82\lib\netstandard1.3\Microsoft.Build.Framework.dll</HintPath>
-        </Reference>
-        <Reference Include="Microsoft.Build.Utilities.Core">
-          <HintPath>..\..\..\packages\Microsoft.Build.Utilities.Core.15.6.82\lib\netstandard1.3\Microsoft.Build.Utilities.Core.dll</HintPath>
-        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="MainActivity.cs" />
