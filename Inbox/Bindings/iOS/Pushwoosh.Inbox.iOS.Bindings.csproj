@@ -47,14 +47,14 @@
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\unread.png" />
+    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\Info.plist" />
+    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\errorMessage@2x.png" />
     <BundleResource Include="Resources\PushwooshInboxBundle.bundle\PWIInboxViewController.nib" />
-    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\PWIInboxMessageViewCell.nib" />
     <BundleResource Include="Resources\PushwooshInboxBundle.bundle\PWIInboxAttachmentViewController.nib" />
     <BundleResource Include="Resources\PushwooshInboxBundle.bundle\noMessage@2x.png" />
-    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\Info.plist" />
     <BundleResource Include="Resources\PushwooshInboxBundle.bundle\inbox_icon.png" />
-    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\errorMessage@2x.png" />
+    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\unread.png" />
+    <BundleResource Include="Resources\PushwooshInboxBundle.bundle\PWIInboxMessageViewCell.nib" />
   </ItemGroup>
   <ItemGroup>
     <NativeReference Include="libPushwooshInboxUI.a">
