@@ -1,0 +1,33 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ngalizin/projects/Xamarin/Public/Geozones/Library/Pushwoosh.Geozones/Pushwoosh.Geozones.csproj": {}
+  },
+  "projects": {
+    "/Users/ngalizin/projects/Xamarin/Public/Geozones/Library/Pushwoosh.Geozones/Pushwoosh.Geozones.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ngalizin/projects/Xamarin/Public/Geozones/Library/Pushwoosh.Geozones/Pushwoosh.Geozones.csproj",
+        "projectName": "Pushwoosh.Geozones",
+        "projectPath": "/Users/ngalizin/projects/Xamarin/Public/Geozones/Library/Pushwoosh.Geozones/Pushwoosh.Geozones.csproj",
+        "projectJsonPath": "/Users/ngalizin/projects/Xamarin/Public/Geozones/Library/Pushwoosh.Geozones/project.json",
+        "packagesPath": "/Users/ngalizin/.nuget/packages/",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "/Users/ngalizin/projects/Xamarin/Public/Geozones/Library/Pushwoosh.Geozones/NuGet.Config",
+          "/Users/ngalizin/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.NETCore.Portable.Compatibility": "[1.0.1, )",
+        "NETStandard.Library": "[1.6.0, )"
+      },
+      "frameworks": {
+        "netstandard1.5": {}
+      }
+    }
+  }
+}

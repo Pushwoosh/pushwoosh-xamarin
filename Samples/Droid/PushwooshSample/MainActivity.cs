@@ -120,6 +120,9 @@ namespace PushwooshSample
             style.DefaultImageIcon = Resource.Drawable.inbox_message;
             style.ListEmptyImage = Resource.Drawable.inbox_empty;
             style.ListErrorImage = Resource.Drawable.inbox_error;
+            style.TitleTextSize = new Float(20);
+            style.DescriptionTextSize = new Float(18);
+            style.DateTextSize = new Float(12);
         }
 
         private void OpenInboxActivity()
