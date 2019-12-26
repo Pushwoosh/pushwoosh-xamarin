@@ -94,6 +94,18 @@ namespace Pushwoosh.Inbox.Droid
             {
                 nativeStyle.TitleColor = GetColor(style.TitleColor);
             }
+            if (style.TitleTextSize > 0)
+            {
+                nativeStyle.TitleTextSize = new Float(style.TitleTextSize);
+            }
+            if (style.DateTextSize > 0)
+            {
+                nativeStyle.DateTextSize = new Float(style.DateTextSize);
+            }
+            if (style.DescriptionTextSize > 0)
+            {
+                nativeStyle.DescriptionTextSize = new Float(style.DescriptionTextSize);
+            }
         }
 
         private Integer GetColor(object colorObj)

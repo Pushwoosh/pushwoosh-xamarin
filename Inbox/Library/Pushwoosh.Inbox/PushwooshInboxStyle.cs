@@ -24,5 +24,8 @@ namespace Pushwoosh.Inbox
         public Color SeparatorColor;
         public Color TitleColor;
         public string UnreadImageName;
+        public float TitleTextSize;
+        public float DateTextSize;
+        public float DescriptionTextSize;
     }
 }

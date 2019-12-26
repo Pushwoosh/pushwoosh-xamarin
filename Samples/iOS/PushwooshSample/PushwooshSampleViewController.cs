@@ -50,6 +50,9 @@ namespace PushwooshSample
             style.ListEmptyImage = UIImage.FromBundle("Empty");
             style.ListErrorImage = UIImage.FromBundle("Error");
             style.UnreadImage = UIImage.FromBundle("Unread");
+            style.TitleFont = UIFont.SystemFontOfSize(20);
+            style.DescriptionFont = UIFont.SystemFontOfSize(18);
+            style.DateFont = UIFont.SystemFontOfSize(12);
             return style;
         }
 

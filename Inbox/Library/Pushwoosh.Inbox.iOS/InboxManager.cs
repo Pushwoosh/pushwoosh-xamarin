@@ -104,7 +104,18 @@ namespace Pushwoosh.Inbox.iOS
             {
                 nativeStyle.TitleColor = GetUIColor(style.TitleColor);
             }
-
+            if (style.TitleTextSize > 0)
+            {
+                nativeStyle.TitleFont = UIFont.SystemFontOfSize(style.TitleTextSize);
+            }
+            if (style.DateTextSize > 0)
+            {
+                nativeStyle.DateFont = UIFont.SystemFontOfSize(style.DateTextSize);
+            }
+            if (style.DescriptionTextSize > 0)
+            {
+                nativeStyle.DescriptionFont = UIFont.SystemFontOfSize(style.DescriptionTextSize);
+            }
             return nativeStyle;
         }
 

@@ -51,7 +51,11 @@ namespace PushwooshSample
                 ListEmptyMessage = "There are no inbox messages yet",
                 ListErrorMessage = "Some error happened",
 
-                DateFormat = "dd.MM.yyyy"
+                DateFormat = "dd.MM.yyyy",
+
+                TitleTextSize = 20,
+                DateTextSize = 12,
+                DescriptionTextSize = 18
             };
 
             InboxManager.Instance.PresentInboxUI(inboxStyle);
