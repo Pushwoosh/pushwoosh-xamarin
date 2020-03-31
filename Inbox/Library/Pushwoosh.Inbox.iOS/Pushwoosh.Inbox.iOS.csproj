@@ -53,6 +53,10 @@
       <Project>{9A7CFE2D-97EE-417C-B189-8477FF3DF251}</Project>
       <Name>Pushwoosh.Inbox.iOS.Bindings</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Core\Bindings\iOS\Pushwoosh.iOS.Bindings.csproj">
+      <Project>{AABBF567-B2BF-4553-A574-117CD11E00E3}</Project>
+      <Name>Pushwoosh.iOS.Bindings</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Xml" />

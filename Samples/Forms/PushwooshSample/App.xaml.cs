@@ -59,6 +59,15 @@ namespace PushwooshSample
             };
 
             InboxManager.Instance.PresentInboxUI(inboxStyle);
+
+            InboxManager.Instance.UnreadMessagesCountWithCompletion((int count, string e) => {
+                //MainPage.DisplayAlert("Inbox Count", count.ToString(), "OK");
+            });
+
+            InboxManager.Instance.AddObserverForUnreadMessagesCount((int count) =>
+            {
+                MainPage.DisplayAlert("Inbox Count", count.ToString(), "OK");
+            });
         }
 
         protected override void OnSleep()
