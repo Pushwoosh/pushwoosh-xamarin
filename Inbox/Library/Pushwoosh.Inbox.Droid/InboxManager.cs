@@ -7,6 +7,10 @@ using Xamarin.Forms.Platform.Android;
 using Application = Android.App.Application;
 using Pushwoosh.Inbox.UI.Formatter;
 using Pushwoosh.Inbox.UI.Activity;
+using Com.Pushwoosh.Inbox;
+using System;
+using Pushwoosh.Droid;
+using Pushwoosh.Function;
 
 namespace Pushwoosh.Inbox.Droid
 {
@@ -25,6 +29,26 @@ namespace Pushwoosh.Inbox.Droid
             Intent intent = new Intent(Application.Context, typeof(InboxActivity));
             intent.AddFlags(ActivityFlags.NewTask);
             Application.Context.StartActivity(intent);
+        }
+
+        public override void UnreadMessagesCountWithCompletion(Action<int, string> completion)
+        {
+            PushwooshInbox.UnreadMessagesCount(new PushManager.Callback()
+            {
+                ResultCallback = (Result obj) => {
+                    completion((int)obj.Data, obj.Exception != null ? obj.Exception.ToString() : null);
+                }
+            });
+        }
+
+        public override void AddObserverForUnreadMessagesCount(Action<int> completion)
+        {
+            PushwooshInbox.RegisterUnreadMessagesCountObserver(new PushManager.Callback()
+            {
+                ResultCallback = (Result obj) => {
+                    completion((int)obj.Data);
+                }
+            });
         }
 
         private void SetStyle(Inbox.PushwooshInboxStyle style)

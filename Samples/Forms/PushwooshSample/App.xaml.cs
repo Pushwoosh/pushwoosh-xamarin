@@ -2,6 +2,7 @@
 using Pushwoosh.Geozones;
 using Pushwoosh;
 using Pushwoosh.Inbox;
+using System.Diagnostics;
 
 namespace PushwooshSample
 {
@@ -59,6 +60,17 @@ namespace PushwooshSample
             };
 
             InboxManager.Instance.PresentInboxUI(inboxStyle);
+
+            InboxManager.Instance.UnreadMessagesCountWithCompletion((int count, string e) => {
+                MainPage.DisplayAlert("Inbox Count: ", count.ToString(), "OK");
+                Debug.WriteLine("Inbox Count: " + count.ToString());
+            });
+
+            InboxManager.Instance.AddObserverForUnreadMessagesCount((int count) =>
+            {
+                MainPage.DisplayAlert("Inbox Count: ", count.ToString(), "OK");
+                Debug.WriteLine("Inbox Count: " + count.ToString());
+            });
         }
 
         protected override void OnSleep()

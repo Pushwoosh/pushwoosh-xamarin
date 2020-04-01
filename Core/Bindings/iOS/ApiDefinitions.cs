@@ -409,6 +409,11 @@ namespace Pushwoosh
         [Export("addObserverForUpdateInboxMessagesCompletion:")]
         NSObject AddObserverForUpdateInboxMessagesCompletion(Action<NSArray<PWInboxMessageProtocol>, NSArray<PWInboxMessageProtocol>, NSArray<PWInboxMessageProtocol>> completion);
 
+        //+ (id<NSObject>) addObserverForUnreadMessagesCountUsingBlock:(void (^)(NSUInteger count))block;
+        [Static]
+        [Export("addObserverForUnreadMessagesCountUsingBlock:")]
+        NSObject AddObserverForUnreadMessagesCount(Action<nint> completion);
+
         // +(void)removeObserver:(id<NSObject>)observer;
         [Static]
         [Export("removeObserver:")]

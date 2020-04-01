@@ -4,6 +4,7 @@ using Pushwoosh.Inbox;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
+using Pushwoosh;
 
 namespace Pushwoosh.Inbox.iOS
 {
@@ -24,6 +25,21 @@ namespace Pushwoosh.Inbox.iOS
             UIViewController rootViewController = FindRootViewController();
             UINavigationController navigationController = new UINavigationController(inboxViewController);
             rootViewController.PresentViewController(navigationController, true, null);
+      
+        }
+
+        public override void UnreadMessagesCountWithCompletion(Action<int, string> completion)
+        {
+            PWInbox.UnreadMessagesCountWithCompletion((nint count, NSError error) => {
+                completion((int)count, error != null ? error.LocalizedDescription : null);
+            });
+        }
+
+        public override void AddObserverForUnreadMessagesCount(Action<int> completion)
+        {
+            PWInbox.AddObserverForUnreadMessagesCount((nint count) => {
+                completion((int)count);
+            });
         }
 
         private PWIInboxStyle GetNativeStyle(PushwooshInboxStyle style)

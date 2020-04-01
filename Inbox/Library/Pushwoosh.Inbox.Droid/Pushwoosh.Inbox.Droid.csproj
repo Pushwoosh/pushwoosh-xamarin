@@ -16,7 +16,7 @@
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -146,6 +146,14 @@
     <ProjectReference Include="..\Pushwoosh.Inbox\Pushwoosh.Inbox.csproj">
       <Project>{F1FD9A32-CC99-4DF3-B78C-1ABFC3135872}</Project>
       <Name>Pushwoosh.Inbox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Core\Library\Pushwoosh.Droid\Pushwoosh.Droid.csproj">
+      <Project>{A67FD681-66AB-46F0-B109-592F4F12F1B5}</Project>
+      <Name>Pushwoosh.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Core\Bindings\Android\Pushwoosh.Droid.Bindings.csproj">
+      <Project>{5EB8DF8E-6D09-4A91-8CF8-B17B1346A873}</Project>
+      <Name>Pushwoosh.Droid.Bindings</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
