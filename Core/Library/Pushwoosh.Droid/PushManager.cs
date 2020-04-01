@@ -37,7 +37,7 @@ namespace Pushwoosh.Droid
             };
         }
 
-        internal class Callback : Java.Lang.Object, ICallback
+        public class Callback : Java.Lang.Object, ICallback
         {
             public Action<Result> ResultCallback { get; set; }
 
