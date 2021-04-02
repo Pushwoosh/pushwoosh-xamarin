@@ -1,5 +1,7 @@
 using Android.App;
 
+//XAMARIN PLUGIN
+[assembly: MetaData("com.pushwoosh.internal.plugin_provider", Value = "com.pushwoosh.xamarin.internal.XamarinPluginProvider")]
 //BADGES
 [assembly: MetaData("com.pushwoosh.plugin.badge", Value = "com.pushwoosh.badge.BadgePlugin")]
 //samsung

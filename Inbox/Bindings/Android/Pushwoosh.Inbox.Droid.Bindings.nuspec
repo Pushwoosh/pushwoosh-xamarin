@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Inbox.Xamarin.Droid</id>
-<version>5.22.6</version>
+<version>6.2.5</version>
         <title>Pushwoosh Inbox Xamarin Android SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>

@@ -10,11 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Library\Pushwoosh\Pushwoosh.csproj" />
     <ProjectReference Include="..\..\..\Geozones\Library\Pushwoosh.Geozones\Pushwoosh.Geozones.csproj" />
     <ProjectReference Include="..\..\..\Inbox\Library\Pushwoosh.Inbox\Pushwoosh.Inbox.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1821" />
   </ItemGroup>
 </Project>

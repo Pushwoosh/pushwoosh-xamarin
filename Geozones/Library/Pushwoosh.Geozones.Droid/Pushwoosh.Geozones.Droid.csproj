@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Pushwoosh.Geozones.Droid</RootNamespace>
     <AssemblyName>Pushwoosh.Geozones.Droid</AssemblyName>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
