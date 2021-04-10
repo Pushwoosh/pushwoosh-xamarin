@@ -880,64 +880,67 @@ namespace Pushwoosh.Droid
 		{
 			
 			// aapt resource value: 0x7F0B0000
-			public static int common_google_play_services_enable_button = 2131427328;
+			public static int app_name = 2131427328;
 			
 			// aapt resource value: 0x7F0B0001
-			public static int common_google_play_services_enable_text = 2131427329;
+			public static int common_google_play_services_enable_button = 2131427329;
 			
 			// aapt resource value: 0x7F0B0002
-			public static int common_google_play_services_enable_title = 2131427330;
+			public static int common_google_play_services_enable_text = 2131427330;
 			
 			// aapt resource value: 0x7F0B0003
-			public static int common_google_play_services_install_button = 2131427331;
+			public static int common_google_play_services_enable_title = 2131427331;
 			
 			// aapt resource value: 0x7F0B0004
-			public static int common_google_play_services_install_text = 2131427332;
+			public static int common_google_play_services_install_button = 2131427332;
 			
 			// aapt resource value: 0x7F0B0005
-			public static int common_google_play_services_install_title = 2131427333;
+			public static int common_google_play_services_install_text = 2131427333;
 			
 			// aapt resource value: 0x7F0B0006
-			public static int common_google_play_services_notification_channel_name = 2131427334;
+			public static int common_google_play_services_install_title = 2131427334;
 			
 			// aapt resource value: 0x7F0B0007
-			public static int common_google_play_services_notification_ticker = 2131427335;
+			public static int common_google_play_services_notification_channel_name = 2131427335;
 			
 			// aapt resource value: 0x7F0B0008
-			public static int common_google_play_services_unknown_issue = 2131427336;
+			public static int common_google_play_services_notification_ticker = 2131427336;
 			
 			// aapt resource value: 0x7F0B0009
-			public static int common_google_play_services_unsupported_text = 2131427337;
+			public static int common_google_play_services_unknown_issue = 2131427337;
 			
 			// aapt resource value: 0x7F0B000A
-			public static int common_google_play_services_update_button = 2131427338;
+			public static int common_google_play_services_unsupported_text = 2131427338;
 			
 			// aapt resource value: 0x7F0B000B
-			public static int common_google_play_services_update_text = 2131427339;
+			public static int common_google_play_services_update_button = 2131427339;
 			
 			// aapt resource value: 0x7F0B000C
-			public static int common_google_play_services_update_title = 2131427340;
+			public static int common_google_play_services_update_text = 2131427340;
 			
 			// aapt resource value: 0x7F0B000D
-			public static int common_google_play_services_updating_text = 2131427341;
+			public static int common_google_play_services_update_title = 2131427341;
 			
 			// aapt resource value: 0x7F0B000E
-			public static int common_google_play_services_wear_update_text = 2131427342;
+			public static int common_google_play_services_updating_text = 2131427342;
 			
 			// aapt resource value: 0x7F0B000F
-			public static int common_open_on_phone = 2131427343;
+			public static int common_google_play_services_wear_update_text = 2131427343;
 			
 			// aapt resource value: 0x7F0B0010
-			public static int common_signin_button_text = 2131427344;
+			public static int common_open_on_phone = 2131427344;
 			
 			// aapt resource value: 0x7F0B0011
-			public static int common_signin_button_text_long = 2131427345;
+			public static int common_signin_button_text = 2131427345;
 			
 			// aapt resource value: 0x7F0B0012
-			public static int fcm_fallback_notification_channel_label = 2131427346;
+			public static int common_signin_button_text_long = 2131427346;
 			
 			// aapt resource value: 0x7F0B0013
-			public static int status_bar_notification_info_overflow = 2131427347;
+			public static int fcm_fallback_notification_channel_label = 2131427347;
+			
+			// aapt resource value: 0x7F0B0014
+			public static int status_bar_notification_info_overflow = 2131427348;
 			
 			static String()
 			{
