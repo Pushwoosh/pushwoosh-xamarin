@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Xamarin.Droid</id>
-<version>5.22.6</version>
+        <version>5.23.0</version>
         <title>Pushwoosh Xamarin Android SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
@@ -13,14 +13,15 @@
         <description>Pushwoosh SDK for Xamarin Android</description>
         <tags>xamarin, pushwoosh, push</tags>
         <dependencies>
-            <group targetFramework="MonoAndroid8.0">
-                <dependency id="Xamarin.Android.Support.v4" version="26.0.2" />
+            <group targetFramework="MonoAndroid9.0">
+                <dependency id="Xamarin.Android.Support.v4" version="28.0.0.3" />
                 <dependency id="Xamarin.GooglePlayServices.Base" version="60.1142.1" />
                 <dependency id="Xamarin.Firebase.Messaging" version="60.1142.1" />
+                <dependency id="Xamarin.Android.Arch.Work.Runtime" version="1.0.0.3" />
             </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="bin/Release/Pushwoosh.Droid.Bindings.dll" target="lib/MonoAndroid8.0" />
+        <file src="bin/Release/Pushwoosh.Droid.Bindings.dll" target="lib/MonoAndroid9.0" />
     </files>
 </package>
