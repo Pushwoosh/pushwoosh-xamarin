@@ -58,15 +58,15 @@ namespace PushwooshSample
             //Start tracking Geozones
             PWGeozonesManager.SharedManager.StartLocationTracking();
 
-            pushmanager.SetUserId(new NSString("%userId%"));
-
-            pushmanager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
-
             PWInAppManager inappManager = PWInAppManager.SharedManager;
             inappManager.AddJavascriptInterface(new JavaScriptInterface(), new NSString("jsInterface"));
             inappManager.PostEvent(new NSString("1"), new NSDictionary());
 
-            Console.WriteLine("HWID: " + pushmanager.HWID);
+
+			inappManager.SetUserId(new NSString("%userId%"));
+			inappManager.PostEvent(new NSString("applicationFinishedLaunching"), new NSDictionary("attribute", "value"));
+
+			Console.WriteLine("HWID: " + pushmanager.HWID);
 
             return true;
 		}
