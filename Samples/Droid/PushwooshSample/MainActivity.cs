@@ -2,7 +2,6 @@ using Android.App;
 using Android.Content;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V4.App;
 using Pushwoosh;
 using Pushwoosh.InApp;
 using Pushwoosh.Badge;
@@ -17,6 +16,7 @@ using Java.Text;
 using Java.Lang;
 using String = Java.Lang.String;
 using Object = Java.Lang.Object;
+using AndroidX.Fragment.App;
 
 namespace PushwooshSample
 {

@@ -14,10 +14,11 @@
         <tags>xamarin, pushwoosh, push</tags>
 	<dependencies>
             <group targetFramework="MonoAndroid9.0">
-            <dependency id="Pushwoosh.Xamarin.Droid" version="5.23.0" />
+                <dependency id="Pushwoosh.Xamarin.Droid" version="6.2.7" />
+                <dependency id="Pushwoosh.Firebase.Xamarin.Droid" version="6.2.7" />
             </group>
             <group targetFramework="Xamarin.iOS10">
-            <dependency id="Pushwoosh.Xamarin.iOS" version="5.23.1" />
+                <dependency id="Pushwoosh.Xamarin.iOS" version="5.23.1" />
             </group>
         </dependencies>
     </metadata>

@@ -5,10 +5,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V4.App;
 using Org.Json;
 using Pushwoosh;
-
+using AndroidX.Fragment.App;
 
 namespace PushwooshSample
 {

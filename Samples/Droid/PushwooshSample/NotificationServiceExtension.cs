@@ -4,8 +4,8 @@ using Android.Content;
 using Android.Runtime;
 using Pushwoosh.Notification;
 using Org.Json;
-using Android.Support.Annotation;
 using Android.OS;
+using AndroidX.Annotations;
 
 [assembly: MetaData("com.pushwoosh.notification_service_extension",
                     Value = "com.pushwoosh.test.NotificationServiceExtension")]

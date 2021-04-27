@@ -8,7 +8,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-[assembly:MetaData("com.pushwoosh.appid", Value = "YOUR_PUSHWOOSH_APP_CODE")]
+[assembly:MetaData("com.pushwoosh.appid", Value = "20187-DA407")]
 [assembly:MetaData("com.pushwoosh.senderid", Value = "@string/fcm_sender_id")]
 namespace PushwooshSample.Droid
 {

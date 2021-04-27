@@ -14,7 +14,7 @@
         <tags>xamarin, pushwoosh, push, location, geozones</tags>
 	    <dependencies>
             <group targetFramework="MonoAndroid9.0">
-            <dependency id="Pushwoosh.Geozones.Xamarin.Droid" version="5.23.0" />
+            <dependency id="Pushwoosh.Geozones.Xamarin.Droid" version="6.2.7" />
             </group>
             <group targetFramework="Xamarin.iOS10">
             <dependency id="Pushwoosh.Geozones.Xamarin.iOS" version="5.23.1" />
