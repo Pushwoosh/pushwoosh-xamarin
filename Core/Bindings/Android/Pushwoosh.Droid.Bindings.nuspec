@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Xamarin.Droid</id>
-        <version>5.23.0</version>
+<version>6.2.7</version>
         <title>Pushwoosh Xamarin Android SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
@@ -14,9 +14,8 @@
         <tags>xamarin, pushwoosh, push</tags>
         <dependencies>
             <group targetFramework="MonoAndroid9.0">
-                <dependency id="Xamarin.AndroidX.Legacy.Support.V4" version="1.0.0.7" />
-                <dependency id="Xamarin.AndroidX.Work.Runtime" version="2.5.0.1" />
-                <dependency id="Xamarin.Google.Dagger" version="2.27.0" />
+                <dependency id="Xamarin.AndroidX.Legacy.Support.V4" version="1.0.0" />
+                <dependency id="Xamarin.AndroidX.Work.Runtime" version="2.0.0" />
             </group>
         </dependencies>
     </metadata>
