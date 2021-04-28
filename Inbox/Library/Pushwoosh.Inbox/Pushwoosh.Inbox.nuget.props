@@ -16,6 +16,6 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xamarin.forms/4.3.0.947036/build/Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.3.0.947036/build/Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms/4.7.0.968/buildTransitive/Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.7.0.968/buildTransitive/Xamarin.Forms.props')" />
   </ImportGroup>
 </Project>

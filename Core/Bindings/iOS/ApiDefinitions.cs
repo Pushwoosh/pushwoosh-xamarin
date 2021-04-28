@@ -203,22 +203,6 @@ namespace Pushwoosh
         [Static]
         [Export("clearNotificationCenter")]
         void ClearNotificationCenter();
-
-        // -(void)setUserId:(NSString *)userId __attribute__((deprecated("")));
-        [Export("setUserId:")]
-        void SetUserId(NSString userId);
-
-        // -(void)mergeUserId:(NSString *)oldUserId to:(NSString *)newUserId doMerge:(BOOL)doMerge completion:(void (^)(NSError *))completion __attribute__((deprecated("")));
-        [Export("mergeUserId:to:doMerge:completion:")]
-        void MergeUserId(NSString oldUserId, NSString newUserId, bool doMerge, Action<NSError> completion);
-
-        // -(void)postEvent:(NSString *)event withAttributes:(NSDictionary *)attributes completion:(void (^)(NSError *))completion __attribute__((deprecated("")));
-        [Export("postEvent:withAttributes:completion:")]
-        void PostEvent(NSString @event, NSDictionary attributes, Action<NSError> completion);
-
-        // -(void)postEvent:(NSString *)event withAttributes:(NSDictionary *)attributes __attribute__((deprecated("")));
-        [Export("postEvent:withAttributes:")]
-        void PostEvent(NSString @event, NSDictionary attributes);
     }
 
     // @protocol PWJavaScriptInterface

@@ -16,4 +16,4 @@ using Android.App;
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
 
-[assembly: AssemblyVersion("5.23.0")]
+[assembly: AssemblyVersion("6.2.7")]

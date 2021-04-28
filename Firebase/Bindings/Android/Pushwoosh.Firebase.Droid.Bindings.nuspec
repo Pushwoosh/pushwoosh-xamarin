@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Pushwoosh.Firebase.Xamarin.Droid</id>
+<version>6.2.7</version>
+        <title>Pushwoosh Firebase Xamarin Android SDK</title>
+        <authors>Pushwoosh</authors>
+        <owners>Pushwoosh</owners>
+        <licenseUrl>https://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/Pushwoosh/pushwoosh-xamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Pushwoosh/pushwoosh-xamarin/master/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Pushwoosh Firebase SDK for Xamarin Android</description>
+        <tags>xamarin, pushwoosh, push, firebase</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid9.0">
+                <dependency id="Xamarin.Firebase.Messaging" version="119.0.1" />
+		        <dependency id="Xamarin.AndroidX.Work.Runtime" version="2.0.0" />
+                <dependency id="Pushwoosh.Xamarin.Droid" version="6.2.7" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin/Release/Pushwoosh.Firebase.Droid.Bindings.dll" target="lib/MonoAndroid9.0" />
+    </files>
+</package>

@@ -29,6 +29,7 @@ namespace PushwooshSample
             PushManager.Instance.PushReceived += (object sender, PushNotificationEventArgs e) => {
                 MainPage.DisplayAlert("Push Received", e.Notification.Payload, "OK");
             };
+            PushManager.Instance.InAppManager.SetUserId("123");
             PushwooshInboxStyle inboxStyle = new PushwooshInboxStyle
             {
                 AccentColor = Color.Violet,

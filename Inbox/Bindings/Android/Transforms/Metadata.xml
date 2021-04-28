@@ -5,9 +5,9 @@
     <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter.inbox']/class[@name='InboxViewHolder']/method[@name='fillView']/parameter[1]" name="managedType">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.pushwoosh.inbox.ui.model.customizing.formatter']/class[@name='DefaultDateFormatter']/method[@name='transform']/parameter[1]" name="managedType">Java.Lang.Object</attr>
     <attr path="/api/package[@name='com.pushwoosh.inbox.ui.model.customizing.formatter']/class[@name='DefaultDateFormatter']/method[@name='transform']" name="managedReturn">Java.Lang.Object</attr>
-    <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter.inbox']/class[@name='InboxViewHolder']/method[@name='onBindViewHolder']/parameter[1]" name="managedType">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
-    <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter.inbox']/class[@name='InboxAdapter']/method[@name='onBindViewHolder']/parameter[1]" name="managedType">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
-    <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter']/class[@name='BaseRecyclerAdapter']/method[@name='onCreateViewHolder']" name="return">Android.Support.V7.Widget.RecyclerView.ViewHolder</attr>
+    <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter.inbox']/class[@name='InboxViewHolder']/method[@name='onBindViewHolder']/parameter[1]" name="managedType">AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder</attr>
+    <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter.inbox']/class[@name='InboxAdapter']/method[@name='onBindViewHolder']/parameter[1]" name="managedType">AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder</attr>
+    <attr path="/api/package[@name='com.pushwoosh.inbox.ui.presentation.view.adapter']/class[@name='BaseRecyclerAdapter']/method[@name='onCreateViewHolder']" name="return">AndroidX.RecyclerView.Widget.RecyclerView.ViewHolder</attr>
     <remove-node path="/api/package[@name='com.pushwoosh.inbox.ui.model.customizing.formatter']/interface[@name='InboxDateFormatter']" />
     <remove-node path="/api/package[@name='com.pushwoosh.inbox.ui.model.customizing.formatter']/interface[@name='Formatter']" />
     
