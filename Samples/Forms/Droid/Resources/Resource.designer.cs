@@ -57,12 +57,20 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::PushwooshSample.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::PushwooshSample.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::PushwooshSample.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::PushwooshSample.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_in = global::PushwooshSample.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_out = global::PushwooshSample.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_card_lowers_interpolator = global::PushwooshSample.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::PushwooshSample.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_hide_motion_spec = global::PushwooshSample.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_show_motion_spec = global::PushwooshSample.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_card_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_chip_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_extended_fab_state_list_animator = global::PushwooshSample.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -99,6 +107,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::PushwooshSample.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionProviderClass = global::PushwooshSample.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionTextColorAlpha = global::PushwooshSample.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionViewClass = global::PushwooshSample.Droid.Resource.Attribute.actionViewClass;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::PushwooshSample.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::PushwooshSample.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -108,6 +117,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.allowStacking = global::PushwooshSample.Droid.Resource.Attribute.allowStacking;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alpha = global::PushwooshSample.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.alphabeticModifiers = global::PushwooshSample.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.animationMode = global::PushwooshSample.Droid.Resource.Attribute.animationMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.appBarLayoutStyle = global::PushwooshSample.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowHeadLength = global::PushwooshSample.Droid.Resource.Attribute.arrowHeadLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.arrowShaftLength = global::PushwooshSample.Droid.Resource.Attribute.arrowShaftLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::PushwooshSample.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -117,16 +128,30 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeStepGranularity = global::PushwooshSample.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.autoSizeTextType = global::PushwooshSample.Droid.Resource.Attribute.autoSizeTextType;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.background = global::PushwooshSample.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundColor = global::PushwooshSample.Droid.Resource.Attribute.backgroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetBottom = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetEnd = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetStart = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundInsetTop = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundOverlayColorAlpha = global::PushwooshSample.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundSplit = global::PushwooshSample.Droid.Resource.Attribute.backgroundSplit;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundStacked = global::PushwooshSample.Droid.Resource.Attribute.backgroundStacked;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTint = global::PushwooshSample.Droid.Resource.Attribute.backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTintMode = global::PushwooshSample.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.badgeGravity = global::PushwooshSample.Droid.Resource.Attribute.badgeGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.badgeStyle = global::PushwooshSample.Droid.Resource.Attribute.badgeStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.badgeTextColor = global::PushwooshSample.Droid.Resource.Attribute.badgeTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.barLength = global::PushwooshSample.Droid.Resource.Attribute.barLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoHide = global::PushwooshSample.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoShrink = global::PushwooshSample.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_draggable = global::PushwooshSample.Droid.Resource.Attribute.behavior_draggable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_expandedOffset = global::PushwooshSample.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_fitToContents = global::PushwooshSample.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_halfExpandedRatio = global::PushwooshSample.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_hideable = global::PushwooshSample.Droid.Resource.Attribute.behavior_hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_overlapTop = global::PushwooshSample.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_peekHeight = global::PushwooshSample.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_saveFlags = global::PushwooshSample.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_skipCollapsed = global::PushwooshSample.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderWidth = global::PushwooshSample.Droid.Resource.Attribute.borderWidth;
@@ -142,7 +167,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::PushwooshSample.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopStart = global::PushwooshSample.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeColor = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeErrorColor = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidth = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidthFocused = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -159,14 +186,17 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardBackgroundColor = global::PushwooshSample.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardCornerRadius = global::PushwooshSample.Droid.Resource.Attribute.cardCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardElevation = global::PushwooshSample.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardForegroundColor = global::PushwooshSample.Droid.Resource.Attribute.cardForegroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardMaxElevation = global::PushwooshSample.Droid.Resource.Attribute.cardMaxElevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::PushwooshSample.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::PushwooshSample.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardViewStyle = global::PushwooshSample.Droid.Resource.Attribute.cardViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkboxStyle = global::PushwooshSample.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedButton = global::PushwooshSample.Droid.Resource.Attribute.checkedButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedChip = global::PushwooshSample.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIcon = global::PushwooshSample.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconEnabled = global::PushwooshSample.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconTint = global::PushwooshSample.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconVisible = global::PushwooshSample.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::PushwooshSample.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipBackgroundColor = global::PushwooshSample.Droid.Resource.Attribute.chipBackgroundColor;
@@ -179,6 +209,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconTint = global::PushwooshSample.Droid.Resource.Attribute.chipIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipIconVisible = global::PushwooshSample.Droid.Resource.Attribute.chipIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipMinHeight = global::PushwooshSample.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacing = global::PushwooshSample.Droid.Resource.Attribute.chipSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacingHorizontal = global::PushwooshSample.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSpacingVertical = global::PushwooshSample.Droid.Resource.Attribute.chipSpacingVertical;
@@ -187,6 +218,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStrokeColor = global::PushwooshSample.Droid.Resource.Attribute.chipStrokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStrokeWidth = global::PushwooshSample.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipStyle = global::PushwooshSample.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipSurfaceColor = global::PushwooshSample.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIcon = global::PushwooshSample.Droid.Resource.Attribute.closeIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconEnabled = global::PushwooshSample.Droid.Resource.Attribute.closeIconEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconEndPadding = global::PushwooshSample.Droid.Resource.Attribute.closeIconEndPadding;
@@ -208,9 +240,19 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlHighlight = global::PushwooshSample.Droid.Resource.Attribute.colorControlHighlight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorControlNormal = global::PushwooshSample.Droid.Resource.Attribute.colorControlNormal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorError = global::PushwooshSample.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnBackground = global::PushwooshSample.Droid.Resource.Attribute.colorOnBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnError = global::PushwooshSample.Droid.Resource.Attribute.colorOnError;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnPrimary = global::PushwooshSample.Droid.Resource.Attribute.colorOnPrimary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnPrimarySurface = global::PushwooshSample.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnSecondary = global::PushwooshSample.Droid.Resource.Attribute.colorOnSecondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorOnSurface = global::PushwooshSample.Droid.Resource.Attribute.colorOnSurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimary = global::PushwooshSample.Droid.Resource.Attribute.colorPrimary;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimaryDark = global::PushwooshSample.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimarySurface = global::PushwooshSample.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorPrimaryVariant = global::PushwooshSample.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSecondary = global::PushwooshSample.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSecondaryVariant = global::PushwooshSample.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSurface = global::PushwooshSample.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::PushwooshSample.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.commitIcon = global::PushwooshSample.Droid.Resource.Attribute.commitIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentDescription = global::PushwooshSample.Droid.Resource.Attribute.contentDescription;
@@ -228,12 +270,28 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentScrim = global::PushwooshSample.Droid.Resource.Attribute.contentScrim;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.controlBackground = global::PushwooshSample.Droid.Resource.Attribute.controlBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.coordinatorLayoutStyle = global::PushwooshSample.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamily = global::PushwooshSample.Droid.Resource.Attribute.cornerFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyBottomLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyBottomRight = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyTopLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerFamilyTopRight = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerRadius = global::PushwooshSample.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSize = global::PushwooshSample.Droid.Resource.Attribute.cornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeBottomLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeBottomRight = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeTopLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerSizeTopRight = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterEnabled = global::PushwooshSample.Droid.Resource.Attribute.counterEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterMaxLength = global::PushwooshSample.Droid.Resource.Attribute.counterMaxLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterOverflowTextColor = global::PushwooshSample.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterTextColor = global::PushwooshSample.Droid.Resource.Attribute.counterTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.customNavigationLayout = global::PushwooshSample.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dayInvalidStyle = global::PushwooshSample.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.daySelectedStyle = global::PushwooshSample.Droid.Resource.Attribute.daySelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dayStyle = global::PushwooshSample.Droid.Resource.Attribute.dayStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dayTodayStyle = global::PushwooshSample.Droid.Resource.Attribute.dayTodayStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.defaultQueryHint = global::PushwooshSample.Droid.Resource.Attribute.defaultQueryHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogCornerRadius = global::PushwooshSample.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::PushwooshSample.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -253,16 +311,31 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTintMode = global::PushwooshSample.Droid.Resource.Attribute.drawableTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawableTopCompat = global::PushwooshSample.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawerArrowStyle = global::PushwooshSample.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.drawerLayoutStyle = global::PushwooshSample.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::PushwooshSample.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::PushwooshSample.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextBackground = global::PushwooshSample.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextColor = global::PushwooshSample.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextStyle = global::PushwooshSample.Droid.Resource.Attribute.editTextStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::PushwooshSample.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayColor = global::PushwooshSample.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayEnabled = global::PushwooshSample.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconCheckable = global::PushwooshSample.Droid.Resource.Attribute.endIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconContentDescription = global::PushwooshSample.Droid.Resource.Attribute.endIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconDrawable = global::PushwooshSample.Droid.Resource.Attribute.endIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconMode = global::PushwooshSample.Droid.Resource.Attribute.endIconMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconTint = global::PushwooshSample.Droid.Resource.Attribute.endIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconTintMode = global::PushwooshSample.Droid.Resource.Attribute.endIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceMaterialTheme = global::PushwooshSample.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ensureMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorContentDescription = global::PushwooshSample.Droid.Resource.Attribute.errorContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorEnabled = global::PushwooshSample.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconDrawable = global::PushwooshSample.Droid.Resource.Attribute.errorIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconTint = global::PushwooshSample.Droid.Resource.Attribute.errorIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorIconTintMode = global::PushwooshSample.Droid.Resource.Attribute.errorIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorTextColor = global::PushwooshSample.Droid.Resource.Attribute.errorTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PushwooshSample.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expanded = global::PushwooshSample.Droid.Resource.Attribute.expanded;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleGravity = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleGravity;
@@ -272,7 +345,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.extendedFloatingActionButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.extendMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.extendMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabAlignmentMode = global::PushwooshSample.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabAnimationMode = global::PushwooshSample.Droid.Resource.Attribute.fabAnimationMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleMargin = global::PushwooshSample.Droid.Resource.Attribute.fabCradleMargin;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::PushwooshSample.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleVerticalOffset = global::PushwooshSample.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -298,20 +374,26 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fontWeight = global::PushwooshSample.Droid.Resource.Attribute.fontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::PushwooshSample.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gapBetweenBars = global::PushwooshSample.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.gestureInsetBottomIgnored = global::PushwooshSample.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.goIcon = global::PushwooshSample.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.haloColor = global::PushwooshSample.Droid.Resource.Attribute.haloColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.haloRadius = global::PushwooshSample.Droid.Resource.Attribute.haloRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.headerLayout = global::PushwooshSample.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.height = global::PushwooshSample.Droid.Resource.Attribute.height;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperText = global::PushwooshSample.Droid.Resource.Attribute.helperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextEnabled = global::PushwooshSample.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextTextColor = global::PushwooshSample.Droid.Resource.Attribute.helperTextTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.hideMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnContentScroll = global::PushwooshSample.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnScroll = global::PushwooshSample.Droid.Resource.Attribute.hideOnScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::PushwooshSample.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintEnabled = global::PushwooshSample.Droid.Resource.Attribute.hintEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextColor = global::PushwooshSample.Droid.Resource.Attribute.hintTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::PushwooshSample.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeLayout = global::PushwooshSample.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.horizontalOffset = global::PushwooshSample.Droid.Resource.Attribute.horizontalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::PushwooshSample.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.icon = global::PushwooshSample.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconEndPadding = global::PushwooshSample.Droid.Resource.Attribute.iconEndPadding;
@@ -327,19 +409,34 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.initialActivityCount = global::PushwooshSample.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.insetForeground = global::PushwooshSample.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.isLightTheme = global::PushwooshSample.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.isMaterialTheme = global::PushwooshSample.Droid.Resource.Attribute.isMaterialTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemBackground = global::PushwooshSample.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemFillColor = global::PushwooshSample.Droid.Resource.Attribute.itemFillColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalPadding = global::PushwooshSample.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::PushwooshSample.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconPadding = global::PushwooshSample.Droid.Resource.Attribute.itemIconPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconSize = global::PushwooshSample.Droid.Resource.Attribute.itemIconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconTint = global::PushwooshSample.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemMaxLines = global::PushwooshSample.Droid.Resource.Attribute.itemMaxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemPadding = global::PushwooshSample.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemRippleColor = global::PushwooshSample.Droid.Resource.Attribute.itemRippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeAppearance = global::PushwooshSample.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeFillColor = global::PushwooshSample.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetBottom = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetEnd = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetStart = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemShapeInsetTop = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemSpacing = global::PushwooshSample.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemStrokeColor = global::PushwooshSample.Droid.Resource.Attribute.itemStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemStrokeWidth = global::PushwooshSample.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.itemTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceActive = global::PushwooshSample.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceInactive = global::PushwooshSample.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextColor = global::PushwooshSample.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.keylines = global::PushwooshSample.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelBehavior = global::PushwooshSample.Droid.Resource.Attribute.labelBehavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelStyle = global::PushwooshSample.Droid.Resource.Attribute.labelStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelVisibilityMode = global::PushwooshSample.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lastBaselineToBottomHeight = global::PushwooshSample.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout = global::PushwooshSample.Droid.Resource.Attribute.layout;
@@ -355,6 +452,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollFlags = global::PushwooshSample.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::PushwooshSample.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.liftOnScroll = global::PushwooshSample.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.liftOnScrollTargetViewId = global::PushwooshSample.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineHeight = global::PushwooshSample.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineSpacing = global::PushwooshSample.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::PushwooshSample.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -374,22 +472,47 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingStart = global::PushwooshSample.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::PushwooshSample.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::PushwooshSample.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogBodyTextStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTheme = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitleIconStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitleTextStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonOutlinedStyle = global::PushwooshSample.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonToggleGroupStyle = global::PushwooshSample.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarDay = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarDay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarFullscreenTheme = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderConfirmButton = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderDivider = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderLayout = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderSelection = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderTitle = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarHeaderToggleButton = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarStyle = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCalendarTheme = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCardViewStyle = global::PushwooshSample.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialThemeOverlay = global::PushwooshSample.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::PushwooshSample.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxButtonHeight = global::PushwooshSample.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxCharacterCount = global::PushwooshSample.Droid.Resource.Attribute.maxCharacterCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxImageSize = global::PushwooshSample.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxLines = global::PushwooshSample.Droid.Resource.Attribute.maxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.measureWithLargestChild = global::PushwooshSample.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.menu = global::PushwooshSample.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.minTouchTargetSize = global::PushwooshSample.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::PushwooshSample.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationContentDescription = global::PushwooshSample.Droid.Resource.Attribute.navigationContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationIcon = global::PushwooshSample.Droid.Resource.Attribute.navigationIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationMode = global::PushwooshSample.Droid.Resource.Attribute.navigationMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationViewStyle = global::PushwooshSample.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.number = global::PushwooshSample.Droid.Resource.Attribute.number;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.numericModifiers = global::PushwooshSample.Droid.Resource.Attribute.numericModifiers;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.overlapAnchor = global::PushwooshSample.Droid.Resource.Attribute.overlapAnchor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomNoButtons = global::PushwooshSample.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingBottomSystemWindowInsets = global::PushwooshSample.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingEnd = global::PushwooshSample.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingLeftSystemWindowInsets = global::PushwooshSample.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingRightSystemWindowInsets = global::PushwooshSample.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingStart = global::PushwooshSample.Droid.Resource.Attribute.paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.paddingTopNoTitle = global::PushwooshSample.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelBackground = global::PushwooshSample.Droid.Resource.Attribute.panelBackground;
@@ -400,9 +523,16 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleEnabled = global::PushwooshSample.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTint = global::PushwooshSample.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTintMode = global::PushwooshSample.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderText = global::PushwooshSample.Droid.Resource.Attribute.placeholderText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.placeholderTextColor = global::PushwooshSample.Droid.Resource.Attribute.placeholderTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuBackground = global::PushwooshSample.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuStyle = global::PushwooshSample.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupTheme = global::PushwooshSample.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupWindowStyle = global::PushwooshSample.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixText = global::PushwooshSample.Droid.Resource.Attribute.prefixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.prefixTextColor = global::PushwooshSample.Droid.Resource.Attribute.prefixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.preserveIconSpacing = global::PushwooshSample.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.pressedTranslationZ = global::PushwooshSample.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.progressBarPadding = global::PushwooshSample.Droid.Resource.Attribute.progressBarPadding;
@@ -410,6 +540,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryBackground = global::PushwooshSample.Droid.Resource.Attribute.queryBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.queryHint = global::PushwooshSample.Droid.Resource.Attribute.queryHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.radioButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.rangeFillColor = global::PushwooshSample.Droid.Resource.Attribute.rangeFillColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyle = global::PushwooshSample.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::PushwooshSample.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::PushwooshSample.Droid.Resource.Attribute.ratingBarStyleSmall;
@@ -419,22 +550,32 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::PushwooshSample.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimBackground = global::PushwooshSample.Droid.Resource.Attribute.scrimBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::PushwooshSample.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrollViewStyle = global::PushwooshSample.Droid.Resource.Attribute.scrollViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchHintIcon = global::PushwooshSample.Droid.Resource.Attribute.searchHintIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchIcon = global::PushwooshSample.Droid.Resource.Attribute.searchIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchViewStyle = global::PushwooshSample.Droid.Resource.Attribute.searchViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.seekBarStyle = global::PushwooshSample.Droid.Resource.Attribute.seekBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackground = global::PushwooshSample.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::PushwooshSample.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.selectionRequired = global::PushwooshSample.Droid.Resource.Attribute.selectionRequired;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearance = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceLargeComponent = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceMediumComponent = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shapeAppearanceSmallComponent = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showAsAction = global::PushwooshSample.Droid.Resource.Attribute.showAsAction;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showDividers = global::PushwooshSample.Droid.Resource.Attribute.showDividers;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.showMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showText = global::PushwooshSample.Droid.Resource.Attribute.showText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showTitle = global::PushwooshSample.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.shrinkMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::PushwooshSample.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleLine = global::PushwooshSample.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleSelection = global::PushwooshSample.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.sliderStyle = global::PushwooshSample.Droid.Resource.Attribute.sliderStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarStyle = global::PushwooshSample.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarTextViewStyle = global::PushwooshSample.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spanCount = global::PushwooshSample.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinBars = global::PushwooshSample.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::PushwooshSample.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -442,12 +583,19 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.splitTrack = global::PushwooshSample.Droid.Resource.Attribute.splitTrack;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.srcCompat = global::PushwooshSample.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.stackFromEnd = global::PushwooshSample.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconCheckable = global::PushwooshSample.Droid.Resource.Attribute.startIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconContentDescription = global::PushwooshSample.Droid.Resource.Attribute.startIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconDrawable = global::PushwooshSample.Droid.Resource.Attribute.startIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconTint = global::PushwooshSample.Droid.Resource.Attribute.startIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.startIconTintMode = global::PushwooshSample.Droid.Resource.Attribute.startIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_above_anchor = global::PushwooshSample.Droid.Resource.Attribute.state_above_anchor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsed = global::PushwooshSample.Droid.Resource.Attribute.state_collapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsible = global::PushwooshSample.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_dragged = global::PushwooshSample.Droid.Resource.Attribute.state_dragged;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_liftable = global::PushwooshSample.Droid.Resource.Attribute.state_liftable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_lifted = global::PushwooshSample.Droid.Resource.Attribute.state_lifted;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarBackground = global::PushwooshSample.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarForeground = global::PushwooshSample.Droid.Resource.Attribute.statusBarForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarScrim = global::PushwooshSample.Droid.Resource.Attribute.statusBarScrim;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeColor = global::PushwooshSample.Droid.Resource.Attribute.strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeWidth = global::PushwooshSample.Droid.Resource.Attribute.strokeWidth;
@@ -457,7 +605,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextColor = global::PushwooshSample.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitleTextStyle = global::PushwooshSample.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixText = global::PushwooshSample.Droid.Resource.Attribute.suffixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suffixTextColor = global::PushwooshSample.Droid.Resource.Attribute.suffixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.suggestionRowLayout = global::PushwooshSample.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::PushwooshSample.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchMinWidth = global::PushwooshSample.Droid.Resource.Attribute.switchMinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchPadding = global::PushwooshSample.Droid.Resource.Attribute.switchPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchStyle = global::PushwooshSample.Droid.Resource.Attribute.switchStyle;
@@ -500,6 +652,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline5 = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline6 = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceLineHeightEnabled = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItem = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSecondary = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -513,14 +666,22 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::PushwooshSample.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textColorSearchUrl = global::PushwooshSample.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textEndPadding = global::PushwooshSample.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::PushwooshSample.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputStyle = global::PushwooshSample.Droid.Resource.Attribute.textInputStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textLocale = global::PushwooshSample.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textStartPadding = global::PushwooshSample.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::PushwooshSample.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.themeLineHeight = global::PushwooshSample.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::PushwooshSample.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbColor = global::PushwooshSample.Droid.Resource.Attribute.thumbColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbElevation = global::PushwooshSample.Droid.Resource.Attribute.thumbElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbRadius = global::PushwooshSample.Droid.Resource.Attribute.thumbRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTextPadding = global::PushwooshSample.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTint = global::PushwooshSample.Droid.Resource.Attribute.thumbTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbTintMode = global::PushwooshSample.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColor = global::PushwooshSample.Droid.Resource.Attribute.tickColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColorActive = global::PushwooshSample.Droid.Resource.Attribute.tickColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickColorInactive = global::PushwooshSample.Droid.Resource.Attribute.tickColorInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMark = global::PushwooshSample.Droid.Resource.Attribute.tickMark;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTint = global::PushwooshSample.Droid.Resource.Attribute.tickMarkTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tickMarkTintMode = global::PushwooshSample.Droid.Resource.Attribute.tickMarkTintMode;
@@ -542,12 +703,21 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarStyle = global::PushwooshSample.Droid.Resource.Attribute.toolbarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipForegroundColor = global::PushwooshSample.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipFrameBackground = global::PushwooshSample.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipStyle = global::PushwooshSample.Droid.Resource.Attribute.tooltipStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tooltipText = global::PushwooshSample.Droid.Resource.Attribute.tooltipText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.track = global::PushwooshSample.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColor = global::PushwooshSample.Droid.Resource.Attribute.trackColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColorActive = global::PushwooshSample.Droid.Resource.Attribute.trackColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackColorInactive = global::PushwooshSample.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackHeight = global::PushwooshSample.Droid.Resource.Attribute.trackHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTint = global::PushwooshSample.Droid.Resource.Attribute.trackTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.trackTintMode = global::PushwooshSample.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.transitionShapeAppearance = global::PushwooshSample.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ttcIndex = global::PushwooshSample.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useCompatPadding = global::PushwooshSample.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.values = global::PushwooshSample.Droid.Resource.Attribute.values;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.verticalOffset = global::PushwooshSample.Droid.Resource.Attribute.verticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.viewInflaterClass = global::PushwooshSample.Droid.Resource.Attribute.viewInflaterClass;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.voiceIcon = global::PushwooshSample.Droid.Resource.Attribute.voiceIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowActionBar = global::PushwooshSample.Droid.Resource.Attribute.windowActionBar;
@@ -560,6 +730,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::PushwooshSample.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::PushwooshSample.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.windowNoTitle = global::PushwooshSample.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearSelectedStyle = global::PushwooshSample.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearStyle = global::PushwooshSample.Droid.Resource.Attribute.yearStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.yearTodayStyle = global::PushwooshSample.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::PushwooshSample.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::PushwooshSample.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Xamarin.Forms.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PushwooshSample.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
@@ -569,6 +742,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::PushwooshSample.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_btn_colored_text_material = global::PushwooshSample.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_color_highlight_material = global::PushwooshSample.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_decor_view_status_guard = global::PushwooshSample.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_decor_view_status_guard_light = global::PushwooshSample.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_dark = global::PushwooshSample.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_light = global::PushwooshSample.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::PushwooshSample.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -589,6 +764,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.abc_tint_switch_track = global::PushwooshSample.Droid.Resource.Color.abc_tint_switch_track;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_dark = global::PushwooshSample.Droid.Resource.Color.accent_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.accent_material_light = global::PushwooshSample.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.androidx_core_ripple_material_light = global::PushwooshSample.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.androidx_core_secondary_text_default_material_light = global::PushwooshSample.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_dark = global::PushwooshSample.Droid.Resource.Color.background_floating_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.background_floating_material_light = global::PushwooshSample.Droid.Resource.Color.background_floating_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.background_material_dark = global::PushwooshSample.Droid.Resource.Color.background_material_dark;
@@ -605,9 +782,35 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::PushwooshSample.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::PushwooshSample.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::PushwooshSample.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.checkbox_themeable_attribute_color = global::PushwooshSample.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::PushwooshSample.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.design_box_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_background = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_error = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_background = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_error = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_primary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_secondary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_on_surface = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_primary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_primary_dark = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_primary_variant = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_secondary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_secondary_variant = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_surface = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_background = global::PushwooshSample.Droid.Resource.Color.design_default_color_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_error = global::PushwooshSample.Droid.Resource.Color.design_default_color_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_background = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_error = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_primary = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_secondary = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_on_surface = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_surface;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary = global::PushwooshSample.Droid.Resource.Color.design_default_color_primary;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary_dark = global::PushwooshSample.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary_variant = global::PushwooshSample.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_secondary = global::PushwooshSample.Droid.Resource.Color.design_default_color_secondary;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_secondary_variant = global::PushwooshSample.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_surface = global::PushwooshSample.Droid.Resource.Color.design_default_color_surface;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_error = global::PushwooshSample.Droid.Resource.Color.design_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::PushwooshSample.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::PushwooshSample.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -616,6 +819,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::PushwooshSample.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::PushwooshSample.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::PushwooshSample.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.design_icon_tint = global::PushwooshSample.Droid.Resource.Color.design_icon_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_snackbar_background_color = global::PushwooshSample.Droid.Resource.Color.design_snackbar_background_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::PushwooshSample.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::PushwooshSample.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -639,19 +843,60 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_800 = global::PushwooshSample.Droid.Resource.Color.material_grey_800;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_850 = global::PushwooshSample.Droid.Resource.Color.material_grey_850;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.material_grey_900 = global::PushwooshSample.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_background_disabled = global::PushwooshSample.Droid.Resource.Color.material_on_background_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_background_emphasis_high_type = global::PushwooshSample.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_background_emphasis_medium = global::PushwooshSample.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_primary_disabled = global::PushwooshSample.Droid.Resource.Color.material_on_primary_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_primary_emphasis_high_type = global::PushwooshSample.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_primary_emphasis_medium = global::PushwooshSample.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_disabled = global::PushwooshSample.Droid.Resource.Color.material_on_surface_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_emphasis_high_type = global::PushwooshSample.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_emphasis_medium = global::PushwooshSample.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_on_surface_stroke = global::PushwooshSample.Droid.Resource.Color.material_on_surface_stroke;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_active_tick_marks_color = global::PushwooshSample.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_active_track_color = global::PushwooshSample.Droid.Resource.Color.material_slider_active_track_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_halo_color = global::PushwooshSample.Droid.Resource.Color.material_slider_halo_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_tick_marks_color = global::PushwooshSample.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_inactive_track_color = global::PushwooshSample.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.material_slider_thumb_color = global::PushwooshSample.Droid.Resource.Color.material_slider_thumb_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_bottom_nav_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_bg_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_color_disabled = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_calendar_item_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_calendar_selected_range = global::PushwooshSample.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_card_view_foreground = global::PushwooshSample.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_card_view_ripple = global::PushwooshSample.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_close_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_surface_color = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_chip_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_choice_chip_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_error = global::PushwooshSample.Droid.Resource.Color.mtrl_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_bg_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_icon_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_fab_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_filled_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_indicator_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_navigation_item_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_navigation_item_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_navigation_item_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_outlined_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_outlined_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_popupmenu_overlay_color = global::PushwooshSample.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_scrim_color = global::PushwooshSample.Droid.Resource.Color.mtrl_scrim_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -661,6 +906,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_disabled_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_action_color_filter = global::PushwooshSample.Droid.Resource.Color.notification_action_color_filter;
@@ -674,6 +920,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::PushwooshSample.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::PushwooshSample.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::PushwooshSample.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.radiobutton_themeable_attribute_color = global::PushwooshSample.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::PushwooshSample.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::PushwooshSample.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::PushwooshSample.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -686,6 +933,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::PushwooshSample.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::PushwooshSample.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::PushwooshSample.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day = global::PushwooshSample.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day_selected = global::PushwooshSample.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_dark = global::PushwooshSample.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_light = global::PushwooshSample.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::PushwooshSample.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -766,6 +1015,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PushwooshSample.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::PushwooshSample.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::PushwooshSample.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.action_bar_size = global::PushwooshSample.Droid.Resource.Dimension.action_bar_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.appcompat_dialog_background_inset = global::PushwooshSample.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::PushwooshSample.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::PushwooshSample.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_radius = global::PushwooshSample.Droid.Resource.Dimension.cardview_default_radius;
@@ -776,6 +1027,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::PushwooshSample.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::PushwooshSample.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::PushwooshSample.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.default_dimension = global::PushwooshSample.Droid.Resource.Dimension.default_dimension;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.def_drawer_elevation = global::PushwooshSample.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -788,6 +1041,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_margin = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_text_size = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_fab_border_width = global::PushwooshSample.Droid.Resource.Dimension.design_fab_border_width;
@@ -806,6 +1060,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::PushwooshSample.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_action_text_color_alpha = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -835,7 +1090,24 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PushwooshSample.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PushwooshSample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PushwooshSample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_disabled = global::PushwooshSample.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_high_type = global::PushwooshSample.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_medium = global::PushwooshSample.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height = global::PushwooshSample.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height_override = global::PushwooshSample.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_text_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_badge_with_text_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -862,25 +1134,130 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::PushwooshSample.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_text_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_btn_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_action_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_action_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_bottom_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_content_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_days_of_week_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_corner = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_today_stroke = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_day_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_content_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_text_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_landscape_header_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_navigation_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_corner = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_calendar_year_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_checked_icon_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_checked_icon_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_dragged_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_spacing = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_text_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_end_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_icon_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_min_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_min_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_start_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_top_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_min_touch_target = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_default_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_large_touch_target = global::PushwooshSample.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_default_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_min_touch_target_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_icon_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_large_component = global::PushwooshSample.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::PushwooshSample.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_shape_corner_size_small_component = global::PushwooshSample.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_halo_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_label_square_side = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_side_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_widget_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_switch_thumb_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_counter_margin_start = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_toolbar_default_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_arrowSize = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_cornerSize = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_minHeight = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_minWidth = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_tooltip_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::PushwooshSample.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_icon_size = global::PushwooshSample.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_text_size = global::PushwooshSample.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_big_circle_margin = global::PushwooshSample.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -896,10 +1273,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::PushwooshSample.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::PushwooshSample.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::PushwooshSample.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_outline_width = global::PushwooshSample.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_shadow_offset = global::PushwooshSample.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.subtitle_shadow_radius = global::PushwooshSample.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::PushwooshSample.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_margin = global::PushwooshSample.Droid.Resource.Dimension.tooltip_margin;
@@ -1010,9 +1384,25 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility_off = global::PushwooshSample.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_password_eye = global::PushwooshSample.Droid.Resource.Drawable.design_password_eye;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_snackbar_background = global::PushwooshSample.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_checked_circle = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_calendar_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_clear_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_edit_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_dialog_background = global::PushwooshSample.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_dropdown_arrow = global::PushwooshSample.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_arrow_drop_down = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_arrow_drop_up = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_cancel = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_error = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background = global::PushwooshSample.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background_dark = global::PushwooshSample.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::PushwooshSample.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::PushwooshSample.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::PushwooshSample.Droid.Resource.Drawable.notification_action_background;
@@ -1027,6 +1417,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::PushwooshSample.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::PushwooshSample.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::PushwooshSample.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_custom_background = global::PushwooshSample.Droid.Resource.Drawable.test_custom_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::PushwooshSample.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::PushwooshSample.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.accessibility_action_clickable_span = global::PushwooshSample.Droid.Resource.Id.accessibility_action_clickable_span;
@@ -1094,17 +1485,27 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.bottom = global::PushwooshSample.Droid.Resource.Id.bottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_navarea = global::PushwooshSample.Droid.Resource.Id.bottomtab_navarea;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_tabbar = global::PushwooshSample.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.BOTTOM_END = global::PushwooshSample.Droid.Resource.Id.BOTTOM_END;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.BOTTOM_START = global::PushwooshSample.Droid.Resource.Id.BOTTOM_START;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.buttonPanel = global::PushwooshSample.Droid.Resource.Id.buttonPanel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.cancel_action = global::PushwooshSample.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.cancel_button = global::PushwooshSample.Droid.Resource.Id.cancel_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center = global::PushwooshSample.Droid.Resource.Id.center;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center_horizontal = global::PushwooshSample.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.center_vertical = global::PushwooshSample.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::PushwooshSample.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@checked = global::PushwooshSample.Droid.Resource.Id.@checked;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip = global::PushwooshSample.Droid.Resource.Id.chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip1 = global::PushwooshSample.Droid.Resource.Id.chip1;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip2 = global::PushwooshSample.Droid.Resource.Id.chip2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip3 = global::PushwooshSample.Droid.Resource.Id.chip3;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.chip_group = global::PushwooshSample.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::PushwooshSample.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.clear_text = global::PushwooshSample.Droid.Resource.Id.clear_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_horizontal = global::PushwooshSample.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_vertical = global::PushwooshSample.Droid.Resource.Id.clip_vertical;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.collapseActionView = global::PushwooshSample.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.confirm_button = global::PushwooshSample.Droid.Resource.Id.confirm_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.container = global::PushwooshSample.Droid.Resource.Id.container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.content = global::PushwooshSample.Droid.Resource.Id.content;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.contentPanel = global::PushwooshSample.Droid.Resource.Id.contentPanel;
@@ -1112,6 +1513,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.CTRL = global::PushwooshSample.Droid.Resource.Id.CTRL;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.custom = global::PushwooshSample.Droid.Resource.Id.custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.customPanel = global::PushwooshSample.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.cut = global::PushwooshSample.Droid.Resource.Id.cut;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.date_picker_actions = global::PushwooshSample.Droid.Resource.Id.date_picker_actions;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.decor_content_parent = global::PushwooshSample.Droid.Resource.Id.decor_content_parent;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.default_activity_button = global::PushwooshSample.Droid.Resource.Id.default_activity_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_bottom_sheet = global::PushwooshSample.Droid.Resource.Id.design_bottom_sheet;
@@ -1121,6 +1524,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.design_navigation_view = global::PushwooshSample.Droid.Resource.Id.design_navigation_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.dialog_button = global::PushwooshSample.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.disableHome = global::PushwooshSample.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.dropdown_menu = global::PushwooshSample.Droid.Resource.Id.dropdown_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.edit_query = global::PushwooshSample.Droid.Resource.Id.edit_query;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.end = global::PushwooshSample.Droid.Resource.Id.end;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.end_padder = global::PushwooshSample.Droid.Resource.Id.end_padder;
@@ -1129,18 +1533,23 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.exitUntilCollapsed = global::PushwooshSample.Droid.Resource.Id.exitUntilCollapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::PushwooshSample.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expand_activities_button = global::PushwooshSample.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fade = global::PushwooshSample.Droid.Resource.Id.fade;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::PushwooshSample.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.filled = global::PushwooshSample.Droid.Resource.Id.filled;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_horizontal = global::PushwooshSample.Droid.Resource.Id.fill_horizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_vertical = global::PushwooshSample.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fitToContents = global::PushwooshSample.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::PushwooshSample.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.floating = global::PushwooshSample.Droid.Resource.Id.floating;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::PushwooshSample.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::PushwooshSample.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::PushwooshSample.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.fragment_container_view_tag = global::PushwooshSample.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::PushwooshSample.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::PushwooshSample.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view_holder = global::PushwooshSample.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.gone = global::PushwooshSample.Droid.Resource.Id.gone;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::PushwooshSample.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.hideable = global::PushwooshSample.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::PushwooshSample.Droid.Resource.Id.home;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.homeAsUp = global::PushwooshSample.Droid.Resource.Id.homeAsUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.icon = global::PushwooshSample.Droid.Resource.Id.icon;
@@ -1163,17 +1572,44 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_viewpager = global::PushwooshSample.Droid.Resource.Id.main_viewpager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.masked = global::PushwooshSample.Droid.Resource.Id.masked;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.media_actions = global::PushwooshSample.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.media_controller_compat_view_tag = global::PushwooshSample.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.message = global::PushwooshSample.Droid.Resource.Id.message;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.META = global::PushwooshSample.Droid.Resource.Id.META;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.middle = global::PushwooshSample.Droid.Resource.Id.middle;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mini = global::PushwooshSample.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_grid = global::PushwooshSample.Droid.Resource.Id.month_grid;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_bar = global::PushwooshSample.Droid.Resource.Id.month_navigation_bar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_fragment_toggle = global::PushwooshSample.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_next = global::PushwooshSample.Droid.Resource.Id.month_navigation_next;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_navigation_previous = global::PushwooshSample.Droid.Resource.Id.month_navigation_previous;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.month_title = global::PushwooshSample.Droid.Resource.Id.month_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_days_of_week = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_day_selector_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_main_pane = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_months = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_selection_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_text_input_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_calendar_year_selector_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_card_checked_layer_id = global::PushwooshSample.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_child_content_container = global::PushwooshSample.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::PushwooshSample.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_motion_snapshot_view = global::PushwooshSample.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_fullscreen = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header_selection_text = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header_title_and_selection = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_header_toggle = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_text_input_date = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_text_input_range_end = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_text_input_range_start = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_picker_title_text = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.multiply = global::PushwooshSample.Droid.Resource.Id.multiply;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.navigation_header_container = global::PushwooshSample.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.never = global::PushwooshSample.Droid.Resource.Id.never;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.none = global::PushwooshSample.Droid.Resource.Id.none;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.normal = global::PushwooshSample.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.noScroll = global::PushwooshSample.Droid.Resource.Id.noScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_background = global::PushwooshSample.Droid.Resource.Id.notification_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column = global::PushwooshSample.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.notification_main_column_container = global::PushwooshSample.Droid.Resource.Id.notification_main_column_container;
@@ -1183,6 +1619,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parallax = global::PushwooshSample.Droid.Resource.Id.parallax;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parentPanel = global::PushwooshSample.Droid.Resource.Id.parentPanel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.parent_matrix = global::PushwooshSample.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.password_toggle = global::PushwooshSample.Droid.Resource.Id.password_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.peekHeight = global::PushwooshSample.Droid.Resource.Id.peekHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.pin = global::PushwooshSample.Droid.Resource.Id.pin;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_circular = global::PushwooshSample.Droid.Resource.Id.progress_circular;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.progress_horizontal = global::PushwooshSample.Droid.Resource.Id.progress_horizontal;
@@ -1190,8 +1628,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right = global::PushwooshSample.Droid.Resource.Id.right;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_icon = global::PushwooshSample.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_side = global::PushwooshSample.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.rounded = global::PushwooshSample.Droid.Resource.Id.rounded;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.row_index_key = global::PushwooshSample.Droid.Resource.Id.row_index_key;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.save_non_transition_alpha = global::PushwooshSample.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.save_overlay_view = global::PushwooshSample.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.scale = global::PushwooshSample.Droid.Resource.Id.scale;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.screen = global::PushwooshSample.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scroll = global::PushwooshSample.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollable = global::PushwooshSample.Droid.Resource.Id.scrollable;
@@ -1217,6 +1658,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showCustom = global::PushwooshSample.Droid.Resource.Id.showCustom;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showHome = global::PushwooshSample.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showTitle = global::PushwooshSample.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.skipCollapsed = global::PushwooshSample.Droid.Resource.Id.skipCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.slide = global::PushwooshSample.Droid.Resource.Id.slide;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.sliding_tabs = global::PushwooshSample.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.smallLabel = global::PushwooshSample.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_action = global::PushwooshSample.Droid.Resource.Id.snackbar_action;
@@ -1243,14 +1686,24 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_transition_group = global::PushwooshSample.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_event_manager = global::PushwooshSample.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::PushwooshSample.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_android_button_tint = global::PushwooshSample.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_app_button_tint = global::PushwooshSample.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_android_button_tint = global::PushwooshSample.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_app_button_tint = global::PushwooshSample.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::PushwooshSample.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::PushwooshSample.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textEnd = global::PushwooshSample.Droid.Resource.Id.textEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_counter = global::PushwooshSample.Droid.Resource.Id.textinput_counter;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_error = global::PushwooshSample.Droid.Resource.Id.textinput_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_helper_text = global::PushwooshSample.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_placeholder = global::PushwooshSample.Droid.Resource.Id.textinput_placeholder;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_prefix_text = global::PushwooshSample.Droid.Resource.Id.textinput_prefix_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_suffix_text = global::PushwooshSample.Droid.Resource.Id.textinput_suffix_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoButtons = global::PushwooshSample.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textSpacerNoTitle = global::PushwooshSample.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textStart = global::PushwooshSample.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.text_input_end_icon = global::PushwooshSample.Droid.Resource.Id.text_input_end_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.text_input_start_icon = global::PushwooshSample.Droid.Resource.Id.text_input_start_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.time = global::PushwooshSample.Droid.Resource.Id.time;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.title = global::PushwooshSample.Droid.Resource.Id.title;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.titleDividerNoCustom = global::PushwooshSample.Droid.Resource.Id.titleDividerNoCustom;
@@ -1258,6 +1711,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.toolbar = global::PushwooshSample.Droid.Resource.Id.toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.top = global::PushwooshSample.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.topPanel = global::PushwooshSample.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.TOP_END = global::PushwooshSample.Droid.Resource.Id.TOP_END;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.TOP_START = global::PushwooshSample.Droid.Resource.Id.TOP_START;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.touch_outside = global::PushwooshSample.Droid.Resource.Id.touch_outside;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_current_scene = global::PushwooshSample.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_layout_save = global::PushwooshSample.Droid.Resource.Id.transition_layout_save;
@@ -1270,9 +1725,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.up = global::PushwooshSample.Droid.Resource.Id.up;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.useLogo = global::PushwooshSample.Droid.Resource.Id.useLogo;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::PushwooshSample.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_saved_state_registry_owner = global::PushwooshSample.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::PushwooshSample.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.visible_removing_fragment_view_tag = global::PushwooshSample.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.withinBounds = global::PushwooshSample.Droid.Resource.Id.withinBounds;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.withText = global::PushwooshSample.Droid.Resource.Id.withText;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content = global::PushwooshSample.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.zero_corner_chip = global::PushwooshSample.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::PushwooshSample.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::PushwooshSample.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::PushwooshSample.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -1282,8 +1741,14 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::PushwooshSample.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.hide_password_duration = global::PushwooshSample.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_badge_max_character_count = global::PushwooshSample.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_calendar_header_orientation = global::PushwooshSample.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_calendar_selection_text_lines = global::PushwooshSample.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_calendar_year_selector_span = global::PushwooshSample.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_card_anim_delay_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_card_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_chip_anim_duration = global::PushwooshSample.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.show_password_duration = global::PushwooshSample.Droid.Resource.Integer.show_password_duration;
@@ -1342,11 +1807,39 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::PushwooshSample.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::PushwooshSample.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::PushwooshSample.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_end_icon = global::PushwooshSample.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_start_icon = global::PushwooshSample.Droid.Resource.Layout.design_text_input_start_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackTabbarDoNotUse = global::PushwooshSample.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackToolbarDoNotUse = global::PushwooshSample.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::PushwooshSample.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog_actions = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_dialog_title = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_select_dialog_item = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_day = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_days_of_week = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_day_of_week = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_horizontal = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_month = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_months = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_month_labeled = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_month_navigation = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_vertical = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_calendar_year = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar = global::PushwooshSample.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar_include = global::PushwooshSample.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_actions = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_dialog = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_fullscreen = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_dialog = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_fullscreen = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_selection_text = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_title_text = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_header_toggle = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_text_input_date = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_picker_text_input_date_range = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::PushwooshSample.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::PushwooshSample.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_action = global::PushwooshSample.Droid.Resource.Layout.notification_media_action;
@@ -1369,7 +1862,22 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::PushwooshSample.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::PushwooshSample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::PushwooshSample.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::PushwooshSample.Droid.Resource.Layout.test_action_chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::PushwooshSample.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::PushwooshSample.Droid.Resource.Layout.test_design_checkbox;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_radiobutton = global::PushwooshSample.Droid.Resource.Layout.test_design_radiobutton;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_reflow_chipgroup = global::PushwooshSample.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar = global::PushwooshSample.Droid.Resource.Layout.test_toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_custom_background = global::PushwooshSample.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_elevation = global::PushwooshSample.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_surface = global::PushwooshSample.Droid.Resource.Layout.test_toolbar_surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_without_line_height = global::PushwooshSample.Droid.Resource.Layout.text_view_without_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_appearance = global::PushwooshSample.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_layout = global::PushwooshSample.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_style = global::PushwooshSample.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_theme_line_height = global::PushwooshSample.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::PushwooshSample.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Plurals.mtrl_badge_content_description = global::PushwooshSample.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::PushwooshSample.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::PushwooshSample.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::PushwooshSample.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -1400,11 +1908,55 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::PushwooshSample.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::PushwooshSample.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_content_description = global::PushwooshSample.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_overflowed_content_description = global::PushwooshSample.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_pattern = global::PushwooshSample.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Platform.Android.Resource.String.chip_text = global::PushwooshSample.Droid.Resource.String.chip_text;
+			global::Xamarin.Forms.Platform.Android.Resource.String.clear_text_end_icon_content_description = global::PushwooshSample.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.error_icon_content_description = global::PushwooshSample.Droid.Resource.String.error_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.exposed_dropdown_menu_content_description = global::PushwooshSample.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_scrim_behavior = global::PushwooshSample.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.fab_transformation_sheet_behavior = global::PushwooshSample.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::PushwooshSample.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.Platform.Android.Resource.String.icon_content_description = global::PushwooshSample.Droid.Resource.String.icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.item_view_role_description = global::PushwooshSample.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.material_slider_range_end = global::PushwooshSample.Droid.Resource.String.material_slider_range_end;
+			global::Xamarin.Forms.Platform.Android.Resource.String.material_slider_range_start = global::PushwooshSample.Droid.Resource.String.material_slider_range_start;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_badge_numberless_content_description = global::PushwooshSample.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_chip_close_icon_content_description = global::PushwooshSample.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_exceed_max_badge_number_content_description = global::PushwooshSample.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_exceed_max_badge_number_suffix = global::PushwooshSample.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_a11y_next_month = global::PushwooshSample.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_a11y_prev_month = global::PushwooshSample.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_announce_current_selection = global::PushwooshSample.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_cancel = global::PushwooshSample.Droid.Resource.String.mtrl_picker_cancel;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_confirm = global::PushwooshSample.Droid.Resource.String.mtrl_picker_confirm;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_date_header_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_date_header_title = global::PushwooshSample.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_date_header_unselected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_day_of_week_column_header = global::PushwooshSample.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_format = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_format_example = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_format_use = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_invalid_range = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_navigate_to_year_description = global::PushwooshSample.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_out_of_range = global::PushwooshSample.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_only_end_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_only_start_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_title = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_range_header_unselected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_save = global::PushwooshSample.Droid.Resource.String.mtrl_picker_save;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_date_hint = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_day_abbr = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_month_abbr = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_text_input_year_abbr = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_day_selection = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Xamarin.Forms.Platform.Android.Resource.String.mtrl_picker_toggle_to_year_selection = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Xamarin.Forms.Platform.Android.Resource.String.overflow_tab_title = global::PushwooshSample.Droid.Resource.String.overflow_tab_title;
 			global::Xamarin.Forms.Platform.Android.Resource.String.password_toggle_content_description = global::PushwooshSample.Droid.Resource.String.password_toggle_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye = global::PushwooshSample.Droid.Resource.String.path_password_eye;
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_strike_through = global::PushwooshSample.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1414,10 +1966,12 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::PushwooshSample.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::PushwooshSample.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.AndroidThemeColorAccentYellow = global::PushwooshSample.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::PushwooshSample.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::PushwooshSample.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AppCompatDialogStyle = global::PushwooshSample.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
@@ -1427,6 +1981,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_CardView = global::PushwooshSample.Droid.Resource.Style.Base_CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::PushwooshSample.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::PushwooshSample.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::PushwooshSample.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -1472,6 +2029,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -1484,6 +2045,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PushwooshSample.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -1504,6 +2068,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -1513,22 +2078,30 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -1605,16 +2178,34 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PushwooshSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PushwooshSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::PushwooshSample.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_Slider = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextView = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::PushwooshSample.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::PushwooshSample.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::PushwooshSample.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewScrollBars = global::PushwooshSample.Droid.Resource.Style.collectionViewScrollBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::PushwooshSample.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.EmptyTheme = global::PushwooshSample.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::PushwooshSample.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::PushwooshSample.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::PushwooshSample.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.Platform_MaterialComponents;
@@ -1646,6 +2237,40 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PushwooshSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PushwooshSample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PushwooshSample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewScrollBars = global::PushwooshSample.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewTheme = global::PushwooshSample.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_Cut = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeight = global::PushwooshSample.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeightAppearance = global::PushwooshSample.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithoutLineHeight = global::PushwooshSample.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::PushwooshSample.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeight = global::PushwooshSample.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeightDisabled = global::PushwooshSample.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::PushwooshSample.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::PushwooshSample.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -1710,8 +2335,12 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_HelperText = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Placeholder = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Prefix = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Suffix = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Badge = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -1726,9 +2355,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlayColorAccentRed = global::PushwooshSample.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -1738,18 +2369,44 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -1763,6 +2420,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Empty = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -1781,11 +2439,33 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -1793,7 +2473,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -1882,11 +2568,27 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::PushwooshSample.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Badge = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomSheet = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -1894,31 +2596,76 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CardView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Slider = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Tooltip = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::PushwooshSample.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout = global::PushwooshSample.Droid.Resource.Styleable.ActionBarLayout;
@@ -2004,6 +2751,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_statusBarForeground = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::PushwooshSample.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::PushwooshSample.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::PushwooshSample.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -2170,29 +2919,53 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PushwooshSample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PushwooshSample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PushwooshSample.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge = global::PushwooshSample.Droid.Resource.Styleable.Badge;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_backgroundColor = global::PushwooshSample.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_badgeGravity = global::PushwooshSample.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_badgeTextColor = global::PushwooshSample.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_horizontalOffset = global::PushwooshSample.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_maxCharacterCount = global::PushwooshSample.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_number = global::PushwooshSample.Droid.Resource.Styleable.Badge_number;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Badge_verticalOffset = global::PushwooshSample.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_elevation = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabAnimationMode = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_elevation = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemRippleColor = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_menu = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout = global::PushwooshSample.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::PushwooshSample.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView = global::PushwooshSample.Droid.Resource.Styleable.CardView;
@@ -2215,6 +2988,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacing = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_selectionRequired = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleLine = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_singleSelection = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_checkable = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_checkable;
@@ -2222,8 +2996,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_maxWidth = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_text = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_android_textColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIcon = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconEnabled = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconTint = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_checkedIconVisible = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipBackgroundColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipCornerRadius = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -2234,9 +3010,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconTint = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipIconVisible = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipMinHeight = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStrokeColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipStrokeWidth = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_chipSurfaceColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIcon = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconEnabled = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconEndPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -2244,10 +3022,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconTint = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_closeIconVisible = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_hideMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_iconEndPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_iconStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_showMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_textEndPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip_textStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -2265,6 +3046,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -2300,13 +3082,26 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PushwooshSample.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::PushwooshSample.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::PushwooshSample.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerLayout = global::PushwooshSample.Droid.Resource.Styleable.DrawerLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerLayout_elevation = global::PushwooshSample.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -2314,6 +3109,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout = global::PushwooshSample.Droid.Resource.Styleable.FlowLayout;
@@ -2341,6 +3138,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PushwooshSample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PushwooshSample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PushwooshSample.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment = global::PushwooshSample.Droid.Resource.Styleable.Fragment;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FragmentContainerView = global::PushwooshSample.Droid.Resource.Styleable.FragmentContainerView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FragmentContainerView_android_name = global::PushwooshSample.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FragmentContainerView_android_tag = global::PushwooshSample.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment_android_id = global::PushwooshSample.Droid.Resource.Styleable.Fragment_android_id;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment_android_name = global::PushwooshSample.Droid.Resource.Styleable.Fragment_android_name;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Fragment_android_tag = global::PushwooshSample.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor = global::PushwooshSample.Droid.Resource.Styleable.GradientColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem = global::PushwooshSample.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem_android_color = global::PushwooshSample.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -2357,6 +3161,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_startY = global::PushwooshSample.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_tileMode = global::PushwooshSample.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor_android_type = global::PushwooshSample.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets = global::PushwooshSample.Droid.Resource.Styleable.Insets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme = global::PushwooshSample.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::PushwooshSample.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::PushwooshSample.Droid.Resource.Styleable.LinearLayoutCompat;
@@ -2377,7 +3185,26 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow = global::PushwooshSample.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PushwooshSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PushwooshSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAutoCompleteTextView = global::PushwooshSample.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::PushwooshSample.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_background = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_checkable = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetRight = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -2385,6 +3212,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_cornerRadius = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_elevation = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_icon = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconGravity = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconPadding = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -2392,11 +3220,58 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_iconTintMode = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_strokeColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_strokeWidth = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_dayStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_rangeFillColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_yearStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_android_checkable = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_cardForegroundColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_checkedIcon = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_checkedIconTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_state_dragged = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox = global::PushwooshSample.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox_buttonTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton = global::PushwooshSample.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton_buttonTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape = global::PushwooshSample.Droid.Resource.Styleable.MaterialShape;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextAppearance_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView_android_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialTextView_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup = global::PushwooshSample.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PushwooshSample.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -2447,7 +3322,16 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconPadding = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconSize = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemMaxLines = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeFillColor = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetStart = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemShapeInsetTop = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_menu = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_menu;
@@ -2457,6 +3341,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PushwooshSample.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::PushwooshSample.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::PushwooshSample.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RangeSlider = global::PushwooshSample.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RangeSlider_values = global::PushwooshSample.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView = global::PushwooshSample.Droid.Resource.Styleable.RecycleListView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PushwooshSample.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PushwooshSample.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
@@ -2477,6 +3363,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PushwooshSample.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PushwooshSample.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollViewRendererTheme = global::PushwooshSample.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::PushwooshSample.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView = global::PushwooshSample.Droid.Resource.Styleable.SearchView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::PushwooshSample.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::PushwooshSample.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -2495,13 +3383,55 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::PushwooshSample.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::PushwooshSample.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::PushwooshSample.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_strokeColor = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeableImageView_strokeWidth = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamily = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSize = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider = global::PushwooshSample.Droid.Resource.Styleable.Slider;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_stepSize = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_value = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_value;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_valueFrom = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_android_valueTo = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_haloColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_haloColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_haloRadius = global::PushwooshSample.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_labelBehavior = global::PushwooshSample.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_labelStyle = global::PushwooshSample.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbElevation = global::PushwooshSample.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_thumbRadius = global::PushwooshSample.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_tickColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColorActive = global::PushwooshSample.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_tickColorInactive = global::PushwooshSample.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColorActive = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackColorInactive = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Slider_trackHeight = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar = global::PushwooshSample.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_animationMode = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::PushwooshSample.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarStyle = global::PushwooshSample.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::PushwooshSample.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner = global::PushwooshSample.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::PushwooshSample.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_entries = global::PushwooshSample.Droid.Resource.Styleable.Spinner_android_entries;
@@ -2517,6 +3447,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::PushwooshSample.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::PushwooshSample.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_visible = global::PushwooshSample.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwipeRefreshLayout = global::PushwooshSample.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::PushwooshSample.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -2532,6 +3464,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_track = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTint = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchMaterial = global::PushwooshSample.Droid.Resource.Styleable.SwitchMaterial;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem = global::PushwooshSample.Droid.Resource.Styleable.TabItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_icon = global::PushwooshSample.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_layout = global::PushwooshSample.Droid.Resource.Styleable.TabItem_android_layout;
@@ -2579,7 +3513,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontVariationSettings = global::PushwooshSample.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::PushwooshSample.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textLocale = global::PushwooshSample.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputEditText = global::PushwooshSample.Droid.Resource.Styleable.TextInputEditText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -2590,24 +3527,57 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconCheckable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_endIconTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorIconTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_helperTextTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_placeholderTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_prefixTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconCheckable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_startIconTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_suffixTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement = global::PushwooshSample.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::PushwooshSample.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -2643,11 +3613,21 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::PushwooshSample.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::PushwooshSample.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip = global::PushwooshSample.Droid.Resource.Styleable.Tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_layout_margin = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_minHeight = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_minWidth = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_padding = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_text = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Tooltip_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View = global::PushwooshSample.Droid.Resource.Styleable.View;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewPager2 = global::PushwooshSample.Droid.Resource.Styleable.ViewPager2;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewPager2_android_orientation = global::PushwooshSample.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat = global::PushwooshSample.Droid.Resource.Styleable.ViewStubCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::PushwooshSample.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PushwooshSample.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -2657,6 +3637,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::PushwooshSample.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::PushwooshSample.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_theme = global::PushwooshSample.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge = global::PushwooshSample.Droid.Resource.Xml.standalone_badge;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_end = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_start = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_top_start = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_offset = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_in = global::PushwooshSample.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_out = global::PushwooshSample.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom = global::PushwooshSample.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -2689,12 +3674,20 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::PushwooshSample.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::PushwooshSample.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::PushwooshSample.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fast_out_extra_slow_in = global::PushwooshSample.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_in = global::PushwooshSample.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_out = global::PushwooshSample.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_card_lowers_interpolator = global::PushwooshSample.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_appbar_state_list_animator = global::PushwooshSample.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_hide_motion_spec = global::PushwooshSample.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_show_motion_spec = global::PushwooshSample.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_card_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_chip_state_list_anim = global::PushwooshSample.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_extended_fab_state_list_animator = global::PushwooshSample.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_fab_hide_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_fab_show_motion_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::PushwooshSample.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -2731,6 +3724,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionOverflowButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionOverflowMenuStyle = global::PushwooshSample.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionProviderClass = global::PushwooshSample.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Platform.Resource.Attribute.actionTextColorAlpha = global::PushwooshSample.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Resource.Attribute.actionViewClass = global::PushwooshSample.Droid.Resource.Attribute.actionViewClass;
 			global::Xamarin.Forms.Platform.Resource.Attribute.activityChooserViewStyle = global::PushwooshSample.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.alertDialogButtonGroupStyle = global::PushwooshSample.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -2740,6 +3734,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.allowStacking = global::PushwooshSample.Droid.Resource.Attribute.allowStacking;
 			global::Xamarin.Forms.Platform.Resource.Attribute.alpha = global::PushwooshSample.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Forms.Platform.Resource.Attribute.alphabeticModifiers = global::PushwooshSample.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Platform.Resource.Attribute.animationMode = global::PushwooshSample.Droid.Resource.Attribute.animationMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.appBarLayoutStyle = global::PushwooshSample.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.arrowHeadLength = global::PushwooshSample.Droid.Resource.Attribute.arrowHeadLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.arrowShaftLength = global::PushwooshSample.Droid.Resource.Attribute.arrowShaftLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.autoCompleteTextViewStyle = global::PushwooshSample.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -2749,16 +3745,30 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.autoSizeStepGranularity = global::PushwooshSample.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.autoSizeTextType = global::PushwooshSample.Droid.Resource.Attribute.autoSizeTextType;
 			global::Xamarin.Forms.Platform.Resource.Attribute.background = global::PushwooshSample.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundColor = global::PushwooshSample.Droid.Resource.Attribute.backgroundColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetBottom = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetEnd = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetStart = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundInsetTop = global::PushwooshSample.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundOverlayColorAlpha = global::PushwooshSample.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundSplit = global::PushwooshSample.Droid.Resource.Attribute.backgroundSplit;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundStacked = global::PushwooshSample.Droid.Resource.Attribute.backgroundStacked;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTint = global::PushwooshSample.Droid.Resource.Attribute.backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTintMode = global::PushwooshSample.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.badgeGravity = global::PushwooshSample.Droid.Resource.Attribute.badgeGravity;
+			global::Xamarin.Forms.Platform.Resource.Attribute.badgeStyle = global::PushwooshSample.Droid.Resource.Attribute.badgeStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.badgeTextColor = global::PushwooshSample.Droid.Resource.Attribute.badgeTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.barLength = global::PushwooshSample.Droid.Resource.Attribute.barLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_autoHide = global::PushwooshSample.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_autoShrink = global::PushwooshSample.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_draggable = global::PushwooshSample.Droid.Resource.Attribute.behavior_draggable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_expandedOffset = global::PushwooshSample.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_fitToContents = global::PushwooshSample.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_halfExpandedRatio = global::PushwooshSample.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_hideable = global::PushwooshSample.Droid.Resource.Attribute.behavior_hideable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_overlapTop = global::PushwooshSample.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_peekHeight = global::PushwooshSample.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_saveFlags = global::PushwooshSample.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_skipCollapsed = global::PushwooshSample.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Xamarin.Forms.Platform.Resource.Attribute.borderlessButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.borderWidth = global::PushwooshSample.Droid.Resource.Attribute.borderWidth;
@@ -2774,7 +3784,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxCornerRadiusTopEnd = global::PushwooshSample.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxCornerRadiusTopStart = global::PushwooshSample.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeColor = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeErrorColor = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeWidth = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeWidthFocused = global::PushwooshSample.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarNegativeButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarNeutralButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -2791,14 +3803,17 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardBackgroundColor = global::PushwooshSample.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardCornerRadius = global::PushwooshSample.Droid.Resource.Attribute.cardCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardElevation = global::PushwooshSample.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cardForegroundColor = global::PushwooshSample.Droid.Resource.Attribute.cardForegroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardMaxElevation = global::PushwooshSample.Droid.Resource.Attribute.cardMaxElevation;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardPreventCornerOverlap = global::PushwooshSample.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardUseCompatPadding = global::PushwooshSample.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardViewStyle = global::PushwooshSample.Droid.Resource.Attribute.cardViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkboxStyle = global::PushwooshSample.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkedButton = global::PushwooshSample.Droid.Resource.Attribute.checkedButton;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedChip = global::PushwooshSample.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIcon = global::PushwooshSample.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconEnabled = global::PushwooshSample.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconTint = global::PushwooshSample.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconVisible = global::PushwooshSample.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedTextViewStyle = global::PushwooshSample.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipBackgroundColor = global::PushwooshSample.Droid.Resource.Attribute.chipBackgroundColor;
@@ -2811,6 +3826,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipIconTint = global::PushwooshSample.Droid.Resource.Attribute.chipIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipIconVisible = global::PushwooshSample.Droid.Resource.Attribute.chipIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipMinHeight = global::PushwooshSample.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.chipMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipSpacing = global::PushwooshSample.Droid.Resource.Attribute.chipSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipSpacingHorizontal = global::PushwooshSample.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipSpacingVertical = global::PushwooshSample.Droid.Resource.Attribute.chipSpacingVertical;
@@ -2819,6 +3835,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipStrokeColor = global::PushwooshSample.Droid.Resource.Attribute.chipStrokeColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipStrokeWidth = global::PushwooshSample.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipStyle = global::PushwooshSample.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.chipSurfaceColor = global::PushwooshSample.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIcon = global::PushwooshSample.Droid.Resource.Attribute.closeIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIconEnabled = global::PushwooshSample.Droid.Resource.Attribute.closeIconEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIconEndPadding = global::PushwooshSample.Droid.Resource.Attribute.closeIconEndPadding;
@@ -2840,9 +3857,19 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorControlHighlight = global::PushwooshSample.Droid.Resource.Attribute.colorControlHighlight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorControlNormal = global::PushwooshSample.Droid.Resource.Attribute.colorControlNormal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorError = global::PushwooshSample.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnBackground = global::PushwooshSample.Droid.Resource.Attribute.colorOnBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnError = global::PushwooshSample.Droid.Resource.Attribute.colorOnError;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnPrimary = global::PushwooshSample.Droid.Resource.Attribute.colorOnPrimary;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnPrimarySurface = global::PushwooshSample.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnSecondary = global::PushwooshSample.Droid.Resource.Attribute.colorOnSecondary;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorOnSurface = global::PushwooshSample.Droid.Resource.Attribute.colorOnSurface;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimary = global::PushwooshSample.Droid.Resource.Attribute.colorPrimary;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimaryDark = global::PushwooshSample.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimarySurface = global::PushwooshSample.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorPrimaryVariant = global::PushwooshSample.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSecondary = global::PushwooshSample.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorSecondaryVariant = global::PushwooshSample.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Xamarin.Forms.Platform.Resource.Attribute.colorSurface = global::PushwooshSample.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSwitchThumbNormal = global::PushwooshSample.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.commitIcon = global::PushwooshSample.Droid.Resource.Attribute.commitIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentDescription = global::PushwooshSample.Droid.Resource.Attribute.contentDescription;
@@ -2860,12 +3887,28 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentScrim = global::PushwooshSample.Droid.Resource.Attribute.contentScrim;
 			global::Xamarin.Forms.Platform.Resource.Attribute.controlBackground = global::PushwooshSample.Droid.Resource.Attribute.controlBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.coordinatorLayoutStyle = global::PushwooshSample.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamily = global::PushwooshSample.Droid.Resource.Attribute.cornerFamily;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyBottomLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyBottomRight = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyTopLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerFamilyTopRight = global::PushwooshSample.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cornerRadius = global::PushwooshSample.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSize = global::PushwooshSample.Droid.Resource.Attribute.cornerSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeBottomLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeBottomRight = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeTopLeft = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Attribute.cornerSizeTopRight = global::PushwooshSample.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterEnabled = global::PushwooshSample.Droid.Resource.Attribute.counterEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterMaxLength = global::PushwooshSample.Droid.Resource.Attribute.counterMaxLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterOverflowTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.counterOverflowTextColor = global::PushwooshSample.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.counterTextColor = global::PushwooshSample.Droid.Resource.Attribute.counterTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.customNavigationLayout = global::PushwooshSample.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.dayInvalidStyle = global::PushwooshSample.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.daySelectedStyle = global::PushwooshSample.Droid.Resource.Attribute.daySelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.dayStyle = global::PushwooshSample.Droid.Resource.Attribute.dayStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.dayTodayStyle = global::PushwooshSample.Droid.Resource.Attribute.dayTodayStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.defaultQueryHint = global::PushwooshSample.Droid.Resource.Attribute.defaultQueryHint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dialogCornerRadius = global::PushwooshSample.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dialogPreferredPadding = global::PushwooshSample.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -2885,16 +3928,31 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTintMode = global::PushwooshSample.Droid.Resource.Attribute.drawableTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.drawableTopCompat = global::PushwooshSample.Droid.Resource.Attribute.drawableTopCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.drawerArrowStyle = global::PushwooshSample.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.drawerLayoutStyle = global::PushwooshSample.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dropdownListPreferredItemHeight = global::PushwooshSample.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dropDownListViewStyle = global::PushwooshSample.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextBackground = global::PushwooshSample.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextColor = global::PushwooshSample.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextStyle = global::PushwooshSample.Droid.Resource.Attribute.editTextStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevation = global::PushwooshSample.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayColor = global::PushwooshSample.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayEnabled = global::PushwooshSample.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconCheckable = global::PushwooshSample.Droid.Resource.Attribute.endIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconContentDescription = global::PushwooshSample.Droid.Resource.Attribute.endIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconDrawable = global::PushwooshSample.Droid.Resource.Attribute.endIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconMode = global::PushwooshSample.Droid.Resource.Attribute.endIconMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconTint = global::PushwooshSample.Droid.Resource.Attribute.endIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.endIconTintMode = global::PushwooshSample.Droid.Resource.Attribute.endIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceMaterialTheme = global::PushwooshSample.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.ensureMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorContentDescription = global::PushwooshSample.Droid.Resource.Attribute.errorContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorEnabled = global::PushwooshSample.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconDrawable = global::PushwooshSample.Droid.Resource.Attribute.errorIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconTint = global::PushwooshSample.Droid.Resource.Attribute.errorIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorIconTintMode = global::PushwooshSample.Droid.Resource.Attribute.errorIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.errorTextColor = global::PushwooshSample.Droid.Resource.Attribute.errorTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PushwooshSample.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expanded = global::PushwooshSample.Droid.Resource.Attribute.expanded;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleGravity = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleGravity;
@@ -2904,7 +3962,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginStart = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginTop = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.extendedFloatingActionButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.extendMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.extendMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabAlignmentMode = global::PushwooshSample.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.fabAnimationMode = global::PushwooshSample.Droid.Resource.Attribute.fabAnimationMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCradleMargin = global::PushwooshSample.Droid.Resource.Attribute.fabCradleMargin;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCradleRoundedCornerRadius = global::PushwooshSample.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCradleVerticalOffset = global::PushwooshSample.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -2930,20 +3991,26 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.fontWeight = global::PushwooshSample.Droid.Resource.Attribute.fontWeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.foregroundInsidePadding = global::PushwooshSample.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.gapBetweenBars = global::PushwooshSample.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Platform.Resource.Attribute.gestureInsetBottomIgnored = global::PushwooshSample.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Xamarin.Forms.Platform.Resource.Attribute.goIcon = global::PushwooshSample.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Platform.Resource.Attribute.haloColor = global::PushwooshSample.Droid.Resource.Attribute.haloColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.haloRadius = global::PushwooshSample.Droid.Resource.Attribute.haloRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.headerLayout = global::PushwooshSample.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.height = global::PushwooshSample.Droid.Resource.Attribute.height;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperText = global::PushwooshSample.Droid.Resource.Attribute.helperText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextEnabled = global::PushwooshSample.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextTextColor = global::PushwooshSample.Droid.Resource.Attribute.helperTextTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.hideMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideOnContentScroll = global::PushwooshSample.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideOnScroll = global::PushwooshSample.Droid.Resource.Attribute.hideOnScroll;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintAnimationEnabled = global::PushwooshSample.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintEnabled = global::PushwooshSample.Droid.Resource.Attribute.hintEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.hintTextColor = global::PushwooshSample.Droid.Resource.Attribute.hintTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeAsUpIndicator = global::PushwooshSample.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeLayout = global::PushwooshSample.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.horizontalOffset = global::PushwooshSample.Droid.Resource.Attribute.horizontalOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hoveredFocusedTranslationZ = global::PushwooshSample.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Attribute.icon = global::PushwooshSample.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconEndPadding = global::PushwooshSample.Droid.Resource.Attribute.iconEndPadding;
@@ -2959,19 +4026,34 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.initialActivityCount = global::PushwooshSample.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.insetForeground = global::PushwooshSample.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.isLightTheme = global::PushwooshSample.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.isMaterialTheme = global::PushwooshSample.Droid.Resource.Attribute.isMaterialTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemBackground = global::PushwooshSample.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemFillColor = global::PushwooshSample.Droid.Resource.Attribute.itemFillColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemHorizontalPadding = global::PushwooshSample.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemHorizontalTranslationEnabled = global::PushwooshSample.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconPadding = global::PushwooshSample.Droid.Resource.Attribute.itemIconPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconSize = global::PushwooshSample.Droid.Resource.Attribute.itemIconSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconTint = global::PushwooshSample.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemMaxLines = global::PushwooshSample.Droid.Resource.Attribute.itemMaxLines;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemPadding = global::PushwooshSample.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemRippleColor = global::PushwooshSample.Droid.Resource.Attribute.itemRippleColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeAppearance = global::PushwooshSample.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeFillColor = global::PushwooshSample.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetBottom = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetEnd = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetStart = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemShapeInsetTop = global::PushwooshSample.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemSpacing = global::PushwooshSample.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemStrokeColor = global::PushwooshSample.Droid.Resource.Attribute.itemStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.itemStrokeWidth = global::PushwooshSample.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.itemTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearanceActive = global::PushwooshSample.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearanceInactive = global::PushwooshSample.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextColor = global::PushwooshSample.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.keylines = global::PushwooshSample.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Platform.Resource.Attribute.labelBehavior = global::PushwooshSample.Droid.Resource.Attribute.labelBehavior;
+			global::Xamarin.Forms.Platform.Resource.Attribute.labelStyle = global::PushwooshSample.Droid.Resource.Attribute.labelStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.labelVisibilityMode = global::PushwooshSample.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lastBaselineToBottomHeight = global::PushwooshSample.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout = global::PushwooshSample.Droid.Resource.Attribute.layout;
@@ -2987,6 +4069,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout_scrollFlags = global::PushwooshSample.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout_scrollInterpolator = global::PushwooshSample.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.liftOnScroll = global::PushwooshSample.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.Platform.Resource.Attribute.liftOnScrollTargetViewId = global::PushwooshSample.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineHeight = global::PushwooshSample.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineSpacing = global::PushwooshSample.Droid.Resource.Attribute.lineSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceBackgroundIndicator = global::PushwooshSample.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -3006,22 +4089,47 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingStart = global::PushwooshSample.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logo = global::PushwooshSample.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logoDescription = global::PushwooshSample.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogBodyTextStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTheme = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitleIconStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitleTextStyle = global::PushwooshSample.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonOutlinedStyle = global::PushwooshSample.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonToggleGroupStyle = global::PushwooshSample.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarDay = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarDay;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarFullscreenTheme = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderConfirmButton = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderDivider = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderLayout = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderSelection = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderTitle = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarHeaderToggleButton = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarStyle = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialCalendarTheme = global::PushwooshSample.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialCardViewStyle = global::PushwooshSample.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.materialThemeOverlay = global::PushwooshSample.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxActionInlineWidth = global::PushwooshSample.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxButtonHeight = global::PushwooshSample.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Platform.Resource.Attribute.maxCharacterCount = global::PushwooshSample.Droid.Resource.Attribute.maxCharacterCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.maxImageSize = global::PushwooshSample.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Platform.Resource.Attribute.maxLines = global::PushwooshSample.Droid.Resource.Attribute.maxLines;
 			global::Xamarin.Forms.Platform.Resource.Attribute.measureWithLargestChild = global::PushwooshSample.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Xamarin.Forms.Platform.Resource.Attribute.menu = global::PushwooshSample.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Platform.Resource.Attribute.minTouchTargetSize = global::PushwooshSample.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.multiChoiceItemLayout = global::PushwooshSample.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationContentDescription = global::PushwooshSample.Droid.Resource.Attribute.navigationContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationIcon = global::PushwooshSample.Droid.Resource.Attribute.navigationIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationMode = global::PushwooshSample.Droid.Resource.Attribute.navigationMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.navigationViewStyle = global::PushwooshSample.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.number = global::PushwooshSample.Droid.Resource.Attribute.number;
 			global::Xamarin.Forms.Platform.Resource.Attribute.numericModifiers = global::PushwooshSample.Droid.Resource.Attribute.numericModifiers;
 			global::Xamarin.Forms.Platform.Resource.Attribute.overlapAnchor = global::PushwooshSample.Droid.Resource.Attribute.overlapAnchor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingBottomNoButtons = global::PushwooshSample.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingBottomSystemWindowInsets = global::PushwooshSample.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingEnd = global::PushwooshSample.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingLeftSystemWindowInsets = global::PushwooshSample.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Attribute.paddingRightSystemWindowInsets = global::PushwooshSample.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingStart = global::PushwooshSample.Droid.Resource.Attribute.paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.paddingTopNoTitle = global::PushwooshSample.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.panelBackground = global::PushwooshSample.Droid.Resource.Attribute.panelBackground;
@@ -3032,9 +4140,16 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleEnabled = global::PushwooshSample.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTint = global::PushwooshSample.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTintMode = global::PushwooshSample.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderText = global::PushwooshSample.Droid.Resource.Attribute.placeholderText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.placeholderTextColor = global::PushwooshSample.Droid.Resource.Attribute.placeholderTextColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.popupMenuBackground = global::PushwooshSample.Droid.Resource.Attribute.popupMenuBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupMenuStyle = global::PushwooshSample.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupTheme = global::PushwooshSample.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupWindowStyle = global::PushwooshSample.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixText = global::PushwooshSample.Droid.Resource.Attribute.prefixText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.prefixTextColor = global::PushwooshSample.Droid.Resource.Attribute.prefixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.preserveIconSpacing = global::PushwooshSample.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.pressedTranslationZ = global::PushwooshSample.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Attribute.progressBarPadding = global::PushwooshSample.Droid.Resource.Attribute.progressBarPadding;
@@ -3042,6 +4157,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.queryBackground = global::PushwooshSample.Droid.Resource.Attribute.queryBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.queryHint = global::PushwooshSample.Droid.Resource.Attribute.queryHint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.radioButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.rangeFillColor = global::PushwooshSample.Droid.Resource.Attribute.rangeFillColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyle = global::PushwooshSample.Droid.Resource.Attribute.ratingBarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleIndicator = global::PushwooshSample.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleSmall = global::PushwooshSample.Droid.Resource.Attribute.ratingBarStyleSmall;
@@ -3051,22 +4167,32 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimAnimationDuration = global::PushwooshSample.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimBackground = global::PushwooshSample.Droid.Resource.Attribute.scrimBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimVisibleHeightTrigger = global::PushwooshSample.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Platform.Resource.Attribute.scrollViewStyle = global::PushwooshSample.Droid.Resource.Attribute.scrollViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchHintIcon = global::PushwooshSample.Droid.Resource.Attribute.searchHintIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchIcon = global::PushwooshSample.Droid.Resource.Attribute.searchIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchViewStyle = global::PushwooshSample.Droid.Resource.Attribute.searchViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.seekBarStyle = global::PushwooshSample.Droid.Resource.Attribute.seekBarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackground = global::PushwooshSample.Droid.Resource.Attribute.selectableItemBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackgroundBorderless = global::PushwooshSample.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Platform.Resource.Attribute.selectionRequired = global::PushwooshSample.Droid.Resource.Attribute.selectionRequired;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearance = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceLargeComponent = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceMediumComponent = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shapeAppearanceSmallComponent = global::PushwooshSample.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showAsAction = global::PushwooshSample.Droid.Resource.Attribute.showAsAction;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showDividers = global::PushwooshSample.Droid.Resource.Attribute.showDividers;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.showMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showText = global::PushwooshSample.Droid.Resource.Attribute.showText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showTitle = global::PushwooshSample.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.shrinkMotionSpec = global::PushwooshSample.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleChoiceItemLayout = global::PushwooshSample.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleLine = global::PushwooshSample.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleSelection = global::PushwooshSample.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Platform.Resource.Attribute.sliderStyle = global::PushwooshSample.Droid.Resource.Attribute.sliderStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarButtonStyle = global::PushwooshSample.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarStyle = global::PushwooshSample.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarTextViewStyle = global::PushwooshSample.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spanCount = global::PushwooshSample.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinBars = global::PushwooshSample.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinnerDropDownItemStyle = global::PushwooshSample.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -3074,12 +4200,19 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.splitTrack = global::PushwooshSample.Droid.Resource.Attribute.splitTrack;
 			global::Xamarin.Forms.Platform.Resource.Attribute.srcCompat = global::PushwooshSample.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.stackFromEnd = global::PushwooshSample.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconCheckable = global::PushwooshSample.Droid.Resource.Attribute.startIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconContentDescription = global::PushwooshSample.Droid.Resource.Attribute.startIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconDrawable = global::PushwooshSample.Droid.Resource.Attribute.startIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconTint = global::PushwooshSample.Droid.Resource.Attribute.startIconTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.startIconTintMode = global::PushwooshSample.Droid.Resource.Attribute.startIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_above_anchor = global::PushwooshSample.Droid.Resource.Attribute.state_above_anchor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_collapsed = global::PushwooshSample.Droid.Resource.Attribute.state_collapsed;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_collapsible = global::PushwooshSample.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Platform.Resource.Attribute.state_dragged = global::PushwooshSample.Droid.Resource.Attribute.state_dragged;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_liftable = global::PushwooshSample.Droid.Resource.Attribute.state_liftable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_lifted = global::PushwooshSample.Droid.Resource.Attribute.state_lifted;
 			global::Xamarin.Forms.Platform.Resource.Attribute.statusBarBackground = global::PushwooshSample.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.statusBarForeground = global::PushwooshSample.Droid.Resource.Attribute.statusBarForeground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.statusBarScrim = global::PushwooshSample.Droid.Resource.Attribute.statusBarScrim;
 			global::Xamarin.Forms.Platform.Resource.Attribute.strokeColor = global::PushwooshSample.Droid.Resource.Attribute.strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.strokeWidth = global::PushwooshSample.Droid.Resource.Attribute.strokeWidth;
@@ -3089,7 +4222,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextColor = global::PushwooshSample.Droid.Resource.Attribute.subtitleTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitleTextStyle = global::PushwooshSample.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixText = global::PushwooshSample.Droid.Resource.Attribute.suffixText;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixTextAppearance = global::PushwooshSample.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Attribute.suffixTextColor = global::PushwooshSample.Droid.Resource.Attribute.suffixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.suggestionRowLayout = global::PushwooshSample.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.Platform.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::PushwooshSample.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchMinWidth = global::PushwooshSample.Droid.Resource.Attribute.switchMinWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchPadding = global::PushwooshSample.Droid.Resource.Attribute.switchPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchStyle = global::PushwooshSample.Droid.Resource.Attribute.switchStyle;
@@ -3132,6 +4269,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceHeadline5 = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceHeadline6 = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceLargePopupMenu = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceLineHeightEnabled = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItem = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItemSecondary = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItemSmall = global::PushwooshSample.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -3145,14 +4283,22 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textColorAlertDialogListItem = global::PushwooshSample.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textColorSearchUrl = global::PushwooshSample.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textEndPadding = global::PushwooshSample.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Platform.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::PushwooshSample.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textInputStyle = global::PushwooshSample.Droid.Resource.Attribute.textInputStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textLocale = global::PushwooshSample.Droid.Resource.Attribute.textLocale;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textStartPadding = global::PushwooshSample.Droid.Resource.Attribute.textStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.theme = global::PushwooshSample.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Platform.Resource.Attribute.themeLineHeight = global::PushwooshSample.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thickness = global::PushwooshSample.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbColor = global::PushwooshSample.Droid.Resource.Attribute.thumbColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbElevation = global::PushwooshSample.Droid.Resource.Attribute.thumbElevation;
+			global::Xamarin.Forms.Platform.Resource.Attribute.thumbRadius = global::PushwooshSample.Droid.Resource.Attribute.thumbRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTextPadding = global::PushwooshSample.Droid.Resource.Attribute.thumbTextPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTint = global::PushwooshSample.Droid.Resource.Attribute.thumbTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbTintMode = global::PushwooshSample.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColor = global::PushwooshSample.Droid.Resource.Attribute.tickColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColorActive = global::PushwooshSample.Droid.Resource.Attribute.tickColorActive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tickColorInactive = global::PushwooshSample.Droid.Resource.Attribute.tickColorInactive;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMark = global::PushwooshSample.Droid.Resource.Attribute.tickMark;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMarkTint = global::PushwooshSample.Droid.Resource.Attribute.tickMarkTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tickMarkTintMode = global::PushwooshSample.Droid.Resource.Attribute.tickMarkTintMode;
@@ -3174,12 +4320,21 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.toolbarStyle = global::PushwooshSample.Droid.Resource.Attribute.toolbarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipForegroundColor = global::PushwooshSample.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipFrameBackground = global::PushwooshSample.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipStyle = global::PushwooshSample.Droid.Resource.Attribute.tooltipStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tooltipText = global::PushwooshSample.Droid.Resource.Attribute.tooltipText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.track = global::PushwooshSample.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColor = global::PushwooshSample.Droid.Resource.Attribute.trackColor;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColorActive = global::PushwooshSample.Droid.Resource.Attribute.trackColorActive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackColorInactive = global::PushwooshSample.Droid.Resource.Attribute.trackColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Attribute.trackHeight = global::PushwooshSample.Droid.Resource.Attribute.trackHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.trackTint = global::PushwooshSample.Droid.Resource.Attribute.trackTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.trackTintMode = global::PushwooshSample.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Platform.Resource.Attribute.transitionShapeAppearance = global::PushwooshSample.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ttcIndex = global::PushwooshSample.Droid.Resource.Attribute.ttcIndex;
 			global::Xamarin.Forms.Platform.Resource.Attribute.useCompatPadding = global::PushwooshSample.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Platform.Resource.Attribute.useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Resource.Attribute.values = global::PushwooshSample.Droid.Resource.Attribute.values;
+			global::Xamarin.Forms.Platform.Resource.Attribute.verticalOffset = global::PushwooshSample.Droid.Resource.Attribute.verticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.viewInflaterClass = global::PushwooshSample.Droid.Resource.Attribute.viewInflaterClass;
 			global::Xamarin.Forms.Platform.Resource.Attribute.voiceIcon = global::PushwooshSample.Droid.Resource.Attribute.voiceIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowActionBar = global::PushwooshSample.Droid.Resource.Attribute.windowActionBar;
@@ -3192,6 +4347,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowMinWidthMajor = global::PushwooshSample.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowMinWidthMinor = global::PushwooshSample.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.windowNoTitle = global::PushwooshSample.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.yearSelectedStyle = global::PushwooshSample.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.yearStyle = global::PushwooshSample.Droid.Resource.Attribute.yearStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.yearTodayStyle = global::PushwooshSample.Droid.Resource.Attribute.yearTodayStyle;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_action_bar_embed_tabs = global::PushwooshSample.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_allow_stacked_button_bar = global::PushwooshSample.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
 			global::Xamarin.Forms.Platform.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PushwooshSample.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
@@ -3201,6 +4359,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.abc_btn_colored_borderless_text_material = global::PushwooshSample.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_btn_colored_text_material = global::PushwooshSample.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_color_highlight_material = global::PushwooshSample.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Platform.Resource.Color.abc_decor_view_status_guard = global::PushwooshSample.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Xamarin.Forms.Platform.Resource.Color.abc_decor_view_status_guard_light = global::PushwooshSample.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_hint_foreground_material_dark = global::PushwooshSample.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_hint_foreground_material_light = global::PushwooshSample.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.abc_primary_text_disable_only_material_dark = global::PushwooshSample.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -3221,6 +4381,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.abc_tint_switch_track = global::PushwooshSample.Droid.Resource.Color.abc_tint_switch_track;
 			global::Xamarin.Forms.Platform.Resource.Color.accent_material_dark = global::PushwooshSample.Droid.Resource.Color.accent_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.accent_material_light = global::PushwooshSample.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.androidx_core_ripple_material_light = global::PushwooshSample.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.androidx_core_secondary_text_default_material_light = global::PushwooshSample.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.background_floating_material_dark = global::PushwooshSample.Droid.Resource.Color.background_floating_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.background_floating_material_light = global::PushwooshSample.Droid.Resource.Color.background_floating_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.background_material_dark = global::PushwooshSample.Droid.Resource.Color.background_material_dark;
@@ -3237,9 +4399,35 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_light_background = global::PushwooshSample.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_end_color = global::PushwooshSample.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_start_color = global::PushwooshSample.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Platform.Resource.Color.checkbox_themeable_attribute_color = global::PushwooshSample.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_bottom_navigation_shadow_color = global::PushwooshSample.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Platform.Resource.Color.design_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.design_box_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_background = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_error = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_background = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_error = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_primary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_secondary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_on_surface = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_primary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_primary_dark = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_primary_variant = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_secondary = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_secondary_variant = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_surface = global::PushwooshSample.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_background = global::PushwooshSample.Droid.Resource.Color.design_default_color_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_error = global::PushwooshSample.Droid.Resource.Color.design_default_color_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_background = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_background;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_error = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_error;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_primary = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_primary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_secondary = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_on_surface = global::PushwooshSample.Droid.Resource.Color.design_default_color_on_surface;
 			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary = global::PushwooshSample.Droid.Resource.Color.design_default_color_primary;
 			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary_dark = global::PushwooshSample.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary_variant = global::PushwooshSample.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_secondary = global::PushwooshSample.Droid.Resource.Color.design_default_color_secondary;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_secondary_variant = global::PushwooshSample.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_surface = global::PushwooshSample.Droid.Resource.Color.design_default_color_surface;
 			global::Xamarin.Forms.Platform.Resource.Color.design_error = global::PushwooshSample.Droid.Resource.Color.design_error;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_end_color = global::PushwooshSample.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_mid_color = global::PushwooshSample.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -3248,6 +4436,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_end_outer_color = global::PushwooshSample.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_inner_color = global::PushwooshSample.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_outer_color = global::PushwooshSample.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Platform.Resource.Color.design_icon_tint = global::PushwooshSample.Droid.Resource.Color.design_icon_tint;
 			global::Xamarin.Forms.Platform.Resource.Color.design_snackbar_background_color = global::PushwooshSample.Droid.Resource.Color.design_snackbar_background_color;
 			global::Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_dark = global::PushwooshSample.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_light = global::PushwooshSample.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -3271,19 +4460,60 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.material_grey_800 = global::PushwooshSample.Droid.Resource.Color.material_grey_800;
 			global::Xamarin.Forms.Platform.Resource.Color.material_grey_850 = global::PushwooshSample.Droid.Resource.Color.material_grey_850;
 			global::Xamarin.Forms.Platform.Resource.Color.material_grey_900 = global::PushwooshSample.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_background_disabled = global::PushwooshSample.Droid.Resource.Color.material_on_background_disabled;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_background_emphasis_high_type = global::PushwooshSample.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_background_emphasis_medium = global::PushwooshSample.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_primary_disabled = global::PushwooshSample.Droid.Resource.Color.material_on_primary_disabled;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_primary_emphasis_high_type = global::PushwooshSample.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_primary_emphasis_medium = global::PushwooshSample.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_disabled = global::PushwooshSample.Droid.Resource.Color.material_on_surface_disabled;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_emphasis_high_type = global::PushwooshSample.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_emphasis_medium = global::PushwooshSample.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Color.material_on_surface_stroke = global::PushwooshSample.Droid.Resource.Color.material_on_surface_stroke;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_active_tick_marks_color = global::PushwooshSample.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_active_track_color = global::PushwooshSample.Droid.Resource.Color.material_slider_active_track_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_halo_color = global::PushwooshSample.Droid.Resource.Color.material_slider_halo_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_tick_marks_color = global::PushwooshSample.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_inactive_track_color = global::PushwooshSample.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Xamarin.Forms.Platform.Resource.Color.material_slider_thumb_color = global::PushwooshSample.Droid.Resource.Color.material_slider_thumb_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_item_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_bottom_nav_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_bg_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_stroke_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_btn_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_color_disabled = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_transparent_bg_color = global::PushwooshSample.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_calendar_item_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_calendar_selected_range = global::PushwooshSample.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_card_view_foreground = global::PushwooshSample.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_card_view_ripple = global::PushwooshSample.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_close_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_surface_color = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_chip_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_choice_chip_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_error = global::PushwooshSample.Droid.Resource.Color.mtrl_error;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_bg_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_icon_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_fab_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_filled_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_indicator_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_navigation_item_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_navigation_item_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_navigation_item_text_color = global::PushwooshSample.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_outlined_icon_tint = global::PushwooshSample.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_outlined_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_popupmenu_overlay_color = global::PushwooshSample.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_scrim_color = global::PushwooshSample.Droid.Resource.Color.mtrl_scrim_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_tabs_colored_ripple_color = global::PushwooshSample.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_tabs_icon_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -3293,6 +4523,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_default_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_disabled_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::PushwooshSample.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_text_btn_text_color_selector = global::PushwooshSample.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.notification_action_color_filter = global::PushwooshSample.Droid.Resource.Color.notification_action_color_filter;
@@ -3306,6 +4537,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_light = global::PushwooshSample.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_dark = global::PushwooshSample.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_light = global::PushwooshSample.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.radiobutton_themeable_attribute_color = global::PushwooshSample.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_dark = global::PushwooshSample.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_light = global::PushwooshSample.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_dark = global::PushwooshSample.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -3318,6 +4550,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_material_light = global::PushwooshSample.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_dark = global::PushwooshSample.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_light = global::PushwooshSample.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day = global::PushwooshSample.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day_selected = global::PushwooshSample.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_dark = global::PushwooshSample.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_light = global::PushwooshSample.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_content_inset_material = global::PushwooshSample.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -3398,6 +4632,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PushwooshSample.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material = global::PushwooshSample.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material_toolbar = global::PushwooshSample.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Platform.Resource.Dimension.action_bar_size = global::PushwooshSample.Droid.Resource.Dimension.action_bar_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.appcompat_dialog_background_inset = global::PushwooshSample.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_compat_inset_shadow = global::PushwooshSample.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_elevation = global::PushwooshSample.Droid.Resource.Dimension.cardview_default_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_radius = global::PushwooshSample.Droid.Resource.Dimension.cardview_default_radius;
@@ -3408,6 +4644,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_control_corner_material = global::PushwooshSample.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_height = global::PushwooshSample.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_width = global::PushwooshSample.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.default_dimension = global::PushwooshSample.Droid.Resource.Dimension.default_dimension;
+			global::Xamarin.Forms.Platform.Resource.Dimension.def_drawer_elevation = global::PushwooshSample.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_appbar_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -3420,6 +4658,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_margin = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_shadow_height = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_text_size = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_sheet_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PushwooshSample.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_fab_border_width = global::PushwooshSample.Droid.Resource.Dimension.design_fab_border_width;
@@ -3438,6 +4677,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_navigation_padding_bottom = global::PushwooshSample.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_navigation_separator_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_action_inline_max_width = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_action_text_color_alpha = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_background_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_elevation = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PushwooshSample.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -3467,7 +4707,24 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PushwooshSample.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PushwooshSample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PushwooshSample.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_disabled = global::PushwooshSample.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_high_type = global::PushwooshSample.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_medium = global::PushwooshSample.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height = global::PushwooshSample.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height_override = global::PushwooshSample.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_text_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_badge_with_text_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -3494,25 +4751,130 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::PushwooshSample.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_btn_text_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_btn_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_action_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_action_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_bottom_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_content_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_days_of_week_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_corner = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_today_stroke = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_day_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_content_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_text_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_landscape_header_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_navigation_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_corner = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_calendar_year_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_checked_icon_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_checked_icon_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_dragged_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_spacing = global::PushwooshSample.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_pressed_translation_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_text_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::PushwooshSample.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_end_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_icon_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_min_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_min_width = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_start_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_top_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::PushwooshSample.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_min_touch_target = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_fab_translation_z_pressed = global::PushwooshSample.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_default_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_large_touch_target = global::PushwooshSample.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_default_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_min_touch_target_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_icon_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_icon_size = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_large_component = global::PushwooshSample.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::PushwooshSample.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_shape_corner_size_small_component = global::PushwooshSample.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_halo_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_label_square_side = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_side_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_top = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_widget_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_margin = global::PushwooshSample.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_switch_thumb_elevation = global::PushwooshSample.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_counter_margin_start = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::PushwooshSample.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_toolbar_default_height = global::PushwooshSample.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_arrowSize = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_cornerSize = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_minHeight = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_minWidth = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_tooltip_padding = global::PushwooshSample.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::PushwooshSample.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_icon_size = global::PushwooshSample.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_text_size = global::PushwooshSample.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_big_circle_margin = global::PushwooshSample.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -3528,10 +4890,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_subtext_size = global::PushwooshSample.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad = global::PushwooshSample.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad_large_text = global::PushwooshSample.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_outline_width = global::PushwooshSample.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_shadow_offset = global::PushwooshSample.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Xamarin.Forms.Platform.Resource.Dimension.subtitle_shadow_radius = global::PushwooshSample.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.Platform.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::PushwooshSample.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_corner_radius = global::PushwooshSample.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_horizontal_padding = global::PushwooshSample.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_margin = global::PushwooshSample.Droid.Resource.Dimension.tooltip_margin;
@@ -3642,9 +5001,25 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_ic_visibility_off = global::PushwooshSample.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_password_eye = global::PushwooshSample.Droid.Resource.Drawable.design_password_eye;
 			global::Xamarin.Forms.Platform.Resource.Drawable.design_snackbar_background = global::PushwooshSample.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_checked_circle = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_checked_black = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_checked_circle = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Xamarin.Forms.Platform.Resource.Drawable.ic_mtrl_chip_close_circle = global::PushwooshSample.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_calendar_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_clear_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_edit_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::PushwooshSample.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_dialog_background = global::PushwooshSample.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_dropdown_arrow = global::PushwooshSample.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_arrow_drop_down = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_arrow_drop_up = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_cancel = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_error = global::PushwooshSample.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background = global::PushwooshSample.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background_dark = global::PushwooshSample.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_tabs_default_indicator = global::PushwooshSample.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Resource.Drawable.navigation_empty_icon = global::PushwooshSample.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_action_background = global::PushwooshSample.Droid.Resource.Drawable.notification_action_background;
@@ -3659,6 +5034,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_template_icon_low_bg = global::PushwooshSample.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_tile_bg = global::PushwooshSample.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notify_panel_notification_icon_bg = global::PushwooshSample.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Platform.Resource.Drawable.test_custom_background = global::PushwooshSample.Droid.Resource.Drawable.test_custom_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_dark = global::PushwooshSample.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_light = global::PushwooshSample.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Resource.Id.accessibility_action_clickable_span = global::PushwooshSample.Droid.Resource.Id.accessibility_action_clickable_span;
@@ -3726,17 +5102,27 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.bottom = global::PushwooshSample.Droid.Resource.Id.bottom;
 			global::Xamarin.Forms.Platform.Resource.Id.bottomtab_navarea = global::PushwooshSample.Droid.Resource.Id.bottomtab_navarea;
 			global::Xamarin.Forms.Platform.Resource.Id.bottomtab_tabbar = global::PushwooshSample.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Forms.Platform.Resource.Id.BOTTOM_END = global::PushwooshSample.Droid.Resource.Id.BOTTOM_END;
+			global::Xamarin.Forms.Platform.Resource.Id.BOTTOM_START = global::PushwooshSample.Droid.Resource.Id.BOTTOM_START;
 			global::Xamarin.Forms.Platform.Resource.Id.buttonPanel = global::PushwooshSample.Droid.Resource.Id.buttonPanel;
 			global::Xamarin.Forms.Platform.Resource.Id.cancel_action = global::PushwooshSample.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Platform.Resource.Id.cancel_button = global::PushwooshSample.Droid.Resource.Id.cancel_button;
 			global::Xamarin.Forms.Platform.Resource.Id.center = global::PushwooshSample.Droid.Resource.Id.center;
 			global::Xamarin.Forms.Platform.Resource.Id.center_horizontal = global::PushwooshSample.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.center_vertical = global::PushwooshSample.Droid.Resource.Id.center_vertical;
 			global::Xamarin.Forms.Platform.Resource.Id.checkbox = global::PushwooshSample.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Resource.Id.@checked = global::PushwooshSample.Droid.Resource.Id.@checked;
+			global::Xamarin.Forms.Platform.Resource.Id.chip = global::PushwooshSample.Droid.Resource.Id.chip;
+			global::Xamarin.Forms.Platform.Resource.Id.chip1 = global::PushwooshSample.Droid.Resource.Id.chip1;
+			global::Xamarin.Forms.Platform.Resource.Id.chip2 = global::PushwooshSample.Droid.Resource.Id.chip2;
+			global::Xamarin.Forms.Platform.Resource.Id.chip3 = global::PushwooshSample.Droid.Resource.Id.chip3;
+			global::Xamarin.Forms.Platform.Resource.Id.chip_group = global::PushwooshSample.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Resource.Id.chronometer = global::PushwooshSample.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Platform.Resource.Id.clear_text = global::PushwooshSample.Droid.Resource.Id.clear_text;
 			global::Xamarin.Forms.Platform.Resource.Id.clip_horizontal = global::PushwooshSample.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.clip_vertical = global::PushwooshSample.Droid.Resource.Id.clip_vertical;
 			global::Xamarin.Forms.Platform.Resource.Id.collapseActionView = global::PushwooshSample.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.Platform.Resource.Id.confirm_button = global::PushwooshSample.Droid.Resource.Id.confirm_button;
 			global::Xamarin.Forms.Platform.Resource.Id.container = global::PushwooshSample.Droid.Resource.Id.container;
 			global::Xamarin.Forms.Platform.Resource.Id.content = global::PushwooshSample.Droid.Resource.Id.content;
 			global::Xamarin.Forms.Platform.Resource.Id.contentPanel = global::PushwooshSample.Droid.Resource.Id.contentPanel;
@@ -3744,6 +5130,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.CTRL = global::PushwooshSample.Droid.Resource.Id.CTRL;
 			global::Xamarin.Forms.Platform.Resource.Id.custom = global::PushwooshSample.Droid.Resource.Id.custom;
 			global::Xamarin.Forms.Platform.Resource.Id.customPanel = global::PushwooshSample.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Platform.Resource.Id.cut = global::PushwooshSample.Droid.Resource.Id.cut;
+			global::Xamarin.Forms.Platform.Resource.Id.date_picker_actions = global::PushwooshSample.Droid.Resource.Id.date_picker_actions;
 			global::Xamarin.Forms.Platform.Resource.Id.decor_content_parent = global::PushwooshSample.Droid.Resource.Id.decor_content_parent;
 			global::Xamarin.Forms.Platform.Resource.Id.default_activity_button = global::PushwooshSample.Droid.Resource.Id.default_activity_button;
 			global::Xamarin.Forms.Platform.Resource.Id.design_bottom_sheet = global::PushwooshSample.Droid.Resource.Id.design_bottom_sheet;
@@ -3753,6 +5141,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.design_navigation_view = global::PushwooshSample.Droid.Resource.Id.design_navigation_view;
 			global::Xamarin.Forms.Platform.Resource.Id.dialog_button = global::PushwooshSample.Droid.Resource.Id.dialog_button;
 			global::Xamarin.Forms.Platform.Resource.Id.disableHome = global::PushwooshSample.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.Platform.Resource.Id.dropdown_menu = global::PushwooshSample.Droid.Resource.Id.dropdown_menu;
 			global::Xamarin.Forms.Platform.Resource.Id.edit_query = global::PushwooshSample.Droid.Resource.Id.edit_query;
 			global::Xamarin.Forms.Platform.Resource.Id.end = global::PushwooshSample.Droid.Resource.Id.end;
 			global::Xamarin.Forms.Platform.Resource.Id.end_padder = global::PushwooshSample.Droid.Resource.Id.end_padder;
@@ -3761,18 +5150,23 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.exitUntilCollapsed = global::PushwooshSample.Droid.Resource.Id.exitUntilCollapsed;
 			global::Xamarin.Forms.Platform.Resource.Id.expanded_menu = global::PushwooshSample.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Resource.Id.expand_activities_button = global::PushwooshSample.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Platform.Resource.Id.fade = global::PushwooshSample.Droid.Resource.Id.fade;
 			global::Xamarin.Forms.Platform.Resource.Id.fill = global::PushwooshSample.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Resource.Id.filled = global::PushwooshSample.Droid.Resource.Id.filled;
 			global::Xamarin.Forms.Platform.Resource.Id.fill_horizontal = global::PushwooshSample.Droid.Resource.Id.fill_horizontal;
 			global::Xamarin.Forms.Platform.Resource.Id.fill_vertical = global::PushwooshSample.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.Platform.Resource.Id.fitToContents = global::PushwooshSample.Droid.Resource.Id.fitToContents;
 			global::Xamarin.Forms.Platform.Resource.Id.@fixed = global::PushwooshSample.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Resource.Id.floating = global::PushwooshSample.Droid.Resource.Id.floating;
 			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_appbar = global::PushwooshSample.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_recycler = global::PushwooshSample.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Resource.Id.forever = global::PushwooshSample.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Platform.Resource.Id.fragment_container_view_tag = global::PushwooshSample.Droid.Resource.Id.fragment_container_view_tag;
 			global::Xamarin.Forms.Platform.Resource.Id.FUNCTION = global::PushwooshSample.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Resource.Id.ghost_view = global::PushwooshSample.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Resource.Id.ghost_view_holder = global::PushwooshSample.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Forms.Platform.Resource.Id.gone = global::PushwooshSample.Droid.Resource.Id.gone;
 			global::Xamarin.Forms.Platform.Resource.Id.group_divider = global::PushwooshSample.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.Platform.Resource.Id.hideable = global::PushwooshSample.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Resource.Id.home = global::PushwooshSample.Droid.Resource.Id.home;
 			global::Xamarin.Forms.Platform.Resource.Id.homeAsUp = global::PushwooshSample.Droid.Resource.Id.homeAsUp;
 			global::Xamarin.Forms.Platform.Resource.Id.icon = global::PushwooshSample.Droid.Resource.Id.icon;
@@ -3795,17 +5189,44 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.main_viewpager = global::PushwooshSample.Droid.Resource.Id.main_viewpager;
 			global::Xamarin.Forms.Platform.Resource.Id.masked = global::PushwooshSample.Droid.Resource.Id.masked;
 			global::Xamarin.Forms.Platform.Resource.Id.media_actions = global::PushwooshSample.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.Platform.Resource.Id.media_controller_compat_view_tag = global::PushwooshSample.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Xamarin.Forms.Platform.Resource.Id.message = global::PushwooshSample.Droid.Resource.Id.message;
 			global::Xamarin.Forms.Platform.Resource.Id.META = global::PushwooshSample.Droid.Resource.Id.META;
 			global::Xamarin.Forms.Platform.Resource.Id.middle = global::PushwooshSample.Droid.Resource.Id.middle;
 			global::Xamarin.Forms.Platform.Resource.Id.mini = global::PushwooshSample.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Platform.Resource.Id.month_grid = global::PushwooshSample.Droid.Resource.Id.month_grid;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_bar = global::PushwooshSample.Droid.Resource.Id.month_navigation_bar;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_fragment_toggle = global::PushwooshSample.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_next = global::PushwooshSample.Droid.Resource.Id.month_navigation_next;
+			global::Xamarin.Forms.Platform.Resource.Id.month_navigation_previous = global::PushwooshSample.Droid.Resource.Id.month_navigation_previous;
+			global::Xamarin.Forms.Platform.Resource.Id.month_title = global::PushwooshSample.Droid.Resource.Id.month_title;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_days_of_week = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_day_selector_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_main_pane = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_months = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_selection_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_text_input_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_calendar_year_selector_frame = global::PushwooshSample.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_card_checked_layer_id = global::PushwooshSample.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_child_content_container = global::PushwooshSample.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_internal_children_alpha_tag = global::PushwooshSample.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_motion_snapshot_view = global::PushwooshSample.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_fullscreen = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header_selection_text = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header_title_and_selection = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_header_toggle = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_text_input_date = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_text_input_range_end = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_text_input_range_start = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Xamarin.Forms.Platform.Resource.Id.mtrl_picker_title_text = global::PushwooshSample.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Xamarin.Forms.Platform.Resource.Id.multiply = global::PushwooshSample.Droid.Resource.Id.multiply;
 			global::Xamarin.Forms.Platform.Resource.Id.navigation_header_container = global::PushwooshSample.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.Forms.Platform.Resource.Id.never = global::PushwooshSample.Droid.Resource.Id.never;
 			global::Xamarin.Forms.Platform.Resource.Id.none = global::PushwooshSample.Droid.Resource.Id.none;
 			global::Xamarin.Forms.Platform.Resource.Id.normal = global::PushwooshSample.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Platform.Resource.Id.noScroll = global::PushwooshSample.Droid.Resource.Id.noScroll;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_background = global::PushwooshSample.Droid.Resource.Id.notification_background;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_main_column = global::PushwooshSample.Droid.Resource.Id.notification_main_column;
 			global::Xamarin.Forms.Platform.Resource.Id.notification_main_column_container = global::PushwooshSample.Droid.Resource.Id.notification_main_column_container;
@@ -3815,6 +5236,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.parallax = global::PushwooshSample.Droid.Resource.Id.parallax;
 			global::Xamarin.Forms.Platform.Resource.Id.parentPanel = global::PushwooshSample.Droid.Resource.Id.parentPanel;
 			global::Xamarin.Forms.Platform.Resource.Id.parent_matrix = global::PushwooshSample.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Platform.Resource.Id.password_toggle = global::PushwooshSample.Droid.Resource.Id.password_toggle;
+			global::Xamarin.Forms.Platform.Resource.Id.peekHeight = global::PushwooshSample.Droid.Resource.Id.peekHeight;
 			global::Xamarin.Forms.Platform.Resource.Id.pin = global::PushwooshSample.Droid.Resource.Id.pin;
 			global::Xamarin.Forms.Platform.Resource.Id.progress_circular = global::PushwooshSample.Droid.Resource.Id.progress_circular;
 			global::Xamarin.Forms.Platform.Resource.Id.progress_horizontal = global::PushwooshSample.Droid.Resource.Id.progress_horizontal;
@@ -3822,8 +5245,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.right = global::PushwooshSample.Droid.Resource.Id.right;
 			global::Xamarin.Forms.Platform.Resource.Id.right_icon = global::PushwooshSample.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Resource.Id.right_side = global::PushwooshSample.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Platform.Resource.Id.rounded = global::PushwooshSample.Droid.Resource.Id.rounded;
+			global::Xamarin.Forms.Platform.Resource.Id.row_index_key = global::PushwooshSample.Droid.Resource.Id.row_index_key;
 			global::Xamarin.Forms.Platform.Resource.Id.save_non_transition_alpha = global::PushwooshSample.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.Forms.Platform.Resource.Id.save_overlay_view = global::PushwooshSample.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Forms.Platform.Resource.Id.scale = global::PushwooshSample.Droid.Resource.Id.scale;
 			global::Xamarin.Forms.Platform.Resource.Id.screen = global::PushwooshSample.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Resource.Id.scroll = global::PushwooshSample.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Resource.Id.scrollable = global::PushwooshSample.Droid.Resource.Id.scrollable;
@@ -3849,6 +5275,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.showCustom = global::PushwooshSample.Droid.Resource.Id.showCustom;
 			global::Xamarin.Forms.Platform.Resource.Id.showHome = global::PushwooshSample.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Resource.Id.showTitle = global::PushwooshSample.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.Platform.Resource.Id.skipCollapsed = global::PushwooshSample.Droid.Resource.Id.skipCollapsed;
+			global::Xamarin.Forms.Platform.Resource.Id.slide = global::PushwooshSample.Droid.Resource.Id.slide;
 			global::Xamarin.Forms.Platform.Resource.Id.sliding_tabs = global::PushwooshSample.Droid.Resource.Id.sliding_tabs;
 			global::Xamarin.Forms.Platform.Resource.Id.smallLabel = global::PushwooshSample.Droid.Resource.Id.smallLabel;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_action = global::PushwooshSample.Droid.Resource.Id.snackbar_action;
@@ -3875,14 +5303,24 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.tag_transition_group = global::PushwooshSample.Droid.Resource.Id.tag_transition_group;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_event_manager = global::PushwooshSample.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_listeners = global::PushwooshSample.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_android_button_tint = global::PushwooshSample.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_app_button_tint = global::PushwooshSample.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_android_button_tint = global::PushwooshSample.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_app_button_tint = global::PushwooshSample.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Resource.Id.text = global::PushwooshSample.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Resource.Id.text2 = global::PushwooshSample.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Platform.Resource.Id.textEnd = global::PushwooshSample.Droid.Resource.Id.textEnd;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_counter = global::PushwooshSample.Droid.Resource.Id.textinput_counter;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_error = global::PushwooshSample.Droid.Resource.Id.textinput_error;
 			global::Xamarin.Forms.Platform.Resource.Id.textinput_helper_text = global::PushwooshSample.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_placeholder = global::PushwooshSample.Droid.Resource.Id.textinput_placeholder;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_prefix_text = global::PushwooshSample.Droid.Resource.Id.textinput_prefix_text;
+			global::Xamarin.Forms.Platform.Resource.Id.textinput_suffix_text = global::PushwooshSample.Droid.Resource.Id.textinput_suffix_text;
 			global::Xamarin.Forms.Platform.Resource.Id.textSpacerNoButtons = global::PushwooshSample.Droid.Resource.Id.textSpacerNoButtons;
 			global::Xamarin.Forms.Platform.Resource.Id.textSpacerNoTitle = global::PushwooshSample.Droid.Resource.Id.textSpacerNoTitle;
 			global::Xamarin.Forms.Platform.Resource.Id.textStart = global::PushwooshSample.Droid.Resource.Id.textStart;
+			global::Xamarin.Forms.Platform.Resource.Id.text_input_end_icon = global::PushwooshSample.Droid.Resource.Id.text_input_end_icon;
+			global::Xamarin.Forms.Platform.Resource.Id.text_input_start_icon = global::PushwooshSample.Droid.Resource.Id.text_input_start_icon;
 			global::Xamarin.Forms.Platform.Resource.Id.time = global::PushwooshSample.Droid.Resource.Id.time;
 			global::Xamarin.Forms.Platform.Resource.Id.title = global::PushwooshSample.Droid.Resource.Id.title;
 			global::Xamarin.Forms.Platform.Resource.Id.titleDividerNoCustom = global::PushwooshSample.Droid.Resource.Id.titleDividerNoCustom;
@@ -3890,6 +5328,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.toolbar = global::PushwooshSample.Droid.Resource.Id.toolbar;
 			global::Xamarin.Forms.Platform.Resource.Id.top = global::PushwooshSample.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Resource.Id.topPanel = global::PushwooshSample.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Platform.Resource.Id.TOP_END = global::PushwooshSample.Droid.Resource.Id.TOP_END;
+			global::Xamarin.Forms.Platform.Resource.Id.TOP_START = global::PushwooshSample.Droid.Resource.Id.TOP_START;
 			global::Xamarin.Forms.Platform.Resource.Id.touch_outside = global::PushwooshSample.Droid.Resource.Id.touch_outside;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_current_scene = global::PushwooshSample.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_layout_save = global::PushwooshSample.Droid.Resource.Id.transition_layout_save;
@@ -3902,9 +5342,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.up = global::PushwooshSample.Droid.Resource.Id.up;
 			global::Xamarin.Forms.Platform.Resource.Id.useLogo = global::PushwooshSample.Droid.Resource.Id.useLogo;
 			global::Xamarin.Forms.Platform.Resource.Id.view_offset_helper = global::PushwooshSample.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Platform.Resource.Id.view_tree_saved_state_registry_owner = global::PushwooshSample.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.visible = global::PushwooshSample.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Platform.Resource.Id.visible_removing_fragment_view_tag = global::PushwooshSample.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Xamarin.Forms.Platform.Resource.Id.withinBounds = global::PushwooshSample.Droid.Resource.Id.withinBounds;
 			global::Xamarin.Forms.Platform.Resource.Id.withText = global::PushwooshSample.Droid.Resource.Id.withText;
 			global::Xamarin.Forms.Platform.Resource.Id.wrap_content = global::PushwooshSample.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Platform.Resource.Id.zero_corner_chip = global::PushwooshSample.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityDefaultDur = global::PushwooshSample.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityShortDur = global::PushwooshSample.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.app_bar_elevation_anim_duration = global::PushwooshSample.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -3914,8 +5358,14 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Integer.design_snackbar_text_max_lines = global::PushwooshSample.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xamarin.Forms.Platform.Resource.Integer.design_tab_indicator_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.hide_password_duration = global::PushwooshSample.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_badge_max_character_count = global::PushwooshSample.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_btn_anim_delay_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_btn_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_calendar_header_orientation = global::PushwooshSample.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_calendar_selection_text_lines = global::PushwooshSample.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_calendar_year_selector_span = global::PushwooshSample.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_card_anim_delay_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_card_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_chip_anim_duration = global::PushwooshSample.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::PushwooshSample.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.show_password_duration = global::PushwooshSample.Droid.Resource.Integer.show_password_duration;
@@ -3974,11 +5424,39 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_item_subheader = global::PushwooshSample.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu = global::PushwooshSample.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu_item = global::PushwooshSample.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_end_icon = global::PushwooshSample.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_start_icon = global::PushwooshSample.Droid.Resource.Layout.design_text_input_start_icon;
 			global::Xamarin.Forms.Platform.Resource.Layout.FallbackTabbarDoNotUse = global::PushwooshSample.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Xamarin.Forms.Platform.Resource.Layout.FallbackToolbarDoNotUse = global::PushwooshSample.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::PushwooshSample.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog_actions = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_dialog_title = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_select_dialog_item = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::PushwooshSample.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_day = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_days_of_week = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_day_of_week = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_horizontal = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_month = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_months = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_month_labeled = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_month_navigation = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_vertical = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_calendar_year = global::PushwooshSample.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar = global::PushwooshSample.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar_include = global::PushwooshSample.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_actions = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_dialog = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_fullscreen = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_dialog = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_fullscreen = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_selection_text = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_title_text = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_header_toggle = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_text_input_date = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_picker_text_input_date_range = global::PushwooshSample.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_action = global::PushwooshSample.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_action_tombstone = global::PushwooshSample.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_media_action = global::PushwooshSample.Droid.Resource.Layout.notification_media_action;
@@ -4001,7 +5479,22 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::PushwooshSample.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::PushwooshSample.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::PushwooshSample.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::PushwooshSample.Droid.Resource.Layout.test_action_chip;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::PushwooshSample.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::PushwooshSample.Droid.Resource.Layout.test_design_checkbox;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_design_radiobutton = global::PushwooshSample.Droid.Resource.Layout.test_design_radiobutton;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_reflow_chipgroup = global::PushwooshSample.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar = global::PushwooshSample.Droid.Resource.Layout.test_toolbar;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_custom_background = global::PushwooshSample.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_elevation = global::PushwooshSample.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_surface = global::PushwooshSample.Droid.Resource.Layout.test_toolbar_surface;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_without_line_height = global::PushwooshSample.Droid.Resource.Layout.text_view_without_line_height;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_appearance = global::PushwooshSample.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_layout = global::PushwooshSample.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_style = global::PushwooshSample.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_theme_line_height = global::PushwooshSample.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::PushwooshSample.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Forms.Platform.Resource.Plurals.mtrl_badge_content_description = global::PushwooshSample.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::PushwooshSample.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_up_description = global::PushwooshSample.Droid.Resource.String.abc_action_bar_up_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_menu_overflow_description = global::PushwooshSample.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -4032,11 +5525,55 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.String.appbar_scrolling_view_behavior = global::PushwooshSample.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.bottom_sheet_behavior = global::PushwooshSample.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_content_description = global::PushwooshSample.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.character_counter_overflowed_content_description = global::PushwooshSample.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_pattern = global::PushwooshSample.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Platform.Resource.String.chip_text = global::PushwooshSample.Droid.Resource.String.chip_text;
+			global::Xamarin.Forms.Platform.Resource.String.clear_text_end_icon_content_description = global::PushwooshSample.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.error_icon_content_description = global::PushwooshSample.Droid.Resource.String.error_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.exposed_dropdown_menu_content_description = global::PushwooshSample.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.fab_transformation_scrim_behavior = global::PushwooshSample.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.fab_transformation_sheet_behavior = global::PushwooshSample.Droid.Resource.String.fab_transformation_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.hide_bottom_view_on_scroll_behavior = global::PushwooshSample.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.Platform.Resource.String.icon_content_description = global::PushwooshSample.Droid.Resource.String.icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.item_view_role_description = global::PushwooshSample.Droid.Resource.String.item_view_role_description;
+			global::Xamarin.Forms.Platform.Resource.String.material_slider_range_end = global::PushwooshSample.Droid.Resource.String.material_slider_range_end;
+			global::Xamarin.Forms.Platform.Resource.String.material_slider_range_start = global::PushwooshSample.Droid.Resource.String.material_slider_range_start;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_badge_numberless_content_description = global::PushwooshSample.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.mtrl_chip_close_icon_content_description = global::PushwooshSample.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_exceed_max_badge_number_content_description = global::PushwooshSample.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_exceed_max_badge_number_suffix = global::PushwooshSample.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_a11y_next_month = global::PushwooshSample.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_a11y_prev_month = global::PushwooshSample.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_announce_current_selection = global::PushwooshSample.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_cancel = global::PushwooshSample.Droid.Resource.String.mtrl_picker_cancel;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_confirm = global::PushwooshSample.Droid.Resource.String.mtrl_picker_confirm;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_date_header_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_date_header_title = global::PushwooshSample.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_date_header_unselected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_day_of_week_column_header = global::PushwooshSample.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_format = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_format_example = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_format_use = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_invalid_range = global::PushwooshSample.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_navigate_to_year_description = global::PushwooshSample.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_out_of_range = global::PushwooshSample.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_only_end_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_only_start_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_selected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_title = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_range_header_unselected = global::PushwooshSample.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_save = global::PushwooshSample.Droid.Resource.String.mtrl_picker_save;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_date_hint = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_day_abbr = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_month_abbr = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_text_input_year_abbr = global::PushwooshSample.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_day_selection = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Xamarin.Forms.Platform.Resource.String.mtrl_picker_toggle_to_year_selection = global::PushwooshSample.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Xamarin.Forms.Platform.Resource.String.overflow_tab_title = global::PushwooshSample.Droid.Resource.String.overflow_tab_title;
 			global::Xamarin.Forms.Platform.Resource.String.password_toggle_content_description = global::PushwooshSample.Droid.Resource.String.password_toggle_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.path_password_eye = global::PushwooshSample.Droid.Resource.String.path_password_eye;
 			global::Xamarin.Forms.Platform.Resource.String.path_password_eye_mask_strike_through = global::PushwooshSample.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -4046,10 +5583,12 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow = global::PushwooshSample.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat = global::PushwooshSample.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.AndroidThemeColorAccentYellow = global::PushwooshSample.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::PushwooshSample.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::PushwooshSample.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_Design_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.AppCompatDialogStyle = global::PushwooshSample.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
@@ -4059,6 +5598,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_CardView = global::PushwooshSample.Droid.Resource.Style.Base_CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::PushwooshSample.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::PushwooshSample.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::PushwooshSample.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -4104,6 +5646,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PushwooshSample.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -4116,6 +5662,9 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PushwooshSample.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -4136,6 +5685,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -4145,22 +5695,30 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V23_Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -4237,16 +5795,34 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PushwooshSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PushwooshSample.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_Design_TabLayout = global::PushwooshSample.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_Chip = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_Slider = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextView = global::PushwooshSample.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView = global::PushwooshSample.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::PushwooshSample.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::PushwooshSample.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.collectionViewScrollBars = global::PushwooshSample.Droid.Resource.Style.collectionViewScrollBars;
 			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::PushwooshSample.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.EmptyTheme = global::PushwooshSample.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::PushwooshSample.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::PushwooshSample.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::PushwooshSample.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat = global::PushwooshSample.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.Platform_MaterialComponents;
@@ -4278,6 +5854,40 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PushwooshSample.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PushwooshSample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PushwooshSample.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.scrollViewScrollBars = global::PushwooshSample.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.Platform.Resource.Style.scrollViewTheme = global::PushwooshSample.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_Cut = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::PushwooshSample.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::PushwooshSample.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeight = global::PushwooshSample.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeightAppearance = global::PushwooshSample.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithoutLineHeight = global::PushwooshSample.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::PushwooshSample.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeight = global::PushwooshSample.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeightDisabled = global::PushwooshSample.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::PushwooshSample.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat = global::PushwooshSample.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body1 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body2 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -4342,8 +5952,12 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Error = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_HelperText = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Hint = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Placeholder = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Prefix = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Suffix = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Tab = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Badge = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Button = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -4358,9 +5972,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Overline = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::PushwooshSample.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PushwooshSample.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlayColorAccentRed = global::PushwooshSample.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -4370,18 +5986,44 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::PushwooshSample.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_CompactMenu = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_DayNight = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -4395,6 +6037,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Empty = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -4413,11 +6056,33 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_CompactMenu = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -4425,7 +6090,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_NoActionBar = global::PushwooshSample.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -4514,11 +6185,27 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_Snackbar = global::PushwooshSample.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TabLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TextInputEditText = global::PushwooshSample.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_TextInputLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Badge = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomSheet = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -4526,31 +6213,76 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CardView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ChipGroup = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Action = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_NavigationView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Slider = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextView = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Tooltip = global::PushwooshSample.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Support_CoordinatorLayout = global::PushwooshSample.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBar = global::PushwooshSample.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBarLayout = global::PushwooshSample.Droid.Resource.Styleable.ActionBarLayout;
@@ -4636,6 +6368,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScroll = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_statusBarForeground = global::PushwooshSample.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView = global::PushwooshSample.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_android_src = global::PushwooshSample.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_srcCompat = global::PushwooshSample.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -4802,29 +6536,53 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PushwooshSample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PushwooshSample.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PushwooshSample.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge = global::PushwooshSample.Droid.Resource.Styleable.Badge;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_backgroundColor = global::PushwooshSample.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_badgeGravity = global::PushwooshSample.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_badgeTextColor = global::PushwooshSample.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_horizontalOffset = global::PushwooshSample.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_maxCharacterCount = global::PushwooshSample.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_number = global::PushwooshSample.Droid.Resource.Styleable.Badge_number;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Badge_verticalOffset = global::PushwooshSample.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_elevation = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabAnimationMode = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleMargin = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_hideOnScroll = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_elevation = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemBackground = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemIconSize = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemIconTint = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemRippleColor = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_itemTextColor = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomNavigationView_menu = global::PushwooshSample.Droid.Resource.Styleable.BottomNavigationView_menu;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ButtonBarLayout = global::PushwooshSample.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ButtonBarLayout_allowStacking = global::PushwooshSample.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CardView = global::PushwooshSample.Droid.Resource.Styleable.CardView;
@@ -4847,6 +6605,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacing = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_chipSpacingVertical = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_selectionRequired = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_singleLine = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_singleSelection = global::PushwooshSample.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_checkable = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_checkable;
@@ -4854,8 +6613,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_maxWidth = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_text = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_text;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_android_textColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIcon = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconEnabled = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconTint = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_checkedIconVisible = global::PushwooshSample.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipBackgroundColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipCornerRadius = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -4866,9 +6627,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipIconTint = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipIconVisible = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipMinHeight = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipStrokeColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipStrokeWidth = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_chipSurfaceColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIcon = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconEnabled = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconEndPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -4876,10 +6639,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconTint = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_closeIconVisible = global::PushwooshSample.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_hideMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_iconEndPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_iconStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_showMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_textEndPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip_textStartPadding = global::PushwooshSample.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -4897,6 +6663,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PushwooshSample.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -4932,13 +6699,26 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PushwooshSample.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_spinBars = global::PushwooshSample.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_thickness = global::PushwooshSample.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerLayout = global::PushwooshSample.Droid.Resource.Styleable.DrawerLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerLayout_elevation = global::PushwooshSample.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_borderWidth = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_elevation = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_fabCustomSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_fabSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -4946,6 +6726,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_maxImageSize = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_showMotionSpec = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PushwooshSample.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FlowLayout = global::PushwooshSample.Droid.Resource.Styleable.FlowLayout;
@@ -4973,6 +6755,13 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PushwooshSample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PushwooshSample.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PushwooshSample.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment = global::PushwooshSample.Droid.Resource.Styleable.Fragment;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FragmentContainerView = global::PushwooshSample.Droid.Resource.Styleable.FragmentContainerView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FragmentContainerView_android_name = global::PushwooshSample.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Xamarin.Forms.Platform.Resource.Styleable.FragmentContainerView_android_tag = global::PushwooshSample.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment_android_id = global::PushwooshSample.Droid.Resource.Styleable.Fragment_android_id;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment_android_name = global::PushwooshSample.Droid.Resource.Styleable.Fragment_android_name;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Fragment_android_tag = global::PushwooshSample.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor = global::PushwooshSample.Droid.Resource.Styleable.GradientColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColorItem = global::PushwooshSample.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColorItem_android_color = global::PushwooshSample.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -4989,6 +6778,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_startY = global::PushwooshSample.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_tileMode = global::PushwooshSample.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor_android_type = global::PushwooshSample.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets = global::PushwooshSample.Droid.Resource.Styleable.Insets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::PushwooshSample.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme = global::PushwooshSample.Droid.Resource.Styleable.ItemsViewRendererTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::PushwooshSample.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat = global::PushwooshSample.Droid.Resource.Styleable.LinearLayoutCompat;
@@ -5009,7 +6802,26 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow = global::PushwooshSample.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PushwooshSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PushwooshSample.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::PushwooshSample.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAutoCompleteTextView = global::PushwooshSample.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::PushwooshSample.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::PushwooshSample.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_background = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_checkable = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetBottom = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetLeft = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetRight = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -5017,6 +6829,7 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_cornerRadius = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_elevation = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_icon = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconGravity = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconPadding = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -5024,11 +6837,58 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_iconTintMode = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_strokeColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_strokeWidth = global::PushwooshSample.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_dayStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_rangeFillColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_yearStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::PushwooshSample.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_android_checkable = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_cardForegroundColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_checkedIcon = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_checkedIconTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_rippleColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_state_dragged = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_strokeColor = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_strokeWidth = global::PushwooshSample.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox = global::PushwooshSample.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox_buttonTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton = global::PushwooshSample.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton_buttonTint = global::PushwooshSample.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape = global::PushwooshSample.Droid.Resource.Styleable.MaterialShape;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextAppearance_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView_android_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialTextView_lineHeight = global::PushwooshSample.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup = global::PushwooshSample.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PushwooshSample.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -5079,7 +6939,16 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemBackground = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemHorizontalPadding = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemIconPadding = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemIconSize = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemIconTint = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemMaxLines = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeFillColor = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetStart = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemShapeInsetTop = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextColor = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_menu = global::PushwooshSample.Droid.Resource.Styleable.NavigationView_menu;
@@ -5089,6 +6958,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PushwooshSample.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_android_popupBackground = global::PushwooshSample.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_overlapAnchor = global::PushwooshSample.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RangeSlider = global::PushwooshSample.Droid.Resource.Styleable.RangeSlider;
+			global::Xamarin.Forms.Platform.Resource.Styleable.RangeSlider_values = global::PushwooshSample.Droid.Resource.Styleable.RangeSlider_values;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView = global::PushwooshSample.Droid.Resource.Styleable.RecycleListView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PushwooshSample.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PushwooshSample.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
@@ -5109,6 +6980,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PushwooshSample.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Layout = global::PushwooshSample.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PushwooshSample.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollViewRendererTheme = global::PushwooshSample.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::PushwooshSample.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView = global::PushwooshSample.Droid.Resource.Styleable.SearchView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_focusable = global::PushwooshSample.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_imeOptions = global::PushwooshSample.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -5127,13 +7000,55 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_submitBackground = global::PushwooshSample.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_suggestionRowLayout = global::PushwooshSample.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_voiceIcon = global::PushwooshSample.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_strokeColor = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeableImageView_strokeWidth = global::PushwooshSample.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamily = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSize = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::PushwooshSample.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider = global::PushwooshSample.Droid.Resource.Styleable.Slider;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_stepSize = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_value = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_value;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_valueFrom = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_android_valueTo = global::PushwooshSample.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_haloColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_haloColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_haloRadius = global::PushwooshSample.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_labelBehavior = global::PushwooshSample.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_labelStyle = global::PushwooshSample.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbElevation = global::PushwooshSample.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_thumbRadius = global::PushwooshSample.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_tickColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColorActive = global::PushwooshSample.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_tickColorInactive = global::PushwooshSample.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColor = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColorActive = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackColorInactive = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Slider_trackHeight = global::PushwooshSample.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar = global::PushwooshSample.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_animationMode = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_elevation = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PushwooshSample.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarButtonStyle = global::PushwooshSample.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarStyle = global::PushwooshSample.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::PushwooshSample.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner = global::PushwooshSample.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_dropDownWidth = global::PushwooshSample.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_entries = global::PushwooshSample.Droid.Resource.Styleable.Spinner_android_entries;
@@ -5149,6 +7064,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::PushwooshSample.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawable_android_variablePadding = global::PushwooshSample.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawable_android_visible = global::PushwooshSample.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SwipeRefreshLayout = global::PushwooshSample.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::PushwooshSample.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_android_textOff = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_android_textOn = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -5164,6 +7081,8 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_track = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_trackTint = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_trackTintMode = global::PushwooshSample.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchMaterial = global::PushwooshSample.Droid.Resource.Styleable.SwitchMaterial;
+			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::PushwooshSample.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem = global::PushwooshSample.Droid.Resource.Styleable.TabItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem_android_icon = global::PushwooshSample.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem_android_layout = global::PushwooshSample.Droid.Resource.Styleable.TabItem_android_layout;
@@ -5211,7 +7130,10 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_fontVariationSettings = global::PushwooshSample.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textAllCaps = global::PushwooshSample.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textLocale = global::PushwooshSample.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputEditText = global::PushwooshSample.Droid.Resource.Styleable.TextInputEditText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_enabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_hint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_textColorHint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -5222,24 +7144,57 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterMaxLength = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_counterTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconCheckable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_endIconTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorIconTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperTextEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_helperTextTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_placeholderTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_prefixTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_shapeAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconCheckable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconContentDescription = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconDrawable = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconTint = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_startIconTintMode = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixText = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_suffixTextColor = global::PushwooshSample.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement = global::PushwooshSample.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::PushwooshSample.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -5275,11 +7230,21 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMarginTop = global::PushwooshSample.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextAppearance = global::PushwooshSample.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextColor = global::PushwooshSample.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip = global::PushwooshSample.Droid.Resource.Styleable.Tooltip;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_layout_margin = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_minHeight = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_minWidth = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_padding = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_text = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_android_textAppearance = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Xamarin.Forms.Platform.Resource.Styleable.Tooltip_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View = global::PushwooshSample.Droid.Resource.Styleable.View;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_android_background = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PushwooshSample.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ViewPager2 = global::PushwooshSample.Droid.Resource.Styleable.ViewPager2;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ViewPager2_android_orientation = global::PushwooshSample.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat = global::PushwooshSample.Droid.Resource.Styleable.ViewStubCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_id = global::PushwooshSample.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PushwooshSample.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -5289,6 +7254,11 @@ namespace PushwooshSample.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::PushwooshSample.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::PushwooshSample.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::PushwooshSample.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge = global::PushwooshSample.Droid.Resource.Xml.standalone_badge;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_end = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::PushwooshSample.Droid.Resource.Xml.standalone_badge_offset;
 		}
 		
 		public partial class Animation
@@ -7580,646 +9550,652 @@ namespace PushwooshSample.Droid
 			public const int scrimVisibleHeightTrigger = 2130903730;
 			
 			// aapt resource value: 0x7F0302B3
-			public const int searchHintIcon = 2130903731;
+			public const int scrollViewStyle = 2130903731;
 			
 			// aapt resource value: 0x7F0302B4
-			public const int searchIcon = 2130903732;
+			public const int searchHintIcon = 2130903732;
 			
 			// aapt resource value: 0x7F0302B5
-			public const int searchViewStyle = 2130903733;
+			public const int searchIcon = 2130903733;
 			
 			// aapt resource value: 0x7F0302B6
-			public const int seekBarStyle = 2130903734;
+			public const int searchViewStyle = 2130903734;
 			
 			// aapt resource value: 0x7F0302B7
-			public const int selectableItemBackground = 2130903735;
+			public const int seekBarStyle = 2130903735;
 			
 			// aapt resource value: 0x7F0302B8
-			public const int selectableItemBackgroundBorderless = 2130903736;
+			public const int selectableItemBackground = 2130903736;
 			
 			// aapt resource value: 0x7F0302B9
-			public const int selectionRequired = 2130903737;
+			public const int selectableItemBackgroundBorderless = 2130903737;
 			
 			// aapt resource value: 0x7F0302BA
-			public const int selectorSize = 2130903738;
+			public const int selectionRequired = 2130903738;
 			
 			// aapt resource value: 0x7F0302BB
-			public const int shapeAppearance = 2130903739;
+			public const int selectorSize = 2130903739;
 			
 			// aapt resource value: 0x7F0302BC
-			public const int shapeAppearanceLargeComponent = 2130903740;
+			public const int shapeAppearance = 2130903740;
 			
 			// aapt resource value: 0x7F0302BD
-			public const int shapeAppearanceMediumComponent = 2130903741;
+			public const int shapeAppearanceLargeComponent = 2130903741;
 			
 			// aapt resource value: 0x7F0302BE
-			public const int shapeAppearanceOverlay = 2130903742;
+			public const int shapeAppearanceMediumComponent = 2130903742;
 			
 			// aapt resource value: 0x7F0302BF
-			public const int shapeAppearanceSmallComponent = 2130903743;
+			public const int shapeAppearanceOverlay = 2130903743;
 			
 			// aapt resource value: 0x7F0302C0
-			public const int showAnimationBehavior = 2130903744;
+			public const int shapeAppearanceSmallComponent = 2130903744;
 			
 			// aapt resource value: 0x7F0302C1
-			public const int showAsAction = 2130903745;
+			public const int showAnimationBehavior = 2130903745;
 			
 			// aapt resource value: 0x7F0302C2
-			public const int showDelay = 2130903746;
+			public const int showAsAction = 2130903746;
 			
 			// aapt resource value: 0x7F0302C3
-			public const int showDividers = 2130903747;
+			public const int showDelay = 2130903747;
 			
 			// aapt resource value: 0x7F0302C4
-			public const int showMotionSpec = 2130903748;
+			public const int showDividers = 2130903748;
 			
 			// aapt resource value: 0x7F0302C5
-			public const int showPaths = 2130903749;
+			public const int showMotionSpec = 2130903749;
 			
 			// aapt resource value: 0x7F0302C6
-			public const int showText = 2130903750;
+			public const int showPaths = 2130903750;
 			
 			// aapt resource value: 0x7F0302C7
-			public const int showTitle = 2130903751;
+			public const int showText = 2130903751;
 			
 			// aapt resource value: 0x7F0302C8
-			public const int shrinkMotionSpec = 2130903752;
+			public const int showTitle = 2130903752;
 			
 			// aapt resource value: 0x7F0302C9
-			public const int singleChoiceItemLayout = 2130903753;
+			public const int shrinkMotionSpec = 2130903753;
 			
 			// aapt resource value: 0x7F0302CA
-			public const int singleLine = 2130903754;
+			public const int singleChoiceItemLayout = 2130903754;
 			
 			// aapt resource value: 0x7F0302CB
-			public const int singleSelection = 2130903755;
+			public const int singleLine = 2130903755;
 			
 			// aapt resource value: 0x7F0302CC
-			public const int sizePercent = 2130903756;
+			public const int singleSelection = 2130903756;
 			
 			// aapt resource value: 0x7F0302CD
-			public const int sliderStyle = 2130903757;
+			public const int sizePercent = 2130903757;
 			
 			// aapt resource value: 0x7F0302CE
-			public const int snackbarButtonStyle = 2130903758;
+			public const int sliderStyle = 2130903758;
 			
 			// aapt resource value: 0x7F0302CF
-			public const int snackbarStyle = 2130903759;
+			public const int snackbarButtonStyle = 2130903759;
 			
 			// aapt resource value: 0x7F0302D0
-			public const int snackbarTextViewStyle = 2130903760;
+			public const int snackbarStyle = 2130903760;
 			
 			// aapt resource value: 0x7F0302D1
-			public const int spanCount = 2130903761;
+			public const int snackbarTextViewStyle = 2130903761;
 			
 			// aapt resource value: 0x7F0302D2
-			public const int spinBars = 2130903762;
+			public const int spanCount = 2130903762;
 			
 			// aapt resource value: 0x7F0302D3
-			public const int spinnerDropDownItemStyle = 2130903763;
+			public const int spinBars = 2130903763;
 			
 			// aapt resource value: 0x7F0302D4
-			public const int spinnerStyle = 2130903764;
+			public const int spinnerDropDownItemStyle = 2130903764;
 			
 			// aapt resource value: 0x7F0302D5
-			public const int splitTrack = 2130903765;
+			public const int spinnerStyle = 2130903765;
 			
 			// aapt resource value: 0x7F0302D6
-			public const int srcCompat = 2130903766;
+			public const int splitTrack = 2130903766;
 			
 			// aapt resource value: 0x7F0302D7
-			public const int stackFromEnd = 2130903767;
+			public const int srcCompat = 2130903767;
 			
 			// aapt resource value: 0x7F0302D8
-			public const int staggered = 2130903768;
+			public const int stackFromEnd = 2130903768;
 			
 			// aapt resource value: 0x7F0302D9
-			public const int startIconCheckable = 2130903769;
+			public const int staggered = 2130903769;
 			
 			// aapt resource value: 0x7F0302DA
-			public const int startIconContentDescription = 2130903770;
+			public const int startIconCheckable = 2130903770;
 			
 			// aapt resource value: 0x7F0302DB
-			public const int startIconDrawable = 2130903771;
+			public const int startIconContentDescription = 2130903771;
 			
 			// aapt resource value: 0x7F0302DC
-			public const int startIconTint = 2130903772;
+			public const int startIconDrawable = 2130903772;
 			
 			// aapt resource value: 0x7F0302DD
-			public const int startIconTintMode = 2130903773;
+			public const int startIconTint = 2130903773;
 			
 			// aapt resource value: 0x7F0302DE
-			public const int state_above_anchor = 2130903774;
+			public const int startIconTintMode = 2130903774;
 			
 			// aapt resource value: 0x7F0302DF
-			public const int state_collapsed = 2130903775;
+			public const int state_above_anchor = 2130903775;
 			
 			// aapt resource value: 0x7F0302E0
-			public const int state_collapsible = 2130903776;
+			public const int state_collapsed = 2130903776;
 			
 			// aapt resource value: 0x7F0302E1
-			public const int state_dragged = 2130903777;
+			public const int state_collapsible = 2130903777;
 			
 			// aapt resource value: 0x7F0302E2
-			public const int state_liftable = 2130903778;
+			public const int state_dragged = 2130903778;
 			
 			// aapt resource value: 0x7F0302E3
-			public const int state_lifted = 2130903779;
+			public const int state_liftable = 2130903779;
 			
 			// aapt resource value: 0x7F0302E4
-			public const int statusBarBackground = 2130903780;
+			public const int state_lifted = 2130903780;
 			
 			// aapt resource value: 0x7F0302E5
-			public const int statusBarForeground = 2130903781;
+			public const int statusBarBackground = 2130903781;
 			
 			// aapt resource value: 0x7F0302E6
-			public const int statusBarScrim = 2130903782;
+			public const int statusBarForeground = 2130903782;
 			
 			// aapt resource value: 0x7F0302E7
-			public const int strokeColor = 2130903783;
+			public const int statusBarScrim = 2130903783;
 			
 			// aapt resource value: 0x7F0302E8
-			public const int strokeWidth = 2130903784;
+			public const int strokeColor = 2130903784;
 			
 			// aapt resource value: 0x7F0302E9
-			public const int subMenuArrow = 2130903785;
+			public const int strokeWidth = 2130903785;
 			
 			// aapt resource value: 0x7F0302EA
-			public const int submitBackground = 2130903786;
+			public const int subMenuArrow = 2130903786;
 			
 			// aapt resource value: 0x7F0302EB
-			public const int subtitle = 2130903787;
+			public const int submitBackground = 2130903787;
 			
 			// aapt resource value: 0x7F0302EC
-			public const int subtitleTextAppearance = 2130903788;
+			public const int subtitle = 2130903788;
 			
 			// aapt resource value: 0x7F0302ED
-			public const int subtitleTextColor = 2130903789;
+			public const int subtitleTextAppearance = 2130903789;
 			
 			// aapt resource value: 0x7F0302EE
-			public const int subtitleTextStyle = 2130903790;
+			public const int subtitleTextColor = 2130903790;
 			
 			// aapt resource value: 0x7F0302EF
-			public const int suffixText = 2130903791;
+			public const int subtitleTextStyle = 2130903791;
 			
 			// aapt resource value: 0x7F0302F0
-			public const int suffixTextAppearance = 2130903792;
+			public const int suffixText = 2130903792;
 			
 			// aapt resource value: 0x7F0302F1
-			public const int suffixTextColor = 2130903793;
+			public const int suffixTextAppearance = 2130903793;
 			
 			// aapt resource value: 0x7F0302F2
-			public const int suggestionRowLayout = 2130903794;
+			public const int suffixTextColor = 2130903794;
 			
 			// aapt resource value: 0x7F0302F3
-			public const int switchMinWidth = 2130903795;
+			public const int suggestionRowLayout = 2130903795;
 			
 			// aapt resource value: 0x7F0302F4
-			public const int switchPadding = 2130903796;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903796;
 			
 			// aapt resource value: 0x7F0302F5
-			public const int switchStyle = 2130903797;
+			public const int switchMinWidth = 2130903797;
 			
 			// aapt resource value: 0x7F0302F6
-			public const int switchTextAppearance = 2130903798;
+			public const int switchPadding = 2130903798;
 			
 			// aapt resource value: 0x7F0302F7
-			public const int tabBackground = 2130903799;
+			public const int switchStyle = 2130903799;
 			
 			// aapt resource value: 0x7F0302F8
-			public const int tabContentStart = 2130903800;
+			public const int switchTextAppearance = 2130903800;
 			
 			// aapt resource value: 0x7F0302F9
-			public const int tabGravity = 2130903801;
+			public const int tabBackground = 2130903801;
 			
 			// aapt resource value: 0x7F0302FA
-			public const int tabIconTint = 2130903802;
+			public const int tabContentStart = 2130903802;
 			
 			// aapt resource value: 0x7F0302FB
-			public const int tabIconTintMode = 2130903803;
+			public const int tabGravity = 2130903803;
 			
 			// aapt resource value: 0x7F0302FC
-			public const int tabIndicator = 2130903804;
+			public const int tabIconTint = 2130903804;
 			
 			// aapt resource value: 0x7F0302FD
-			public const int tabIndicatorAnimationDuration = 2130903805;
+			public const int tabIconTintMode = 2130903805;
 			
 			// aapt resource value: 0x7F0302FE
-			public const int tabIndicatorAnimationMode = 2130903806;
+			public const int tabIndicator = 2130903806;
 			
 			// aapt resource value: 0x7F0302FF
-			public const int tabIndicatorColor = 2130903807;
+			public const int tabIndicatorAnimationDuration = 2130903807;
 			
 			// aapt resource value: 0x7F030300
-			public const int tabIndicatorFullWidth = 2130903808;
+			public const int tabIndicatorAnimationMode = 2130903808;
 			
 			// aapt resource value: 0x7F030301
-			public const int tabIndicatorGravity = 2130903809;
+			public const int tabIndicatorColor = 2130903809;
 			
 			// aapt resource value: 0x7F030302
-			public const int tabIndicatorHeight = 2130903810;
+			public const int tabIndicatorFullWidth = 2130903810;
 			
 			// aapt resource value: 0x7F030303
-			public const int tabInlineLabel = 2130903811;
+			public const int tabIndicatorGravity = 2130903811;
 			
 			// aapt resource value: 0x7F030304
-			public const int tabMaxWidth = 2130903812;
+			public const int tabIndicatorHeight = 2130903812;
 			
 			// aapt resource value: 0x7F030305
-			public const int tabMinWidth = 2130903813;
+			public const int tabInlineLabel = 2130903813;
 			
 			// aapt resource value: 0x7F030306
-			public const int tabMode = 2130903814;
+			public const int tabMaxWidth = 2130903814;
 			
 			// aapt resource value: 0x7F030307
-			public const int tabPadding = 2130903815;
+			public const int tabMinWidth = 2130903815;
 			
 			// aapt resource value: 0x7F030308
-			public const int tabPaddingBottom = 2130903816;
+			public const int tabMode = 2130903816;
 			
 			// aapt resource value: 0x7F030309
-			public const int tabPaddingEnd = 2130903817;
+			public const int tabPadding = 2130903817;
 			
 			// aapt resource value: 0x7F03030A
-			public const int tabPaddingStart = 2130903818;
+			public const int tabPaddingBottom = 2130903818;
 			
 			// aapt resource value: 0x7F03030B
-			public const int tabPaddingTop = 2130903819;
+			public const int tabPaddingEnd = 2130903819;
 			
 			// aapt resource value: 0x7F03030C
-			public const int tabRippleColor = 2130903820;
+			public const int tabPaddingStart = 2130903820;
 			
 			// aapt resource value: 0x7F03030D
-			public const int tabSelectedTextColor = 2130903821;
+			public const int tabPaddingTop = 2130903821;
 			
 			// aapt resource value: 0x7F03030E
-			public const int tabStyle = 2130903822;
+			public const int tabRippleColor = 2130903822;
 			
 			// aapt resource value: 0x7F03030F
-			public const int tabTextAppearance = 2130903823;
+			public const int tabSelectedTextColor = 2130903823;
 			
 			// aapt resource value: 0x7F030310
-			public const int tabTextColor = 2130903824;
+			public const int tabStyle = 2130903824;
 			
 			// aapt resource value: 0x7F030311
-			public const int tabUnboundedRipple = 2130903825;
+			public const int tabTextAppearance = 2130903825;
 			
 			// aapt resource value: 0x7F030312
-			public const int targetId = 2130903826;
+			public const int tabTextColor = 2130903826;
 			
 			// aapt resource value: 0x7F030313
-			public const int telltales_tailColor = 2130903827;
+			public const int tabUnboundedRipple = 2130903827;
 			
 			// aapt resource value: 0x7F030314
-			public const int telltales_tailScale = 2130903828;
+			public const int targetId = 2130903828;
 			
 			// aapt resource value: 0x7F030315
-			public const int telltales_velocityMode = 2130903829;
+			public const int telltales_tailColor = 2130903829;
 			
 			// aapt resource value: 0x7F030316
-			public const int textAllCaps = 2130903830;
+			public const int telltales_tailScale = 2130903830;
 			
 			// aapt resource value: 0x7F030317
-			public const int textAppearanceBody1 = 2130903831;
+			public const int telltales_velocityMode = 2130903831;
 			
 			// aapt resource value: 0x7F030318
-			public const int textAppearanceBody2 = 2130903832;
+			public const int textAllCaps = 2130903832;
 			
 			// aapt resource value: 0x7F030319
-			public const int textAppearanceButton = 2130903833;
+			public const int textAppearanceBody1 = 2130903833;
 			
 			// aapt resource value: 0x7F03031A
-			public const int textAppearanceCaption = 2130903834;
+			public const int textAppearanceBody2 = 2130903834;
 			
 			// aapt resource value: 0x7F03031B
-			public const int textAppearanceHeadline1 = 2130903835;
+			public const int textAppearanceButton = 2130903835;
 			
 			// aapt resource value: 0x7F03031C
-			public const int textAppearanceHeadline2 = 2130903836;
+			public const int textAppearanceCaption = 2130903836;
 			
 			// aapt resource value: 0x7F03031D
-			public const int textAppearanceHeadline3 = 2130903837;
+			public const int textAppearanceHeadline1 = 2130903837;
 			
 			// aapt resource value: 0x7F03031E
-			public const int textAppearanceHeadline4 = 2130903838;
+			public const int textAppearanceHeadline2 = 2130903838;
 			
 			// aapt resource value: 0x7F03031F
-			public const int textAppearanceHeadline5 = 2130903839;
+			public const int textAppearanceHeadline3 = 2130903839;
 			
 			// aapt resource value: 0x7F030320
-			public const int textAppearanceHeadline6 = 2130903840;
+			public const int textAppearanceHeadline4 = 2130903840;
 			
 			// aapt resource value: 0x7F030321
-			public const int textAppearanceLargePopupMenu = 2130903841;
+			public const int textAppearanceHeadline5 = 2130903841;
 			
 			// aapt resource value: 0x7F030322
-			public const int textAppearanceLineHeightEnabled = 2130903842;
+			public const int textAppearanceHeadline6 = 2130903842;
 			
 			// aapt resource value: 0x7F030323
-			public const int textAppearanceListItem = 2130903843;
+			public const int textAppearanceLargePopupMenu = 2130903843;
 			
 			// aapt resource value: 0x7F030324
-			public const int textAppearanceListItemSecondary = 2130903844;
+			public const int textAppearanceLineHeightEnabled = 2130903844;
 			
 			// aapt resource value: 0x7F030325
-			public const int textAppearanceListItemSmall = 2130903845;
+			public const int textAppearanceListItem = 2130903845;
 			
 			// aapt resource value: 0x7F030326
-			public const int textAppearanceOverline = 2130903846;
+			public const int textAppearanceListItemSecondary = 2130903846;
 			
 			// aapt resource value: 0x7F030327
-			public const int textAppearancePopupMenuHeader = 2130903847;
+			public const int textAppearanceListItemSmall = 2130903847;
 			
 			// aapt resource value: 0x7F030328
-			public const int textAppearanceSearchResultSubtitle = 2130903848;
+			public const int textAppearanceOverline = 2130903848;
 			
 			// aapt resource value: 0x7F030329
-			public const int textAppearanceSearchResultTitle = 2130903849;
+			public const int textAppearancePopupMenuHeader = 2130903849;
 			
 			// aapt resource value: 0x7F03032A
-			public const int textAppearanceSmallPopupMenu = 2130903850;
+			public const int textAppearanceSearchResultSubtitle = 2130903850;
 			
 			// aapt resource value: 0x7F03032B
-			public const int textAppearanceSubtitle1 = 2130903851;
+			public const int textAppearanceSearchResultTitle = 2130903851;
 			
 			// aapt resource value: 0x7F03032C
-			public const int textAppearanceSubtitle2 = 2130903852;
+			public const int textAppearanceSmallPopupMenu = 2130903852;
 			
 			// aapt resource value: 0x7F03032D
-			public const int textColorAlertDialogListItem = 2130903853;
+			public const int textAppearanceSubtitle1 = 2130903853;
 			
 			// aapt resource value: 0x7F03032E
-			public const int textColorSearchUrl = 2130903854;
+			public const int textAppearanceSubtitle2 = 2130903854;
 			
 			// aapt resource value: 0x7F03032F
-			public const int textEndPadding = 2130903855;
+			public const int textColorAlertDialogListItem = 2130903855;
 			
 			// aapt resource value: 0x7F030330
-			public const int textInputLayoutFocusedRectEnabled = 2130903856;
+			public const int textColorSearchUrl = 2130903856;
 			
 			// aapt resource value: 0x7F030331
-			public const int textInputStyle = 2130903857;
+			public const int textEndPadding = 2130903857;
 			
 			// aapt resource value: 0x7F030332
-			public const int textLocale = 2130903858;
+			public const int textInputLayoutFocusedRectEnabled = 2130903858;
 			
 			// aapt resource value: 0x7F030333
-			public const int textStartPadding = 2130903859;
+			public const int textInputStyle = 2130903859;
 			
 			// aapt resource value: 0x7F030334
-			public const int theme = 2130903860;
+			public const int textLocale = 2130903860;
 			
 			// aapt resource value: 0x7F030335
-			public const int themeLineHeight = 2130903861;
+			public const int textStartPadding = 2130903861;
 			
 			// aapt resource value: 0x7F030336
-			public const int thickness = 2130903862;
+			public const int theme = 2130903862;
 			
 			// aapt resource value: 0x7F030337
-			public const int thumbColor = 2130903863;
+			public const int themeLineHeight = 2130903863;
 			
 			// aapt resource value: 0x7F030338
-			public const int thumbElevation = 2130903864;
+			public const int thickness = 2130903864;
 			
 			// aapt resource value: 0x7F030339
-			public const int thumbRadius = 2130903865;
+			public const int thumbColor = 2130903865;
 			
 			// aapt resource value: 0x7F03033A
-			public const int thumbStrokeColor = 2130903866;
+			public const int thumbElevation = 2130903866;
 			
 			// aapt resource value: 0x7F03033B
-			public const int thumbStrokeWidth = 2130903867;
+			public const int thumbRadius = 2130903867;
 			
 			// aapt resource value: 0x7F03033C
-			public const int thumbTextPadding = 2130903868;
+			public const int thumbStrokeColor = 2130903868;
 			
 			// aapt resource value: 0x7F03033D
-			public const int thumbTint = 2130903869;
+			public const int thumbStrokeWidth = 2130903869;
 			
 			// aapt resource value: 0x7F03033E
-			public const int thumbTintMode = 2130903870;
+			public const int thumbTextPadding = 2130903870;
 			
 			// aapt resource value: 0x7F03033F
-			public const int tickColor = 2130903871;
+			public const int thumbTint = 2130903871;
 			
 			// aapt resource value: 0x7F030340
-			public const int tickColorActive = 2130903872;
+			public const int thumbTintMode = 2130903872;
 			
 			// aapt resource value: 0x7F030341
-			public const int tickColorInactive = 2130903873;
+			public const int tickColor = 2130903873;
 			
 			// aapt resource value: 0x7F030342
-			public const int tickMark = 2130903874;
+			public const int tickColorActive = 2130903874;
 			
 			// aapt resource value: 0x7F030343
-			public const int tickMarkTint = 2130903875;
+			public const int tickColorInactive = 2130903875;
 			
 			// aapt resource value: 0x7F030344
-			public const int tickMarkTintMode = 2130903876;
+			public const int tickMark = 2130903876;
 			
 			// aapt resource value: 0x7F030345
-			public const int tickVisible = 2130903877;
+			public const int tickMarkTint = 2130903877;
 			
 			// aapt resource value: 0x7F030346
-			public const int tint = 2130903878;
+			public const int tickMarkTintMode = 2130903878;
 			
 			// aapt resource value: 0x7F030347
-			public const int tintMode = 2130903879;
+			public const int tickVisible = 2130903879;
 			
 			// aapt resource value: 0x7F030348
-			public const int title = 2130903880;
+			public const int tint = 2130903880;
 			
 			// aapt resource value: 0x7F030349
-			public const int titleEnabled = 2130903881;
+			public const int tintMode = 2130903881;
 			
 			// aapt resource value: 0x7F03034A
-			public const int titleMargin = 2130903882;
+			public const int title = 2130903882;
 			
 			// aapt resource value: 0x7F03034B
-			public const int titleMarginBottom = 2130903883;
+			public const int titleEnabled = 2130903883;
 			
 			// aapt resource value: 0x7F03034C
-			public const int titleMarginEnd = 2130903884;
-			
-			// aapt resource value: 0x7F03034F
-			public const int titleMargins = 2130903887;
+			public const int titleMargin = 2130903884;
 			
 			// aapt resource value: 0x7F03034D
-			public const int titleMarginStart = 2130903885;
+			public const int titleMarginBottom = 2130903885;
 			
 			// aapt resource value: 0x7F03034E
-			public const int titleMarginTop = 2130903886;
-			
-			// aapt resource value: 0x7F030350
-			public const int titleTextAppearance = 2130903888;
+			public const int titleMarginEnd = 2130903886;
 			
 			// aapt resource value: 0x7F030351
-			public const int titleTextColor = 2130903889;
+			public const int titleMargins = 2130903889;
+			
+			// aapt resource value: 0x7F03034F
+			public const int titleMarginStart = 2130903887;
+			
+			// aapt resource value: 0x7F030350
+			public const int titleMarginTop = 2130903888;
 			
 			// aapt resource value: 0x7F030352
-			public const int titleTextStyle = 2130903890;
+			public const int titleTextAppearance = 2130903890;
 			
 			// aapt resource value: 0x7F030353
-			public const int toolbarId = 2130903891;
+			public const int titleTextColor = 2130903891;
 			
 			// aapt resource value: 0x7F030354
-			public const int toolbarNavigationButtonStyle = 2130903892;
+			public const int titleTextStyle = 2130903892;
 			
 			// aapt resource value: 0x7F030355
-			public const int toolbarStyle = 2130903893;
+			public const int toolbarId = 2130903893;
 			
 			// aapt resource value: 0x7F030356
-			public const int tooltipForegroundColor = 2130903894;
+			public const int toolbarNavigationButtonStyle = 2130903894;
 			
 			// aapt resource value: 0x7F030357
-			public const int tooltipFrameBackground = 2130903895;
+			public const int toolbarStyle = 2130903895;
 			
 			// aapt resource value: 0x7F030358
-			public const int tooltipStyle = 2130903896;
+			public const int tooltipForegroundColor = 2130903896;
 			
 			// aapt resource value: 0x7F030359
-			public const int tooltipText = 2130903897;
+			public const int tooltipFrameBackground = 2130903897;
 			
 			// aapt resource value: 0x7F03035A
-			public const int touchAnchorId = 2130903898;
+			public const int tooltipStyle = 2130903898;
 			
 			// aapt resource value: 0x7F03035B
-			public const int touchAnchorSide = 2130903899;
+			public const int tooltipText = 2130903899;
 			
 			// aapt resource value: 0x7F03035C
-			public const int touchRegionId = 2130903900;
+			public const int touchAnchorId = 2130903900;
 			
 			// aapt resource value: 0x7F03035D
-			public const int track = 2130903901;
+			public const int touchAnchorSide = 2130903901;
 			
 			// aapt resource value: 0x7F03035E
-			public const int trackColor = 2130903902;
+			public const int touchRegionId = 2130903902;
 			
 			// aapt resource value: 0x7F03035F
-			public const int trackColorActive = 2130903903;
+			public const int track = 2130903903;
 			
 			// aapt resource value: 0x7F030360
-			public const int trackColorInactive = 2130903904;
+			public const int trackColor = 2130903904;
 			
 			// aapt resource value: 0x7F030361
-			public const int trackCornerRadius = 2130903905;
+			public const int trackColorActive = 2130903905;
 			
 			// aapt resource value: 0x7F030362
-			public const int trackHeight = 2130903906;
+			public const int trackColorInactive = 2130903906;
 			
 			// aapt resource value: 0x7F030363
-			public const int trackThickness = 2130903907;
+			public const int trackCornerRadius = 2130903907;
 			
 			// aapt resource value: 0x7F030364
-			public const int trackTint = 2130903908;
+			public const int trackHeight = 2130903908;
 			
 			// aapt resource value: 0x7F030365
-			public const int trackTintMode = 2130903909;
+			public const int trackThickness = 2130903909;
 			
 			// aapt resource value: 0x7F030366
-			public const int transitionDisable = 2130903910;
+			public const int trackTint = 2130903910;
 			
 			// aapt resource value: 0x7F030367
-			public const int transitionEasing = 2130903911;
+			public const int trackTintMode = 2130903911;
 			
 			// aapt resource value: 0x7F030368
-			public const int transitionFlags = 2130903912;
+			public const int transitionDisable = 2130903912;
 			
 			// aapt resource value: 0x7F030369
-			public const int transitionPathRotate = 2130903913;
+			public const int transitionEasing = 2130903913;
 			
 			// aapt resource value: 0x7F03036A
-			public const int transitionShapeAppearance = 2130903914;
+			public const int transitionFlags = 2130903914;
 			
 			// aapt resource value: 0x7F03036B
-			public const int triggerId = 2130903915;
+			public const int transitionPathRotate = 2130903915;
 			
 			// aapt resource value: 0x7F03036C
-			public const int triggerReceiver = 2130903916;
+			public const int transitionShapeAppearance = 2130903916;
 			
 			// aapt resource value: 0x7F03036D
-			public const int triggerSlack = 2130903917;
+			public const int triggerId = 2130903917;
 			
 			// aapt resource value: 0x7F03036E
-			public const int ttcIndex = 2130903918;
+			public const int triggerReceiver = 2130903918;
 			
 			// aapt resource value: 0x7F03036F
-			public const int useCompatPadding = 2130903919;
+			public const int triggerSlack = 2130903919;
 			
 			// aapt resource value: 0x7F030370
-			public const int useMaterialThemeColors = 2130903920;
+			public const int ttcIndex = 2130903920;
 			
 			// aapt resource value: 0x7F030371
-			public const int values = 2130903921;
+			public const int useCompatPadding = 2130903921;
 			
 			// aapt resource value: 0x7F030372
-			public const int verticalOffset = 2130903922;
+			public const int useMaterialThemeColors = 2130903922;
 			
 			// aapt resource value: 0x7F030373
-			public const int viewInflaterClass = 2130903923;
+			public const int values = 2130903923;
 			
 			// aapt resource value: 0x7F030374
-			public const int visibilityMode = 2130903924;
+			public const int verticalOffset = 2130903924;
 			
 			// aapt resource value: 0x7F030375
-			public const int voiceIcon = 2130903925;
+			public const int viewInflaterClass = 2130903925;
 			
 			// aapt resource value: 0x7F030376
-			public const int warmth = 2130903926;
+			public const int visibilityMode = 2130903926;
 			
 			// aapt resource value: 0x7F030377
-			public const int waveDecay = 2130903927;
+			public const int voiceIcon = 2130903927;
 			
 			// aapt resource value: 0x7F030378
-			public const int waveOffset = 2130903928;
+			public const int warmth = 2130903928;
 			
 			// aapt resource value: 0x7F030379
-			public const int wavePeriod = 2130903929;
+			public const int waveDecay = 2130903929;
 			
 			// aapt resource value: 0x7F03037A
-			public const int waveShape = 2130903930;
+			public const int waveOffset = 2130903930;
 			
 			// aapt resource value: 0x7F03037B
-			public const int waveVariesBy = 2130903931;
+			public const int wavePeriod = 2130903931;
 			
 			// aapt resource value: 0x7F03037C
-			public const int windowActionBar = 2130903932;
+			public const int waveShape = 2130903932;
 			
 			// aapt resource value: 0x7F03037D
-			public const int windowActionBarOverlay = 2130903933;
+			public const int waveVariesBy = 2130903933;
 			
 			// aapt resource value: 0x7F03037E
-			public const int windowActionModeOverlay = 2130903934;
+			public const int windowActionBar = 2130903934;
 			
 			// aapt resource value: 0x7F03037F
-			public const int windowFixedHeightMajor = 2130903935;
+			public const int windowActionBarOverlay = 2130903935;
 			
 			// aapt resource value: 0x7F030380
-			public const int windowFixedHeightMinor = 2130903936;
+			public const int windowActionModeOverlay = 2130903936;
 			
 			// aapt resource value: 0x7F030381
-			public const int windowFixedWidthMajor = 2130903937;
+			public const int windowFixedHeightMajor = 2130903937;
 			
 			// aapt resource value: 0x7F030382
-			public const int windowFixedWidthMinor = 2130903938;
+			public const int windowFixedHeightMinor = 2130903938;
 			
 			// aapt resource value: 0x7F030383
-			public const int windowMinWidthMajor = 2130903939;
+			public const int windowFixedWidthMajor = 2130903939;
 			
 			// aapt resource value: 0x7F030384
-			public const int windowMinWidthMinor = 2130903940;
+			public const int windowFixedWidthMinor = 2130903940;
 			
 			// aapt resource value: 0x7F030385
-			public const int windowNoTitle = 2130903941;
+			public const int windowMinWidthMajor = 2130903941;
 			
 			// aapt resource value: 0x7F030386
-			public const int yearSelectedStyle = 2130903942;
+			public const int windowMinWidthMinor = 2130903942;
 			
 			// aapt resource value: 0x7F030387
-			public const int yearStyle = 2130903943;
+			public const int windowNoTitle = 2130903943;
 			
 			// aapt resource value: 0x7F030388
-			public const int yearTodayStyle = 2130903944;
+			public const int yearSelectedStyle = 2130903944;
+			
+			// aapt resource value: 0x7F030389
+			public const int yearStyle = 2130903945;
+			
+			// aapt resource value: 0x7F03038A
+			public const int yearTodayStyle = 2130903946;
 			
 			static Attribute()
 			{
@@ -8247,13 +10223,16 @@ namespace PushwooshSample.Droid
 			public const int enable_system_alarm_service_default = 2130968579;
 			
 			// aapt resource value: 0x7F040004
-			public const int enable_system_job_service_default = 2130968580;
+			public const int enable_system_foreground_service_default = 2130968580;
 			
 			// aapt resource value: 0x7F040005
-			public const int mtrl_btn_textappearance_all_caps = 2130968581;
+			public const int enable_system_job_service_default = 2130968581;
 			
 			// aapt resource value: 0x7F040006
-			public const int workmanager_test_configuration = 2130968582;
+			public const int mtrl_btn_textappearance_all_caps = 2130968582;
+			
+			// aapt resource value: 0x7F040007
+			public const int workmanager_test_configuration = 2130968583;
 			
 			static Boolean()
 			{
@@ -10142,43 +12121,31 @@ namespace PushwooshSample.Droid
 			public const int pw_title_text_size = 2131100042;
 			
 			// aapt resource value: 0x7F06018B
-			public const int subtitle_corner_radius = 2131100043;
+			public const int test_mtrl_calendar_day_cornerSize = 2131100043;
 			
 			// aapt resource value: 0x7F06018C
-			public const int subtitle_outline_width = 2131100044;
+			public const int tooltip_corner_radius = 2131100044;
 			
 			// aapt resource value: 0x7F06018D
-			public const int subtitle_shadow_offset = 2131100045;
+			public const int tooltip_horizontal_padding = 2131100045;
 			
 			// aapt resource value: 0x7F06018E
-			public const int subtitle_shadow_radius = 2131100046;
+			public const int tooltip_margin = 2131100046;
 			
 			// aapt resource value: 0x7F06018F
-			public const int test_mtrl_calendar_day_cornerSize = 2131100047;
+			public const int tooltip_precise_anchor_extra_offset = 2131100047;
 			
 			// aapt resource value: 0x7F060190
-			public const int tooltip_corner_radius = 2131100048;
+			public const int tooltip_precise_anchor_threshold = 2131100048;
 			
 			// aapt resource value: 0x7F060191
-			public const int tooltip_horizontal_padding = 2131100049;
+			public const int tooltip_vertical_padding = 2131100049;
 			
 			// aapt resource value: 0x7F060192
-			public const int tooltip_margin = 2131100050;
+			public const int tooltip_y_offset_non_touch = 2131100050;
 			
 			// aapt resource value: 0x7F060193
-			public const int tooltip_precise_anchor_extra_offset = 2131100051;
-			
-			// aapt resource value: 0x7F060194
-			public const int tooltip_precise_anchor_threshold = 2131100052;
-			
-			// aapt resource value: 0x7F060195
-			public const int tooltip_vertical_padding = 2131100053;
-			
-			// aapt resource value: 0x7F060196
-			public const int tooltip_y_offset_non_touch = 2131100054;
-			
-			// aapt resource value: 0x7F060197
-			public const int tooltip_y_offset_touch = 2131100055;
+			public const int tooltip_y_offset_touch = 2131100051;
 			
 			static Dimension()
 			{
@@ -11260,259 +13227,259 @@ namespace PushwooshSample.Droid
 			public const int flyoutcontent_appbar = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int flyoutcontent_recycler = 2131230902;
+			public const int forever = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int forever = 2131230903;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int fragment_container_view_tag = 2131230904;
+			public const int fragment_container_view_tag = 2131230903;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
+			// aapt resource value: 0x7F0800B8
+			public const int ghost_view = 2131230904;
+			
 			// aapt resource value: 0x7F0800B9
-			public const int ghost_view = 2131230905;
+			public const int ghost_view_holder = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int ghost_view_holder = 2131230906;
+			public const int glide_custom_view_target_tag = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int glide_custom_view_target_tag = 2131230907;
+			public const int gone = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int gone = 2131230908;
+			public const int graph = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int graph = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int graph_wrap = 2131230910;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int grouping = 2131230912;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int groups = 2131230913;
+			public const int graph_wrap = 2131230909;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int group_divider = 2131230911;
+			public const int grouping = 2131230911;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int groups = 2131230912;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int group_divider = 2131230910;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int guideline = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int guideline = 2131230914;
+			public const int header_title = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int header_title = 2131230915;
+			public const int hideable = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int hideable = 2131230916;
+			public const int home = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int home = 2131230917;
+			public const int homeAsUp = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int homeAsUp = 2131230918;
+			public const int honorRequest = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int honorRequest = 2131230919;
+			public const int icon = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int icon = 2131230920;
+			public const int icon_group = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int icon_group = 2131230921;
+			public const int icon_only = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int icon_only = 2131230922;
+			public const int ifRoom = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int ifRoom = 2131230923;
+			public const int ignore = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int ignore = 2131230924;
+			public const int ignoreRequest = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int ignoreRequest = 2131230925;
+			public const int image = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int image = 2131230926;
+			public const int inboxBannerImage = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int inboxBannerImage = 2131230927;
+			public const int inboxContentContainer = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int inboxContentContainer = 2131230928;
+			public const int inboxDescriptionTextView = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int inboxDescriptionTextView = 2131230929;
+			public const int inboxEmpty = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int inboxEmpty = 2131230930;
+			public const int inboxEmptyImageView = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int inboxEmptyImageView = 2131230931;
+			public const int inboxEmptyTextView = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int inboxEmptyTextView = 2131230932;
+			public const int inboxError = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int inboxError = 2131230933;
+			public const int inboxErrorImageView = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int inboxErrorImageView = 2131230934;
+			public const int inboxErrorTextView = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int inboxErrorTextView = 2131230935;
+			public const int inboxImageView = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int inboxImageView = 2131230936;
+			public const int inboxLabelTextView = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int inboxLabelTextView = 2131230937;
+			public const int inboxRecyclerView = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int inboxRecyclerView = 2131230938;
+			public const int inboxStatusImageView = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int inboxStatusImageView = 2131230939;
+			public const int inboxSwipeRefreshLayout = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int inboxSwipeRefreshLayout = 2131230940;
+			public const int inboxTotalProgressBar = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int inboxTotalProgressBar = 2131230941;
+			public const int info = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int info = 2131230942;
+			public const int invisible = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int invisible = 2131230943;
+			public const int inward = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int inward = 2131230944;
+			public const int italic = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int italic = 2131230945;
+			public const int item_touch_helper_previous_elevation = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int item_touch_helper_previous_elevation = 2131230946;
+			public const int jumpToEnd = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int jumpToEnd = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int jumpToStart = 2131230948;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int labeled = 2131230950;
+			public const int jumpToStart = 2131230947;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int labelGroup = 2131230949;
+			public const int labeled = 2131230949;
+			
+			// aapt resource value: 0x7F0800E4
+			public const int labelGroup = 2131230948;
+			
+			// aapt resource value: 0x7F0800E6
+			public const int largeLabel = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int largeLabel = 2131230951;
+			public const int layout = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int layout = 2131230952;
+			public const int left = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int left = 2131230953;
+			public const int leftToRight = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int leftToRight = 2131230954;
+			public const int light = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int light = 2131230955;
+			public const int line1 = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int line1 = 2131230956;
+			public const int line3 = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int line3 = 2131230957;
+			public const int linear = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int linear = 2131230958;
+			public const int listMode = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int listMode = 2131230959;
+			public const int list_item = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int list_item = 2131230960;
+			public const int main_appbar = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int main_appbar = 2131230961;
+			public const int main_tablayout = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int main_tablayout = 2131230962;
+			public const int main_toolbar = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int main_toolbar = 2131230963;
+			public const int main_viewpager = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int main_viewpager = 2131230964;
+			public const int masked = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int masked = 2131230965;
+			public const int material_clock_display = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int material_clock_display = 2131230966;
+			public const int material_clock_face = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int material_clock_face = 2131230967;
+			public const int material_clock_hand = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int material_clock_hand = 2131230968;
+			public const int material_clock_period_am_button = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int material_clock_period_am_button = 2131230969;
+			public const int material_clock_period_pm_button = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int material_clock_period_pm_button = 2131230970;
+			public const int material_clock_period_toggle = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int material_clock_period_toggle = 2131230971;
+			public const int material_hour_text_input = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int material_hour_text_input = 2131230972;
+			public const int material_hour_tv = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int material_hour_tv = 2131230973;
+			public const int material_label = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int material_label = 2131230974;
+			public const int material_minute_text_input = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int material_minute_text_input = 2131230975;
+			public const int material_minute_tv = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int material_minute_tv = 2131230976;
+			public const int material_textinput_timepicker = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int material_textinput_timepicker = 2131230977;
+			public const int material_timepicker_cancel_button = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int material_timepicker_cancel_button = 2131230978;
+			public const int material_timepicker_container = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int material_timepicker_container = 2131230979;
+			public const int material_timepicker_edit_text = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int material_timepicker_edit_text = 2131230980;
+			public const int material_timepicker_mode_button = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int material_timepicker_mode_button = 2131230981;
+			public const int material_timepicker_ok_button = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int material_timepicker_ok_button = 2131230982;
+			public const int material_timepicker_view = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int material_timepicker_view = 2131230983;
+			public const int material_value_index = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int material_value_index = 2131230984;
+			public const int media_actions = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int media_actions = 2131230985;
+			public const int media_controller_compat_view_tag = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
 			public const int message = 2131230986;
@@ -12877,229 +14844,244 @@ namespace PushwooshSample.Droid
 			public const int common_signin_button_text_long = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int default_web_client_id = 2131623990;
+			public const int copy_toast_msg = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int error_icon_content_description = 2131623991;
+			public const int default_web_client_id = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int exposed_dropdown_menu_content_description = 2131623992;
+			public const int error_icon_content_description = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int fab_transformation_scrim_behavior = 2131623993;
+			public const int exposed_dropdown_menu_content_description = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int fab_transformation_sheet_behavior = 2131623994;
+			public const int fab_transformation_scrim_behavior = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int fcm_fallback_notification_channel_label = 2131623995;
+			public const int fab_transformation_sheet_behavior = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int fcm_sender_id = 2131623996;
+			public const int fallback_menu_item_copy_link = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int firebase_database_url = 2131623997;
+			public const int fallback_menu_item_open_in_browser = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int gcm_defaultSenderId = 2131623998;
+			public const int fallback_menu_item_share_link = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int google_api_key = 2131623999;
+			public const int fcm_fallback_notification_channel_label = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int google_app_id = 2131624000;
+			public const int fcm_sender_id = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int google_crash_reporting_api_key = 2131624001;
+			public const int firebase_database_url = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int google_storage_bucket = 2131624002;
+			public const int gcm_defaultSenderId = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int hide_bottom_view_on_scroll_behavior = 2131624003;
+			public const int google_api_key = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int icon_content_description = 2131624004;
+			public const int google_app_id = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int item_view_role_description = 2131624005;
+			public const int google_crash_reporting_api_key = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int material_clock_display_divider = 2131624006;
+			public const int google_storage_bucket = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int material_clock_toggle_content_description = 2131624007;
+			public const int hide_bottom_view_on_scroll_behavior = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int material_hour_selection = 2131624008;
+			public const int icon_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int material_hour_suffix = 2131624009;
+			public const int item_view_role_description = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int material_minute_selection = 2131624010;
+			public const int material_clock_display_divider = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int material_minute_suffix = 2131624011;
+			public const int material_clock_toggle_content_description = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int material_slider_range_end = 2131624012;
+			public const int material_hour_selection = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int material_slider_range_start = 2131624013;
+			public const int material_hour_suffix = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int material_timepicker_am = 2131624014;
+			public const int material_minute_selection = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int material_timepicker_clock_mode_description = 2131624015;
+			public const int material_minute_suffix = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int material_timepicker_hour = 2131624016;
+			public const int material_slider_range_end = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int material_timepicker_minute = 2131624017;
+			public const int material_slider_range_start = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int material_timepicker_pm = 2131624018;
+			public const int material_timepicker_am = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int material_timepicker_select_time = 2131624019;
+			public const int material_timepicker_clock_mode_description = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int material_timepicker_text_input_mode_description = 2131624020;
+			public const int material_timepicker_hour = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_badge_numberless_content_description = 2131624021;
+			public const int material_timepicker_minute = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_chip_close_icon_content_description = 2131624022;
+			public const int material_timepicker_pm = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624023;
+			public const int material_timepicker_select_time = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624024;
+			public const int material_timepicker_text_input_mode_description = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_a11y_next_month = 2131624025;
+			public const int mtrl_badge_numberless_content_description = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_a11y_prev_month = 2131624026;
+			public const int mtrl_chip_close_icon_content_description = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_announce_current_selection = 2131624027;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_cancel = 2131624028;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_confirm = 2131624029;
+			public const int mtrl_picker_a11y_next_month = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_date_header_selected = 2131624030;
+			public const int mtrl_picker_a11y_prev_month = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_date_header_title = 2131624031;
+			public const int mtrl_picker_announce_current_selection = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_date_header_unselected = 2131624032;
+			public const int mtrl_picker_cancel = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_day_of_week_column_header = 2131624033;
+			public const int mtrl_picker_confirm = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_invalid_format = 2131624034;
+			public const int mtrl_picker_date_header_selected = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_invalid_format_example = 2131624035;
+			public const int mtrl_picker_date_header_title = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_invalid_format_use = 2131624036;
+			public const int mtrl_picker_date_header_unselected = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_invalid_range = 2131624037;
+			public const int mtrl_picker_day_of_week_column_header = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_navigate_to_year_description = 2131624038;
+			public const int mtrl_picker_invalid_format = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int mtrl_picker_out_of_range = 2131624039;
+			public const int mtrl_picker_invalid_format_example = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int mtrl_picker_range_header_only_end_selected = 2131624040;
+			public const int mtrl_picker_invalid_format_use = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int mtrl_picker_range_header_only_start_selected = 2131624041;
+			public const int mtrl_picker_invalid_range = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int mtrl_picker_range_header_selected = 2131624042;
+			public const int mtrl_picker_navigate_to_year_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int mtrl_picker_range_header_title = 2131624043;
+			public const int mtrl_picker_out_of_range = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int mtrl_picker_range_header_unselected = 2131624044;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int mtrl_picker_save = 2131624045;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int mtrl_picker_text_input_date_hint = 2131624046;
+			public const int mtrl_picker_range_header_selected = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624047;
+			public const int mtrl_picker_range_header_title = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624048;
+			public const int mtrl_picker_range_header_unselected = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int mtrl_picker_text_input_day_abbr = 2131624049;
+			public const int mtrl_picker_save = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int mtrl_picker_text_input_month_abbr = 2131624050;
+			public const int mtrl_picker_text_input_date_hint = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int mtrl_picker_text_input_year_abbr = 2131624051;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624052;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int mtrl_picker_toggle_to_day_selection = 2131624053;
+			public const int mtrl_picker_text_input_day_abbr = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624054;
+			public const int mtrl_picker_text_input_month_abbr = 2131624054;
 			
 			// aapt resource value: 0x7F0E0077
-			public const int mtrl_picker_toggle_to_year_selection = 2131624055;
+			public const int mtrl_picker_text_input_year_abbr = 2131624055;
 			
 			// aapt resource value: 0x7F0E0078
-			public const int password_toggle_content_description = 2131624056;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624056;
 			
 			// aapt resource value: 0x7F0E0079
-			public const int path_password_eye = 2131624057;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624057;
 			
 			// aapt resource value: 0x7F0E007A
-			public const int path_password_eye_mask_strike_through = 2131624058;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624058;
 			
 			// aapt resource value: 0x7F0E007B
-			public const int path_password_eye_mask_visible = 2131624059;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624059;
 			
 			// aapt resource value: 0x7F0E007C
-			public const int path_password_strike_through = 2131624060;
+			public const int overflow_tab_title = 2131624060;
 			
 			// aapt resource value: 0x7F0E007D
-			public const int project_id = 2131624061;
+			public const int password_toggle_content_description = 2131624061;
 			
 			// aapt resource value: 0x7F0E007E
-			public const int pw_attachment_transition_id = 2131624062;
+			public const int path_password_eye = 2131624062;
 			
 			// aapt resource value: 0x7F0E007F
-			public const int search_menu_title = 2131624063;
+			public const int path_password_eye_mask_strike_through = 2131624063;
 			
 			// aapt resource value: 0x7F0E0080
-			public const int status_bar_notification_info_overflow = 2131624064;
+			public const int path_password_eye_mask_visible = 2131624064;
+			
+			// aapt resource value: 0x7F0E0081
+			public const int path_password_strike_through = 2131624065;
+			
+			// aapt resource value: 0x7F0E0082
+			public const int project_id = 2131624066;
+			
+			// aapt resource value: 0x7F0E0083
+			public const int pw_attachment_transition_id = 2131624067;
+			
+			// aapt resource value: 0x7F0E0084
+			public const int search_menu_title = 2131624068;
+			
+			// aapt resource value: 0x7F0E0085
+			public const int status_bar_notification_info_overflow = 2131624069;
 			
 			static String()
 			{
@@ -13805,10 +15787,7 @@ namespace PushwooshSample.Droid
 			public const int CardView_Light = 2131689701;
 			
 			// aapt resource value: 0x7F0F02DB
-			public const int collectionViewScrollBars = 2131690203;
-			
-			// aapt resource value: 0x7F0F02DC
-			public const int collectionViewTheme = 2131690204;
+			public const int collectionViewTheme = 2131690203;
 			
 			// aapt resource value: 0x7F0F00E6
 			public const int EmptyTheme = 2131689702;
@@ -13956,6 +15935,12 @@ namespace PushwooshSample.Droid
 			
 			// aapt resource value: 0x7F0F0116
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689750;
+			
+			// aapt resource value: 0x7F0F02DC
+			public const int scrollViewScrollBars = 2131690204;
+			
+			// aapt resource value: 0x7F0F02DD
+			public const int scrollViewTheme = 2131690205;
 			
 			// aapt resource value: 0x7F0F011D
 			public const int ShapeAppearanceOverlay = 2131689757;
@@ -15326,7 +17311,7 @@ namespace PushwooshSample.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F03003A,0x7F030041,0x7F030042,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F030100,0x7F030111,0x7F030112,0x7F03012B,0x7F03017E,0x7F030185,0x7F03018B,0x7F03018C,0x7F03018F,0x7F0301AA,0x7F0301BC,0x7F030229,0x7F03026A,0x7F030295,0x7F03029C,0x7F03029D,0x7F0302EB,0x7F0302EE,0x7F030348,0x7F030352 }
+			// aapt resource value: { 0x7F03003A,0x7F030041,0x7F030042,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F030100,0x7F030111,0x7F030112,0x7F03012B,0x7F03017E,0x7F030185,0x7F03018B,0x7F03018C,0x7F03018F,0x7F0301AA,0x7F0301BC,0x7F030229,0x7F03026A,0x7F030295,0x7F03029C,0x7F03029D,0x7F0302EC,0x7F0302EF,0x7F03034A,0x7F030354 }
 			public static int[] ActionBar = new int[] {
 					2130903098,
 					2130903105,
@@ -15353,10 +17338,10 @@ namespace PushwooshSample.Droid
 					2130903701,
 					2130903708,
 					2130903709,
-					2130903787,
-					2130903790,
-					2130903880,
-					2130903890};
+					2130903788,
+					2130903791,
+					2130903882,
+					2130903892};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -15463,14 +17448,14 @@ namespace PushwooshSample.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F03003A,0x7F030041,0x7F0300AD,0x7F03017E,0x7F0302EE,0x7F030352 }
+			// aapt resource value: { 0x7F03003A,0x7F030041,0x7F0300AD,0x7F03017E,0x7F0302EF,0x7F030354 }
 			public static int[] ActionMode = new int[] {
 					2130903098,
 					2130903105,
 					2130903213,
 					2130903422,
-					2130903790,
-					2130903890};
+					2130903791,
+					2130903892};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -15501,7 +17486,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030070,0x7F030071,0x7F03021E,0x7F03021F,0x7F030266,0x7F0302C7,0x7F0302C9 }
+			// aapt resource value: { 0x10100F2,0x7F030070,0x7F030071,0x7F03021E,0x7F03021F,0x7F030266,0x7F0302C8,0x7F0302CA }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903152,
@@ -15509,8 +17494,8 @@ namespace PushwooshSample.Droid
 					2130903582,
 					2130903583,
 					2130903654,
-					2130903751,
-					2130903753};
+					2130903752,
+					2130903754};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -15593,7 +17578,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F03012B,0x7F03013F,0x7F030214,0x7F030215,0x7F0302E5 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F03012B,0x7F03013F,0x7F030214,0x7F030215,0x7F0302E6 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
@@ -15602,14 +17587,14 @@ namespace PushwooshSample.Droid
 					2130903359,
 					2130903572,
 					2130903573,
-					2130903781};
+					2130903782};
 			
-			// aapt resource value: { 0x7F0302DF,0x7F0302E0,0x7F0302E2,0x7F0302E3 }
+			// aapt resource value: { 0x7F0302E0,0x7F0302E1,0x7F0302E3,0x7F0302E4 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903775,
 					2130903776,
-					2130903778,
-					2130903779};
+					2130903777,
+					2130903779,
+					2130903780};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -15658,12 +17643,12 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F0302D6,0x7F030346,0x7F030347 }
+			// aapt resource value: { 0x1010119,0x7F0302D7,0x7F030348,0x7F030349 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903766,
-					2130903878,
-					2130903879};
+					2130903767,
+					2130903880,
+					2130903881};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -15677,12 +17662,12 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F030342,0x7F030343,0x7F030344 }
+			// aapt resource value: { 0x1010142,0x7F030344,0x7F030345,0x7F030346 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903874,
-					2130903875,
-					2130903876};
+					2130903876,
+					2130903877,
+					2130903878};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -15727,7 +17712,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030034,0x7F030035,0x7F030036,0x7F030037,0x7F030038,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030156,0x7F03016C,0x7F030174,0x7F0301D2,0x7F030217,0x7F030316,0x7F030332 }
+			// aapt resource value: { 0x1010034,0x7F030034,0x7F030035,0x7F030036,0x7F030037,0x7F030038,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030156,0x7F03016C,0x7F030174,0x7F0301D2,0x7F030217,0x7F030318,0x7F030334 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903092,
@@ -15748,8 +17733,8 @@ namespace PushwooshSample.Droid
 					2130903412,
 					2130903506,
 					2130903575,
-					2130903830,
-					2130903858};
+					2130903832,
+					2130903860};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -15814,7 +17799,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F030033,0x7F030058,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F030073,0x7F030074,0x7F030080,0x7F030089,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300C3,0x7F0300C4,0x7F0300CB,0x7F0300E4,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030113,0x7F030115,0x7F030125,0x7F030126,0x7F030128,0x7F030129,0x7F03012A,0x7F03018B,0x7F03019B,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03027F,0x7F030280,0x7F030281,0x7F030294,0x7F030296,0x7F0302A0,0x7F0302A2,0x7F0302A3,0x7F0302A4,0x7F0302B5,0x7F0302B6,0x7F0302B7,0x7F0302B8,0x7F0302D3,0x7F0302D4,0x7F0302F5,0x7F030321,0x7F030323,0x7F030324,0x7F030325,0x7F030327,0x7F030328,0x7F030329,0x7F03032A,0x7F03032D,0x7F03032E,0x7F030354,0x7F030355,0x7F030356,0x7F030357,0x7F030373,0x7F03037C,0x7F03037D,0x7F03037E,0x7F03037F,0x7F030380,0x7F030381,0x7F030382,0x7F030383,0x7F030384,0x7F030385 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F030033,0x7F030058,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F030073,0x7F030074,0x7F030080,0x7F030089,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300C3,0x7F0300C4,0x7F0300CB,0x7F0300E4,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030113,0x7F030115,0x7F030125,0x7F030126,0x7F030128,0x7F030129,0x7F03012A,0x7F03018B,0x7F03019B,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03027F,0x7F030280,0x7F030281,0x7F030294,0x7F030296,0x7F0302A0,0x7F0302A2,0x7F0302A3,0x7F0302A4,0x7F0302B6,0x7F0302B7,0x7F0302B8,0x7F0302B9,0x7F0302D4,0x7F0302D5,0x7F0302F7,0x7F030323,0x7F030325,0x7F030326,0x7F030327,0x7F030329,0x7F03032A,0x7F03032B,0x7F03032C,0x7F03032F,0x7F030330,0x7F030356,0x7F030357,0x7F030358,0x7F030359,0x7F030375,0x7F03037E,0x7F03037F,0x7F030380,0x7F030381,0x7F030382,0x7F030383,0x7F030384,0x7F030385,0x7F030386,0x7F030387 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -15909,30 +17894,28 @@ namespace PushwooshSample.Droid
 					2130903714,
 					2130903715,
 					2130903716,
-					2130903733,
 					2130903734,
 					2130903735,
 					2130903736,
-					2130903763,
+					2130903737,
 					2130903764,
-					2130903797,
-					2130903841,
+					2130903765,
+					2130903799,
 					2130903843,
-					2130903844,
 					2130903845,
+					2130903846,
 					2130903847,
-					2130903848,
 					2130903849,
 					2130903850,
-					2130903853,
-					2130903854,
-					2130903892,
-					2130903893,
+					2130903851,
+					2130903852,
+					2130903855,
+					2130903856,
 					2130903894,
 					2130903895,
-					2130903923,
-					2130903932,
-					2130903933,
+					2130903896,
+					2130903897,
+					2130903925,
 					2130903934,
 					2130903935,
 					2130903936,
@@ -15940,7 +17923,9 @@ namespace PushwooshSample.Droid
 					2130903938,
 					2130903939,
 					2130903940,
-					2130903941};
+					2130903941,
+					2130903942,
+					2130903943};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -16317,7 +18302,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F03003B,0x7F030045,0x7F030047,0x7F03018D,0x7F03024A,0x7F03026E,0x7F030372 }
+			// aapt resource value: { 0x7F03003B,0x7F030045,0x7F030047,0x7F03018D,0x7F03024A,0x7F03026E,0x7F030374 }
 			public static int[] Badge = new int[] {
 					2130903099,
 					2130903109,
@@ -16325,7 +18310,7 @@ namespace PushwooshSample.Droid
 					2130903437,
 					2130903626,
 					2130903662,
-					2130903922};
+					2130903924};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -16348,17 +18333,17 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x1010139,0x7F030183,0x7F0301AB,0x7F030253,0x7F0302C0,0x7F0302C2,0x7F03035E,0x7F030361,0x7F030363 }
+			// aapt resource value: { 0x1010139,0x7F030183,0x7F0301AB,0x7F030253,0x7F0302C1,0x7F0302C3,0x7F030360,0x7F030363,0x7F030365 }
 			public static int[] BaseProgressIndicator = new int[] {
 					16843065,
 					2130903427,
 					2130903467,
 					2130903635,
-					2130903744,
-					2130903746,
-					2130903902,
-					2130903905,
-					2130903907};
+					2130903745,
+					2130903747,
+					2130903904,
+					2130903907,
+					2130903909};
 			
 			// aapt resource value: 0
 			public const int BaseProgressIndicator_android_indeterminate = 0;
@@ -16485,7 +18470,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F030043,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030054,0x7F030055,0x7F030056,0x7F030179,0x7F0302BB,0x7F0302BE }
+			// aapt resource value: { 0x1010440,0x7F030043,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030054,0x7F030055,0x7F030056,0x7F030179,0x7F0302BC,0x7F0302BF }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
 					2130903107,
@@ -16498,8 +18483,8 @@ namespace PushwooshSample.Droid
 					2130903125,
 					2130903126,
 					2130903417,
-					2130903739,
-					2130903742};
+					2130903740,
+					2130903743};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -16602,7 +18587,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030083,0x7F030084,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F030136,0x7F030184,0x7F030190,0x7F030194,0x7F0302AB,0x7F0302BB,0x7F0302BE,0x7F0302C4,0x7F03032F,0x7F030333 }
+			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030083,0x7F030084,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F030136,0x7F030184,0x7F030190,0x7F030194,0x7F0302AB,0x7F0302BC,0x7F0302BF,0x7F0302C5,0x7F030331,0x7F030335 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842901,
@@ -16641,21 +18626,21 @@ namespace PushwooshSample.Droid
 					2130903440,
 					2130903444,
 					2130903723,
-					2130903739,
-					2130903742,
-					2130903748,
-					2130903855,
-					2130903859};
+					2130903740,
+					2130903743,
+					2130903749,
+					2130903857,
+					2130903861};
 			
-			// aapt resource value: { 0x7F030082,0x7F030095,0x7F030096,0x7F030097,0x7F0302B9,0x7F0302CA,0x7F0302CB }
+			// aapt resource value: { 0x7F030082,0x7F030095,0x7F030096,0x7F030097,0x7F0302BA,0x7F0302CB,0x7F0302CC }
 			public static int[] ChipGroup = new int[] {
 					2130903170,
 					2130903189,
 					2130903190,
 					2130903191,
-					2130903737,
-					2130903754,
-					2130903755};
+					2130903738,
+					2130903755,
+					2130903756};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -16830,11 +18815,11 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int ClockFaceView_clockNumberTextColor = 1;
 			
-			// aapt resource value: { 0x7F0300A3,0x7F030242,0x7F0302BA }
+			// aapt resource value: { 0x7F0300A3,0x7F030242,0x7F0302BB }
 			public static int[] ClockHandView = new int[] {
 					2130903203,
 					2130903618,
-					2130903738};
+					2130903739};
 			
 			// aapt resource value: 0
 			public const int ClockHandView_clockHandColor = 0;
@@ -16845,7 +18830,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 2
 			public const int ClockHandView_selectorSize = 2;
 			
-			// aapt resource value: { 0x7F0300B1,0x7F0300B2,0x7F0300E2,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030147,0x7F03024D,0x7F0302B0,0x7F0302B2,0x7F0302E6,0x7F030348,0x7F030349,0x7F030353 }
+			// aapt resource value: { 0x7F0300B1,0x7F0300B2,0x7F0300E2,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030147,0x7F03024D,0x7F0302B0,0x7F0302B2,0x7F0302E7,0x7F03034A,0x7F03034B,0x7F030355 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903217,
 					2130903218,
@@ -16860,10 +18845,10 @@ namespace PushwooshSample.Droid
 					2130903629,
 					2130903728,
 					2130903730,
-					2130903782,
-					2130903880,
-					2130903881,
-					2130903891};
+					2130903783,
+					2130903882,
+					2130903883,
+					2130903893};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -16961,7 +18946,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002B,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F030119,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030207,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030260,0x7F030261,0x7F030287,0x7F03028E,0x7F030367,0x7F030369,0x7F030374 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002B,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F030119,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030207,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030260,0x7F030261,0x7F030287,0x7F03028E,0x7F030369,0x7F03036B,0x7F030376 }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -17070,9 +19055,9 @@ namespace PushwooshSample.Droid
 					2130903649,
 					2130903687,
 					2130903694,
-					2130903911,
 					2130903913,
-					2130903924};
+					2130903915,
+					2130903926};
 			
 			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x1010440,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300CD,0x7F0300D0,0x7F0300D1,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301D4,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030207,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030211 }
 			public static int[] ConstraintLayout_Layout = new int[] {
@@ -17452,7 +19437,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int ConstraintLayout_placeholder_placeholder_emptyVisibility = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002B,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F03010C,0x7F030119,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030207,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030260,0x7F030261,0x7F030287,0x7F03028E,0x7F030367,0x7F030369 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002B,0x7F030049,0x7F03004A,0x7F03004B,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F03010C,0x7F030119,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030207,0x7F030208,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030260,0x7F030261,0x7F030287,0x7F03028E,0x7F030369,0x7F03036B }
 			public static int[] ConstraintSet = new int[] {
 					16842948,
 					16842960,
@@ -17564,8 +19549,8 @@ namespace PushwooshSample.Droid
 					2130903649,
 					2130903687,
 					2130903694,
-					2130903911,
-					2130903913};
+					2130903913,
+					2130903915};
 			
 			// aapt resource value: 15
 			public const int ConstraintSet_android_alpha = 15;
@@ -18233,10 +20218,10 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 109
 			public const int Constraint_visibilityMode = 109;
 			
-			// aapt resource value: { 0x7F0301CE,0x7F0302E4 }
+			// aapt resource value: { 0x7F0301CE,0x7F0302E5 }
 			public static int[] CoordinatorLayout = new int[] {
 					2130903502,
-					2130903780};
+					2130903781};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -18314,7 +20299,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 8
 			public const int CustomAttribute_customStringValue = 8;
 			
-			// aapt resource value: { 0x7F030030,0x7F030031,0x7F030048,0x7F0300B5,0x7F03011E,0x7F030178,0x7F0302D2,0x7F030336 }
+			// aapt resource value: { 0x7F030030,0x7F030031,0x7F030048,0x7F0300B5,0x7F03011E,0x7F030178,0x7F0302D3,0x7F030338 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903088,
 					2130903089,
@@ -18322,8 +20307,8 @@ namespace PushwooshSample.Droid
 					2130903221,
 					2130903326,
 					2130903416,
-					2130903762,
-					2130903862};
+					2130903763,
+					2130903864};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -18356,14 +20341,14 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F0300B0,0x7F03012B,0x7F030148,0x7F030184,0x7F0302C4,0x7F0302C8 }
+			// aapt resource value: { 0x7F0300B0,0x7F03012B,0x7F030148,0x7F030184,0x7F0302C5,0x7F0302C9 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
 					2130903216,
 					2130903339,
 					2130903368,
 					2130903428,
-					2130903748,
-					2130903752};
+					2130903749,
+					2130903753};
 			
 			// aapt resource value: { 0x7F03004C,0x7F03004D }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -18394,7 +20379,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x101000E,0x7F030043,0x7F030044,0x7F030057,0x7F03012B,0x7F030136,0x7F03014F,0x7F030150,0x7F030184,0x7F03018E,0x7F03024C,0x7F03029B,0x7F0302AB,0x7F0302BB,0x7F0302BE,0x7F0302C4,0x7F03036F }
+			// aapt resource value: { 0x101000E,0x7F030043,0x7F030044,0x7F030057,0x7F03012B,0x7F030136,0x7F03014F,0x7F030150,0x7F030184,0x7F03018E,0x7F03024C,0x7F03029B,0x7F0302AB,0x7F0302BC,0x7F0302BF,0x7F0302C5,0x7F030371 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903107,
@@ -18409,10 +20394,10 @@ namespace PushwooshSample.Droid
 					2130903628,
 					2130903707,
 					2130903723,
-					2130903739,
-					2130903742,
-					2130903748,
-					2130903919};
+					2130903740,
+					2130903743,
+					2130903749,
+					2130903921};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -18492,7 +20477,7 @@ namespace PushwooshSample.Droid
 					2130903409,
 					2130903410};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03016B,0x7F030173,0x7F030174,0x7F030175,0x7F03036E }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03016B,0x7F030173,0x7F030174,0x7F030175,0x7F030370 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -18503,7 +20488,7 @@ namespace PushwooshSample.Droid
 					2130903411,
 					2130903412,
 					2130903413,
-					2130903918};
+					2130903920};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -18656,7 +20641,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F03002A,0x7F030068,0x7F0300E3,0x7F0300F7,0x7F030277,0x7F0302AC,0x7F0302AD,0x7F0302AE,0x7F030376 }
+			// aapt resource value: { 0x7F03002A,0x7F030068,0x7F0300E3,0x7F0300F7,0x7F030277,0x7F0302AC,0x7F0302AD,0x7F0302AE,0x7F030378 }
 			public static int[] ImageFilterView = new int[] {
 					2130903082,
 					2130903144,
@@ -18666,7 +20651,7 @@ namespace PushwooshSample.Droid
 					2130903724,
 					2130903725,
 					2130903726,
-					2130903926};
+					2130903928};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -18728,7 +20713,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030260,0x7F030262,0x7F030367,0x7F030369 }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030260,0x7F030262,0x7F030369,0x7F03036B }
 			public static int[] KeyAttribute = new int[] {
 					16843551,
 					16843552,
@@ -18746,8 +20731,8 @@ namespace PushwooshSample.Droid
 					2130903415,
 					2130903648,
 					2130903650,
-					2130903911,
-					2130903913};
+					2130903913,
+					2130903915};
 			
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
@@ -18803,7 +20788,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 17
 			public const int KeyAttribute_transitionPathRotate = 17;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030260,0x7F030262,0x7F030367,0x7F030369,0x7F030378,0x7F030379,0x7F03037A,0x7F03037B }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030260,0x7F030262,0x7F030369,0x7F03036B,0x7F03037A,0x7F03037B,0x7F03037C,0x7F03037D }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -18819,12 +20804,12 @@ namespace PushwooshSample.Droid
 					2130903415,
 					2130903648,
 					2130903650,
-					2130903911,
 					2130903913,
-					2130903928,
-					2130903929,
+					2130903915,
 					2130903930,
-					2130903931};
+					2130903931,
+					2130903932,
+					2130903933};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -18898,7 +20883,7 @@ namespace PushwooshSample.Droid
 			public static int[] KeyFramesVelocity = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F0300F9,0x7F030119,0x7F030177,0x7F0301CC,0x7F030262,0x7F030287,0x7F030289,0x7F03028A,0x7F03028B,0x7F03028C,0x7F0302CC,0x7F030367 }
+			// aapt resource value: { 0x7F0300F9,0x7F030119,0x7F030177,0x7F0301CC,0x7F030262,0x7F030287,0x7F030289,0x7F03028A,0x7F03028B,0x7F03028C,0x7F0302CD,0x7F030369 }
 			public static int[] KeyPosition = new int[] {
 					2130903289,
 					2130903321,
@@ -18910,8 +20895,8 @@ namespace PushwooshSample.Droid
 					2130903690,
 					2130903691,
 					2130903692,
-					2130903756,
-					2130903911};
+					2130903757,
+					2130903913};
 			
 			// aapt resource value: 0
 			public const int KeyPosition_curveFit = 0;
@@ -18949,7 +20934,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030260,0x7F030262,0x7F030367,0x7F030369,0x7F030377,0x7F030378,0x7F030379,0x7F03037A }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300F9,0x7F030177,0x7F030260,0x7F030262,0x7F030369,0x7F03036B,0x7F030379,0x7F03037A,0x7F03037B,0x7F03037C }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -18965,12 +20950,12 @@ namespace PushwooshSample.Droid
 					2130903415,
 					2130903648,
 					2130903650,
-					2130903911,
 					2130903913,
-					2130903927,
-					2130903928,
+					2130903915,
 					2130903929,
-					2130903930};
+					2130903930,
+					2130903931,
+					2130903932};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -19032,7 +21017,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 19
 			public const int KeyTimeCycle_waveShape = 19;
 			
-			// aapt resource value: { 0x7F030177,0x7F030262,0x7F030263,0x7F030264,0x7F030270,0x7F030272,0x7F030273,0x7F03036B,0x7F03036C,0x7F03036D }
+			// aapt resource value: { 0x7F030177,0x7F030262,0x7F030263,0x7F030264,0x7F030270,0x7F030272,0x7F030273,0x7F03036D,0x7F03036E,0x7F03036F }
 			public static int[] KeyTrigger = new int[] {
 					2130903415,
 					2130903650,
@@ -19041,9 +21026,9 @@ namespace PushwooshSample.Droid
 					2130903664,
 					2130903666,
 					2130903667,
-					2130903915,
-					2130903916,
-					2130903917};
+					2130903917,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -19350,7 +21335,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 67
 			public const int Layout_minWidth = 67;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F030112,0x7F030114,0x7F030250,0x7F0302C3 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F030112,0x7F030114,0x7F030250,0x7F0302C4 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -19360,7 +21345,7 @@ namespace PushwooshSample.Droid
 					2130903314,
 					2130903316,
 					2130903632,
-					2130903747};
+					2130903748};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -19494,7 +21479,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030043,0x7F030044,0x7F0300EB,0x7F03012B,0x7F03018F,0x7F030191,0x7F030192,0x7F030193,0x7F030195,0x7F030196,0x7F0302AB,0x7F0302BB,0x7F0302BE,0x7F0302E7,0x7F0302E8 }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030043,0x7F030044,0x7F0300EB,0x7F03012B,0x7F03018F,0x7F030191,0x7F030192,0x7F030193,0x7F030195,0x7F030196,0x7F0302AB,0x7F0302BC,0x7F0302BF,0x7F0302E8,0x7F0302E9 }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -19513,16 +21498,16 @@ namespace PushwooshSample.Droid
 					2130903445,
 					2130903446,
 					2130903723,
-					2130903739,
-					2130903742,
-					2130903783,
-					2130903784};
+					2130903740,
+					2130903743,
+					2130903784,
+					2130903785};
 			
-			// aapt resource value: { 0x7F030081,0x7F0302B9,0x7F0302CB }
+			// aapt resource value: { 0x7F030081,0x7F0302BA,0x7F0302CC }
 			public static int[] MaterialButtonToggleGroup = new int[] {
 					2130903169,
-					2130903737,
-					2130903755};
+					2130903738,
+					2130903756};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -19596,7 +21581,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F03026D,0x7F0302A1,0x7F030386,0x7F030387,0x7F030388 }
+			// aapt resource value: { 0x101020D,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F03026D,0x7F0302A1,0x7F030388,0x7F030389,0x7F03038A }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
 					2130903299,
@@ -19605,9 +21590,9 @@ namespace PushwooshSample.Droid
 					2130903302,
 					2130903661,
 					2130903713,
-					2130903942,
-					2130903943,
-					2130903944};
+					2130903944,
+					2130903945,
+					2130903946};
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301B5,0x7F0301BE,0x7F0301BF,0x7F0301C6,0x7F0301C7,0x7F0301CB }
 			public static int[] MaterialCalendarItem = new int[] {
@@ -19682,7 +21667,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 9
 			public const int MaterialCalendar_yearTodayStyle = 9;
 			
-			// aapt resource value: { 0x10101E5,0x7F03007A,0x7F030083,0x7F030085,0x7F030086,0x7F030087,0x7F0302AB,0x7F0302BB,0x7F0302BE,0x7F0302E1,0x7F0302E7,0x7F0302E8 }
+			// aapt resource value: { 0x10101E5,0x7F03007A,0x7F030083,0x7F030085,0x7F030086,0x7F030087,0x7F0302AB,0x7F0302BC,0x7F0302BF,0x7F0302E2,0x7F0302E8,0x7F0302E9 }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130903162,
@@ -19691,11 +21676,11 @@ namespace PushwooshSample.Droid
 					2130903174,
 					2130903175,
 					2130903723,
-					2130903739,
-					2130903742,
-					2130903777,
-					2130903783,
-					2130903784};
+					2130903740,
+					2130903743,
+					2130903778,
+					2130903784,
+					2130903785};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -19733,10 +21718,10 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 11
 			public const int MaterialCardView_strokeWidth = 11;
 			
-			// aapt resource value: { 0x7F030075,0x7F030370 }
+			// aapt resource value: { 0x7F030075,0x7F030372 }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903157,
-					2130903920};
+					2130903922};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -19744,10 +21729,10 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030075,0x7F030370 }
+			// aapt resource value: { 0x7F030075,0x7F030372 }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903157,
-					2130903920};
+					2130903922};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -19755,10 +21740,10 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F0302BB,0x7F0302BE }
+			// aapt resource value: { 0x7F0302BC,0x7F0302BF }
 			public static int[] MaterialShape = new int[] {
-					2130903739,
-					2130903742};
+					2130903740,
+					2130903743};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -19841,7 +21826,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300D4,0x7F030195,0x7F030196,0x7F03026F,0x7F0302C1,0x7F030359 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300D4,0x7F030195,0x7F030196,0x7F03026F,0x7F0302C2,0x7F03035B }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -19864,8 +21849,8 @@ namespace PushwooshSample.Droid
 					2130903445,
 					2130903446,
 					2130903663,
-					2130903745,
-					2130903897};
+					2130903746,
+					2130903899};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -19936,7 +21921,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03029A,0x7F0302E9 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03029A,0x7F0302EA }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -19946,7 +21931,7 @@ namespace PushwooshSample.Droid
 					16843056,
 					16843057,
 					2130903706,
-					2130903785};
+					2130903786};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -20002,14 +21987,14 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 5
 			public const int MockView_mock_showLabel = 5;
 			
-			// aapt resource value: { 0x7F03002B,0x7F030119,0x7F03025F,0x7F030261,0x7F030287,0x7F030367 }
+			// aapt resource value: { 0x7F03002B,0x7F030119,0x7F03025F,0x7F030261,0x7F030287,0x7F030369 }
 			public static int[] Motion = new int[] {
 					2130903083,
 					2130903321,
 					2130903647,
 					2130903649,
 					2130903687,
-					2130903911};
+					2130903913};
 			
 			// aapt resource value: { 0x7F030271,0x7F030274 }
 			public static int[] MotionHelper = new int[] {
@@ -20022,14 +22007,14 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x7F03002E,0x7F0300F8,0x7F0301D4,0x7F03025D,0x7F030260,0x7F0302C5 }
+			// aapt resource value: { 0x7F03002E,0x7F0300F8,0x7F0301D4,0x7F03025D,0x7F030260,0x7F0302C6 }
 			public static int[] MotionLayout = new int[] {
 					2130903086,
 					2130903288,
 					2130903508,
 					2130903645,
 					2130903648,
-					2130903749};
+					2130903750};
 			
 			// aapt resource value: 0
 			public const int MotionLayout_applyMotionScene = 0;
@@ -20060,11 +22045,11 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int MotionScene_layoutDuringTransition = 1;
 			
-			// aapt resource value: { 0x7F030313,0x7F030314,0x7F030315 }
+			// aapt resource value: { 0x7F030315,0x7F030316,0x7F030317 }
 			public static int[] MotionTelltales = new int[] {
-					2130903827,
-					2130903828,
-					2130903829};
+					2130903829,
+					2130903830,
+					2130903831};
 			
 			// aapt resource value: 0
 			public const int MotionTelltales_telltales_tailColor = 0;
@@ -20093,7 +22078,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 5
 			public const int Motion_transitionEasing = 5;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F03012B,0x7F03017D,0x7F0301B4,0x7F0301B6,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C8,0x7F0301CB,0x7F030251,0x7F0302BB,0x7F0302BE }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F03012B,0x7F03017D,0x7F0301B4,0x7F0301B6,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C8,0x7F0301CB,0x7F030251,0x7F0302BC,0x7F0302BF }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
@@ -20116,8 +22101,8 @@ namespace PushwooshSample.Droid
 					2130903496,
 					2130903499,
 					2130903633,
-					2130903739,
-					2130903742};
+					2130903740,
+					2130903743};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -20188,10 +22173,10 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 22
 			public const int NavigationView_shapeAppearanceOverlay = 22;
 			
-			// aapt resource value: { 0x7F0300A1,0x7F030312 }
+			// aapt resource value: { 0x7F0300A1,0x7F030314 }
 			public static int[] OnClick = new int[] {
 					2130903201,
-					2130903826};
+					2130903828};
 			
 			// aapt resource value: 0
 			public const int OnClick_clickAction = 0;
@@ -20199,7 +22184,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int OnClick_targetId = 1;
 			
-			// aapt resource value: { 0x7F030116,0x7F030117,0x7F030118,0x7F030216,0x7F030247,0x7F03024E,0x7F030265,0x7F03026C,0x7F030275,0x7F03035A,0x7F03035B,0x7F03035C }
+			// aapt resource value: { 0x7F030116,0x7F030117,0x7F030118,0x7F030216,0x7F030247,0x7F03024E,0x7F030265,0x7F03026C,0x7F030275,0x7F03035C,0x7F03035D,0x7F03035E }
 			public static int[] OnSwipe = new int[] {
 					2130903318,
 					2130903319,
@@ -20210,9 +22195,9 @@ namespace PushwooshSample.Droid
 					2130903653,
 					2130903660,
 					2130903669,
-					2130903898,
-					2130903899,
-					2130903900};
+					2130903900,
+					2130903901,
+					2130903902};
 			
 			// aapt resource value: 0
 			public const int OnSwipe_dragDirection = 0;
@@ -20256,9 +22241,9 @@ namespace PushwooshSample.Droid
 					16843465,
 					2130903670};
 			
-			// aapt resource value: { 0x7F0302DE }
+			// aapt resource value: { 0x7F0302DF }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903774};
+					2130903775};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -20272,13 +22257,13 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F0301FB,0x7F030260,0x7F030374 }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F0301FB,0x7F030260,0x7F030376 }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
 					2130903547,
 					2130903648,
-					2130903924};
+					2130903926};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -20302,10 +22287,10 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 0
 			public const int RadialViewGroup_materialCircleRadius = 0;
 			
-			// aapt resource value: { 0x7F030254,0x7F030371 }
+			// aapt resource value: { 0x7F030254,0x7F030373 }
 			public static int[] RangeSlider = new int[] {
 					2130903636,
-					2130903921};
+					2130903923};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_minSeparation = 0;
@@ -20324,7 +22309,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F0301D6,0x7F0302AA,0x7F0302D1,0x7F0302D7 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F0301D6,0x7F0302AA,0x7F0302D2,0x7F0302D8 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
@@ -20336,8 +22321,8 @@ namespace PushwooshSample.Droid
 					2130903381,
 					2130903510,
 					2130903722,
-					2130903761,
-					2130903767};
+					2130903762,
+					2130903768};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -20389,7 +22374,14 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300A6,0x7F0300CC,0x7F030108,0x7F03017A,0x7F030197,0x7F0301D3,0x7F03029E,0x7F03029F,0x7F0302B3,0x7F0302B4,0x7F0302EA,0x7F0302F2,0x7F030375 }
+			// aapt resource value: { 0x7F0302B3 }
+			public static int[] ScrollViewRendererTheme = new int[] {
+					2130903731};
+			
+			// aapt resource value: 0
+			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
+			
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300A6,0x7F0300CC,0x7F030108,0x7F03017A,0x7F030197,0x7F0301D3,0x7F03029E,0x7F03029F,0x7F0302B4,0x7F0302B5,0x7F0302EB,0x7F0302F3,0x7F030377 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -20403,11 +22395,11 @@ namespace PushwooshSample.Droid
 					2130903507,
 					2130903710,
 					2130903711,
-					2130903731,
 					2130903732,
-					2130903786,
-					2130903794,
-					2130903925};
+					2130903733,
+					2130903787,
+					2130903795,
+					2130903927};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -20460,7 +22452,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0302BB,0x7F0302BE,0x7F0302E7,0x7F0302E8 }
+			// aapt resource value: { 0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0302BC,0x7F0302BF,0x7F0302E8,0x7F0302E9 }
 			public static int[] ShapeableImageView = new int[] {
 					2130903259,
 					2130903260,
@@ -20469,10 +22461,10 @@ namespace PushwooshSample.Droid
 					2130903263,
 					2130903264,
 					2130903265,
-					2130903739,
-					2130903742,
-					2130903783,
-					2130903784};
+					2130903740,
+					2130903743,
+					2130903784,
+					2130903785};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_contentPadding = 0;
@@ -20565,7 +22557,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 2
 			public const int SignInButton_scopeUris = 2;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03017B,0x7F03017C,0x7F0301CF,0x7F0301D0,0x7F030337,0x7F030338,0x7F030339,0x7F03033A,0x7F03033B,0x7F03033F,0x7F030340,0x7F030341,0x7F030345,0x7F03035E,0x7F03035F,0x7F030360,0x7F030362 }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03017B,0x7F03017C,0x7F0301CF,0x7F0301D0,0x7F030339,0x7F03033A,0x7F03033B,0x7F03033C,0x7F03033D,0x7F030341,0x7F030342,0x7F030343,0x7F030347,0x7F030360,0x7F030361,0x7F030362,0x7F030364 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
@@ -20576,19 +22568,19 @@ namespace PushwooshSample.Droid
 					2130903420,
 					2130903503,
 					2130903504,
-					2130903863,
-					2130903864,
 					2130903865,
 					2130903866,
 					2130903867,
-					2130903871,
-					2130903872,
+					2130903868,
+					2130903869,
 					2130903873,
-					2130903877,
-					2130903902,
-					2130903903,
+					2130903874,
+					2130903875,
+					2130903879,
 					2130903904,
-					2130903906};
+					2130903905,
+					2130903906,
+					2130903908};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -20656,11 +22648,11 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 21
 			public const int Slider_trackHeight = 21;
 			
-			// aapt resource value: { 0x7F0302CE,0x7F0302CF,0x7F0302D0 }
+			// aapt resource value: { 0x7F0302CF,0x7F0302D0,0x7F0302D1 }
 			public static int[] Snackbar = new int[] {
-					2130903758,
 					2130903759,
-					2130903760};
+					2130903760,
+					2130903761};
 			
 			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002C,0x7F030040,0x7F030043,0x7F030044,0x7F03012B,0x7F030248 }
 			public static int[] SnackbarLayout = new int[] {
@@ -20781,22 +22773,29 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 1
 			public const int State_constraints = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0302C6,0x7F0302D5,0x7F0302F3,0x7F0302F4,0x7F0302F6,0x7F03033C,0x7F03033D,0x7F03033E,0x7F03035D,0x7F030364,0x7F030365 }
+			// aapt resource value: { 0x7F0302F4 }
+			public static int[] SwipeRefreshLayout = new int[] {
+					2130903796};
+			
+			// aapt resource value: 0
+			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
+			
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0302C7,0x7F0302D6,0x7F0302F5,0x7F0302F6,0x7F0302F8,0x7F03033E,0x7F03033F,0x7F030340,0x7F03035F,0x7F030366,0x7F030367 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903750,
-					2130903765,
-					2130903795,
-					2130903796,
+					2130903751,
+					2130903766,
+					2130903797,
 					2130903798,
-					2130903868,
-					2130903869,
+					2130903800,
 					2130903870,
-					2130903901,
-					2130903908,
-					2130903909};
+					2130903871,
+					2130903872,
+					2130903903,
+					2130903910,
+					2130903911};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -20840,9 +22839,9 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030370 }
+			// aapt resource value: { 0x7F030372 }
 			public static int[] SwitchMaterial = new int[] {
-					2130903920};
+					2130903922};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -20862,10 +22861,8 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F0302F7,0x7F0302F8,0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F030301,0x7F030302,0x7F030303,0x7F030304,0x7F030305,0x7F030306,0x7F030307,0x7F030308,0x7F030309,0x7F03030A,0x7F03030B,0x7F03030C,0x7F03030D,0x7F03030F,0x7F030310,0x7F030311 }
+			// aapt resource value: { 0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F030301,0x7F030302,0x7F030303,0x7F030304,0x7F030305,0x7F030306,0x7F030307,0x7F030308,0x7F030309,0x7F03030A,0x7F03030B,0x7F03030C,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030311,0x7F030312,0x7F030313 }
 			public static int[] TabLayout = new int[] {
-					2130903799,
-					2130903800,
 					2130903801,
 					2130903802,
 					2130903803,
@@ -20887,9 +22884,11 @@ namespace PushwooshSample.Droid
 					2130903819,
 					2130903820,
 					2130903821,
+					2130903822,
 					2130903823,
-					2130903824,
-					2130903825};
+					2130903825,
+					2130903826,
+					2130903827};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -20969,7 +22968,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 25
 			public const int TabLayout_tabUnboundedRipple = 25;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03016C,0x7F030174,0x7F030316,0x7F030332 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03016C,0x7F030174,0x7F030318,0x7F030334 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -20985,8 +22984,8 @@ namespace PushwooshSample.Droid
 					16844165,
 					2130903404,
 					2130903412,
-					2130903830,
-					2130903858};
+					2130903832,
+					2130903860};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -21036,14 +23035,14 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x7F030330 }
+			// aapt resource value: { 0x7F030332 }
 			public static int[] TextInputEditText = new int[] {
-					2130903856};
+					2130903858};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030137,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F030140,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F030282,0x7F030283,0x7F030284,0x7F030285,0x7F030286,0x7F03028F,0x7F030290,0x7F030291,0x7F030297,0x7F030298,0x7F030299,0x7F0302BB,0x7F0302BE,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302DC,0x7F0302DD,0x7F0302EF,0x7F0302F0,0x7F0302F1 }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030137,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F030140,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F030282,0x7F030283,0x7F030284,0x7F030285,0x7F030286,0x7F03028F,0x7F030290,0x7F030291,0x7F030297,0x7F030298,0x7F030299,0x7F0302BC,0x7F0302BF,0x7F0302DA,0x7F0302DB,0x7F0302DC,0x7F0302DD,0x7F0302DE,0x7F0302F0,0x7F0302F1,0x7F0302F2 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -21098,16 +23097,16 @@ namespace PushwooshSample.Droid
 					2130903703,
 					2130903704,
 					2130903705,
-					2130903739,
-					2130903742,
-					2130903769,
+					2130903740,
+					2130903743,
 					2130903770,
 					2130903771,
 					2130903772,
 					2130903773,
-					2130903791,
+					2130903774,
 					2130903792,
-					2130903793};
+					2130903793,
+					2130903794};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -21313,7 +23312,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03006F,0x7F0300AE,0x7F0300AF,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F030229,0x7F03022A,0x7F030249,0x7F030251,0x7F030267,0x7F030268,0x7F030295,0x7F0302EB,0x7F0302EC,0x7F0302ED,0x7F030348,0x7F03034A,0x7F03034B,0x7F03034C,0x7F03034D,0x7F03034E,0x7F03034F,0x7F030350,0x7F030351 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03006F,0x7F0300AE,0x7F0300AF,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F030229,0x7F03022A,0x7F030249,0x7F030251,0x7F030267,0x7F030268,0x7F030295,0x7F0302EC,0x7F0302ED,0x7F0302EE,0x7F03034A,0x7F03034C,0x7F03034D,0x7F03034E,0x7F03034F,0x7F030350,0x7F030351,0x7F030352,0x7F030353 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -21333,18 +23332,18 @@ namespace PushwooshSample.Droid
 					2130903655,
 					2130903656,
 					2130903701,
-					2130903787,
 					2130903788,
 					2130903789,
-					2130903880,
+					2130903790,
 					2130903882,
-					2130903883,
 					2130903884,
 					2130903885,
 					2130903886,
 					2130903887,
 					2130903888,
-					2130903889};
+					2130903889,
+					2130903890,
+					2130903891};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -21514,7 +23513,7 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 9
 			public const int Transform_android_translationZ = 9;
 			
-			// aapt resource value: { 0x10100D0,0x7F030039,0x7F0300CE,0x7F0300CF,0x7F030127,0x7F0301D5,0x7F03025E,0x7F030287,0x7F0302D8,0x7F030366,0x7F030368 }
+			// aapt resource value: { 0x10100D0,0x7F030039,0x7F0300CE,0x7F0300CF,0x7F030127,0x7F0301D5,0x7F03025E,0x7F030287,0x7F0302D9,0x7F030368,0x7F03036A }
 			public static int[] Transition = new int[] {
 					16842960,
 					2130903097,
@@ -21524,9 +23523,9 @@ namespace PushwooshSample.Droid
 					2130903509,
 					2130903646,
 					2130903687,
-					2130903768,
-					2130903910,
-					2130903912};
+					2130903769,
+					2130903912,
+					2130903914};
 			
 			// aapt resource value: 0
 			public const int Transition_android_id = 0;
@@ -21584,13 +23583,13 @@ namespace PushwooshSample.Droid
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F03027A,0x7F03027D,0x7F030334 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F03027A,0x7F03027D,0x7F030336 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
 					2130903674,
 					2130903677,
-					2130903860};
+					2130903862};
 			
 			// aapt resource value: { 0x10100D4,0x7F030043,0x7F030044 }
 			public static int[] ViewBackgroundHelper = new int[] {
@@ -21658,22 +23657,25 @@ namespace PushwooshSample.Droid
 		{
 			
 			// aapt resource value: 0x7F110000
-			public const int pw_provider_paths = 2131820544;
+			public const int image_share_filepaths = 2131820544;
 			
 			// aapt resource value: 0x7F110001
-			public const int standalone_badge = 2131820545;
+			public const int pw_provider_paths = 2131820545;
 			
 			// aapt resource value: 0x7F110002
-			public const int standalone_badge_gravity_bottom_end = 2131820546;
+			public const int standalone_badge = 2131820546;
 			
 			// aapt resource value: 0x7F110003
-			public const int standalone_badge_gravity_bottom_start = 2131820547;
+			public const int standalone_badge_gravity_bottom_end = 2131820547;
 			
 			// aapt resource value: 0x7F110004
-			public const int standalone_badge_gravity_top_start = 2131820548;
+			public const int standalone_badge_gravity_bottom_start = 2131820548;
 			
 			// aapt resource value: 0x7F110005
-			public const int standalone_badge_offset = 2131820549;
+			public const int standalone_badge_gravity_top_start = 2131820549;
+			
+			// aapt resource value: 0x7F110006
+			public const int standalone_badge_offset = 2131820550;
 			
 			static Xml()
 			{
