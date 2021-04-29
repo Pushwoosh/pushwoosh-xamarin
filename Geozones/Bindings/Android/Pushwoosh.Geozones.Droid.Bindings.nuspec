@@ -16,7 +16,7 @@
             <group targetFramework="MonoAndroid9.0">
                 <dependency id="Xamarin.GooglePlayServices.Location" version="117.0.0" />
                 <dependency id="Xamarin.AndroidX.Legacy.Support.V4" version="1.0.0" />
-                <dependency id="Pushwoosh.Xamarin.Droid" version="6.2.7" />
+<dependency id="Pushwoosh.Xamarin.Droid" version="6.2.7" />
             </group>
         </dependencies>
     </metadata>
