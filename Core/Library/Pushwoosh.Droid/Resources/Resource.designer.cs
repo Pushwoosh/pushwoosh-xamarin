@@ -59,11 +59,27 @@ namespace Pushwoosh.Droid
 			}
 		}
 		
-		public partial class Layout
+		public partial class Integer
 		{
 			
 			// aapt resource value: 0x7F030000
-			public static int pw_default_loading_view = 2130903040;
+			public static int google_play_services_version = 2130903040;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7F040000
+			public static int pw_default_loading_view = 2130968576;
 			
 			static Layout()
 			{
@@ -78,8 +94,14 @@ namespace Pushwoosh.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F040000
-			public static int app_name = 2130968576;
+			// aapt resource value: 0x7F050000
+			public static int app_name = 2131034112;
+			
+			// aapt resource value: 0x7F050001
+			public static int common_google_play_services_unknown_issue = 2131034113;
+			
+			// aapt resource value: 0x7F050002
+			public static int fcm_fallback_notification_channel_label = 2131034114;
 			
 			static String()
 			{
@@ -118,8 +140,8 @@ namespace Pushwoosh.Droid
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F060000
-			public static int pw_provider_paths = 2131099648;
+			// aapt resource value: 0x7F070000
+			public static int pw_provider_paths = 2131165184;
 			
 			static Xml()
 			{
