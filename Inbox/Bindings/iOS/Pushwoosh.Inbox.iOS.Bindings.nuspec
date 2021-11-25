@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Inbox.Xamarin.iOS</id>
-<version>6.0.4</version>
+<version>6.1.0</version>
         <title>Pushwoosh Inbox Xamarin iOS SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
@@ -14,7 +14,7 @@
         <tags>xamarin, pushwoosh, push, inbox</tags>
         <dependencies>
             <group targetFramework="Xamarin.iOS10">
-<dependency id="Pushwoosh.Xamarin.iOS" version="6.2.5" />
+<dependency id="Pushwoosh.Xamarin.iOS" version="6.3.1" />
             </group>
         </dependencies>
     </metadata>

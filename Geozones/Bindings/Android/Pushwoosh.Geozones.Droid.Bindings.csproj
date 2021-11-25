@@ -267,7 +267,7 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-<LibraryProjectZip Include="Jars\pushwoosh-location_v6.3.3.aar" />
+<LibraryProjectZip Include="Jars\pushwoosh-location_v6.3.6.aar" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
