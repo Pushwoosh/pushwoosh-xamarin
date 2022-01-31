@@ -14,7 +14,7 @@
         <tags>xamarin, pushwoosh, push, inbox</tags>
         <dependencies>
             <group targetFramework="Xamarin.iOS10">
-<dependency id="Pushwoosh.Xamarin.iOS" version="6.3.1" />
+<dependency id="Pushwoosh.Xamarin.iOS" version="6.3.2" />
             </group>
         </dependencies>
     </metadata>
