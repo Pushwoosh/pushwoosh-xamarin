@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Geozones</id>
-<version>6.0.3</version>
+<version>6.0.4</version>
         <title>Pushwoosh Geozones Xamarin SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
@@ -14,10 +14,10 @@
         <tags>xamarin, pushwoosh, push, location, geozones</tags>
 	    <dependencies>
             <group targetFramework="MonoAndroid9.0">
-<dependency id="Pushwoosh.Geozones.Xamarin.Droid" version="6.4.0" />
+<dependency id="Pushwoosh.Geozones.Xamarin.Droid" version="6.4.1" />
             </group>
             <group targetFramework="Xamarin.iOS10">
-<dependency id="Pushwoosh.Geozones.Xamarin.iOS" version="6.3.2" />
+<dependency id="Pushwoosh.Geozones.Xamarin.iOS" version="6.3.3" />
             </group>
         </dependencies>
     </metadata>

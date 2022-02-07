@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Pushwoosh.Xamarin.iOS</id>
-<version>6.3.2</version>
+<version>6.3.3</version>
         <title>Pushwoosh Xamarin iOS SDK</title>
         <authors>Pushwoosh</authors>
         <owners>Pushwoosh</owners>
