@@ -341,7 +341,7 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-<LibraryProjectZip Include="Jars\pushwoosh-firebase_v6.4.4.aar" />
+<LibraryProjectZip Include="Jars\pushwoosh-firebase_v6.5.2.aar" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
