@@ -335,10 +335,10 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-<EmbeddedJar Include="Jars\pushwoosh-inbox_v6.5.2.jar" />
+<EmbeddedJar Include="Jars\pushwoosh-inbox_v6.6.7.jar" />
   </ItemGroup>
   <ItemGroup>
-<LibraryProjectZip Include="Jars\pushwoosh-inbox-ui_v6.5.2.aar" />
+<LibraryProjectZip Include="Jars\pushwoosh-inbox-ui_v6.6.7.aar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Core\Bindings\Android\Pushwoosh.Droid.Bindings.csproj">
