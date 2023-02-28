@@ -190,10 +190,10 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-<EmbeddedJar Include="Jars\pushwoosh-badge_v6.6.7.jar" />
+<EmbeddedJar Include="Jars\pushwoosh-badge_v6.6.9.jar" />
   </ItemGroup>
   <ItemGroup>
-<LibraryProjectZip Include="Jars\pushwoosh_v6.6.7.aar" />
+<LibraryProjectZip Include="Jars\pushwoosh_v6.6.9.aar" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
